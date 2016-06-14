@@ -1,0 +1,10 @@
+global:
+  english: English
+  spanish: Español
+  twitter: Twitter
+  github: GitHub
+pages:
+  example: example
+  includeexample: The following text is a Jekyll include liquid tag parameter
+titles:
+  home: Official Website | Private Digital Currency

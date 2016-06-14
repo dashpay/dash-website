@@ -1,0 +1,122 @@
+@media (min-width:767px) {
+  .navbar{
+    -webkit-transition:background .15s ease-in-out,padding .15s ease-in-out;
+    -moz-transition:background .15s ease-in-out,padding .15s ease-in-out;
+    transition:background .15s ease-in-out,padding .15s ease-in-out;
+    padding-top:36px;
+    
+  }
+}
+
+@media (min-width:767px) {
+  .top-nav-collapse{
+    padding:0;
+  }
+}
+
+.navbar{
+  min-height:30px !important;
+
+}
+
+.topnav{
+  font-size:13px;
+  margin:-30px 0px 0px 0px;
+  border-radius:0px;
+  box-shadow:0px 3px 4px 0px rgba(0,0,0,0.5);
+  border-color:#000;
+
+}
+
+@media (max-width:767px) {
+  .topnav{
+    margin:-30px 0px 0px 0px;
+    border-radius:0px;
+    box-shadow:0px 3px 4px 0px rgba(0,0,0,0.5);
+    border-color:#000;
+  }
+}
+
+.nav-tabs.nav-justified{
+  width:100%;
+  border-bottom:0;
+  font-size:14px;
+}
+
+.navbar-nav > li > a{
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+}
+
+.nav-tabs > li > a, .nav-tabs > li > a:focus{
+  margin-right:0;
+  background-color:transparent;
+  border:none;
+  color:#555;
+  -webkit-box-shadow:inset 0 -1px 0 #ddd;
+  box-shadow:inset 0 -1px 0 #ddd;
+  -webkit-transition:all 0.2s;
+  -o-transition:all 0.2s;
+  transition:all 0.075s;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
+    border: none;
+    -webkit-box-shadow: inset 0 -2px 0 #2196f3;
+    box-shadow: inset 0 -2px 0 #2196f3;
+    color: #2196f3;
+  }
+.topnav-head{
+}
+
+.nav{
+  background-color:#fff;
+}
+
+.navbar .nav li{
+  white-space:nowrap;
+}
+
+.topnav-mask{
+  font-size:16px;
+  margin:0px;
+  min-height:13px;
+  background-color:#585858;
+}
+
+@media (max-width:767px) {
+  .topnav-mask{
+    max-height:0px;
+    min-height:0px;
+  }
+}
+
+.nav-container{
+  max-height:40px;
+}
+
+.nav-container-mask{
+  margin-left:15px;
+  background-color:#fff;
+  min-height:70px;
+  margin-right:15px;
+  margin-top:-10px;
+}
+
+.img-brand-collapsed{
+  float:left;
+}
+
+.img-brand{
+  margin-top:0px;
+}
+
+.navbar-toggle{
+  margin-top:55px;
+}
+
+.intro-divider{
+  width:400px;
+  border-top:1px solid #f8f8f8;
+  border-bottom:1px solid rgba(0,0,0,0.6);
+}
+
