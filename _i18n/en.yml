@@ -7,5 +7,14 @@ pages:
   example: example
   includeexample: The following text is a Jekyll include liquid tag parameter
 titles:
-  home: Official Website | Private Digital Currency
+  home: Official Website | Private Digital Currency 
   participate: Participate
+nav: 
+  what-is-dash: What is Dash
+  get-dash: Get Dash
+  participate: Participate
+  currency: Currency
+  community: Community
+  blog: Blog
+  project: Project
+  search: Search
