@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>{% if page.title %}{% t page.title %} &mdash; {% endif %}Dash</title>
-    <meta name="description" content="{% t page.description %}">
+    <title>What is Dash &mdash; Dash</title>
+    <meta name="description" content="">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">   
     
@@ -35,7 +35,55 @@
   <body>
 
     
-    {{ content }}
+    <div id="hero">
+	<div id="background-video">
+		<video loop autoplay width="100%" height="auto" poster="/assets/img/dashorg-nodes.jpg" class="background-video">
+		<!--  <source src="assets/videos/Home-BG.m4v" type="video/mp4">
+		<source src="assets/videos/Home-BG.webm" type="video/webm">
+		<source src="assets/videos/Home-BG" type="video/ogg"> -->
+		</video>
+	</div>
+  
+	<!-- Navigation -->
+	<div id="top" class="content">
+    <a href="#"><img src="/assets/img/logo-white.png" alt="Dash" class="logo"></a>
+
+    <nav class="desktop">
+        <ul>
+            <li><a href="what-is-dash/">What is Dash</a></li>
+            <li><a href="">Get Dash</a></li>
+            <li><a href="">Participate</a></li>
+            <li><a href="">Currency</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">English</a></li>
+            <li><a href="" title="Search">S</a></li>
+        </ul>
+    </nav>
+
+    <div class="button_container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+    <span class="clear"></span>
+
+</div>
+
+	<!-- Hero content -->
+	<h1 class="content">Dash is Digital Cash</h1>
+	<p class="content">The frist truly-decentralized digital money system<br />Meet Digital Cash</p>
+
+	<div class="content">
+	<a href="#" class="btn-blue">Get Dash</a>
+	</div>
+  
+</div>
+
+<div class="content">
+	What is dash page.
+</div>
 
     <!-- Footer -->
     <footer class="content">
@@ -47,7 +95,18 @@
     <!-- Mobile Nav -->
     <div class="overlay" id="overlay">
       <a href="/"><img src="/assets/img/logo-white.png" alt="Dash" class="logo"></a>
-        {% include nav-mobile.html %}
+        <nav class="overlay-menu">
+    <ul>
+        <li><a href="">What is Dash</a></li>
+        <li><a href="">Get Dash</a></li>
+        <li><a href="">Participate</a></li>
+        <li><a href="">Currency</a></li>
+        <li><a href="">Community</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Project</a></li>
+        <li><a href="">English</a></li>
+    </ul>
+</nav>
     </div>
     
     <script src="/assets/js/full-menu.js"></script>

@@ -6,12 +6,21 @@ global:
 pages:
   home: 
     title: Official Website | Private Digital Currency 
-    hero-h1: Dash is Digital Cash
-    hero-text: This is the hero text.
+    description: Dash is Digital Cash
+    hero-heading: Dash is Digital Cash
+    hero-text: The frist truly-decentralized digital money system<br />Meet Digital Cash
+    architecture-heading: Next-Gen Network Architecture
+    architecture-text:  
+      <p>The core of Dash's unique technology is a 2-tier P2P network design that rewards users that hold Dash to host a type of supernode called a Masternode and host it 24/7 on dedicated hardware.</p>
+      <p>Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.</p>
+    governance-heading: 
+    governance-text: 
+  what-is-dash: 
+    title: What is Dash
+    description: 
   get-dash:
     title: Get Dash
-    hero-h1: 
-    hero-text: 
+    description: 
 nav: 
   what-is-dash: What is Dash
   get-dash: Get Dash

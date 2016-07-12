@@ -1,13 +1,25 @@
-<nav class="desktop">
-    <ul>
-        <li><a href="#">{% t nav.what-is-dash %}</a></li>
-        <li><a href="#">{% t nav.get-dash %}</a></li>
-        <li><a href="#">{% t nav.participate %}</a></li>
-        <li><a href="#">{% t nav.currency %}</a></li>
-        <li><a href="#">{% t nav.community %}</a></li>
-        <li><a href="#">{% t nav.blog %}</a></li>
-        <li><a href="#">{% t nav.project %}</a></li>
-        <li><a href="#">{% t global.english %}</a></li>
-        <li><a href="#">{% t nav.search %}</a></li>
-    </ul>
-</nav>
+<div id="top" class="content">
+    <a href="#"><img src="/assets/img/logo-white.png" alt="Dash" class="logo"></a>
+
+    <nav class="desktop">
+        <ul>
+            <li><a href="{{ site.baseurl_root }}what-is-dash/">{% t nav.what-is-dash %}</a></li>
+            <li><a href="{{ site.baseurl_root }}">{% t nav.get-dash %}</a></li>
+            <li><a href="{{ site.baseurl_root }}">{% t nav.participate %}</a></li>
+            <li><a href="{{ site.baseurl_root }}">{% t nav.currency %}</a></li>
+            <li><a href="{{ site.baseurl_root }}">{% t nav.community %}</a></li>
+            <li><a href="{{ site.baseurl_root }}">{% t nav.blog %}</a></li>
+            <li><a href="{{ site.baseurl_root }}">{% t nav.project %}</a></li>
+            <li><a href="{{ site.baseurl_root }}">{% t global.english %}</a></li>
+            <li><a href="{{ site.baseurl_root }}" title="{% t nav.search %}">S</a></li>
+        </ul>
+    </nav>
+
+    <div class="button_container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+    <span class="clear"></span>
+
+</div>

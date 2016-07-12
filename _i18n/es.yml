@@ -6,7 +6,6 @@ global:
 pages:
   home: 
     title: Web Oficial | Privada Moneda Digital
-    hero-h1: Dash es Efectivo Digital
-    hero-text: This is the hero text.
+    description: 
 nav: 
   what-is-dash: ¿Cuál es la Dash
