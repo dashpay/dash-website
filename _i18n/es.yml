@@ -4,8 +4,9 @@ global:
   twitter: Twitter
   github: GitHub
 pages:
-  example: Ejemplo
-  includeexample: El siguiente texto es un parámetro de Jekyll include liquid tag
-titles:
-  home: Web Oficial | Moneda Digital Privada e Instantánea
-  participate: Participate
+  home: 
+    title: Web Oficial | Privada Moneda Digital
+    hero-h1: Dash es Efectivo Digital
+    hero-text: This is the hero text.
+nav: 
+  what-is-dash: ¿Cuál es la Dash
