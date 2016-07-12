@@ -29,6 +29,18 @@
 
 .btn-blue {
 	border-radius: 5px;
+	border: 2px solid $blue;
+	padding: 5px 10px;
+	color: $blue !important;
+	text-decoration: none;
+	&:hover {
+		background-color: $blue;
+		color: $white !important;
+	}
+}
+
+.btn-blue-solid {
+	border-radius: 5px;
 	background-color: lighten($blue, 5);
 	padding: 5px 10px;
 	margin-bottom: 10px;
