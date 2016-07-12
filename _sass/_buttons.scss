@@ -1,0 +1,46 @@
+.btn-white {
+	border: 2px solid $white;
+	padding: 10px 20px 10px 20px;
+	color: $white !important;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'montserratregular';
+	text-transform: uppercase;
+	&:hover {
+		background-color: $white;
+		color: $blue !important;
+	}
+}
+
+.btn-green {
+	background-color: $green;
+	padding: 10px 20px 10px 20px;
+	color: $white !important;
+	text-decoration: none;
+	border: none;
+	font-size: 16px;
+	font-family: 'montserratregular';
+	text-transform: uppercase;
+	&:hover {
+		background-color: darken($green, 3);
+		color: $white !important;
+	}
+}
+
+.btn-blue {
+	border-radius: 5px;
+	background-color: lighten($blue, 5);
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	color: $white !important;
+	text-decoration: none;
+	border: none;
+	font-size: 16px;
+	font-family: 'montserratregular';
+	text-transform: uppercase;
+	box-sizing: border-box;
+	&:hover {
+		background-color: darken($blue, 3);
+		color: $white !important;
+	}
+}

@@ -1,0 +1,138 @@
+#hero {
+	background-color: rgba(#000, .15);
+	text-align: left;
+	color: $white;
+	padding: 1px 0 275px 0;
+	#top {
+		border-bottom: 1px solid $white;
+		text-align: left;
+		.logo {
+			width: 180px;
+			height: auto;
+			display: inline-block;
+		}
+		nav {
+			float: right;
+			text-align: right;
+			margin-bottom: 5px;
+			li {
+				display: inline;
+				margin-left: 20px;
+				a {
+					color: rgba($white, 0.9);
+					text-decoration: none;
+					font-size: 12px;
+					font-family: 'montserratregular';
+					&:hover {
+						color: rgba($white, 1.0);
+					}
+				}
+			}
+		}
+	}
+	h1 {
+		text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+	}
+	
+	p {
+		margin-bottom: 50px;
+	}
+}
+
+#info {
+	.col {
+		width: 33%;
+		box-sizing: border-box;
+		margin-top: 50px;
+		margin-bottom: 70px;
+		text-align: center;
+		border-right: 2px solid $gray;
+		h2 {
+			font-family: 'montserratlight';
+			font-size: 26px;
+			margin-bottom: 10px;
+			span {
+				font-family: inherit;
+				font-size: inherit;
+				margin-bottom: inherit;
+				color: inherit;
+			}
+		}
+		span {
+			color: #999999;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 14px;
+		}
+	}
+	.last {
+		border-right: none !important;
+	}
+}
+
+#key-features {
+	background-color: $gray;
+	padding: 50px 0 30px 0;
+	.col {
+		width: 50%;
+		box-sizing: border-box;
+	}
+	.feature {
+		margin-bottom: 50px;
+		margin-right: 20px;
+		.icon {
+			float: left;
+			width: 55px;
+			height: auto;
+			margin: 0 40px 50px 0;
+		}
+	}
+	.screenshot {
+		text-align: right;
+		img {
+			width: 100%;
+			max-width: 600px;
+			height: auto;
+		}
+	}
+}
+
+#news {
+	padding: 50px 0 0 0;
+	.news-post {
+		width: 25%;
+		padding: 30px;
+		float: left;
+		box-sizing: border-box;
+		div.news-image {
+			line-height:310px;
+			height:180px;
+			img {
+				width: 100%;
+				max-width: 310px;
+				max-height:205px;
+				height: auto;
+			}
+		}
+		.news-title {
+			height: 60px;
+			overflow: hidden;
+		}
+		h3 {
+			font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+		.date {
+			font-style: italic;
+			font-size: 14px;
+		}
+		a {
+			color: $blue;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

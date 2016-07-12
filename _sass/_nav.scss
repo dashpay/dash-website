@@ -1,0 +1,31 @@
+#top {
+	border-bottom: 1px solid $white;
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	.logo {
+		width: 180px;
+		height: auto;
+		display: inline-block;
+	}
+	nav {
+		float: right;
+		text-align: right;
+		li {
+			display: inline;
+			margin-left: 10px;
+			a {
+				color: rgba($black, 0.9);
+				text-decoration: none;
+				font-size: 16px;
+				font-family: 'montserratregular';
+				&:hover {
+					color: rgba($black, 1.0);
+				}
+			}
+		}
+		.status {
+			color: $blue !important;
+		}
+	}
+}

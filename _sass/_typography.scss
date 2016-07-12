@@ -1,0 +1,96 @@
+font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.eot');
+    src: url('../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-light-webfont.woff') format('woff'),
+         url('../fonts/montserrat-light-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+	font-size: 14px;
+	line-height: 22px;
+	a {
+		color: $blue;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+span {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 40px;
+	font-family: 'montserratbold', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+}
+
+h2 {
+	font-family: 'montserratregular';
+	font-size: 22px;
+	color: $blue;
+}
+
+h3 {
+	font-family: 'montserratlight';
+	font-size: 20px;
+	color: $black;
+	span {
+		font-family: inherit;
+	}
+}
+
+.background-title {
+	background-color: $gray;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	
+}
+
+a {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	color: $blue;
+}
