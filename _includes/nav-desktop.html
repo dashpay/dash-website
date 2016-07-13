@@ -1,21 +1,21 @@
+{% include base.html %}
 <div id="top" class="content">
-    <a href="#"><img src="/assets/img/logo-white.png" alt="Dash" class="logo"></a>
+    <a href="#"><img src="{{ base }}/assets/img/logo-white.png" alt="Dash" class="logo"></a>
 
     <nav class="desktop">
         <ul class="menu">
-            {% capture base %}{% if site.lang != "en" %}/{{site.baseurl_root}}{{ site.lang }}{% endif %}{% endcapture %}
-            <li><a href="{{ base }}/">{% t nav.what-is-dash %}</a></li>
-            <li><a href="{{ base }}/get-dash/">{% t nav.get-dash %}</a></li>
-            <li><a href="{{ base }}/participate/">{% t nav.participate %}</a></li>
-            <li><a href="{{ base }}/currency/">{% t nav.currency %}</a></li>
-            <li><a href="{{ base }}/community">{% t nav.community %}</a></li>
-            <li><a href="{{ base }}">{% t nav.blog %}</a></li>
-            <li><a href="{{ base }}">{% t nav.project %}</a></li>
+            <li><a href="{{ basenav }}/">{% t nav.what-is-dash %}</a></li>
+            <li><a href="{{ basenav }}/get-dash/">{% t nav.get-dash %}</a></li>
+            <li><a href="{{ basenav }}/participate/">{% t nav.participate %}</a></li>
+            <li><a href="{{ basenav }}/currency/">{% t nav.currency %}</a></li>
+            <li><a href="{{ basenav }}/community">{% t nav.community %}</a></li>
+            <li><a href="{{ basenav }}">{% t nav.blog %}</a></li>
+            <li><a href="{{ basenav }}">{% t nav.project %}</a></li>
             
-            <li><a href="{{ page.url }}">{% t global.english %}</a></li>
-            <li><a href="{{ site.baseurl_root }}/es{{ page.url  }}">{% t global.spanish %}</a></li>
+            <li><a href="{{ base }}{{ page.url }}">{% t global.english %}</a></li>
+            <li><a href="{{ base }}/es{{ page.url  }}">{% t global.spanish %}</a></li>
             
-            <li><a href="{{ base }}" title="{% t nav.search %}">S</a></li>
+            <li><a href="{{ basenav }}" title="{% t nav.search %}">S</a></li>
         </ul>
     </nav>
 
