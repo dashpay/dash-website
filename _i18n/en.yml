@@ -3,6 +3,7 @@ global:
   spanish: Español
   twitter: Twitter
   github: GitHub
+
 pages:
   home: 
     title: Official Website | Private Digital Currency 
@@ -43,13 +44,124 @@ pages:
     get-started-text: Download the wallet and start using Digital Cash!
     get-started-btn: Get Dash
   
-  what-is-dash: 
-    title: What is Dash
-    description: 
-  
   get-dash:
     title: Get Dash
-    description: 
+    description: Download the wallet and get Dash at an exchange.
+    hero-heading: Download Dash Wallet
+    hero-text: Download the latest Dash client to get started
+    hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
+    hero-wallet-version-select: CHOOSE ANOTHER
+    hero-download-btn: Download
+    hero-guide-btn: Setup Guide
+    hero-buy-btn: Buy Dash
+    hero-spend-btn: Spend Dash
+    hero-trade-btn: Trade Dash
+
+    setup-heading: 
+    setup-text: 
+    setup-btn: 
+
+    buy-heading: 
+    buy-text: 
+    buy-btn: 
+
+    trade-heading: 
+    trade-text: 
+    trade-btn: 
+
+    atm-heading: 
+    atm-text: 
+    atm-btn:     
+
+    shop-heading: 
+    shop-text: 
+    shop-btn: 
+
+    visa-heading: 
+    visa-text: 
+    visa-btn: 
+
+    need-heading: 
+    need-text: 
+    need-btn:
+    need-input: 
+
+  participate:
+    title: Join the Dash Network
+    description: Join the Dash Network
+    hero-heading: Join our Network
+    hero-text: Earn Dash by powering, securing or developing the Dash Network
+    hero-masternodes-btn: Masternodes
+    hero-mining-btn: Mining
+    hero-funding-btn: Funding
+
+    masternode-heading: 
+    masternode-text: 
+    masternode-btn: 
+
+    mining-heading: 
+    mining-text: 
+    mining-btn: 
+
+    funding-heading: 
+    funding-text: 
+    funding-btn: 
+
+    integrate-heading: 
+    integrate-text: 
+    integrate-btn: 
+    integrate-payment-processor-btn: 
+    integrate-contact-btn: 
+
+  currency: 
+    title: Dash Currency
+    description: Dash Currency
+    hero-heading: Dash Currency
+    hero-markets-btn: Markets
+    hero-governance-btn: Governance
+    hero-network-btn: Network
+    hero-blockchain-btn: Blockchain
+
+    markets-heading: Markets
+    governance-heading: Governance
+    network-heading: Network
+    blockchain-heading: Blockchain
+
+  community:
+    title: Join the Dash Community
+    description: Join the Dash Community
+    hero-heading: Join our Community
+    hero-text: Become a part of the Dash community
+    hero-forum-btn: Official Forums
+    hero-discussion-btn: Discussion
+    hero-social-btn: Social Apps
+    hero-news-btn: News &amp; Info
+    hero-development-btn: Development
+    hero-masternodes-btn: Masternodes
+    hero-video-btn: Video &amp; Audio
+
+    discussion-heading: 
+    discussion-text: 
+
+    social-heading: 
+    social-text: 
+
+    news-heading: 
+    news-text: 
+
+    development-heading: 
+    development-text: 
+
+    media-heading: 
+
+    conferences-heading: 
+    technology-heading: 
+    community-heading: 
+    
+    youtube-btn: 
+
+    # Need some Dash - get content from get-dash ^^
+    
 
 nav: 
   what-is-dash: What is Dash
