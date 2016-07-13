@@ -11,11 +11,23 @@
 	{% include nav-desktop.html %}
 
 	<!-- Hero content -->
-	<h1 class="content">{% t pages.home.hero-heading %}</h1>
-	<p class="content">{% t pages.home.hero-text %}</p>
+	<h1 class="content">{% t pages.get-dash.hero-heading %}</h1>
+	<p class="content">{% t pages.get-dash.hero-text %}<br />
+		{% t pages.get-dash.hero-wallet-version %}<br />
+		{% t pages.get-dash.hero-wallet-version-select %}
+	</p>
 
 	<div class="content">
-	<a href="#" class="btn-blue-solid">{% t nav.get-dash %}</a>
+		<a href="#" class="btn-blue-solid">{% t pages.get-dash.hero-download-btn %}</a>
 	</div>
+
+	<br />
+
+	<div class="content">
+		<a href="#" class="btn-white-solid">{% t pages.get-dash.hero-guide-btn %}</a>
+		<a href="#" class="btn-white-solid">{% t pages.get-dash.hero-buy-btn %}</a>
+		<a href="#" class="btn-white-solid">{% t pages.get-dash.hero-spend-btn %}</a>
+		<a href="#" class="btn-white-solid">{% t pages.get-dash.hero-trade-btn %}</a>
+	</div>	
   
 </div>

@@ -130,17 +130,20 @@ a.blog_link {
     #top nav .status {
       color: #1c75bc !important; }
 
-.btn-white {
+.btn-white-solid {
+  border-radius: 5px;
   border: 2px solid #ffffff;
-  padding: 10px 20px 10px 20px;
-  color: #ffffff !important;
+  background-color: #f7f7f7;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  color: #3c3c3c !important;
   text-decoration: none;
   font-size: 16px;
   font-family: 'montserratregular';
-  text-transform: uppercase; }
-  .btn-white:hover {
-    background-color: #ffffff;
-    color: #1c75bc !important; }
+  text-transform: uppercase;
+  box-sizing: border-box; }
+  .btn-white-solid:hover {
+    background-color: #ffffff; }
 
 .btn-green {
   background-color: #1dd68a;

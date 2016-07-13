@@ -95,8 +95,8 @@ pages:
 
     need-heading: Need some Dash?
     need-text: Signup to our forum we'll send you some Dash!
-    need-btn: Enter your Email Address
-    need-input: Sign up for Dash
+    need-btn: Sign up for Dash
+    need-input: Enter your Email Address
 
   participate:
     title: Join the Dash Network
