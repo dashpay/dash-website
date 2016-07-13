@@ -11,36 +11,46 @@ pages:
     description: Dash is Digital Cash
     hero-heading: Dash is Digital Cash
     hero-text: The first truly-decentralized digital money system<br />Meet Digital Cash.
+    
     video-heading: Dash is Digital Cash you can Spend Online
     video-text: Use Dash to make instant, anonymous payments online or in-store using our secure open-source platform hosted by 1,000's of users around the world. 
     video-btn: Watch Overview Video
+    
     feature-private-heading: Private
     feature-private-text: Dash is private.
     feature-instant-heading: Instant
     feature-instant-text: Dash is instant.
     feature-secure-heading: Secure
     feature-secure-text: Dash is secure.
+    
     merchants-heading: Shop direct with Dash
     merchants-text: Instant and anonymous purchases, direct from your Dash Wallet
     merchants-btn: More Merchants
     merchants-join-btn: Become a Merchant
+    
     architecture-heading: Next-Gen Network Architecture
     architecture-text:  
       The core of Dash's unique technology is a 2-tier P2P network design that rewards users that hold Dash to host a type of supernode called a Masternode and host it 24/7 on dedicated hardware.<br /><br />
       Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
     architecture-btn: Learn More 
+    
     governance-heading: First Self Governing, Self Funding Protocol
     governance-text: Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on Masternode-netwok votes. This means Dash can fund it's own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. And you can't game the system without buying over have the currency supply.
+    
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
+    
     network-growth-heading: The Fastest Growing Network
     network-growth-text: Thanks to incentivization, Dash's network has grown 3,700 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
     network-growth-btn: Network Stats
+    
     evolution-heading: Digital Currency Evolution
     evolution-text: What's next? We are working on a new decentralized service hosted on the Masternode network that will open up Dash to web and mobile users and be as easy to use as PayPal but still fully decentralized. Stay tuned...
     evolution-btn: Learn More
+    
     news-heading: Lastest News
     news-btn: View All News
+    
     get-started-heading: Get Started
     get-started-text: Download the wallet and start using Digital Cash!
     get-started-btn: Get Dash
@@ -51,7 +61,7 @@ pages:
     hero-heading: Download Dash Wallet
     hero-text: Download the latest Dash client to get started
     hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
-    hero-wallet-version-select: CHOOSE ANOTHER
+    hero-wallet-version-select: Choose Another
     hero-download-btn: Download
     hero-guide-btn: Setup Guide
     hero-buy-btn: Buy Dash
