@@ -10,5 +10,8 @@ description: Digital Cash
 languages: ["en", "es"]
 exclude_from_localizations: ["assets"]
 
+sass:
+    style: compressed
+
 gems: 
   - jekyll-multiple-languages-plugin
