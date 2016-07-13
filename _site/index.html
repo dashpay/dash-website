@@ -26,14 +26,15 @@
     <meta name="theme-color" content="#ffffff">
     
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/dropit.css">
     <!-- JavaScript -->
     <script src="//cdn.jsdelivr.net/lodash/4.12.0/lodash.min.js"></script>
     <script src="/assets/js/moment.min.js"></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="/assets/js/dropit.js"></script>
   </head>
   
   <body>
-
     
     <div id="hero">
 	<div id="background-video">
@@ -49,15 +50,19 @@
     <a href="#"><img src="/assets/img/logo-white.png" alt="Dash" class="logo"></a>
 
     <nav class="desktop">
-        <ul>
-            <li><a href="">What is Dash</a></li>
-            <li><a href="get-dash/">Get Dash</a></li>
-            <li><a href="">Participate</a></li>
-            <li><a href="">Currency</a></li>
-            <li><a href="">Community</a></li>
+        <ul class="menu">
+            
+            <li><a href="/">What is Dash</a></li>
+            <li><a href="/get-dash/">Get Dash</a></li>
+            <li><a href="/participate/">Participate</a></li>
+            <li><a href="/currency/">Currency</a></li>
+            <li><a href="/community">Community</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">Project</a></li>
-            <li><a href="">English</a></li>
+            
+            <li><a href="/">English</a></li>
+            <li><a href="/es/">Español</a></li>
+            
             <li><a href="" title="Search">S</a></li>
         </ul>
     </nav>
@@ -70,6 +75,7 @@
     <span class="clear"></span>
 
 </div>
+
 
 	<!-- Hero content -->
 	<h1 class="content">Dash is Digital Cash</h1>
@@ -99,7 +105,7 @@
 
     <h2>Shop direct with Dash</h2>
 
-    <p>Instant and anonymous purchases, direct from your Dash Wallet</p>
+    Instant and anonymous purchases, direct from your Dash Wallet
 
     <a href="#" class="btn-blue">More Merchants</a>
     <a href="#" class="btn-blue">Become a Merchant</a>
@@ -107,13 +113,13 @@
 
     <h2>Next-Gen Network Architecture</h2>
 
-    <p>The core of Dash's unique technology is a 2-tier P2P network design that rewards users that hold Dash to host a type of supernode called a Masternode and host it 24/7 on dedicated hardware.</p> <p>Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.</p>
+    The core of Dash's unique technology is a 2-tier P2P network design that rewards users that hold Dash to host a type of supernode called a Masternode and host it 24/7 on dedicated hardware.<br /><br /> Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
 
     <a href="#" class="btn-blue">Learn More</a>
 
     <h2>First Self Governing, Self Funding Protocol</h2>
 
-    <p>Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on Masternode-netwok votes. This means Dash can fund it's own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. And you can't game the system without buying over have the currency supply.</p>
+    Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on Masternode-netwok votes. This means Dash can fund it's own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. And you can't game the system without buying over have the currency supply.
 
     <a href="#" class="btn-blue">Proposals</a>
 
@@ -121,13 +127,13 @@
 
     <h2>The Fastest Growing Network</h2>
 
-    <p>Thanks to incentivization, Dash's network has grown 3,700 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.</p>
+    Thanks to incentivization, Dash's network has grown 3,700 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
 
     <a href="#" class="btn-blue">Network Stats</a>
 
     <h2>Digital Currency Evolution</h2>
 
-    <p>What's next? We are working on a new decentralized service hosted on the Masternode network that will open up Dash to web and mobile users and be as easy to use as PayPal but still fully decentralized. Stay tuned...</p>
+    What's next? We are working on a new decentralized service hosted on the Masternode network that will open up Dash to web and mobile users and be as easy to use as PayPal but still fully decentralized. Stay tuned...
 
     <a href="#" class="btn-blue">Learn More</a>
 
@@ -204,14 +210,17 @@ Social
       <a href="/"><img src="/assets/img/logo-white.png" alt="Dash" class="logo"></a>
         <nav class="overlay-menu">
     <ul>
-        <li><a href="">What is Dash</a></li>
-        <li><a href="get-dash/">Get Dash</a></li>
-        <li><a href="">Participate</a></li>
-        <li><a href="">Currency</a></li>
-        <li><a href="">Community</a></li>
+        
+        <li><a href="/">What is Dash</a></li>
+        <li><a href="/get-dash/">Get Dash</a></li>
+        <li><a href="/participate/">Participate</a></li>
+        <li><a href="/currency/">Currency</a></li>
+        <li><a href="/community">Community</a></li>
         <li><a href="">Blog</a></li>
         <li><a href="">Project</a></li>
-        <li><a href="">English</a></li>
+        
+        <li><a href="/">English</a></li>
+        <li><a href="/es/">Español</a></li>
     </ul>
 </nav>
     </div>
@@ -251,6 +260,10 @@ if (jsSocialShares) {
     });
   });
 }
+
+$(document).ready(function() {
+    $('.menu').dropit();
+});
 </script>    
 
     
