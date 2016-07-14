@@ -1,3 +1,17 @@
+{% assign base = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == -1 %}{% assign base = '.' %}
+{% elsif depth == 1 %}{% assign base = '..' %}
+{% elsif depth == 2 %}{% assign base = '../..' %}
+{% elsif depth == 3 %}{% assign base = '../../..' %}
+{% elsif depth == 4 %}{% assign base = '../../../..' %}{% endif %}
+
+{% if site.lang != "en" %}
+    {% assign base = base | prepend: '../'  %}
+{% endif %}
+
+{% capture basenav %}{{ base }}{% if site.lang != "en" %}/{{ site.lang }}{% endif %}{% endcapture %}
+
 <div id="top" class="content">
     <a href="#"><img src="{{ base }}/assets/img/logo-white.png" alt="Dash" class="logo"></a>
 

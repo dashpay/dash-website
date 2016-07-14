@@ -4,7 +4,7 @@
 We are using Jekyll to generate the static html files.
 https://jekyllrb.com
 
-### Requirements
+### Requirements (mac)
 * Ruby: `brew install ruby`
 * Ruby Gems: https://rubygems.org/pages/download
 * NoddeJS: https://nodejs.org/en/
