@@ -12,8 +12,8 @@ pages:
     hero-heading: Dash is Digital Cash
     hero-text: The first truly-decentralized digital money system<br />Meet Digital Cash.
     
-    video-heading: Dash is Digital Cash you can Spend Online
-    video-text: Use Dash to make instant, anonymous payments online or in-store using our secure open-source platform hosted by 1,000's of users around the world. 
+    video-heading: Dash is Digital Cash You Can Spend Online
+    video-text: Use Dash to make instant, anonymous payments online or in-store using our secure open-source platform hosted by thousands of users around the world. 
     video-btn: Watch Overview Video
     
     feature-private-heading: Private
@@ -24,28 +24,28 @@ pages:
     feature-secure-text: Dash is secure.
     
     merchants-heading: Shop direct with Dash
-    merchants-text: Instant and anonymous purchases, direct from your Dash Wallet
+    merchants-text: Instant and anonymous purchases, direct from your Dash wallet
     merchants-btn: More Merchants
     merchants-join-btn: Become a Merchant
     
     architecture-heading: Next-Gen Network Architecture
     architecture-text:  
-      The core of Dash's unique technology is a 2-tier P2P network design that rewards users that hold Dash to host a type of supernode called a Masternode and host it 24/7 on dedicated hardware.<br /><br />
+      The core of Dash's unique technology is a two-tier P2P network design that rewards users who run a special kind of node called a masternode and host it 24/7 on dedicated hardware. The network requires that those who run masternodes must provide cryptographic proof that they own 1,000 Dash per masternode. This secures the network against Sybil attacks by making such attacks prohibitively expensive.<br /><br />
       Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
     architecture-btn: Learn More 
     
     governance-heading: First Self Governing, Self Funding Protocol
-    governance-text: Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on Masternode-netwok votes. This means Dash can fund it's own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. And you can't game the system without buying over have the currency supply.
+    governance-text: Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on masternode-netwok votes. This means Dash can fund its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. Not only that, but an attacker can't game the system without buying over half the currency supply.
     
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
     
     network-growth-heading: The Fastest Growing Network
-    network-growth-text: Thanks to incentivization, Dash's network has grown 3,700 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
+    network-growth-text: Thanks to incentivization, Dash's network has grown to 3,900 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
     network-growth-btn: Network Stats
     
     evolution-heading: Digital Currency Evolution
-    evolution-text: What's next? We are working on a new decentralized service hosted on the Masternode network that will open up Dash to web and mobile users and be as easy to use as PayPal but still fully decentralized. Stay tuned...
+    evolution-text: What's next? We are working on a new decentralized service hosted on the masternode network that will open up Dash to web and mobile while being as easy to use as PayPal but still fully decentralized. Stay tuned...
     evolution-btn: Learn More
     
     news-heading: Lastest News
@@ -77,7 +77,7 @@ pages:
     buy-btn: Buy Dash
 
     trade-heading: Trade Dash on an exchange
-    trade-text: Trade local currency for Dash on an Exchange Market
+    trade-text: Trade local currency for Dash on an exchange
     trade-btn: Trade Dash
 
     atm-heading: Buy Dash at an ATM
@@ -85,38 +85,38 @@ pages:
     atm-btn: ATM Locator
 
     shop-heading: Shop direct with Dash
-    shop-text: Instant and anonymous online purchases, direct from your Dash Wallet
+    shop-text: Instant and anonymous online purchases, direct from your Dash wallet
     shop-btn: More Merchants
     shop-join-btn: Become a Merchant
 
     visa-heading: Shop at Visa stores
-    visa-text: Dash-Visa debit card with no foreign transaction fees & mobile tap & pay
+    visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap & pay"
     visa-btn: Get Shake
 
     need-heading: Need some Dash?
-    need-text: Signup to our forum we'll send you some Dash!
+    need-text: Signup on our forum we'll send you some Dash!
     need-btn: Sign up for Dash
-    need-input: Enter your Email Address
+    need-input: Enter Your Email Address
 
   participate:
     title: Join the Dash Network
     description: Join the Dash Network
     hero-heading: Join our Network
-    hero-text: Earn Dash by powering, securing or developing the Dash Network
+    hero-text: Earn Dash by powering, securing or developing the Dash network
     hero-masternodes-btn: Masternodes
     hero-mining-btn: Mining
     hero-funding-btn: Funding
 
     masternode-heading: Setup a Masternode and power Dash's Network
-    masternode-text: Help power Dash by hosting a Masternode or join a shared hosting service. Masternodes operators are rewarded for providing decentralized services to our users and anyone can set one up.
+    masternode-text: Help power Dash by hosting a masternode or join a shared hosting service. Masternodes operators are rewarded for providing decentralized services to our users.
     masternode-btn: Setup a Masternode
 
     mining-heading: Start Mining and Secure Dash's Network
-    mining-text: Mine Dash using your computer or dedicated hardware. Miners are rewarded for securing the Dash Network.
+    mining-text: Mine Dash using your computer or dedicated hardware. Miners are rewarded for securing the Dash network.
     mining-btn: Start Mining
 
-    funding-heading: Develop the Network with Blockchain funding
-    funding-text: Dash's Network funds winning proposals each month for anything that can improve Dash like hiring developers, making decisions or integrating Dash payments into more online stores and retail outlets.
+    funding-heading: Develop the Network with Blockchain Funding
+    funding-text: Dash's Network funds winning proposals each month for anything that can improve Dash, such as hiring developers, making decisions or integrating Dash payments into more online stores and retail outlets.
     funding-btn: Submit a Proposal
 
     integrate-heading: Do you take Dash?
@@ -165,7 +165,7 @@ pages:
     development-text: Sites &amp; tools for developers
 
     masternode-heading: Masternode Tools
-    masternode-text: Setup, manage and host your Masternode
+    masternode-text: Setup, manage and host your masternode
 
     media-heading: Dash Media
 
