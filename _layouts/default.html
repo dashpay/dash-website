@@ -1,19 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    {% assign base = '' %}
-    {% assign depth = page.url | split: '/' | size | minus: 1 %}
-    {% if    depth == -1 %}{% assign base = '.' %}
-    {% elsif depth == 1 %}{% assign base = '..' %}
-    {% elsif depth == 2 %}{% assign base = '../..' %}
-    {% elsif depth == 3 %}{% assign base = '../../..' %}
-    {% elsif depth == 4 %}{% assign base = '../../../..' %}{% endif %}
-
-    {% if site.lang != "en" %}
-      {% assign base = base | prepend: '../'  %}
-    {% endif %}
-
-    {% capture basenav %}{{ base }}{% if site.lang != "en" %}/{{ site.lang }}{% endif %}{% endcapture %}
+    {% include base.html %}
     <meta charset="UTF-8">
     <title>{% if page.title %}{% t page.title %} &mdash; {% endif %}Dash</title>
     <meta name="description" content="{% t page.description %}">
