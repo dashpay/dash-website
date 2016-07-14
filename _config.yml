@@ -1,8 +1,7 @@
 markdown: kramdown
 exclude: [README.md, rss.xml, _posts/README.md]
-gems: [jekyll-paginate]
-# paginate: 5
-# paginate_path: "/blog/page:num/"
+paginate: 5
+paginate_path: "/blog/page:num/"
 name: Dash
 url: https://www.dash.org
 description: Digital Cash
@@ -14,4 +13,5 @@ sass:
     style: compressed
 
 gems: 
+  - jekyll-paginate
   - jekyll-multiple-languages-plugin
