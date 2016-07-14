@@ -1,0 +1,45 @@
+#header {
+	text-align: left;
+	color: $white;
+	padding: 1px 0;
+
+	#top {
+		border-bottom: 1px solid $blue;
+		text-align: left;
+		.logo {
+			width: 180px;
+			height: auto;
+			display: inline-block;
+		}
+		nav {
+			float: right;
+			text-align: right;
+			margin-bottom: 5px;
+			li {
+				display: inline;
+				margin-left: 20px;
+				a {
+					color: $blue;
+					text-decoration: none;
+					font-size: 12px;
+					font-family: 'montserratregular';
+					&:hover {
+						color: lighten($blue, 25);
+					}
+				}
+			}
+		}
+	}
+	.page-info {
+		background-color: #fff;
+	}
+	h1 {
+		color: $blue;
+		text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+	}
+	
+	p {
+		color: $blue;
+		margin-bottom: 50px;
+	}
+}

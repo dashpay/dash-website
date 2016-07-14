@@ -176,6 +176,9 @@ pages:
     youtube-btn: Dash YouTube
 
     # Need some Dash - get content from get-dash ^^
+  blog:
+      title: The Digital Cash Blog
+      description: The Digital Cash Blog
     
 
 nav: 
