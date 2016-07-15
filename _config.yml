@@ -11,6 +11,7 @@ exclude_from_localizations: ["assets"]
 
 sass:
     style: compressed
+    cache: false
 
 gems: 
   - jekyll-paginate
