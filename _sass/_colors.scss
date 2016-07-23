@@ -12,7 +12,7 @@ $dark-blue:	#0b3b5a;
 // for the style guide:
 
 @function contrast-color($color, $dark, $light) {
-  @if (lightness($color) > 50) {
+  @if (lightness(scale-color($color, $green: 50%)) > 50) { // Green is perceptually about twice as bright as other primary colors
     @return $dark; // Lighter backgorund, return dark color
   } @else {
     @return $light; // Darker background, return light color
@@ -34,5 +34,6 @@ $color:
   .color__tile--#{$name}-bg {
     background-color: $bgcolor;
     color: contrast-color($bgcolor, #000, #fff);
+    box-shadow: 0 0 10px -4px contrast-color($bgcolor, #000, #fff);
   }
 }
