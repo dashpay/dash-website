@@ -11,9 +11,9 @@ $dark-blue:	#0b3b5a;
 
 // for the style guide:
 
-@function contrast-color($color, $dark, $light) {
-  @if (lightness(scale-color($color, $green: 50%)) > 50) { // Green is perceptually about twice as bright as other primary colors
-    @return $dark; // Lighter backgorund, return dark color
+@function contrast-color($color, $dark, $light, $threshold: 50) {
+  @if (lightness(scale-color($color, $green: 30%, $blue: -6%, $red: 4%)) > $threshold) { // perceptual luminance http://www.workwithcolor.com/color-luminance-2233.htm
+    @return $dark; // Lighter background, return dark color
   } @else {
     @return $light; // Darker background, return light color
   }
@@ -34,6 +34,6 @@ $color:
   .color__tile--#{$name}-bg {
     background-color: $bgcolor;
     color: contrast-color($bgcolor, #000, #fff);
-    box-shadow: 0 0 10px -4px contrast-color($bgcolor, #000, #fff);
+    box-shadow: 0 0 10px -4px contrast-color($bgcolor, black, transparent, 80) inset;
   }
 }
