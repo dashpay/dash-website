@@ -3,4 +3,5 @@
 _site
 
 .sass-cache
-/.brackets.json
+.brackets.json
+.jekyll-metadata

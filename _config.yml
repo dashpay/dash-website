@@ -1,5 +1,8 @@
 markdown: kramdown
-exclude: [README.md, rss.xml, _posts/README.md]
+exclude:
+  - README.md
+  - rss.xml
+  - _posts/README.md
 paginate: 5
 paginate_path: "/blog/page:num/"
 name: Dash
@@ -16,3 +19,9 @@ sass:
 gems: 
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
+
+collections:
+  components: # style guide
+    output: false
+  colors: # style guide
+    output: false
