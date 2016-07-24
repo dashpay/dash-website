@@ -1,55 +1,46 @@
+/*
+footer
+  nav.content
+    section x5
+      <text>
+      ul
+        li
+  .footer--menu.content
+    .footer--languagePicker
+    a x3
+  .footer--legal
+    .content
+      .footer--copyright
+      a
+*/
+
 footer {
-	padding-top: 20px;
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-	.nav {
-		float: right;
-		text-align: right;
-		display: block;
-		li {
-			display: inline;
-			margin-left: 20px;
-			a {
-				text-decoration: none;
-				color: $blue;
-				font-size: 16px;
-				font-family: 'montserratregular';
-				&:hover {
-					color: darken($blue, 6);
-				}
-			}
-			.sign-up {
-				color: $green !important;
-				&:hover {
-					color: darken($green, 6) !important;
-				}
-			}
-		}
-	}
-	.social {
-		float: right;
-		text-align: right;
-		display: block;
-		li {
-			display: inline;
-			margin-left: 10px;
-		}
-		.social-icon {
-			width: 30px;
-			height: auto;
-		}
-	}
-	.logo {
-		float: left;
-		width: 56px;
-		height: auto;
-	}
-	.copyright {
-		margin-top: 13px;
-		float: left;
-		font-size: 12px;
-		color: #999;
-	}
+  background-color: #333333;
+  color: #717171;
+  padding-top: 4em;
+
+  a {
+    color: $white;
+  }
+
+  > nav {
+    display: table;
+    table-layout: fixed;
+    > section {
+      display: table-cell;
+      > ul {
+        margin: 1em 0 0;
+        padding: 0;
+        > li {
+          list-style: none;
+        }
+      }
+    }
+  }
+}
+
+.footer--social {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
 }
