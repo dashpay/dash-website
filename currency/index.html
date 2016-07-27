@@ -10,10 +10,53 @@ description: pages.currency.description
 	
 	<h2>{% t pages.currency.markets-heading %}</h2>
 
+	<div id="exchanges"></div>
+
 	<h2>{% t pages.currency.governance-heading %}</h2>
 
 	<h2>{% t pages.currency.network-heading %}</h2>
 
+	<div id="masternodes_count"></div>
+	<div id="masternodes_max"></div>
+
 	<h2>{% t pages.currency.blockchain-heading %}</h2>
 
 </div>
+
+<script type="text/javascript">
+$( document ).ready(function(){
+
+	// Get the exchange data
+	$.ajax({
+		url: "{{ site.api }}/exchange/",
+		error: function(jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR);
+            console.log(textStatus);
+            console.log('errorThrown:');
+		}
+	})
+	.done(function(response){
+		console.log(response);
+		var exchanges = response; 
+
+		// for( i = 0; i < exchanges.length ; i++ ){
+		// 	$("#exchanges").prepend('<div>Exchange line item</div>')
+		// }
+	});
+
+	// Get the current number of masternodes.
+	$.ajax({
+		url: "{{ site.api }}/masternodes/stats/"
+	})
+	.done(function(response){
+		console.log('masternode stats', response.stats);
+		var masternodes_count = response.stats['count'].toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+		var masternodes_max = response.stats['max'].toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+
+		$("#masternodes_count").text(masternodes_count);
+		$("#masternodes_max").text(masternodes_max);
+	});
+
+
+});
+</script>
