@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: $black;
+	background-color: $white;
+}
+
+.content {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.col {
+	float: left
+}
+
+.button_container {
+	display: none;
+}
+
+// non-semantic concessions AKA utility classes
+.clear {
+	clear: both;
+	display: block;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+}
