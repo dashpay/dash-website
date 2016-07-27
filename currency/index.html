@@ -143,8 +143,6 @@ $( document ).ready(function(){
 	.done(function(response){
 		var blocks = response.blocks;
 
-		console.log(blocks);
-
 		blocks.map(function(block){
 			var height 		= block.height,
 				age 		= moment.unix(block.time).format("LLL"),
