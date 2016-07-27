@@ -1,7 +1,7 @@
-@import "../assets/fonts/worksans/font";
+@import "../fonts/worksans/font.css"; // imports are relative to /assets/css/style.scss
 
 body {
-	font-family: 'work_sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Work Sans', Helvetica, Arial, sans-serif;
 }
 
 p {
