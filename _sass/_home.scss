@@ -22,7 +22,6 @@
 					color: rgba($white, 0.9);
 					text-decoration: none;
 					font-size: 12px;
-					font-family: 'montserratregular';
 					&:hover {
 						color: rgba($white, 1.0);
 					}
@@ -48,7 +47,6 @@
 		text-align: center;
 		border-right: 2px solid $gray;
 		h2 {
-			font-family: 'montserratlight';
 			font-size: 26px;
 			margin-bottom: 10px;
 			span {
