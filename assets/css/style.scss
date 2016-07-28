@@ -3,78 +3,32 @@
 # only Main files contain this front matter, not partials.
 --- 
 
+// stuff every page really needs
+@import "reset";
 @import "colors";
 @import "typography";
+@import "layout";
 
-
-body {
-	margin: 0;
-	padding: 0;
-	color: $black;
-	background-color: $white;
-	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
-	font-size: 14px;
-	line-height: 22px;
-}
-
-.content {
-	width: 1280px;
-	margin: 0 auto;
-}
-
-.col {
-	float: left
-}
-
-.clear {
-	clear: both;
-	display: block;
-}
-
-.right {
-	float: right;
-	display: inline-block;
-}
-
-.left {
-	float: left;
-	display: inline-block;
-}
-
-.button_container {
-	display: none;
-}
-
-img.staff {
-	max-width: 100px;
-	float: left;
-	margin-right: 10px;
-}
-
-a.blog_link {
-	text-align:right;
-}
-
-.img-circle {
-    margin: 1px;
-    border:1px solid #dddddd;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-}
-
+//stuff every page needs
+@import "header";
 @import "nav";
 @import "buttons";
 @import "forms";
 @import "footer";
+
+//stuff most pages need
 @import "overlay-menu";
 @import "video";
+
+//styles for specific pages
 @import "home";
 @import "interior";
 @import "post";
-@import "header";
+@import "junk-drawer";
 @import "styleguide";
 
+//responsive overrides
+//TODO merge these back into the rest of the SCSS files
 @import "1024";
 @import "768";
 @import "640";
