@@ -1,0 +1,3 @@
+[submodule "_plugins/jekyll-multiple-languages-plugin"]
+	path = _plugins/jekyll-multiple-languages-plugin
+	url = git://github.com/perrywoodin/jekyll-multiple-languages-plugin.git
