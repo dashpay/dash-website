@@ -1,10 +1,12 @@
 global:
   english: English
   spanish: Español
+  russian: Русский
+  chinese: 简体中文
   twitter: Twitter
   github: GitHub
 
-# For multiple paragraph content add two line breaks <br /><br />
+# For multiple paragraph content add two line breaks 
 pages:
   home: 
     title: Official Website | Private Digital Currency 
@@ -30,7 +32,9 @@ pages:
     
     architecture-heading: Next-Gen Network Architecture
     architecture-text:  
-      The core of Dash's unique technology is a two-tier P2P network design that rewards users who run a special kind of node called a masternode and host it 24/7 on dedicated hardware. The network requires that those who run masternodes must provide cryptographic proof that they own 1,000 Dash per masternode. This secures the network against Sybil attacks by making such attacks prohibitively expensive.<br /><br />
+      The core of Dash's unique technology is a two-tier P2P network design that rewards users who run a special kind of node called a masternode and host it 24/7 on dedicated hardware. The network requires that those who run masternodes must provide cryptographic proof that they own 1,000 Dash per masternode. This secures the network against Sybil attacks by making such attacks prohibitively expensive.
+      
+
       Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
     architecture-btn: Learn More 
     
@@ -213,6 +217,10 @@ nav:
   info: Project Information
   team: Team
   contact: Contact
+  foundation: Foundation
+  philosophy: Philosopy
+  technology: Technology
+  wiki: Wiki
 
   search: Search
   
