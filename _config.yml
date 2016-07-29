@@ -20,7 +20,6 @@ sass:
 
 gems: 
   - jekyll-paginate
-  - jekyll-multiple-languages-plugin
 
 collections:
   components: # style guide
