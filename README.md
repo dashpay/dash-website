@@ -13,9 +13,12 @@ https://jekyllrb.com
 
 ### Supporting Gems
 These Gems were also installed on the CI server. 
+
 * `gem install jekyll-paginate`
 * `gem install classifier-reborn`
-* `gem install jekyll-multiple-languages-plugin` https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin
+
+### Plugins
+* `jekyll-multiple-languages-plugin` installed as a git submodule in `_plugins/`. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
 
 ## Development
 `jekyll serve` Will build to the _site directory whenever a file is changed and serve via 127.0.0.1
@@ -26,15 +29,42 @@ These Gems were also installed on the CI server.
 Production builds should be handled by CI.
 
 ## i18n
-Language variables are set in `/_i18n/*.yml` files. 
+Language variables are set in `/_i18n/*.yml` files. The master language file is `/_i18n/en.yml`. All other languages should use that file as a base. 
 
-### Strings
+### Writing Content
+
+Almost all of the content is defined as a variable in the `/_i18n/*.yml` files. There will be a separate yml file for each language that is supported. The master
+
+Content should be written with little to no html. Do not wrap the content in `<p></p>` tags. If you need separate paragraphs, use two line breaks. For example:
+
+```
+Paragraph one
+
+
+Paragraph two
+```
+
+Will render as:
+```
+<p>Paragraph one</p>
+<p>Paragraph two</p>
+```
+
+### Displaying Content
+
+#### Strings
 To output a variable to a template use:
 `{% t key %}`
 or
 `{% translate key %}`
 
-### Files
+#### Markdown
+To output a variable to a template as markdown use:
+`{% tmd key %}`
+or
+`{% translatemd key %}`
+
+#### Files
 i18n files can be saved in their corresponding directories under `/_i18n/`
 
 To include a file use:
