@@ -5,3 +5,5 @@ _site
 .sass-cache
 .brackets.json
 .jekyll-metadata
+
+_plugins/jekyll-multiple-languages-plugin/
