@@ -183,6 +183,10 @@ pages:
   blog:
       title: The Digital Cash Blog
       description: The Digital Cash Blog
+
+  team:
+      title: Team
+      description: The Dash Team
     
 
 nav: 
