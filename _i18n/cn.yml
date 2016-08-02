@@ -9,7 +9,7 @@ global:
 # For multiple paragraph content add two line breaks 
 pages:
   home: 
-    title: Web Oficial | Privada Moneda Digital
+    title: Official Website | Private Digital Currency 
     description: Dash is Digital Cash
     hero-heading: Dash is Digital Cash!
     hero-text: The first truly-decentralized digital money system.<br />Meet Digital Cash.
@@ -190,7 +190,7 @@ pages:
     
 
 nav: 
-  what-is-dash: ¿Cuál es la Dash
+  what-is-dash: What is Dash
   get-dash: Get Dash
   download: Download Wallet
   buy: Buy Dash
@@ -241,4 +241,3 @@ nav:
 
   tos: Terms of Use
   sitemap: Sitemap
-
