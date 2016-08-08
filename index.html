@@ -146,10 +146,23 @@ description: pages.home.description
     </div>
 
     <div class="row">
-        <div class="col-sm-3">News</div>
-        <div class="col-sm-3">News</div>
-        <div class="col-sm-3">News</div>
-        <div class="col-sm-3">News</div>
+        {% for post in site.posts limit:4 %} 
+        <div class="col-sm-3">
+            <div class="news-post">
+                <div class="news-image">
+                    {% if post.image %}
+                        <img src="{{ post.image }}">
+                    {% endif %}
+                </div>
+                <div class="news-title">
+                    <h3>{{ post.title }}</h3>
+                </div>
+                    <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+                    <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                    <a href="{{ post.url }}">Read More...</a>
+            </div>   
+        </div>
+        {% endfor %}
     </div>
 
     <div class="row" style="text-align:center;">
