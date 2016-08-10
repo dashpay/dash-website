@@ -6,228 +6,227 @@ global:
   twitter: Twitter
   github: GitHub
 
-# For multiple paragraph content add two line breaks 
+# Para vários conteúdos de n adicionar duas quebras de linha
 pages:
-  home: 
-    title: Official Website | Private Digital Currency 
-    description: Dash is Digital Cash
-    hero-heading: Dash is Digital Cash!
-    hero-text: The first truly-decentralized digital money system.<br />Meet Digital Cash.
-    
-    video-heading: Dash is Digital Cash You Can Spend Online
-    video-text: Use Dash to make instant, anonymous payments online or in-store using our secure open-source platform hosted by thousands of users around the world. 
-    video-btn: Watch Overview Video
-    
-    feature-private-heading: Private
-    feature-private-text: Dash is private.
-    feature-instant-heading: Instant
-    feature-instant-text: Dash is instant.
-    feature-secure-heading: Secure
-    feature-secure-text: Dash is secure.
-    
-    merchants-heading: Shop direct with Dash
-    merchants-text: Instant and anonymous purchases, direct from your Dash wallet
-    merchants-btn: More Merchants
-    merchants-join-btn: Become a Merchant
-    
-    architecture-heading: Next-Gen Network Architecture
-    architecture-text:  
-      The core of Dash's unique technology is a two-tier P2P network design that rewards users who run a special kind of node called a masternode and host it 24/7 on dedicated hardware. The network requires that those who run masternodes must provide cryptographic proof that they own 1,000 Dash per masternode. This secures the network against Sybil attacks by making such attacks prohibitively expensive.
-      
+  home:
+    Título: Oficial Website | Moeda Digital Segura
+    Descrição: Dash é dinheiro Digital
+    hero-heading: Dash é dinheiro Digital!
+    hero-text: O primeiro sistema de dinheiro digital verdadeiramente descentralizada. < br / > Meet Dinheiro Cash.
 
-      Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
-    architecture-btn: Learn More 
-    
-    governance-heading: First Self Governing, Self Funding Protocol
-    governance-text: Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on masternode-netwok votes. This means Dash can fund its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. Not only that, but an attacker can't game the system without buying over half the currency supply.
-    
-    proposal-btn: Proposals
-    proposal-submit-btn: Submit a Proposal
-    
-    network-growth-heading: The Fastest Growing Network
-    network-growth-text: Thanks to incentivization, Dash's network has grown to 3,900 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
-    network-growth-btn: Network Stats
-    
-    evolution-heading: Digital Currency Evolution
-    evolution-text: What's next? We are working on a new decentralized service hosted on the masternode network that will open up Dash to web and mobile while being as easy to use as PayPal but still fully decentralized. Stay tuned...
-    evolution-btn: Learn More
-    
-    news-heading: Lastest News
-    news-btn: View All News
-    
-    get-started-heading: Get Started
-    get-started-text: Download the wallet and start using Digital Cash!
-    get-started-btn: Get Dash
-  
+
+    video-heading: Dash e dinheiro digital você pode gastar Online
+    video-text: Use Dash para fazer muito rapido, paramentos anonimos online ou em lojas, usando a nossa plataforma open-source, segura e hospedada por milhares de usuarios ao redor do mundo.
+    video-btn: Assista o Video Visão Geral
+   
+    feature-private-heading: Privado
+    feature-private-text: Dash e privado.
+    feature-instant-heading: Instantaneo
+    feature-instant-text: Dash e instantaneo.
+    feature-secure-heading: Seguro
+    feature-secure-text: Dash e seguro.
+   
+    merchants-heading: Compre direto com Dash
+    merchants-text: Compras instantaneas e anônimas, diretamente de sua carteira Dash
+    merchants-btn: Mais Vendedores
+    merchants-join-btn: Tornar-se um Comerciante
+   
+    architecture-heading: Next-Gen Arquitetura de Rede
+    architecture-text: 
+      O core da Dash e um projeto P2P de dois niveus que premia os usuarios que execultam um tipo especial de nó chamado de masternode que e hospedado 24/7h em hardware dedicado. A rede exige que os masternode deve conter 1000 dash por masternode. Isso protege a rede contra ataques Sybil.
+
+      Masternode trabalha junto em clusters e nao pode ser falsificado como fullnodes em outras moedas digitais. Isso significa que eles podem oferecer novos tipos de serviços descentralizados, como transações instantâneas, anônimase a governança, sem a ameaça de ataques a rede.
+    architecture-btn: Leia Mais
+   
+    governance-heading: Primeira em auto gobernança, Protocolo de financiamento
+    governance-text: Qualquer projeto importante da decisao da Dash e estabelecido e financiado por um processo publico descentralizado que financia projetos autonomamente, com base na rede de votos dos masternode. Isto significa que Dash pode financiar o seu proprio crescimento e adoção, consenso e garantigo, e todos são responsaveis para a rede. Não so isso, mas um invasor não pode brincar com o sistema sem comprar mais da metade da oferta de moedas.
+    proposal-btn: Propostas
+    proposal-submit-btn: Apresentar uma Proposta
+   
+    network-growth-heading: O rapido crescimento da Rede
+    network-growth-text: Graças ao incentivo, a rede Dash tem crescido para 3,900 Masternodes significa que Dash e a unica moeda que pode competir com Bitcoin para o futuro do poder de processamento de transações e escabilidade 
+    network-growth-btn: Estatisticas da Rede
+   
+    evolution-heading: Evolução da Moeda Digital
+    evolution-text: Qual é o proximo? Nós estamos trabalhando em um novo serviço descentralizado armazenados na rede masternode que abrirá a Dash para a web e móvel ao ser tão facil de usar como o PayPal, mas totalmente descentralizada. Fique Atento...
+    evolution-btn: Leia Mais
+   
+    news-heading: Ultimas Noticias
+    news-btn: Ver todas as Noticias
+   
+    get-started-heading: Como Começar
+    get-started-text: Download a carteira e começar a usar dinheiro digital!
+    get-started-btn: Obter Dash
+ 
   get-dash:
-    title: Get Dash
-    description: Download the wallet and get Dash at an exchange.
-    hero-heading: Download Dash Wallet
-    hero-text: Download the latest Dash client to get started
+    title: Obter Dash
+    description: Download da carteira e pegar Dash em uma exchange.
+    hero-heading: Download  Carteira Dash 
+    hero-text: Download do mais recente cliente Dash
     hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
-    hero-wallet-version-select: Choose Another
+    hero-wallet-version-select: Escolha Outro
     hero-download-btn: Download
-    hero-guide-btn: Setup Guide
-    hero-buy-btn: Buy Dash
-    hero-spend-btn: Spend Dash
-    hero-trade-btn: Trade Dash
-
-    setup-heading: Learn how to setup your wallet
-    setup-text: 
-    setup-btn: Lean More
-
-    buy-heading: Buy Dash Online
-    buy-text: Convert local currency to Dash and send it to your wallet
-    buy-btn: Buy Dash
-
-    trade-heading: Trade Dash on an exchange
-    trade-text: Trade local currency for Dash on an exchange
-    trade-btn: Trade Dash
-
-    atm-heading: Buy Dash at an ATM
-    atm-text: Instant Dash purchases from an ATM in your country
-    atm-btn: ATM Locator
-
-    shop-heading: Shop direct with Dash
-    shop-text: Instant and anonymous online purchases, direct from your Dash wallet
-    shop-btn: More Merchants
-    shop-join-btn: Become a Merchant
-
+    hero-guide-btn: Guia de Instalação
+    hero-buy-btn: Comprar Dash
+    hero-spend-btn: Trocar Dash
+    hero-trade-btn: Comercio Dash
+ 
+    setup-heading: Aprenda a configurar sua carteira
+    setup-text:
+    setup-btn: Leia Mais
+ 
+    buy-heading: Compre Dash Online
+    buy-text: Converta sua moeda local para Dash e envie a sua carteira
+    buy-btn: Compre Dash
+ 
+    trade-heading: Comercie Dash em uma exchange
+    trade-text: Comercie moeda local para dash em uma exchange
+    trade-btn: Comercie Dash
+ 
+    atm-heading: Compre Dash em um ATM
+    atm-text: Compre Dash instantâneamente de um caixa eletrônico no seu país
+    atm-btn: Localização dos ATM 
+ 
+    shop-heading: Compre direto com Dash
+    shop-text: Compras instantaneas e anônimas, diretamente de sua carteira Dash
+    shop-btn: Mais Vendedores
+    shop-join-btn: Seja um Comerciante
+ 
     visa-heading: Shop at Visa stores
-    visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap & pay"
-    visa-btn: Get Shake
-
-    need-heading: Need some Dash?
-    need-text: Signup on our forum we'll send you some Dash!
-    need-btn: Sign up for Dash
-    need-input: Enter Your Email Address
-
+    visa-text: Cartão de débito Visa Dash sem taxas de transação "toque & paga"
+    visa-btn: Obter Shake
+ 
+    need-heading: Precisa de Dash?
+    need-text: Inscreva-se em nosso forum e vamos enviar um pouco de Dash!
+    need-btn: Cadastre-se em Dash
+    need-input: Entre com seu endereço de E-mail
+ 
   participate:
-    title: Join the Dash Network
-    description: Join the Dash Network
-    hero-heading: Join our Network
-    hero-text: Earn Dash by powering, securing or developing the Dash network
+    title: Junte-se à Rede Dash
+    description: Junte-se à Rede Dash
+    hero-heading: Junte-se a nossa Rede
+    hero-text: Ganhe Dash by powering, segurança ou desenvolvendo a Dash network
     hero-masternodes-btn: Masternodes
-    hero-mining-btn: Mining
-    hero-funding-btn: Funding
-
-    masternode-heading: Setup a Masternode and power Dash's Network
-    masternode-text: Help power Dash by hosting a masternode or join a shared hosting service. Masternodes operators are rewarded for providing decentralized services to our users.
-    masternode-btn: Setup a Masternode
-
-    mining-heading: Start Mining and Secure Dash's Network
-    mining-text: Mine Dash using your computer or dedicated hardware. Miners are rewarded for securing the Dash network.
-    mining-btn: Start Mining
-
-    funding-heading: Develop the Network with Blockchain Funding
-    funding-text: Dash's Network funds winning proposals each month for anything that can improve Dash, such as hiring developers, making decisions or integrating Dash payments into more online stores and retail outlets.
-    funding-btn: Submit a Proposal
-
-    integrate-heading: Do you take Dash?
-    integrate-text: Integrate instant, anonymous payments to your webstore, app or retail outlet
-    integrate-btn: Integrate Dash
-    integrate-payment-processor-btn: Payment Processors
-    integrate-contact-btn: Contact Our Team
-
-  currency: 
-    title: Dash Currency
-    description: Dash Currency
-    hero-heading: Dash Currency
-    hero-markets-btn: Markets
-    hero-governance-btn: Governance
-    hero-network-btn: Network
+    hero-mining-btn: Mineração
+    hero-funding-btn: Financiamento
+ 
+    masternode-heading: Configurar um Masternode
+    masternode-text: Ajude a Dash Hospedando um masternode ou entrando em um serviço de hospedagem compartilha. Operadores Masternode são recompensados pela prestação de servidos descentalizados para nossos usuarios
+    masternode-btn: Configurar um Masternode
+ 
+    mining-heading: Iniciar uma Mineracao na rede Dash
+    mining-text: Minere Dash usando seu computador ou hardware dedicado. Mineiros são recompensados por proteger a rede Dash.
+    mining-btn: Iniciar Mineração
+ 
+    funding-heading: Desenvolver a rede com financiamento do Blockchain
+    funding-text: Propostas vendedoras da rede Dash recebem os fundos a cada mes, para qualquer coisa que podem melhorar a Dash, tais como a contratação de desenvolvedores, tomada de decisoes ou integrar pagamentos de Dash a lojas online e lojas de varejo.
+    funding-btn: Apresentar uma Proposta
+ 
+    integrate-heading: Voçê aceita Dash?
+    integrate-text: Instantâneas, integrar pagamentos anônimos para sua webstore, app ou outlet
+    integrate-btn: integrar Dash
+    integrate-payment-processor-btn: Processadores de pagamento
+    integrate-contact-btn: Contate a nossa equipe
+ 
+  currency:
+    title: Dash Moeda
+    description: Dash Moeda
+    hero-heading: Dash Moeda
+    hero-markets-btn: Mercado
+    hero-governance-btn: Governança
+    hero-network-btn: Rede
     hero-blockchain-btn: Blockchain
-
-    markets-heading: Markets
-    governance-heading: Governance
-    network-heading: Network
+ 
+    markets-heading: Mercado
+    governance-heading: Governança
+    network-heading: Rede
     blockchain-heading: Blockchain
-
+ 
   community:
-    title: Join the Dash Community
-    description: Join the Dash Community
-    hero-heading: Join our Community
-    hero-text: Become a part of the Dash community
-    hero-forum-btn: Official Forums
-    hero-discussion-btn: Discussion
+    title: Entra na Cominidade Dash 
+    description: Entra na Cominidade Dash
+    hero-heading: unte-se a nossa Comunidade
+    hero-text: Tornar-se parte da comunidade Dash
+    hero-forum-btn: Oficial Forums
+    hero-discussion-btn: Discursão
     hero-social-btn: Social Apps
     hero-news-btn: News &amp; Info
-    hero-development-btn: Development
+    hero-development-btn: Deselvolvimento
     hero-masternodes-btn: Masternodes
     hero-video-btn: Video &amp; Audio
-
-    discussion-heading: Discussion
-    discussion-text: Discuss Dash on these forums
-
+ 
+    discussion-heading: Discussão
+    discussion-text: Discurtir Sobre Dash nos Foruns
+ 
     social-heading: Social
-    social-text: Find Dash on these social apps
-
-    news-heading: News &amp; Information
-    news-text: Sites created by Dash community members
-
-    development-heading: Development
-    development-text: Sites &amp; tools for developers
-
-    masternode-heading: Masternode Tools
-    masternode-text: Setup, manage and host your masternode
-
+    social-text: Encontrar Dash em um apps social 
+ 
+    news-heading: News &amp; Informação
+    news-text: Site criado por membros da cominidade Dash
+ 
+    development-heading: Deselvolvimento
+    development-text: Sites e ferramentas para deselvolvedores
+ 
+    masternode-heading: Ferramentas Masternode 
+    masternode-text: Configurar, gerenciar e hospedar seu masternode
+ 
     media-heading: Dash Media
-
-    conferences-heading: Conferences
-    technology-heading: Technology
-    community-heading: Community
-    
+ 
+    conferences-heading: Conferencias
+    technology-heading: Tecnologia
+    community-heading: Cominidade
+   
     youtube-btn: Dash YouTube
-
-    # Need some Dash - get content from get-dash ^^
+ 
+    # Precisa de Dash - tenha o conteudo get-dash ^^
   blog:
-      title: The Digital Cash Blog
-      description: The Digital Cash Blog
-
+      title: Dinheiro Digital Blog
+      description: Dinheiro Digital Blog
+ 
   team:
-      title: Team
-      description: The Dash Team
-    
-
-nav: 
-  what-is-dash: What is Dash
-  get-dash: Get Dash
-  download: Download Wallet
-  buy: Buy Dash
-  shop: Shop with Dash
-  debit: Dash Debit Card
-  
-  participate: Participate
-  mining: Start Mining
-  masternode: Setup a Masternode
-  wallet: Setup a Wallet
-  funding: Apply for Funding
-
-  currency: Currency
-  exchange: Exchange Markets
-  governance: Governance
+      title: Equipe
+      description: Equipe Dash 
+   
+ 
+nav:
+  what-is-dash: O que é Dash
+  get-dash: Obter Dash
+  download: Download da Carteira
+  buy: Compre Dash
+  shop: Loja com Dash
+  debit: Dash Cartão de Debito
+ 
+  participate: Participar
+  mining: Iniciar Mineração
+  masternode: Configurar Masternode
+  wallet: Instalar Wallet
+  funding: Solicitar Financiamento
+ 
+  currency: Moedas
+  exchange: Mercado de Exchange
+  governance: Governança
   explorers: Block Explorers
-  stats: Network Stats
-
-  community: Community
-  discussion: Discussion
+  stats: Estatistica da Rede
+ 
+  community: Cominidade
+  discussion: Discussão
   social-apps: Social Apps
   news: News &amp; Info
-  tools-dev: Development Tools
-  tools-masternodes: Masternode Tools
-
-  project: Project
-  help: Help &amp; Support
-  info: Project Information
-  team: Team
-  contact: Contact
-  foundation: Foundation
-  philosophy: Philosopy
-  technology: Technology
+  tools-dev: Ferramento para Deselvolvedores
+  tools-masternodes: Ferramenta para Masternode 
+ 
+  project: Projeto
+  help: Ajuda &amp; Suporte
+  info: Informação do Projeto
+  team: Equipe
+  contact: Contato
+  foundation: Fundação
+  philosophy: Filosofia
+  technology: Tecnologia
   wiki: Wiki
-
-  search: Search
-  
+ 
+  search: Buscar
+ 
   social: Social
   blog: Blog
   reddit: Reddit
@@ -238,6 +237,8 @@ nav:
   facebook: Facebook
   instagram: Instagram
   github: GitHub
-
-  tos: Terms of Use
+ 
+  tos: Termos de uso
   sitemap: Sitemap
+     
+ 
