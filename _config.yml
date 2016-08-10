@@ -11,7 +11,7 @@ description: Digital Cash
 
 api: http://localhost:9090
 
-languages: ["en", "es", "cn", "pt", "ru"]
+languages: ["en", "es", "cn", "pt", "ru", "it"]
 exclude_from_localizations: ["assets"]
 
 sass:
