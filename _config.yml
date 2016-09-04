@@ -15,11 +15,16 @@ languages: ["en", "es", "cn", "pt", "ru", "it"]
 exclude_from_localizations: ["assets"]
 
 sass:
-    style: compressed
-    cache: false
+  style: compressed
+  cache: false
 
-gems: 
+autoprefixer:
+  browsers:
+    - last 2 versions
+
+gems:
   - jekyll-paginate
+  - jekyll-autoprefixer
 
 collections:
   components: # style guide
