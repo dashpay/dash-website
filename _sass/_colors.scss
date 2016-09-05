@@ -8,6 +8,7 @@ $red:		#ec2227;
 $green:		#1dd68a;
 $gray:		#f0f0f0;
 $dark-blue:	#0b3b5a;
+$gray-light: #f7f9fa;
 
 // for the style guide:
 
@@ -28,7 +29,8 @@ $color:
 	('green', $green),
 
 	('gray', $gray),
-	('dark-blue', $dark-blue);
+	('dark-blue', $dark-blue),
+	('gray-light', $gray-light);
 
 @each $name, $bgcolor in $color {
 	.color__tile--#{$name}-bg {

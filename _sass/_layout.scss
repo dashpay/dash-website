@@ -7,6 +7,10 @@ body {
 
 .content {
 	width: 1280px;
+	max-width: calc(100% - 40px);
+	@media (max-width: 1024px) {
+		max-width: 96.1%; // at 1024px 40px is 3.9% of screen width
+	}
 	margin: 0 auto;
 }
 
