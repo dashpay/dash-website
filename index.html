@@ -7,7 +7,7 @@ description: pages.home.description
 
 {% tf home/hero.html %}
 
-<div id="page-home">
+<div class="page-home">
 
     <!--
         WHAT IS DASH?
@@ -27,22 +27,24 @@ description: pages.home.description
         PRIVATE | INSTANT | SECURE
     -->
     <section>
-        <div class="content row features-collection">
-            <div class="col-sm-4">
-                <img src="/assets/img/home/icon_private.png" alt="{% t pages.home.feature-private-heading %}">
-                <h2>{% t pages.home.feature-private-heading %}</h2>
-                {% tmd pages.home.feature-private-text %}
-            </div>
-            <div class="col-sm-4">
-                <img src="/assets/img/home/icon_instant.png" alt="{% t pages.home.feature-instant-heading %}">
-                <h2>{% t pages.home.feature-instant-heading %}</h2>
-                {% tmd pages.home.feature-instant-text %}
+        <div class="content">
+            <div class="row features-collection">
+                <div class="col-sm-4">
+                    <img src="/assets/img/home/icon_private.png" height="100" alt="{% t pages.home.feature-private-heading %}">
+                    <h2>{% t pages.home.feature-private-heading %}</h2>
+                    {% tmd pages.home.feature-private-text %}
+                </div>
+                <div class="col-sm-4">
+                    <img src="/assets/img/home/icon_instant.png" height="100" alt="{% t pages.home.feature-instant-heading %}">
+                    <h2>{% t pages.home.feature-instant-heading %}</h2>
+                    {% tmd pages.home.feature-instant-text %}
 
-            </div>
-            <div class="col-sm-4">
-                <img src="/assets/img/home/icon_secure.png" alt="{% t pages.home.feature-secure-heading %}">
-                <h2>{% t pages.home.feature-secure-heading %}</h2>
-                {% tmd pages.home.feature-secure-text %}
+                </div>
+                <div class="col-sm-4">
+                    <img src="/assets/img/home/icon_secure.png" height="100" alt="{% t pages.home.feature-secure-heading %}">
+                    <h2>{% t pages.home.feature-secure-heading %}</h2>
+                    {% tmd pages.home.feature-secure-text %}
+                </div>
             </div>
         </div>
     </section>
@@ -84,16 +86,18 @@ description: pages.home.description
         NETWORK ARCHITECTURE
     -->
     <section>
-        <div class="content row">
-            <div class="col-sm-6">
-                <h2>{% t pages.home.architecture-heading %}</h2>
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>{% t pages.home.architecture-heading %}</h2>
 
-                {% tmd pages.home.architecture-text %}
+                    {% tmd pages.home.architecture-text %}
 
-                <a href="#" class="btn-blue">{% t pages.home.architecture-btn %}</a>
-            </div>
-            <div class="col-sm-6">
-                <img src="/assets/img/home/code.png" alt="{% t pages.home.architecture-heading %}">
+                    <a href="#" class="btn-blue">{% t pages.home.architecture-btn %}</a>
+                </div>
+                <div class="col-sm-6 home-architecture-graphic">
+                    <img src="/assets/img/home/code.png" alt="{% t pages.home.architecture-heading %}">
+                </div>
             </div>
         </div>
     </section>
@@ -112,7 +116,7 @@ description: pages.home.description
 
                 <a href="#" class="btn-blue">{% t pages.home.proposal-submit-btn %}</a>
             </div>
-            <div class="col-sm-6 col-sm-pull-6">
+            <div class="col-sm-6 col-sm-pull-6 home-budgets-graphic">
                 <img src="/assets/img/home/budgets.png" alt="{% t pages.home.governance-heading%}">
             </div>
         </div>
@@ -130,7 +134,7 @@ description: pages.home.description
 
                 <a href="#" class="btn-blue">{% t pages.home.network-growth-btn %}</a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 home-network-graphic">
                 <img src="/assets/img/home/graph.png" alt="{% t pages.home.network-growth-heading %}">
             </div>
         </div>
@@ -148,8 +152,8 @@ description: pages.home.description
 
                 <a href="#" class="btn-blue">{% t pages.home.evolution-btn %}</a>
             </div>
-            <div class="col-sm-6 col-sm-pull-6">
-
+            <div class="col-sm-6 col-sm-pull-6 home-evolution-graphic">
+                <img src="/assets/img/home/stock-photo-63187555-she-ll-source-whatever-her-customers-are-looking-for.jpg" alt="Merchant using a laptop">
             </div>
         </div>
     </section>
@@ -190,13 +194,15 @@ description: pages.home.description
     <!--
         GET STARTED
     -->
-    <section>
+    <section class="home-get-started-cta">
         <div class="content">
             <h2>{% t pages.home.get-started-heading %}</h2>
 
             {% tmd pages.home.get-started-text %}
 
-            <a href="#" class="btn-blue">{% t pages.home.get-started-btn %}</a>
+            <a href="#" class="btn-white-solid">{% t pages.home.get-started-btn %}</a>
+
+            <img src="/assets/img/home/macbook.png" alt="">
         </div>
     </section>
 
