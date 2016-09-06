@@ -1,94 +1,212 @@
-#info {
-	.col {
-		width: 33%;
-		box-sizing: border-box;
-		margin-top: 50px;
-		margin-bottom: 70px;
+.page-home {
+	> section {
+		padding: 40px 0;
+		overflow: hidden;
+		position: relative;
 		text-align: center;
-		border-right: 2px solid $gray;
+
+		&:nth-child(2n) {
+			background-color: $gray-light;
+		}
+
+		.row {
+			text-align: left;
+		}
+
+		.features-collection {
+			text-align: center;
+		}
+
 		h2 {
-			font-size: 26px;
-			margin-bottom: 10px;
-			span {
-				font-family: inherit;
-				font-size: inherit;
-				margin-bottom: inherit;
-				color: inherit;
-			}
+			margin-top: 40px;
 		}
-		span {
-			color: #999999;
-			text-transform: uppercase;
-			font-weight: bold;
-			font-size: 14px;
-		}
-	}
-	.last {
-		border-right: none !important;
-	}
-}
 
-#key-features {
-	background-color: $gray;
-	padding: 50px 0 30px 0;
-	.col {
-		width: 50%;
-		box-sizing: border-box;
-	}
-	.feature {
-		margin-bottom: 50px;
-		margin-right: 20px;
-		.icon {
-			float: left;
-			width: 55px;
-			height: auto;
-			margin: 0 40px 50px 0;
+		p {
+			max-width: 60em;
+			margin: 20px auto;
 		}
-	}
-	.screenshot {
-		text-align: right;
+
 		img {
-			width: 100%;
-			max-width: 600px;
-			height: auto;
+			max-width: 100%;
+			@media (min-width: 768px) {
+				max-width: calc(100% - 20px);
+			}
+		}
+	}
+
+	.col-sm-6 {
+		z-index: 2; // Lets me use z-index:1 for columns that underlap
+	}
+
+	.home-architecture-graphic,
+	.home-budgets-graphic,
+	.home-network-graphic,
+	.home-evolution-graphic {
+		min-height: 350px;
+		@media (min-width: 768px) {
+			> img {
+				position: absolute;
+			}
+		}
+		@media (max-width: 767px) {
+			text-align: center;
+			> img {
+				margin-top: 20px;
+			}
+		}
+	}
+
+	.home-architecture-graphic {
+		> img {
+			max-width: 100%;
+			box-shadow: -5px 0 10px $black;
+			border-radius: 8px 0 0 0;
+		}
+	}
+
+	.home-budgets-graphic {
+		@media (min-width: 768px) {
+			min-height: 385px;
+			> img {
+				bottom: 10px;
+			}
+		}
+	}
+
+	.home-network-graphic {
+		min-height: 250px;
+		max-width: none;
+
+		@media (min-width: 768px) {
+			z-index: 1;
+			> img {
+				right: -20px;
+				bottom: -50px;
+				max-width: 150%;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				right: -20px;
+				bottom: -50px;
+				width: 819px;
+				height: 339px;
+				max-width: 150%;
+				background: linear-gradient(to right, $gray-light, rgba($gray-light, 0.5) 33%, rgba($gray-light, 0) 75%);
+			}
+		}
+	}
+
+	.home-evolution-graphic {
+		@media (min-width: 768px) {
+			z-index: 1;
+			> img {
+				top: -40px;
+				bottom: -40px;
+				max-width: none;
+				max-height: calc(100% + 80px);
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				top: -40px;
+				bottom: -40px;
+				width: 200%;
+				background: linear-gradient(to left, $white 50%, rgba($white, 0) 87.5%);
+			}
+		}
+	}
+
+	.home-get-started-cta {
+		background-color: $blue;
+		color: white;
+		padding-bottom: 0;
+
+		h1, h2, h3 {
+			color: white;
+		}
+
+		img {
+			vertical-align: text-top;
+		}
+
+		.btn-white-solid {
+			color: $blue;
 		}
 	}
 }
 
-#news {
-	padding: 50px 0 0 0;
-	.news-post {
-		width: 25%;
-		padding: 30px;
-		float: left;
-		box-sizing: border-box;
-		div.news-image {
-			line-height:310px;
-			height:180px;
-			img {
-				width: 100%;
-				max-width: 310px;
-				max-height:205px;
-				height: auto;
+.logo-collection {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	> .logo {
+		flex: 1 1 auto;
+		margin: 20px 10px;
+	}
+}
+
+.news-post {
+	background-color: $white;
+	box-shadow: 0 1px 4px rgba($black, 0.25);
+	margin: 20px 0;
+	.news-image {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 60%;
+		background-color: #999;
+		> img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			@supports (object-fit: cover) {
+				height: 100%;
+				object-fit: cover;
+				object-position: 50% 50%;
 			}
 		}
-		.news-title {
-			height: 60px;
-			overflow: hidden;
+	}
+	.news-body {
+		position: relative;
+		padding: 20px;
+		height: 220px;
+		overflow: hidden;
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 90px;
+			background: linear-gradient(to top, white 50%, rgba(white, 0));
+			pointer-events: none;
 		}
 		h3 {
-			margin-bottom: 10px;
+			font-size: 18px;
+			color: $blue;
+			line-height: 1.2;
 		}
 		.date {
-			font-style: italic;
+			color: lighten($black, 50%);
 			font-size: 14px;
 		}
-		a {
-			color: $blue;
-			text-decoration: none;
-			&:hover {
-				text-decoration: underline;
-			}
+		p {
+			margin: 0;
+			position: absolute;
+			left: 20px;
+			right: 20px;
+			overflow: hidden;
+		}
+		a.read-more {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			padding: 20px;
+			z-index: 1;
 		}
 	}
 }

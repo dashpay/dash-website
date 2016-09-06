@@ -25,6 +25,7 @@ p {
 
 h1, h2, h3 {
 	font-family: $font-heading;
+	font-weight: bold;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h1 {
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 28px;
 	color: $blue;
 }
 

@@ -52,3 +52,6 @@ border-spacing: 0;
 *,*:after,*:before {
 	box-sizing: inherit;
 }
+body {
+	box-sizing: border-box;
+}
