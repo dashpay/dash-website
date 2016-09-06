@@ -12,10 +12,11 @@ https://jekyllrb.com
 * `gem install jekyll`
 
 ### Supporting Gems
-These Gems were also installed on the CI server. 
+These Gems must also be installed on the CI server. 
 
 * `gem install jekyll-paginate`
 * `gem install classifier-reborn`
+* `gem install jekyll-autoprefixer`
 
 ### Plugins
 * `jekyll-multiple-languages-plugin` installed as a git submodule in `_plugins/`. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
