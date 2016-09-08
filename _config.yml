@@ -9,7 +9,7 @@ name: Dash
 url: https://www.dash.org
 description: Digital Cash
 
-api: http://localhost:9090
+api: http://www-test.dash.org/api/v1
 
 languages: ["en", "es", "cn", "pt", "ru", "it"]
 exclude_from_localizations: ["assets"]
