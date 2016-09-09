@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'jekyll-paginate'
+gem 'jekyll-autoprefixer'
+gem 'jekyll-serve'
+gem 'classifier-reborn'
+gem 'jekyll-multiple-languages-plugin', :git => 'https://github.com/perrywoodin/jekyll-multiple-languages-plugin.git'

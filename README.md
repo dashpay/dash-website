@@ -7,19 +7,16 @@ https://jekyllrb.com
 ### Requirements (mac)
 * Ruby: `brew install ruby`
 * Ruby Gems: https://rubygems.org/pages/download
-* NoddeJS: https://nodejs.org/en/
+* NodeJS: https://nodejs.org/en/
 * Python: `brew install python`
-* `gem install jekyll`
+* Bundler: `gem install bundler`
 
 ### Supporting Gems
-These Gems must also be installed on the CI server. 
-
-* `gem install jekyll-paginate`
-* `gem install classifier-reborn`
-* `gem install jekyll-autoprefixer`
+Simply run `bundle install` and [bundler](http://bundler.io/) will install all ruby gems/dependencies.
+Note: The Gems must also be installed on the CI server.
 
 ### Plugins
-* `jekyll-multiple-languages-plugin` installed as a git submodule in `_plugins/`. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
+* `jekyll-multiple-languages-plugin` installed as a gem. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
 
 ## Development
 `jekyll serve` Will build to the _site directory whenever a file is changed and serve via 127.0.0.1
