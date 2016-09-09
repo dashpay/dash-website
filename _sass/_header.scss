@@ -1,18 +1,12 @@
+#top {
+	border-bottom: 1px solid rgba($white, 0.35);
+	margin-bottom: 20px;
+}
+
 #hero {
 	height: 600px;
 	color: $white;
 	position: relative;
-
-	#top {
-		border-bottom: 1px solid rgba($white, 0.35);
-		nav li a {
-			color: rgba($white, 0.9);
-			&:hover {
-				color: rgba($white, 1);
-				text-shadow: 0 0 2em black;
-			}
-		}
-	}
 
 	> .content {
 		> h1, > p {
