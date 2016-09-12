@@ -4,6 +4,9 @@ exclude:
   - rss.xml
   - _posts/README.md
   - assets/mockups/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
 paginate: 5
 paginate_path: "/blog/page:num/"
 name: Dash
