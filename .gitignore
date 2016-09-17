@@ -1,6 +1,7 @@
 .DS_Store
 
 _site
+dist
 
 .sass-cache
 .brackets.json
@@ -8,3 +9,5 @@ _site
 
 styles/.sass-cache
 styles/.sass-cache/*
+
+node_modules
