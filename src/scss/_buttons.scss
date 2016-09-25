@@ -1,10 +1,25 @@
 .btn {
-	border-radius: 5px;
-	border: 2px solid;
-	padding: 5px 10px;
+	border-radius: 4px;
+	border: 0px solid;
+	padding: 5px 15px;
+    line-height: 30px;
+    height: 40px;
 	display: inline-block;
 	font-family: $font-heading;
 	font-weight: 300;
+	background-color: $blue;
+	color: $white;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(49,49,93,0.13);
+	transition: all .2s ease;
+	&:hover {
+	    transform: translateY(-1px);
+    	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+	}
+}
+.btn.btn-large {
+	font-size: 24px;
+	padding: 10px 25px;
+	height: 50px;
 }
 
 .btn-white-solid {
@@ -14,8 +29,6 @@
 	margin-bottom: 10px;
 	color: lighten($black, 5) !important;
 	text-decoration: none;
-	font-size: 16px;
-	text-transform: uppercase;
 	&:hover {
 		background-color: $white;
 	}
@@ -28,8 +41,6 @@
 	color: $white !important;
 	text-decoration: none;
 	border: none;
-	font-size: 16px;
-	text-transform: uppercase;
 	&:hover {
 		background-color: darken($green, 3);
 		color: $white !important;
@@ -38,26 +49,19 @@
 
 .btn-blue {
 	@extend .btn;
-	border-radius: 5px;
-	border-color: $blue;
-	color: $blue !important;
+	background-color: $blue;
+	color: $white !important;
 	text-decoration: none;
 	&:hover {
-		background-color: $blue;
-		color: $white !important;
 	}
 }
 
 .btn-blue-solid {
 	@extend .btn;
-	background-color: lighten($blue, 5);
+	background-color: $blue;
 	color: $white !important;
-	text-decoration: none;
-	border: none;
-	font-size: 16px;
-	text-transform: uppercase;
 	&:hover {
-		background-color: darken($blue, 3);
+		background-color: lighten($blue, 3);
 		color: $white !important;
 	}
 }
