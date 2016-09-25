@@ -5,7 +5,7 @@
 
 .hero {
 	position: relative;
-	min-height: 500px;
+	min-height: 600px;
 	padding: 0 $size-gutter;
 	color: $white;
 
@@ -15,9 +15,11 @@
 
 	&__title {
 		margin-bottom: 15px; /*optical*/
-		font-size: 60px;
+		font-size: 80px;
 		line-height: 1.2;
+		font-weight: 200;
 		letter-spacing: -0.01em;
+    	margin-left: -7px; /*optical*/
 	}
 
 	&__lead {
@@ -27,13 +29,17 @@
 		line-height: 1.25;
 	}
 
+	&__text {
+		opacity: 0.8;
+	}
+
 	&__lead,
 	&__text {
 		& + * {
-			margin-top: 34px; /*optical*/
+			margin-top: 20px; /*optical*/
 		}
 		& + .hero__buttons {
-			margin-top: 20px; /*optical*/
+			margin-top: 34px; /*optical*/
 		}
 	}
 
