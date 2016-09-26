@@ -43,7 +43,7 @@
 	}
 
 	&__content {
-		max-width: $content-max-width;
+		@extend .content; // DEV: Todo
 		padding: ($size-gutter * 4) 0 ($size-gutter * 5);
 		margin: 0 auto;
 	}
