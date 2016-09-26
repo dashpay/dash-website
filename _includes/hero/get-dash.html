@@ -1,4 +1,4 @@
-<div class="hero" id="hero">
+<div class="hero hero--light" id="hero">
 	<div id="background-video">
 		<video loop autoplay width="100%" height="auto" poster="{{ base }}/assets/img/hero/{% t pages.get-dash.hero-image %}" class="background-video">
 		<!--  <source src="assets/videos/Home-BG.m4v" type="video/mp4">
@@ -8,14 +8,14 @@
 	</div>
 
 	<!-- Navigation -->
-	{% include nav-desktop.html %}
+	{% include nav-desktop.html logo-color='black' %}
 
 	<!-- Hero content -->
 	<div class="hero__content">
 		<h1 class="hero__title">{% t pages.get-dash.hero-heading %}</h1>
 		<p class="hero__lead">{% t pages.get-dash.hero-text %}</p>
 
-		<div class="hero__buttons">
+		<div class="hero__buttons hero__buttons--get-dash">
 			<a href="#" class="btn-blue-solid btn-large">{% t pages.get-dash.hero-download-btn %}</a>
 		</div>
 		<p class="hero__text">{% t pages.get-dash.hero-wallet-version %} – (<a href="#" class="hero__link">{% t pages.get-dash.hero-wallet-version-select %}</a>)</p>
@@ -26,4 +26,7 @@
 			<a href="#getdash-trade" class="btn-white-solid">{% t pages.get-dash.hero-trade-btn %}</a>
 		</div>
 	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe hero__stripe--grey-blue"></div>
 </div>

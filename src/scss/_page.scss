@@ -1,0 +1,11 @@
+$m: 'page';
+
+.#{$m} {
+	&--home {
+
+	}
+	&--get-dash {
+		background-color: $color-gray-light-blueish;
+		padding-top: 70px;
+	}
+}

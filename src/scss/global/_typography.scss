@@ -39,9 +39,10 @@ $line-height-heading: 1.2;
 	font-size: pxToRem($font-size-medium);
 }
 @mixin font-claim() {
-	font-weight: $font-weight-light;
+	font-weight: $font-weight-regular;
 	font-size: pxToRem($font-size-medium);
 	letter-spacing: 0.017em;
+	text-transform: uppercase;
 }
 @mixin font-title-small() {
 	font-weight: $font-weight-regular;

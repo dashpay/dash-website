@@ -1,0 +1,56 @@
+$m: 'info-grid';
+
+.#{$m} {
+	&__content {
+		@include clearfix();
+	}
+	&__item {
+		@extend .col-md-4;
+		@extend .col-sm-6;
+		margin-bottom: 70px;
+
+
+		@include mq($to: small) {
+			width: 100%;
+			max-width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		&-icon {
+			position: relative;
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			// border: 1px solid rgba($color-gray-dark, 0.1);
+			background-color: rgba($color-white, 0.5);
+			margin-bottom: 40px;
+
+			svg {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+			@include mq($to: small) {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		&-title {
+			@include font-title-small();
+			text-transform: none;
+			margin-bottom: 0.5em;
+		}
+		&-text {
+			color: $color-gray-dark;
+			margin-bottom: 0.5em;
+		}
+		&-link {
+			&::after {
+				content: '→';
+				margin-left: 0.5em;
+			}
+		}
+	}
+}

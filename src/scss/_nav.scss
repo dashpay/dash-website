@@ -1,6 +1,8 @@
+$m: 'nav';
+
 $nav-height: 90px;
 
-.nav {
+.#{$m} {
 	float: right;
 	text-align: right;
 
@@ -54,6 +56,18 @@ $nav-height: 90px;
 			$hover: rgba($color-white, 1),
 			$active: rgba($color-white, 1));
 		letter-spacing: -0.008em;
+	}
+
+	&--black {
+		.#{$m} {
+			&__link {
+				@include link-style(
+					$link: rgba($color-black, 1),
+					$visited: rgba($color-black, 1),
+					$hover: rgba($color-black, 1),
+					$active: rgba($color-black, 1));
+			}
+		}
 	}
 }
 

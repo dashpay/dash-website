@@ -1,12 +1,53 @@
 #top {
-	border-bottom: 1px solid rgba($color-white, 0.35);
+	// border-bottom: 1px solid rgba($color-white, 0.35);
 	margin-bottom: 20px;
+	position: relative;
+	z-index: 2;
 }
 
 .hero {
 	position: relative;
 	min-height: 600px;
 	color: $color-white;
+	overflow: hidden;
+
+	&__stripe {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		transform: skewY(-5deg);
+		transform-origin: 0;
+		background: $color-white;
+		z-index: 2;
+
+		// TODO: Make this dependent on hero modifier not a separate modifier for stripe
+		&--grey {
+			background: $color-gray-light;
+		}
+		&--grey-blue {
+			background: $color-gray-light-blueish;
+		}
+	}
+
+	#background-video {
+		z-index: 1;
+	}
+
+	&__content {
+		@extend .content; // DEV: Todo
+		padding: 60px 0 120px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 3;
+	}
+
+	&__buttons {
+		margin-bottom: 20px; /*optical*/
+		&--get-dash {
+			margin-bottom: 0;
+		}
+	}
 
 	&__title, &__lead, &__text {
 		text-shadow: 2px 2px 5px rgba(black, 0.2);
@@ -15,7 +56,7 @@
 	&__title {
 		@include font-title-xxlarge();
 		margin-bottom: 15px; /*optical*/
-    	margin-left: -7px; /*optical*/
+		margin-left: -7px; /*optical*/
 	}
 
 	&__lead {
@@ -23,7 +64,11 @@
 	}
 
 	&__text {
-		opacity: 0.8;
+		background: rgba(0,0,0,0.05);
+		border-radius: 17px;
+		padding: 1px 10px;
+		display: inline-block;
+		font-size: 15px;
 	}
 
 	&__lead,
@@ -36,13 +81,16 @@
 		}
 	}
 
-	&__content {
-		@extend .content; // DEV: Todo
-		padding: ($size-gutter * 4) 0 ($size-gutter * 5);
-		margin: 0 auto;
-	}
+	&--light {
+		color: $color-black;
 
-	&__buttons {
-		margin-bottom: 20px; /*optical*/
+		.hero {
+			&__title, &__lead, &__text {
+				text-shadow: none;
+			}
+		}
+		#background-video::after {
+			background: none;
+		}
 	}
 }

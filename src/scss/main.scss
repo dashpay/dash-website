@@ -17,16 +17,19 @@
 @import "buttons";
 @import "forms";
 @import "footer";
+@import "page";
+@import "section";
 
 //stuff most pages need
 @import "overlay-menu";
 @import "video";
 @import "magnific-popup";
+@import "info-grid";
 
 //styles for specific pages
-@import "home";
+@import "pages/home";
 @import "interior";
 @import "post";
 @import "junk-drawer";
-@import "styleguide";
+@import "pages/styleguide";
 @import "code-highlight";

@@ -1,0 +1,25 @@
+$m: 'section';
+
+.#{$m} {
+	padding-bottom: 100px;
+
+	&--claim {
+		text-align: center;
+		.#{$m} {
+			&__icon {
+				display: inline-block;
+				margin-bottom: 50px;
+			}
+
+			&__title {
+				@include font-claim();
+				margin-bottom: 17px;
+			}
+			&__lead {
+				@include font-lead();
+				color: $color-gray-dark;
+			}
+		}
+	}
+
+}
