@@ -48,10 +48,12 @@ $nav-height: 90px;
 	&__link {
 		display: inline-block;
 		padding: 0 10px;
-		&, &:hover, &:visited, &:focus, &:active {
-			color: rgba($color-white, 1);
-			text-decoration: none;
-		}
+		@include link-style(
+			$link: rgba($color-white, 1),
+			$visited: rgba($color-white, 1),
+			$hover: rgba($color-white, 1),
+			$active: rgba($color-white, 1));
+		letter-spacing: -0.008em;
 	}
 }
 
