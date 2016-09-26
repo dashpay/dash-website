@@ -4,52 +4,65 @@
 // @import "fonts/open-sans/italic";
 @import "fonts/montserrat/montserrat";
 
-$font-body: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
-$font-heading: $font-body;
+$font-family-body: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+$font-family-heading: $font-family-body;
 
-$font-base-size: 17px;
+$font-size-base: 17px;
+$font-size-base-plus: 19px;
+$font-size-medium: 24px;
+$font-size-large: 30px;
+$font-size-xlarge: 40px;
+$font-size-xxlarge: 80px;
+
+$line-height-base: 1.5;
+$line-height-heading: 1.1;
+
+
+
 
 body {
-	font-family: $font-body;
-	font-size: ($font-base-size / 16px * 100%);
-	line-height: 1.5;
+	font-family: $font-family-body;
+	font-size: ($font-size-base / 16px * 100%);
+	line-height: $line-height-base;
 	font-weight: 300;
 }
 
-p {
-	font-size: $font-base-size;
-	line-height: 1.5;
-	a {
-		color: $blue;
-		text-decoration: none;
-		&:hover {
-			text-decoration: underline;
-		}
+a {
+	color: $color-blue;
+	text-decoration: none;
+	&:hover, &:focus {
+
+	}
+	&:active {
+
+	}
+	&:visited {
+		color: $color-blue;
 	}
 }
 
 h1, h2, h3 {
-	font-family: $font-heading;
+	font-family: $font-family-heading;
+	line-height: $line-height-heading;
 	font-weight: 300;
 }
 
 h1 {
-	font-size: 36px;
-	line-height: 40px;
+	font-size: $font-size-xlarge;
 	font-weight: 300;
 }
 
 h2 {
-	font-size: 28px;
-	color: $blue;
+	font-size: $font-size-large;
+	color: $color-blue;
 }
 
 h3 {
-	font-size: 20px;
-	color: $black;
+	font-size: $font-size-medium;
+	color: $color-black;
 }
 
 a {
 	text-decoration: none;
-	color: $blue;
+	color: $color-blue;
 }

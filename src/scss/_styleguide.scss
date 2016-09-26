@@ -27,13 +27,13 @@
 
 	.component {
 		margin: 20px 0;
-		box-shadow: 5px 5px 15px -5px $black;
+		box-shadow: 5px 5px 15px -5px $color-black;
 		border-radius: 10px;
 	}
 
 	.component__header {
 		padding: 20px;
-		border-bottom: 1px solid lighten($black, 50%);
+		border-bottom: 1px solid lighten($color-black, 50%);
 		border-radius: 10px 10px 0 0;
 	}
 

@@ -1,5 +1,5 @@
 #title{
-	background-color: rgba($blue, .1);
+	background-color: rgba($color-blue, .1);
 	margin-bottom: 40px;
 	h1 {
 		padding-top: 60px;
@@ -41,7 +41,7 @@ iframe {
 	}
 }
 .divider {
-	border-top: 1px solid $gray;
+	border-top: 1px solid $color-gray;
 	text-align: center;
 	img {
 		width: 40px;
@@ -51,7 +51,7 @@ iframe {
 }
 
 .boxed-content {
-	border: 1px solid $blue;
+	border: 1px solid $color-blue;
 	padding: 20px 40px 0px 30px;
 	margin-top: 20px;
 	li {
@@ -66,19 +66,19 @@ iframe {
 }
 
 .downloads {
-		border: 2px solid $gray;
+		border: 2px solid $color-gray;
 		box-sizing: border-box;
 		padding: 10px;
 		margin-bottom: 20px;
 		h2 {
 			font-size: 16px;
 			text-transform: uppercase;
-			color: $black;
+			color: $color-black;
 			margin: 0px;
 		}
 	}
 	.callout-blue {
-		border: 2px solid $blue;
+		border: 2px solid $color-blue;
 		box-sizing: border-box;
 		padding: 10px;
 		margin-bottom: 20px;
@@ -86,10 +86,10 @@ iframe {
 		h2 {
 			font-size: 64px;
 			margin-bottom: 20px;
-			color: $blue;
+			color: $color-blue;
 		}
 		span {
-			color: $blue;
+			color: $color-blue;
 			text-transform: uppercase;
 			font-weight: bold;
 			font-size: 16px;
@@ -99,7 +99,7 @@ iframe {
 
 	}
 	.callout-green {
-		border: 2px solid $green;
+		border: 2px solid $color-green;
 		box-sizing: border-box;
 		padding: 10px;
 		margin-bottom: 20px;
@@ -107,10 +107,10 @@ iframe {
 		h2 {
 			font-size: 64px;
 			margin-bottom: 20px;
-			color: $green;
+			color: $color-green;
 		}
 		span {
-			color: $green;
+			color: $color-green;
 			text-transform: uppercase;
 			font-weight: bold;
 			font-size: 16px;
@@ -136,7 +136,7 @@ iframe {
 		width: 50%;
 		box-sizing: border-box;
 		padding: 0 50px;
-		border-right: 2px solid $gray;
+		border-right: 2px solid $color-gray;
 			img.icon {
 				width: 25px;
 				height: auto;

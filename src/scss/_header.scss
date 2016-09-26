@@ -1,12 +1,12 @@
 #top {
-	border-bottom: 1px solid rgba($white, 0.35);
+	border-bottom: 1px solid rgba($color-white, 0.35);
 	margin-bottom: 20px;
 }
 
 .hero {
 	position: relative;
 	min-height: 600px;
-	color: $white;
+	color: $color-white;
 
 	&__title, &__lead, &__text {
 		text-shadow: 2px 2px 5px rgba(black, 0.2);
@@ -22,7 +22,6 @@
 	}
 
 	&__lead {
-		font-family: $font-heading;
 		font-weight: 200;
 		font-size: 24px;
 		line-height: 1.25;

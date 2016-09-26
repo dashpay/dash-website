@@ -1,61 +1,62 @@
 $nav-height: 90px;
 
 .nav {
-    float: right;
-    text-align: right;
+	float: right;
+	text-align: right;
 
-    &__list {
-        list-style: none;
-    }
+	&__list {
+		list-style: none;
+	}
 
-    &__item {
-        position: relative;
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        line-height: $nav-height;
-        &:last-child > .nav__link {
-            padding-right: 0;
-        }
+	&__item {
+		position: relative;
+		display: inline-block;
+		font-weight: 300;
+		letter-spacing: 0.02em;
+		line-height: $nav-height;
+		&:last-child > .nav__link {
+			padding-right: 0;
+		}
 
-        &--languages {
-            & > .nav__link {
-                padding: 0 25px;
-            }
-        }
+		&--languages {
+			& > .nav__link {
+				padding: 0 25px;
+			}
+		}
 
-        &:hover {
-            .nav__sublist {
-                display: block;
-                opacity: 1;
-                animation: fadein 0.4s;
-            }
-        }
-    }
+		&:hover {
+			.nav__sublist {
+				display: block;
+				opacity: 1;
+				animation: fadein 0.4s;
+			}
+		}
+	}
 
-    &__sublist {
-        display: none;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        padding-top: 10px;
-    }
+	&__sublist {
+		display: none;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		padding-top: 10px;
+	}
 
-    &__subitem {
-        line-height: 45px;
-    }
+	&__subitem {
+		line-height: 45px;
+	}
 
-    &__link {
-        display: inline-block;
-        padding: 0 10px;
-        text-decoration: none;
-        color: rgba($white, 1);
-    }
+	&__link {
+		display: inline-block;
+		padding: 0 10px;
+		&, &:hover, &:visited, &:focus, &:active {
+			color: rgba($color-white, 1);
+			text-decoration: none;
+		}
+	}
 }
 
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }

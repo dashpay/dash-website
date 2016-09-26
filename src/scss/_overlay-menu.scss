@@ -49,7 +49,7 @@
 			opacity: .7;
 		}
 		span {
-			background: $white;
+			background: $color-white;
 			border: none;
 			height: 4px;
 			width: 100%;
@@ -69,15 +69,15 @@
 
 	.button_container.active .top {
 		transform: translateY(8px) translateX(0) rotate(45deg);
-		background: $white;
+		background: $color-white;
 	}
 	.button_container.active .middle {
 		opacity: 0;
-		background: $white;
+		background: $color-white;
 	}
 	.button_container.active .bottom {
 		transform: translateY(-8px) translateX(0) rotate(-45deg);
-		background: $white;
+		background: $color-white;
 	}
 }
 
@@ -94,7 +94,7 @@
 		opacity: .7;
 	}
 	span {
-		background: $blue;
+		background: $color-blue;
 		border: none;
 		height: 4px;
 		width: 100%;
@@ -115,20 +115,20 @@
 
 .button_container.active .top {
 		transform: translateY(8px) translateX(0) rotate(45deg);
-		background: $blue;
+		background: $color-blue;
 }
 .button_container.active .middle {
 	opacity: 0;
-	background: $blue;
+	background: $color-blue;
 }
 .button_container.active .bottom {
 	transform: translateY(-8px) translateX(0) rotate(-45deg);
-	background: $blue;
+	background: $color-blue;
 }
 
 .overlay {
 	position: fixed;
-	background: $black;
+	background: $color-black;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -175,7 +175,7 @@
 		a {
 			display: block;
 			position: relative;
-			color: $white;
+			color: $color-white;
 			text-decoration: none;
 			overflow: hidden;
 			padding-bottom: 15px;
@@ -189,10 +189,10 @@
 	.sign-up-btn {
 		border: none;
 		padding: 30px;
-		color: $green !important;
+		color: $color-green !important;
 		&:hover {
 			background: none !important;
-			color: $green !important;
+			color: $color-green !important;
 		}
 	}
 }

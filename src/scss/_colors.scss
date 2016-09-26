@@ -1,19 +1,19 @@
 // brand colors
-$black:		#2f2f2f;
-$white:		#ffffff;
-$blue:		#1c75bc;
+$color-black:		#2f2f2f;
+$color-white:		#ffffff;
+$color-blue:		#1c75bc;
 
 // site colors
-$red:		#ec2227;
-$green:		#1dd68a;
-$gray:		#f0f0f0;
-$dark-blue:	#0b3b5a;
-$gray-light: #f7f9fa;
+$color-red:		#ec2227;
+$color-green:		#1dd68a;
+$color-gray:		#f0f0f0;
+$color-blue-dark:	#0b3b5a;
+$color-gray-light: #f7f9fa;
 
 // for the style guide:
 
 @function contrast-color($color, $dark, $light, $threshold: 50) {
-	@if (lightness(scale-color($color, $green: 30%, $blue: -6%, $red: 4%)) > $threshold) { // perceptual luminance http://www.workwithcolor.com/color-luminance-2233.htm
+	@if (lightness(scale-color($color, $color-green: 30%, $color-blue: -6%, $color-red: 4%)) > $threshold) { // perceptual luminance http://www.workwithcolor.com/color-luminance-2233.htm
 		@return $dark; // Lighter background, return dark color
 	} @else {
 		@return $light; // Darker background, return light color
@@ -21,16 +21,16 @@ $gray-light: #f7f9fa;
 }
 
 $color:
-	('black', $black),
-	('white', $white),
+	('black', $color-black),
+	('white', $color-white),
 
-	('blue', $blue),
-	('red', $red),
-	('green', $green),
+	('blue', $color-blue),
+	('red', $color-red),
+	('green', $color-green),
 
-	('gray', $gray),
-	('dark-blue', $dark-blue),
-	('gray-light', $gray-light);
+	('gray', $color-gray),
+	('dark-blue', $color-blue-dark),
+	('gray-light', $color-gray-light);
 
 @each $name, $bgcolor in $color {
 	.color__tile--#{$name}-bg {

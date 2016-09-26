@@ -9,7 +9,7 @@ $homeSectionPaddingTop: 40px;
 		text-align: center;
 
 		&:nth-child(2n) {
-			background-color: $gray-light;
+			background-color: $color-gray-light;
 		}
 
 		.row {
@@ -69,7 +69,7 @@ $homeSectionPaddingTop: 40px;
 	.home-architecture-graphic {
 		> img {
 			max-width: 100%;
-			box-shadow: -5px 0 10px $black;
+			box-shadow: -5px 0 10px $color-black;
 			border-radius: 8px 0 0 0;
 		}
 	}
@@ -102,7 +102,7 @@ $homeSectionPaddingTop: 40px;
 				width: 819px;
 				height: 339px;
 				max-width: 150%;
-				background: linear-gradient(to right, $gray-light, rgba($gray-light, 0.5) 33%, rgba($gray-light, 0) 75%);
+				background: linear-gradient(to right, $color-gray-light, rgba($color-gray-light, 0.5) 33%, rgba($color-gray-light, 0) 75%);
 			}
 		}
 	}
@@ -122,13 +122,13 @@ $homeSectionPaddingTop: 40px;
 				top: -$homeSectionPaddingTop;
 				bottom: -$homeSectionPaddingTop;
 				width: 200%;
-				background: linear-gradient(to left, $white 50%, rgba($white, 0) 87.5%);
+				background: linear-gradient(to left, $color-white 50%, rgba($color-white, 0) 87.5%);
 			}
 		}
 	}
 
 	.home-get-started-cta {
-		background-color: $blue;
+		background-color: $color-blue;
 		color: white;
 		padding-bottom: 0;
 
@@ -142,7 +142,7 @@ $homeSectionPaddingTop: 40px;
 		}
 
 		.btn-white-solid {
-			color: $blue;
+			color: $color-blue;
 		}
 	}
 
@@ -171,8 +171,8 @@ $homeSectionPaddingTop: 40px;
 }
 
 .news-post {
-	background-color: $white;
-	box-shadow: 0 1px 4px rgba($black, 0.25);
+	background-color: $color-white;
+	box-shadow: 0 1px 4px rgba($color-black, 0.25);
 	margin: 20px 0;
 	.news-image {
 		position: relative;
@@ -208,11 +208,11 @@ $homeSectionPaddingTop: 40px;
 		}
 		h3 {
 			font-size: 18px;
-			color: $blue;
+			color: $color-blue;
 			line-height: 1.2;
 		}
 		.date {
-			color: lighten($black, 50%);
+			color: lighten($color-black, 50%);
 			font-size: 14px;
 		}
 		p {

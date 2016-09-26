@@ -6,10 +6,9 @@
     line-height: 30px;
     height: 40px;
 	display: inline-block;
-	font-family: $font-heading;
 	font-weight: 300;
-	background-color: $blue;
-	color: $white;
+	background-color: $color-blue;
+	color: $color-white;
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(49,49,93,0.13);
 	transition: all .2s ease;
 	&:hover {
@@ -25,33 +24,33 @@
 
 .btn-white-solid {
 	@extend .btn;
-	border-color: $white;
-	background-color: darken($white, 3);
+	border-color: $color-white;
+	background-color: darken($color-white, 3);
 	margin-bottom: 10px;
-	color: lighten($black, 5) !important;
+	color: lighten($color-black, 5) !important;
 	text-decoration: none;
 	&:hover {
-		background-color: $white;
+		background-color: $color-white;
 	}
 }
 
 .btn-green {
 	@extend .btn;
-	background-color: $green;
+	background-color: $color-green;
 	padding: 10px 20px 10px 20px;
-	color: $white !important;
+	color: $color-white !important;
 	text-decoration: none;
 	border: none;
 	&:hover {
-		background-color: darken($green, 3);
-		color: $white !important;
+		background-color: darken($color-green, 3);
+		color: $color-white !important;
 	}
 }
 
 .btn-blue {
 	@extend .btn;
-	background-color: $blue;
-	color: $white !important;
+	background-color: $color-blue;
+	color: $color-white !important;
 	text-decoration: none;
 	&:hover {
 	}
@@ -59,10 +58,10 @@
 
 .btn-blue-solid {
 	@extend .btn;
-	background-color: $blue;
-	color: $white !important;
+	background-color: $color-blue;
+	color: $color-white !important;
 	&:hover {
-		background-color: lighten($blue, 3);
-		color: $white !important;
+		background-color: lighten($color-blue, 3);
+		color: $color-white !important;
 	}
 }
