@@ -1,0 +1,20 @@
+/**
+ * Helper Functions
+ */
+
+@function pxToEm($px, $ref: $font-size-base) {
+	@return toEm(toPx($px) / toPx($ref));
+}
+@function pxToRem($px) {
+	@return toRem(toPx($px) / toPx($font-size-base));
+}
+
+@function toEm($val) {
+	@return ($val + 0em);
+}
+@function toRem($val) {
+	@return ($val + 0rem);
+}
+@function toPx($val) {
+	@return ($val + 0px);
+}

@@ -13,18 +13,13 @@
 	}
 
 	&__title {
+		@include font-title-xxlarge();
 		margin-bottom: 15px; /*optical*/
-		font-size: 80px;
-		line-height: 1.2;
-		font-weight: 200;
-		letter-spacing: -0.025em;
     	margin-left: -7px; /*optical*/
 	}
 
 	&__lead {
-		font-weight: 200;
-		font-size: 24px;
-		line-height: 1.25;
+		@include font-lead();
 	}
 
 	&__text {

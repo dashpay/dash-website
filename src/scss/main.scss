@@ -1,12 +1,14 @@
 // stuff every page really needs
-@import "reset";
-@import "grid";
-@import "colors";
-@import "variables";
-@import "typography";
-@import "mediaqueries";
+@import "global/reset";
+@import "global/variables";
+@import "global/colors";
+@import "global/functions";
+@import "global/directives";
+@import "global/mixins";
+@import "global/mediaqueries";
+@import "global/typography";
 @import "layout";
-@import "directives";
+@import "grid";
 
 //stuff every page needss
 @import "nav";

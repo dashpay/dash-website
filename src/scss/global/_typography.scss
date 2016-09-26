@@ -1,0 +1,126 @@
+@import "../fonts/montserrat/extralight";
+@import "../fonts/montserrat/light";
+@import "../fonts/montserrat/regular";
+@import "../fonts/montserrat/medium";
+
+$font-family-body: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+$font-family-heading: $font-family-body;
+
+$font-weight-xlight: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+$font-size-base: $font-size-base; // This is stored in the _variables.scss because it is required earlier
+$font-size-base-plus: 19px;
+$font-size-medium: 24px;
+$font-size-large: 30px;
+$font-size-xlarge: 40px;
+$font-size-xxlarge: 80px;
+
+$line-height-base: 1.5;
+$line-height-heading: 1.2;
+
+
+@mixin _addColor($color: false) {
+	@if ($color == true) {
+	color: $color-black
+  } @else if ($color != false) {
+	color: $color
+  }
+}
+
+@mixin font-base() {
+	font-weight: $font-weight-light;
+	font-size: pxToRem($font-size-base);
+}
+@mixin font-lead() {
+	font-weight: $font-weight-light;
+	font-size: pxToRem($font-size-medium);
+}
+@mixin font-claim() {
+	font-weight: $font-weight-light;
+	font-size: pxToRem($font-size-medium);
+	letter-spacing: 0.017em;
+}
+@mixin font-title-small() {
+	font-weight: $font-weight-regular;
+	font-size: pxToRem($font-size-base-plus);
+	letter-spacing: 0.016em;
+}
+@mixin font-title-medium() {
+	font-weight: $font-weight-light;
+	font-size: pxToRem($font-size-medium);
+	letter-spacing: 0.016em;
+}
+@mixin font-title-large-subline() {
+	font-weight: $font-weight-xlight;
+	font-size: pxToRem($font-size-large);
+	line-height: $line-height-heading;
+	letter-spacing: 0;
+}
+@mixin font-title-large() {
+	font-weight: $font-weight-light;
+	font-size: pxToRem($font-size-large);
+	line-height: $line-height-heading;
+	letter-spacing: -0.007em;
+}
+@mixin font-title-xlarge-subline() {
+	font-weight: $font-weight-xlight;
+	font-size: pxToRem($font-size-xlarge);
+	line-height: $line-height-heading;
+	letter-spacing: -0.004em;
+}
+@mixin font-title-xlarge() {
+	font-weight: $font-weight-light;
+	font-size: pxToRem($font-size-xlarge);
+	line-height: $line-height-heading;
+	letter-spacing: -0.015em;
+}
+@mixin font-title-xxlarge() {
+	font-weight: $font-weight-xlight;
+	font-size: pxToRem($font-size-xxlarge);
+	line-height: $line-height-heading;
+	letter-spacing: -0.025em;
+}
+
+@mixin link-style($link: $color-blue-highlight, $visited: lighten($color-blue,25), $hover: lighten($color-blue-highlight,2), $active: lighten($color-blue-highlight,2)) {
+	color: $link;
+	text-decoration: none;
+	&:visited {
+		color: $visited;
+	}
+	&:hover {
+		color: $hover;
+	}
+	&:active {
+		color: $active;
+	}
+}
+
+html {
+	font-size: ($font-size-base / 16px * 100%);
+}
+body {
+	font-size: ($font-size-base / 16px * 100%);
+	font-family: $font-family-body;
+	line-height: $line-height-base;
+	font-weight: $font-weight-light;
+	@include fontSmoothing();
+}
+
+h1 {
+	@include font-title-xlarge();
+}
+
+h2 {
+	@include font-title-large();
+}
+
+h3 {
+	@include font-claim();
+}
+
+a {
+	@include link-style();
+}
