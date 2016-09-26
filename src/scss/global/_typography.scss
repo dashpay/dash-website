@@ -16,7 +16,7 @@ $font-size-base-plus: 19px;
 $font-size-medium: 24px;
 $font-size-large: 30px;
 $font-size-xlarge: 40px;
-$font-size-xxlarge: 80px;
+$font-size-xxlarge: 70px;
 
 $line-height-base: 1.5;
 $line-height-heading: 1.2;
@@ -78,7 +78,7 @@ $line-height-heading: 1.2;
 	letter-spacing: -0.015em;
 }
 @mixin font-title-xxlarge() {
-	font-weight: $font-weight-xlight;
+	font-weight: $font-weight-light;
 	font-size: pxToRem($font-size-xxlarge);
 	line-height: $line-height-heading;
 	letter-spacing: -0.025em;
