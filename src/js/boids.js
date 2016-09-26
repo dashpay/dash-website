@@ -3,7 +3,6 @@
 // --------------------------
 (function () {
 	var width, height,
-		prevTime,
 		fps = 30,
 		now, then = Date.now(),
 		interval = 1000/fps,
@@ -58,7 +57,7 @@
 		var NUM_BOIDS = ~~(width * height * 0.00009);
 		var NUM_BOIDS_EXC = NUM_BOIDS - 1;
 		var BOID_SIDE = 80;
-		var MAX_SPEED = 0.05;
+		var MAX_SPEED = 0.08;
 		var MAX_DIStANCE = 150;
 
 		window.onresize = function (event) {
@@ -126,7 +125,6 @@
 				boids.push(boid);
 			}
 
-			prevTime = +new Date;
 			setTimeout(onRandomChange, 200);
 		}
 
@@ -151,9 +149,6 @@
 
 
 		function loop(){
-			var curTime = +new Date;
-			var duration = (curTime - prevTime)/1000;
-			prevTime = curTime;
 
 			// ctx.fillStyle = '#fff';
 			// ctx.fillRect(0, 0, width, height);
