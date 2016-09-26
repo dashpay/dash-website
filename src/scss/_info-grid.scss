@@ -26,15 +26,16 @@ $m: 'info-grid';
 			background-color: rgba($color-white, 0.5);
 			margin-bottom: 40px;
 
+			@include mq($to: small) {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
 			svg {
 				position: absolute;
 				left: 50%;
 				top: 50%;
 				transform: translateX(-50%) translateY(-50%);
-			}
-			@include mq($to: small) {
-				margin-left: auto;
-				margin-right: auto;
 			}
 		}
 		&-title {
