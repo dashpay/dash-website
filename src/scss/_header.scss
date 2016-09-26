@@ -5,6 +5,17 @@
 	z-index: 2;
 }
 
+#canvas {
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
 .hero {
 	position: relative;
 	min-height: 600px;
@@ -92,5 +103,9 @@
 		#background-video::after {
 			background: none;
 		}
+	}
+
+	&--space {
+		background: linear-gradient(to top right,#4cddff,#3b9aca 10%,#2d6ca5 20%,#2a5291 27%,#283d81 35%,#222654 50%,#1e1635 63%,#0c0010 93%,#000);
 	}
 }
