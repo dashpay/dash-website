@@ -18,7 +18,7 @@
     "copy:js": "mkdir -p _site/dist/js/ && cp -R dist/js/ _site/dist/js/",
     "copy:css": "mkdir -p _site/dist/css/ && cp -R dist/css/ _site/dist/css/",
     "prefix": "postcss --use autoprefixer -b 'last 3 versions' --output dist/css/main.min.css dist/css/main.min.css",
-    "sass:dist": "node-sass --output-style compressed src/scss/main.scss dist/css/main.min.css",
+    "sass:dist": "node-sass --output-style compressed  --source-map true src/scss/main.scss dist/css/main.min.css",
     "sass": "npm run sass:dist",
     "font": "mkdir -p dist/fonts && cp -R src/fonts/ dist/fonts/",
     "imagemin": "imagemin src/images/* _site/dist/images/ -p",
