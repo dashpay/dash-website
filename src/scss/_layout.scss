@@ -7,7 +7,7 @@ body {
 
 .content {
 	width: $content-max-width;
-	padding: 0 $size-gutter;
+	max-width: calc(100% - 40px); // TODO: Refactor this. Use padding on container instead
 	@media (max-width: 1024px) {
 		max-width: 96.1%; // at 1024px 40px is 3.9% of screen width
 	}
