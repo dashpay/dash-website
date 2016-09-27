@@ -110,6 +110,12 @@ body {
 	@include fontSmoothing();
 }
 
+@include mq($to: small) {
+	html, body {
+		font-size: 100%;
+	}
+}
+
 h1 {
 	@include font-title-xlarge();
 }
