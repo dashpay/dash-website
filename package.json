@@ -9,7 +9,7 @@
     "uglify:dist": "mkdir -p dist/js/ && ./node_modules/uglify-js/bin/uglifyjs src/js/*.js -m -o dist/js/main.min.js",
     "uglify:dev": "mkdir -p dist/js/ && ./node_modules/uglify-js/bin/uglifyjs src/js/*.js -c -o dist/js/main.min.js",
     "uglify": "npm run uglify:dist",
-    "test": "npm run build",
+    "test": "echo \"No Tests.\" && exit 0",
     "clean:dist": "rm -rf dist && rm -rf _site",
     "clean": "npm run clean:dist",
     "copy": "npm run copy:all",
@@ -35,8 +35,7 @@
     "watch": "run-p serve watch:jekyll watch:css watch:js",
     "serve": "browser-sync start --server _site -f '_site/dist/css'",
     "start": "npm run build -s && npm run watch",
-    "postinstall": "gem install bundler && bundle install",
-    "test": "echo \"No Tests.\" && exit 0"
+    "postinstall": "gem install bundler && bundle install"
   },
   "author": "0xfff <0xfff@protonmail.com>",
   "license": "MIT",
@@ -45,14 +44,13 @@
     "browser-sync": "2.16.0",
     "eslint": "3.5.0",
     "image-min": "0.3.2",
-    "node-sass": "3.4.2",
+    "node-sass": "3.10.0",
     "npm-run-all": "3.1.0",
     "onchange": "3.0.2",
     "postcss": "5.0.14",
     "postcss-cli": "2.5.0",
-    "watch": "0.19.2",
-    "uglify-js": "2.7.3"
+    "uglify-js": "2.7.3",
+    "watch": "0.19.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
