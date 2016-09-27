@@ -48,10 +48,25 @@ $m: 'info-grid';
 			margin-bottom: 0.5em;
 		}
 		&-link {
+			display: block;
+			margin-bottom: 0.25em;
 			&::after {
 				content: '→';
 				margin-left: 0.5em;
 			}
+		}
+	}
+
+	&--wide {
+		.#{$m}__item {
+			@extend .col-sm-5;
+			@extend .col-sm-offset-1;
+		}
+	}
+
+	&--on-white {
+		.#{$m}__item-icon {
+			background-color: rgba($color-gray-light, 0.9);
 		}
 	}
 }
