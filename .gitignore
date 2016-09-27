@@ -6,8 +6,10 @@ dist
 .sass-cache
 .brackets.json
 .jekyll-metadata
+.idea/
 
 styles/.sass-cache
 styles/.sass-cache/*
 
 node_modules
+
