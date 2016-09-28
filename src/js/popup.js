@@ -7,7 +7,7 @@
 
 /*eslint-enable */
 
-(function($){
+(function($) {
 
 	$(function() {
 		$('[data-js-popup]').each(function() {
@@ -24,6 +24,4 @@
 		});
 	});
 
-}(jQuery))
-
-
+}(jQuery));
