@@ -42,7 +42,7 @@
 				}
 			},
 			'opacity': {
-				'value': 0.4,
+				'value': 0.8,
 				'random': false,
 				'anim': {
 					'enable': false,
@@ -65,12 +65,11 @@
 				'enable': true,
 				'distance': 150,
 				'color': '#ffffff',
-				'opacity': 0.3,
+				'opacity': 0.5,
 				'width': 1
 			},
 			'move': {
 				'enable': true,
-				'speed': 0.25,
 				'direction': 'none',
 				'random': false,
 				'straight': false,
@@ -83,7 +82,7 @@
 			}
 		},
 		'interactivity': {
-			'detect_on': 'canvas',
+			'detect_on': '#hero',
 			'events': {
 				'onhover': {
 					'enable': false,
