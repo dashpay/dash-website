@@ -70,7 +70,7 @@
 			},
 			'move': {
 				'enable': true,
-				'speed': 1,
+				'speed': 0.25,
 				'direction': 'none',
 				'random': false,
 				'straight': false,
