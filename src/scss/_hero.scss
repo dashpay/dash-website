@@ -1,6 +1,6 @@
 .hero {
 	position: relative;
-	min-height: 600px;
+	min-height: 420px;
 	color: $color-white;
 	background-image: $gradient-dash-sky;
 	overflow: hidden;
@@ -32,18 +32,19 @@
 
 	&__content {
 		@extend .content; // DEV: Todo
-		padding: 60px 0 120px;
+		padding: 30px 0 120px;
 		margin: 0 auto;
 		position: relative;
 		z-index: 3;
 		@include mq($from: large) {
+			padding-top: 60px;
 			padding-bottom: 140px;
 		}
 		@include mq($from: 1600px) {
 			padding-bottom: 180px;
 		}
-		@include mq($from: 1920px) {
-			padding-bottom: 240px;
+		@include mq($from: 2200px) {
+			padding-bottom: 200px;
 		}
 	}
 
@@ -61,7 +62,7 @@
 	&__title {
 		@include font-title-xxlarge();
 		margin-bottom: 15px; /*optical*/
-		margin-left: -7px; /*optical*/
+		margin-left: -3px; /*optical*/
 	}
 
 	&__lead {
@@ -92,6 +93,19 @@
 
 	&--post {
 		min-height: 420px;
+		.hero__content {
+			padding: 30px 0 60px;
+			@include mq($from: large) {
+				padding-bottom: 100px;
+			}
+			@include mq($from: 1600px) {
+				padding-top: 40px;
+				padding-bottom: 120px;
+			}
+			@include mq($from: 2200px) {
+				padding-bottom: 150px;
+			}
+		}
 		.hero__title {
 			@include font-title-xlarge();
 			margin-bottom: 9px; /*optical*/

@@ -2,6 +2,12 @@ $m: 'page';
 
 .#{$m} {
 	padding-top: 50px;
+	@include mq($from: 1800px) {
+		padding-top: 30px;
+	}
+	@include mq($from: 2200px) {
+		padding-top: 0;
+	}
 
 	&--post {
 		@include clearfix();
