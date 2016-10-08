@@ -1,0 +1,24 @@
+<div class="hero hero--post" id="hero">
+	<div id="background-video">
+		<video loop autoplay width="100%" height="auto" poster="{{ base }}/assets/img/hero/{% t pages.blog.hero-image %}" class="background-video">
+		<!--  <source src="assets/videos/Home-BG.m4v" type="video/mp4">
+		<source src="assets/videos/Home-BG.webm" type="video/webm">
+		<source src="assets/videos/Home-BG" type="video/ogg"> -->
+		</video>
+		<!-- {% if page.image %}
+			<img src="{{ page.image }}" class="hero-image">
+		{% endif %} -->
+	</div>
+
+	<!-- Navigation -->
+	{% include nav-desktop.html %}
+
+	<!-- Hero content -->
+	<div class="hero__content">
+		<h1 class="hero__title">{% if page.title %}{{ page.title }}{% endif %}</h1>
+		<p class="hero__lead">{{ page.date | date: "%b %d, %Y" }}</p>
+	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe"></div>
+</div>

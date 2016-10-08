@@ -1,14 +1,16 @@
 $m: 'page';
 
 .#{$m} {
-	&--home {
+	padding-top: 70px;
 
+	&--post {
+		@include clearfix();
+	}
+	&--home {
 	}
 	&--get-dash {
 		background-color: $color-gray-light-blueish;
-		padding-top: 70px;
 	}
 	&--participate {
-		padding-top: 70px;
 	}
 }
