@@ -8,15 +8,14 @@ $m: 'section';
 		.#{$m} {
 			&__icon {
 				display: inline-block;
-				margin-bottom: 50px;
 			}
 
 			&__title {
-				@include font-claim();
+				@include font-title-xxlarge();
 				margin-bottom: 17px;
 			}
 			&__lead {
-				@include font-lead();
+				@include font-title-xlarge-subline();
 				color: $color-gray-dark;
 			}
 		}
