@@ -1,4 +1,4 @@
-(function($) {
+;(function($) {
 
 	$(function() {
 
@@ -7,14 +7,24 @@
 			$burger = $('[data-js-open-menu]');
 
 		$burger.click(function() {
-			var $this = $(this);
-
 			isOpen = !isOpen;
+			toggleMenu(isOpen);
+		});
 
-			$this.toggleClass('is-active', isOpen);
-			$overlay.toggleClass('is-open', isOpen);
+		$(document).bind(window.mq.event, function() {
+			console.log('resize');
+			console.log(isOpen, window.mq.query({ from: 'large' }));
+			if (isOpen === true && window.mq.query({ from: 'large' })) {
+				isOpen = false;
+				toggleMenu(isOpen);
+			}
+		});
 
-			if (isOpen) {
+		function toggleMenu(state) {
+			$burger.toggleClass('is-active', state);
+			$overlay.toggleClass('is-open', state);
+
+			if (state) {
 				window.noScroll.on();
 				$overlay.attr('aria-hidden', 'false');
 				$burger.attr('aria-expanded', 'true');
@@ -23,7 +33,7 @@
 				$overlay.attr('aria-hidden', 'true');
 				$burger.attr('aria-expanded', 'false');
 			}
-		});
+		}
 
 	});
 
