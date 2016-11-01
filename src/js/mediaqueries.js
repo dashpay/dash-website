@@ -28,7 +28,7 @@
  * }
  */
 
-;(function($, undefined) {
+;(function($) {
 	'use strict';
 
 	function parseCssProperty(str) {
@@ -72,6 +72,7 @@
 			breakpointCurrent = parseInt(window.mq.currentBreakpoint.value, 10);
 
 		if (typeof options !== 'object') {
+
 			// No or wrong arguments passed
 			throw 'Illegal argument of type "' + typeof options + '", expected "object"';
 		} else if (typeof options.to !== 'undefined' && typeof options.from !== 'undefined') {
@@ -108,4 +109,4 @@
 		currentBreakpoint: currentBreakpoint
 	};
 
-})(jQuery);
+}(jQuery));
