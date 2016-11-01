@@ -13,12 +13,15 @@ description: pages.home.description
 		WHAT IS DASH?
 		LINK TO VIDEO.
 	-->
-	<section>
-		<div class="content">
-		<h2>{% t pages.home.video-heading %}</h2>
-		{% tmd pages.home.video-text %}
+	<section class="section section--home-cta">
+		<div class="section__content">
+				<h2 class="section__title">{% t pages.home.video-heading %}</h2>
+				{% tmd pages.home.video-text %}
 
-		<a href="https://www.youtube.com/watch?v=S0oNO3mbBE8" class="btn-blue" target="_blank" data-js-popup="video">{% t pages.home.video-btn %}</a>
+				<div class="section__btn-grp">
+					<a href="https://www.youtube.com/watch?v=S0oNO3mbBE8" class="btn-blue btn-large" target="_blank" data-js-popup="video">{% t pages.home.video-btn %}</a>
+					<a href="#" class="btn-blue-solid btn-large">{% t nav.download %}</a>
+				</div>
 		</div>
 	</section>
 

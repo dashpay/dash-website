@@ -6,6 +6,10 @@ $nav-height: 90px;
 	float: right;
 	text-align: right;
 
+	@include mq($to: large) {
+		display: none;
+	}
+
 	&__list {
 		list-style: none;
 	}
