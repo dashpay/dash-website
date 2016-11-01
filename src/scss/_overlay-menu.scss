@@ -57,8 +57,11 @@
 
 	nav {
 		position: relative;
-		height: 70%;
-		top: 150px;
+		height: 100%;
+		padding-top: 120px;
+		padding-bottom: 120px;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
 		font-size: 36px;
 		font-weight: 200;
 		text-align: center;
@@ -108,8 +111,8 @@
 		animation-delay: .35s;
 	}
 	@for $i from 1 through 10 {
-		li:nth-of-type($i) {
-			animation-delay: (0.4s + 0.05s * $i);
+		li:nth-of-type(#{$i}) {
+			animation-delay: (0.4s + (0.05s * $i));
 		}
 	}
 
