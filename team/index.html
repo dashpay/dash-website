@@ -9,33 +9,38 @@ description: pages.team.description
 <div class="content">
 
 
-    {% for member in site.data.team %}
-    <div>
+	<ul class="member-list">
+		{% for member in site.data.team %}
+		<li class="member">
 
-        {% if member.image %}
-            <div><img src="/assets/img/team/{{ member.image }}" alt="{{ member.name }}"></div>
-        {% else %}
-            <div><img src="/assets/img/team/anon.png" alt="{{ member.name }}"></div>
-        {% endif %}
+			{% if member.image %}
+				<div class="member__image-wrapper">
+					<img class="member__image" src="/assets/img/team/{{ member.image }}" alt="{{ member.name }}">
+				</div>
+			{% else %}
+				<div class="member__image-wrapper">
+					<img class="member__image" src="/assets/img/team/anon.png" alt="{{ member.name }}">
+				</div>
+			{% endif %}
 
-        <div>{{ member.name }}</div>
-        <div>{{ member.title }}</div>
-        <div>{{ member.description }}</div>
+			<div class="member__name">{{ member.name }}</div>
+			<div class="member__title">{{ member.title }}</div>
+			<div class="member__description">{{ member.description }}</div>
 
-        {% if member.email %}
-            <div><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
-        {% endif %}
+			{% if member.email %}
+				<div class="member__detail member__detail--email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
+			{% endif %}
 
-        {% if member.pgp %}
-            <div><a href="{{ member.pgp }}">PGP Key</a></div>
-        {% endif %}
+			{% if member.pgp %}
+				<div class="member__detail member__detail--pgp"><a href="{{ member.pgp }}">PGP Key</a></div>
+			{% endif %}
 
-        {% if member.twitter %}
-            <div>{{ member.twitter }}</div>
-        {% endif %}
+			{% if member.twitter %}
+				<div class="member__detail member__detail--twitter">{{ member.twitter }}</div>
+			{% endif %}
 
-    </div>
-    {% endfor %}
-
+		</li>
+		{% endfor %}
+	</ul>
 
 </div>
