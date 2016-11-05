@@ -34,6 +34,71 @@
 	}
 }
 
+.overlay-menu {
+
+	&__nav {
+		position: relative;
+		height: 100%;
+    	height: 100vh;
+		padding-top: 120px;
+		padding-bottom: 120px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		-webkit-overflow-scrolling: touch;
+		text-align: center;
+		@include font-title-xlarge();
+		line-height: 60px;
+	}
+
+	&__link {
+		display: block;
+		position: relative;
+		text-decoration: none;
+		overflow: hidden;
+
+		&, &:visited, &:hover, &:active {
+			color: $color-white;
+		}
+	}
+
+	&__list {
+		list-style: none;
+		padding: 0;
+		margin: 0 auto;
+		margin-top: 0px;
+		display: inline-block;
+		position: relative;
+		height: 50%;
+	}
+
+	&__item {
+		display: block;
+		position: relative;
+		opacity: 0;
+
+		&--languages {
+			margin-top: 20px;
+		}
+	}
+
+	&__sublist {
+		width: 100%;
+		max-width: 320px;
+		text-align: center;
+		display: inline-block;
+	}
+
+	&__subitem {
+		display: inline-block;
+		text-align: center;
+		@include font-base();
+		line-height: 40px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+}
+
 .overlay {
 	position: fixed;
 	background: $color-black;
@@ -53,43 +118,6 @@
 		top: 30px;
 		left: 20px;
 		position: absolute;
-	}
-
-	nav {
-		position: relative;
-		height: 100%;
-		padding-top: 120px;
-		padding-bottom: 120px;
-		overflow: scroll;
-		-webkit-overflow-scrolling: touch;
-		font-size: 36px;
-		font-weight: 200;
-		text-align: center;
-	}
-
-	ul {
-		list-style: none;
-		padding: 0;
-		margin: 0 auto;
-		margin-top: 0px;
-		display: inline-block;
-		position: relative;
-		height: 50%;
-		li {
-			display: block;
-			position: relative;
-			opacity: 0;
-		}
-		a {
-			display: block;
-			position: relative;
-			color: $color-white;
-			text-decoration: none;
-			overflow: hidden;
-		}
-		a:hover:after, a:focus:after, a:active:after {
-			width: 100%;
-		}
 	}
 
 	.sign-up-btn {
