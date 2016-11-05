@@ -65,22 +65,56 @@ $m: 'section';
 
 	&--post {
 		.#{$m} {
-
 			&__sidebar {
-				display: inline-block;
-				width: 30%;
-				vertical-align: top;
-				padding-left: pxToRem(40px);
+				display: block;
+				width: 100%;
+				margin-top: pxToRem(120px);
+				margin-left: pxToRem(-20px);
+				margin-right: pxToRem(-20px);
 
 				.featurepost {
 					max-width: 100%;
+					@include mq($from: small, $to: medium) {
+						width: 49%;
+					}
+
+					margin-bottom: pxToReM(60px);
+
+					@include mq($to: medium) {
+						&__preview {
+							display: block;
+							height: 1px;
+						}
+					}
 				}
+				&-title {
+					@include font-claim();
+					text-align: center;
+					margin-bottom: pxToRem(40px);
+
+					@include mq($from: medium) {
+						@include visuallyhidden();
+					}
+				}
+
+				@include mq($from: medium) {
+					display: inline-block;
+					width: 30%;
+					vertical-align: top;
+					margin: 0;
+					padding-left: pxToRem(40px);
+				}
+
 			}
 
 			&__main {
 				display: inline-block;
 				width: 69%;
 				vertical-align: top;
+
+				@include mq($to: medium) {
+					width: 100%;
+				}
 			}
 		}
 	}

@@ -61,7 +61,7 @@ $m: 'featurepost';
 	margin: 0 pxToRem(-20px);
 	.featurepost {
 
-    	display: block;
+		display: block;
 		width: 100%;
 
 		@include mq($from: small) {

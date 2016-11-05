@@ -6,7 +6,7 @@ layout: default
 
 <div class="page page--post">
 
-	<section class="section section--post">
+	<div class="section section--post">
 		<div class="section__content content">
 			<div class="section__main">
 				<div class="postcontent">
@@ -15,7 +15,8 @@ layout: default
 
 				{% include author.html %}
 			</div>
-			<div class="section__sidebar">
+			<aside class="section__sidebar">
+				<h3 class="section__sidebar-title">Related</h3>
 				{% for post in site.related_posts limit:5 %}
 					<article class="featurepost featurepost--sidebar">
 						<div class="featurepost__preview {% if post.image %}featurepost__preview--image{% else %}featurepost__preview--no-image{% endif %}">
@@ -32,8 +33,8 @@ layout: default
 						<div class="featurepost__divider"></div>
 					</article>
 				{% endfor %}
-			</div>
+			</aside>
 		</div>
-	</section>
+	</div>
 
 </div>
