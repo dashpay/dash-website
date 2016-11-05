@@ -12,7 +12,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
-paginate: 5
+paginate: 12
 paginate_path: "/blog/page:num/"
 name: Dash
 url: https://www.dash.org
@@ -53,5 +53,4 @@ srcset:
   source: assets/img
   output: assets/img/resized
 
-keep_files:
-  - 'assets/img/resized'
+keep_files: ['assets/img/resized']

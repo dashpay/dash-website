@@ -1,0 +1,8 @@
+$m: 'pagination';
+
+.#{$m} {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: pxToRem(40px) 0;
+}

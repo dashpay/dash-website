@@ -6,31 +6,32 @@ description: pages.blog.description
 
 {% include hero/blog.html %}
 
-<div class="content post">
-	<div class="single-col">
+<div class="page page--blog">
 
-		{% include pagination_navigation_all.html %}
+	<section class="section">
+		<div class="section__content content">
+			<div class="featurepost-grid">
+			{% for post in paginator.posts %}
+			<!-- limit:10 -->
+				<article class="featurepost">
+					<div class="featurepost__preview {% if post.image %}featurepost__preview--image{% else %}featurepost__preview--no-image{% endif %}">
+						{% if post.image %}
+							<img src="{{ post.image }}" class="featurepost__image">
+						{% endif %}
+					</div>
 
-		{% for post in paginator.posts %}
-		<!-- limit:4  -->
-			<div class="feature">
-				{% if post.image %}
-					<img src="{{ post.image }}" class="preview">
-				{% endif %}
+					<h2 class="featurepost__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<em class="featurepost__date">{{ post.date | date: "%b %d, %Y" }}</em>
 
-				<p><em>{{ post.date | date: "%b %d, %Y" }}</em><br />{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-
+					<p class="featurepost__description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+					<div class="featurepost__divider"></div>
+				</article>
+			{% endfor %}
 			</div>
-			<span class="clear"></span>
 
-			<div class="divider">
+			{% include pagination_navigation_all.html %}
+		</div>
+	</section>
 
-			</div>
-		{% endfor %}
-
-		{% include pagination_navigation_all.html %}
-
-	</div>
 </div>

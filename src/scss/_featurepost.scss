@@ -1,0 +1,61 @@
+$m: 'featurepost';
+
+.#{$m} {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 pxToRem(20px);
+	margin-bottom: pxToRem(40px);
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-wrap: break-word;
+
+	&__title {
+		@include font-title-medium();
+		margin-bottom: pxToRem(10px);
+		a {
+			color: $color-blue;
+		}
+	}
+	&__date {
+		display: inline-block;
+		margin-bottom: pxToRem(10px);
+		color: transparentize($color-black, 0.5);
+	}
+
+	&__divider {
+
+	}
+
+	&__preview {
+		@include overflow-image-wrapper();
+		background: rgba($color-blue, 0.1);
+		margin-bottom: pxToRem(40px);
+
+		&--no-image {
+			// Hide images until we actually have htem
+			padding-bottom: 1px;
+		}
+	}
+	&__image {
+		@include overflow-image();
+	}
+}
+
+// TODO: Move into separate module
+.featurepost-grid {
+	margin: 0 pxToRem(-20px);
+	.featurepost {
+
+    	display: block;
+		width: 100%;
+
+		@include mq($from: small) {
+			display: inline-block;
+			width: 49%;
+		}
+		@include mq($from: medium) {
+			width: 33%;
+		}
+	}
+}
