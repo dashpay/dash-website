@@ -32,13 +32,17 @@
 
 	&__content {
 		@extend .content; // DEV: Todo
-		padding: 30px 0 100px;
+		padding: 30px 30px 100px;
 		margin: 0 auto;
 		position: relative;
 		z-index: 3;
 		@include mq($from: large) {
 			padding-top: 60px;
 			padding-bottom: 120px;
+		}
+		@include mq($from: (1280px + 60px)) {
+			padding-left: 0;
+			padding-right: 0;
 		}
 		@include mq($from: 1600px) {
 			padding-bottom: 180px;
@@ -124,6 +128,12 @@
 		}
 		.hero__background::after {
 			background: none;
+		}
+
+		.burger:not(.is-active) .burger__burger {
+			&, &::before, &::after {
+				background-color: $color-black;
+			}
 		}
 	}
 
