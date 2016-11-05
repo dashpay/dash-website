@@ -61,6 +61,7 @@
 
 	&__title {
 		@include font-title-xxlarge();
+		margin-top: 5px; /*optical*/
 		margin-bottom: 15px; /*optical*/
 		margin-left: -3px; /*optical*/
 	}

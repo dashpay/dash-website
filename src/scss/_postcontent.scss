@@ -1,0 +1,34 @@
+$m: 'postcontent';
+
+$postcontent-max-width: 600px;
+
+.#{$m} {
+	img {
+		max-width: $postcontent-max-width;
+		height: auto;
+		margin-bottom: pxToRem(20px);
+	}
+
+	p {
+		max-width: $postcontent-max-width;
+		margin-bottom: pxToRem(20px);
+	}
+
+	h2 {
+		@include font-title-medium();
+		max-width: $postcontent-max-width;
+
+		&:not(:first-child) {
+			margin: pxToRem(60px) 0 pxToRem(20px);
+		}
+	}
+	h3 {
+		@include font-title-small();
+		max-width: $postcontent-max-width;
+
+		&:not(:first-child) {
+			margin: pxToRem(60px) 0 pxToRem(20px);
+		}
+	}
+
+};

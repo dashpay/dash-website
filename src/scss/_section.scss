@@ -62,4 +62,26 @@ $m: 'section';
 			}
 		}
 	}
+
+	&--post {
+		.#{$m} {
+
+			&__sidebar {
+				display: inline-block;
+				width: 30%;
+				vertical-align: top;
+				padding-left: pxToRem(40px);
+
+				.featurepost {
+					max-width: 100%;
+				}
+			}
+
+			&__main {
+				display: inline-block;
+				width: 69%;
+				vertical-align: top;
+			}
+		}
+	}
 }

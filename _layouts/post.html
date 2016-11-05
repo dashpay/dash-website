@@ -8,25 +8,32 @@ layout: default
 
 	<section class="section section--post">
 		<div class="section__content content">
-			<div class="main-col post">
-				{{ content }}
+			<div class="section__main">
+				<div class="postcontent">
+					{{ content }}
+				</div>
 
 				{% include author.html %}
 			</div>
-
-			<div class="sidebar">
+			<div class="section__sidebar">
 				{% for post in site.related_posts limit:5 %}
-				<!-- limit:4  -->
-					<div class="feature">
+					<article class="featurepost featurepost--sidebar">
+						<div class="featurepost__preview {% if post.image %}featurepost__preview--image{% else %}featurepost__preview--no-image{% endif %}">
+							{% if post.image %}
+								<img src="{{ post.image }}" class="featurepost__image">
+							{% endif %}
+						</div>
 
-						<h3><a href="{{ basenav }}{{ post.url }}">{{ post.title }}</a></h3>
+						<h2 class="featurepost__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-						<p><em>{{ post.date | date: "%b %d, %Y" }}</em><br />{{ post.excerpt | strip_html | truncatewords: 10 }}</p>
+						<em class="featurepost__date">{{ post.date | date: "%b %d, %Y" }}</em>
 
-					</div>
-
+						<p class="featurepost__description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+						<div class="featurepost__divider"></div>
+					</article>
 				{% endfor %}
 			</div>
 		</div>
 	</section>
+
 </div>
