@@ -59,6 +59,11 @@
 		&, &:visited, &:hover, &:active {
 			color: $color-white;
 		}
+
+		.flag {
+			margin-top: 2px;
+			margin-right: 4px;
+		}
 	}
 
 	&__list {
@@ -83,8 +88,9 @@
 
 	&__sublist {
 		width: 100%;
-		max-width: 320px;
-		text-align: center;
+		max-width: 420px;
+		padding: 0 30px;
+		text-align: left;
 		display: inline-block;
 	}
 
@@ -101,7 +107,8 @@
 
 .overlay {
 	position: fixed;
-	background: $color-black;
+	background: $color-blue;
+	// background: $gradient-dash-sky;
 	top: 0;
 	left: 0;
 	width: 100%;

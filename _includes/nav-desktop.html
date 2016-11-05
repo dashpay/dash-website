@@ -26,27 +26,27 @@
 
             {% if page.layout != 'post' %}
             <li class="nav__item nav__item--languages">
-                <a href="#" class="nav__link">{{ site.lang }}</a>
+                <a href="#" class="nav__link" style="text-transform:uppercase;">{{site.lang}} <span class="flag {% if 'en' == site.lang %}us{% else %}{{site.lang}}{% endif %}"></span></a>
                 <ul class="nav__sublist">
                     <!-- TODO: dynamically generate this list -->
 
                     <li class="nav__subitem">
-                        <a href="{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">{% t global.english %}</a>
+                        <a href="{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">{% t global.english %} <span class="flag us"></span></a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="/es{{ page.url  }}" class="nav__link {% if site.lang == 'es' %}is-active{% endif %}">{% t global.spanish %}</a>
+                        <a href="/es{{ page.url  }}" class="nav__link {% if site.lang == 'es' %}is-active{% endif %}">{% t global.spanish %} <span class="flag es"></span></a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="/pt{{ page.url  }}" class="nav__link {% if site.lang == 'pt' %}is-active{% endif %}">{% t global.portugese %}</a>
+                        <a href="/pt{{ page.url  }}" class="nav__link {% if site.lang == 'pt' %}is-active{% endif %}">{% t global.portugese %} <span class="flag pt"></span></a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="/it{{ page.url  }}" class="nav__link {% if site.lang == 'it' %}is-active{% endif %}">{% t global.italian %}</a>
+                        <a href="/it{{ page.url  }}" class="nav__link {% if site.lang == 'it' %}is-active{% endif %}">{% t global.italian %} <span class="flag it"></span></a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="/cn{{ page.url  }}" class="nav__link {% if site.lang == 'cn' %}is-active{% endif %}">{% t global.chinese %}</a>
+                        <a href="/cn{{ page.url  }}" class="nav__link {% if site.lang == 'cn' %}is-active{% endif %}">{% t global.chinese %} <span class="flag cn"></span></a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="/ru{{ page.url  }}" class="nav__link {% if site.lang == 'ru' %}is-active{% endif %}">{% t global.russian %}</a>
+                        <a href="/ru{{ page.url  }}" class="nav__link {% if site.lang == 'ru' %}is-active{% endif %}">{% t global.russian %} <span class="flag ru"></span></a>
                     </li>
                 </ul>
             </li>

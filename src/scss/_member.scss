@@ -2,32 +2,64 @@ $m: 'member';
 
 .#{$m} {
 
+	margin-bottom: pxToRem(80px);
 
+	&__avatar {
+		display: inline-block;
+		width: 100%;
+		max-width: 140px;
+		margin-bottom: 20px;
+	}
 	&__image-wrapper {
-
+		@include overflow-image-wrapper();
+		padding-bottom: ((105/140)*100%);
 	}
 
 	&__image {
-
+		@include overflow-image();
 	}
 
 	&__name {
-
+		@include font-claim();
+		color: $color-blue;
 	}
 
 	&__title {
-
+		margin-bottom: 20px;
 	}
 
 	&__description {
-
+		margin-bottom: 10px;
+		text-align: left;
 	}
 
 	&__detail {
-
+		text-align: left;
 	}
 
 	&-list {
+		font-size: 0;
+		margin: 0 pxToRem(-20px);
+		text-align: left;
+		@include mq($to: small) {
+			text-align:  left;
+		}
 
+		.#{$m} {
+			display: inline-block;
+			max-width: 500px;
+			width: 100%;
+			padding: 0 20px;
+			vertical-align: top;
+			text-align:  left;
+			font-size: $font-size-base;
+
+			@include mq($from: small) {
+				width: 50%;
+			}
+			@include mq($from: medium) {
+				width: 33.3%;
+			}
+		}
 	}
 }

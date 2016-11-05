@@ -25,8 +25,14 @@ $nav-height: 90px;
 		}
 
 		&--languages {
+			.nav__link {
+				padding-right: 0;
+			}
 			& > .nav__link {
 				padding: 0 25px;
+			}
+			.nav__sublist {
+				padding-right: 25px;
 			}
 		}
 
@@ -44,11 +50,25 @@ $nav-height: 90px;
 		position: absolute;
 		top: 100%;
 		right: 0;
-		padding-top: 10px;
+		margin-top: -10px;
+		padding-top: 0;
+
+		&::before {
+			content: '';
+			display: block;
+			width: 15px;
+			height: 1px;
+			background: $color-white;
+			opacity: 0.8;
+			position: absolute;
+			top: -7px;
+			right: 25px;
+		}
 	}
 
 	&__subitem {
-		line-height: 45px;
+		line-height: 40px;
+		white-space: nowrap;
 	}
 
 	&__link {
@@ -60,6 +80,11 @@ $nav-height: 90px;
 			$hover: rgba($color-white, 1),
 			$active: rgba($color-white, 1));
 		letter-spacing: -0.008em;
+
+		.flag {
+			margin-top: pxToRem(4px);
+			margin-left: pxToRem(10px);
+		}
 	}
 
 	&--black {
