@@ -8,13 +8,13 @@ description: pages.team.description
 
 <div class="page page--team">
 
-	<section class="section section--claim">
+	<section class="section section--intro-lead">
 
 		<div class="section__content content">
-			<div>
-				<h1>{% t pages.team.core-heading %}<a class="permalink" title="Permalink" id="social"></a></h1>
+			<div class="section__intro">
+				<h1 class="section__title">{% t pages.team.core-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h1>
 
-				{% tmd pages.team.core-text %}
+				<div class="section__lead">{% tmd pages.team.core-text %}</div>
 			</div>
 			<ul class="member-list">
 				{% for member in site.data.team %}
@@ -25,7 +25,7 @@ description: pages.team.description
 
 		<div class="section__content content">
 			<div>
-				<h2>{% t pages.community.social-heading %}<a class="permalink" title="Permalink" id="social"></a></h2>
+				<h2 class="section__title">{% t pages.community.social-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h2>
 			</div>
 			<ul class="member-list">
 				{% for member in site.data.team %}

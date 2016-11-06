@@ -11,6 +11,31 @@ $m: 'section';
 		margin: 0 auto;
 	}
 
+	&--intro-lead {
+		text-align: center;
+		.#{$m} {
+			&__icon {
+				display: inline-block;
+			}
+			&__title {
+				@include font-title-xlarge();
+				margin-bottom: 10px;
+			}
+			&__lead {
+				display: inline-block;
+				@include font-lead();
+				max-width: 500px;
+				color: $color-gray-dark;
+			}
+			&__intro {
+				margin-bottom: 50px;
+			}
+		}
+		.member-list {
+			margin-top: 40px;
+		}
+	}
+
 	&--claim {
 		text-align: center;
 		.#{$m} {
