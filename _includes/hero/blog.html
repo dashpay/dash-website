@@ -1,8 +1,6 @@
 <div class="hero hero--blog" id="hero">
 	<div class="hero__background">
-		{% if pages.blog.hero-image %}
-			<img src="{{ base }}/assets/img/hero/{% t pages.blog.hero-image %}" alt="" class="hero__background-image">
-		{% endif %}
+			<img src="{{ base }}/assets/img/hero/blog.jpg" alt="" class="hero__background-image">
 	</div>
 
 	<!-- Navigation -->
@@ -12,6 +10,13 @@
 	<div class="hero__content">
 		<h1 class="hero__title">{% t pages.blog.title %}</h1>
 		<p class="hero__lead">{% t pages.blog.description %}</p>
+
+		<div class="hero__buttons">
+
+			<a href="#" class="btn-white-solid">{% t pages.blog.search-btn %}</a>
+			<a href="{{ basenav }}/community/#community-news" class="btn-white-solid">{% t pages.blog.community-news-btn %}</a>
+
+		</div>
 	</div>
 
 	<!-- Hero stripe -->
