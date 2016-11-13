@@ -108,6 +108,20 @@ $m: 'section';
 		}
 	}
 
+	&--currency {
+		.#{$m} {
+			&__title {
+				@include font-title-xlarge();
+				margin-bottom: 10px;
+			}
+			&__lead {
+				@include font-lead();
+				color: $color-gray-dark;
+				margin-bottom: 20px;
+			}
+		}
+	}
+
 	&--post {
 		.#{$m} {
 			&__sidebar {
