@@ -1,23 +1,23 @@
 <li class="member" data-mh="merchant">
 
-	<div class="merchant__avatar">
+	<div class="member__avatar">
 		{% if merchant.image %}
-		<div class="merchant__image-wrapper">
-			<a href="{{ merchant.url }}" target="_blank" class="ctabox__link">
-				<img class="merchant__image" src="/assets/img/merchants/{{ merchant.image }}" alt="{{ merchant.name }}">
+		<div class="member__image-wrapper">
+			<a href="{{ merchant.url }}" target="_blank" class="member__link">
+				<img class="member__image" src="/assets/img/merchants/{{ merchant.image }}" alt="{{ merchant.name }}">
 			</a>
 		</div>
 		{% else %}
-		<div class="merchant__image-wrapper">
-			<a href="{{ merchant.url }}" target="_blank" class="ctabox__link">
-				<img class="merchant__image" src="/assets/img/merchant_generic_logo.png" alt="{{ merchant.name }}">
+		<div class="member__image-wrapper">
+			<a href="{{ merchant.url }}" target="_blank" class="member__link">
+				<img class="member__image" src="/assets/img/merchant_generic_logo.png" alt="{{ merchant.name }}">
 			</a>
 		</div>
 		{% endif %}
 	</div>
 
-	<div class="merchant__name" data-mh="merchant-name">{{ merchant.name }}</div>
+	<div class="member__name" data-mh="merchant-name">{{ merchant.name }}</div>
 	{% if merchant.title %}
-	<div class="merchant__title" data-mh="merchant-title">{{ merchant.title }}</div>
+	<div class="member__title" data-mh="merchant-title">{{ merchant.title }}</div>
 	{% endif %}
 </li>

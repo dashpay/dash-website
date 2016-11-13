@@ -27,12 +27,12 @@
 
             {% if page.layout != 'post' %}
             <li class="nav__item nav__item--languages">
-                <a href="#" class="nav__link" style="text-transform:uppercase;">{{site.lang}} <span class="flag {% if 'en' == site.lang %}us{% else %}{{site.lang}}{% endif %}"></span></a>
+                <a href="#" class="nav__link" style="text-transform:uppercase;">{{site.lang}} <span class="flag {% if 'en' == site.lang %}gb{% else %}{{site.lang}}{% endif %}"></span></a>
                 <ul class="nav__sublist">
                     <!-- TODO: dynamically generate this list -->
 
                     <li class="nav__subitem">
-                        <a href="{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">English <span class="flag us"></span></a>
+                        <a href="{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">English <span class="flag gb"></span></a>
                     </li>
                     <li class="nav__subitem">
                         <a href="/es{{ page.url  }}" class="nav__link {% if site.lang == 'es' %}is-active{% endif %}">Español <span class="flag es"></span></a>

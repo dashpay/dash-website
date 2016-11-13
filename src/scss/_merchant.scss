@@ -23,7 +23,6 @@ $m: 'member';
 		@include font-claim();
 		// color: $color-blue;
 		margin-bottom: 5px;
-    	word-wrap: break-word;
 	}
 
 	&__title {
@@ -76,26 +75,11 @@ $m: 'member';
 				@include mq($from: small) {
 					width: 33.3%;
 				}
-				// @include mq($from: medium) {
-				// 	width: 25%;
-				// }
-				@include mq($from: large) {
+				@include mq($from: medium) {
 					width: 25%;
 				}
-
-				margin-bottom: pxToRem(40px);
-
-				&__avatar {
-					width: 100%;
-					max-width: 100%;
-				}
-
-				&__image-wrapper {
-					padding-bottom: ((281/500)*100%);
-				}
-
-				&__name {
-					color: $color-gray-dark;
+				@include mq($from: large) {
+					width: 20%;
 				}
 			}
 		}

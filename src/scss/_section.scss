@@ -36,6 +36,14 @@ $m: 'section';
 		}
 	}
 
+	&--merchants {
+		.#{$m} {
+			&__title {
+				color: $color-gray-dark;
+			}
+		}
+	}
+
 	&--claim {
 		text-align: center;
 		.#{$m} {
