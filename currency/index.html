@@ -141,7 +141,6 @@ description: pages.currency.description
 				});
 			});
 
-
 			// Get the current number of masternodes.
 			$.ajax({
 				url: "{{ site.api }}/masternodes/stats/"
@@ -154,7 +153,6 @@ description: pages.currency.description
 				$("#masternodes_count").text(masternodes_count);
 				$("#masternodes_max").text(masternodes_max);
 			});
-
 
 			// Get the budget proposals
 			$.ajax({
@@ -173,13 +171,10 @@ description: pages.currency.description
 						amount_monthly 	= formatCurrency(proposal.monthly_amount)
 						will_be_funded	= proposal.will_be_funded ? "yes" : "no";
 
-
-
-					$("#budgets>tbody").append('<tr><td data-header="Title"><a href="' + url + '">' + title + '</a></td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
+					$("#budgets>tbody").append('<tr><td data-header="Title"><a href="' + url + '" target="_blank">' + title + '</a></td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
 
 				});
 			});
-
 
 			// Get the blockchain info
 			$.ajax({

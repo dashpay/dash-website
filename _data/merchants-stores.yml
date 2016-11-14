@@ -42,7 +42,7 @@
 - name: Misconduct Wine Company
   title: Winery
   url: http://www.misconductwineco.com
-  image: misconductwine_logo.jpg.jpg
+  image: misconductwine_logo.jpg
 
 - name: Party Cakes4u
   title: Cake Shop
@@ -57,7 +57,7 @@
 - name: Healthiverse
   title: Health
   url: http://healthiverse.net
-  image: design.jpg
+  image: Healthiverse.jpg
 
 - name: Above All House Plants
   title: House/ Garden
