@@ -22,11 +22,11 @@
 	{% endif %}
 
 	{% if member.pgp %}
-	<div class="member__detail member__detail--pgp"><a href="{{ member.pgp }}">PGP Key</a></div>
+	<div class="member__detail member__detail--pgp"><a href="{{ member.pgp }}"  target="_blank">PGP Key</a></div>
 	{% endif %}
 
 	{% if member.twitter %}
-	<div class="member__detail member__detail--twitter">{{ member.twitter }}</div>
+	<div class="member__detail member__detail--twitter"><a href="{{ member.twitter }}" target="_blank">{{ member.twitter }}</a></div>
 	{% endif %}
 
 </li>

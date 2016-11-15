@@ -34,7 +34,7 @@
   title: Core Development / Testing
   description: Crowning is trained in Computer Science and Mathematics and has 35 years of experience in software development in languages from C to Java, client/server architecture, databases, security, data encryption and rich web applications.
   image: crowning.png
-  email:
+  email: crowning@gmx.net
   pgp:
   twitter:
 
@@ -280,8 +280,8 @@
 
 - name: Perry Woodin
   title: Advisor
-  description:
+  description: Co-founder of <a href="https://node40.com" target="_blank">Node40</a>
   image: perry_sm.jpg
-  email:
-  pgp:
-  twitter:
+  email: perry@node40.com
+  pgp: https://keybase.io/perrywoodin
+  twitter: https://twitter.com/node_40
