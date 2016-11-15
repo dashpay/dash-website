@@ -186,7 +186,7 @@ description: pages.home.description
 
 			<div>
 				<a href="/merchants/" class="btn-blue">{% t pages.home.merchants-btn %}</a>
-				<a href="{% t pages.home.merchants-link %}" class="btn-blue">{% t pages.home.merchants-join-btn %}</a>
+				<a href="{% t pages.home.merchants-join-link %}" target="_blank" class="btn-blue">{% t pages.home.merchants-join-btn %}</a>
 			</div>
 		</div>
 	</section>
@@ -220,21 +220,37 @@ description: pages.home.description
 	<!--
 		NETWORK ARCHITECTURE
 	-->
-	<section>
+	<section class="section--masternode">
 		<div class="content">
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 globe-text-container">
 					<h2>{% t pages.home.architecture-heading %}</h2>
 
 					{% tmd pages.home.architecture-text %}
 
-					<a href="{% t pages.home.architecture-link %}" class="btn-blue">{% t pages.home.architecture-btn %}</a>
-				</div>
-				<div class="col-sm-6 home-architecture-graphic">
-					<img src="/assets/img/home/code.png" alt="{% t pages.home.architecture-heading %}">
+					<a href="{% t pages.home.architecture-link %}" target="_blank" class="btn-blue">{% t pages.home.architecture-btn %}</a>
 				</div>
 			</div>
 		</div>
+		<div class="globecontainer" data-js-masternode-globe></div>
+		<script type="text/javascript" src="/assets/js/dash-masternode-globe.min.js"></script>
+		<script type="text/javascript">
+			document.addEventListener("DOMContentLoaded", function() {
+				if (!DashGlobe.Detector.webgl) {
+					var el = document.querySelectorAll('[data-js-masternode-globe]')[0];
+					el.className = el.className + ' no-webgl';
+				} else {
+					window.globe = new DashGlobe({
+						container: document.querySelectorAll('[data-js-masternode-globe]')[0],
+						imgDir: '/assets/img/',
+						url: '/assets/mn_locations.tsv',
+						cameraOffset: { x: 0, y: 170, z: 0 },
+						initialZoom: 450,
+						barColor: 0xddddddff
+					});
+				}
+			});
+		</script>
 	</section>
 
 	<!--
@@ -248,9 +264,9 @@ description: pages.home.description
 
 					{% tmd pages.home.governance-text %}
 
-					<a href="http://dashvotetracker.com/" class="btn-blue">{% t pages.home.proposal-btn %}</a>
+					<a href="http://dashvotetracker.com/" target="_blank" class="btn-blue">{% t pages.home.proposal-btn %}</a>
 
-					<a href="https://dashcentral.org/" class="btn-blue">{% t pages.home.proposal-submit-btn %}</a>
+					<a href="https://dashcentral.org/" target="_blank" class="btn-blue">{% t pages.home.proposal-submit-btn %}</a>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 home-budgets-graphic">
 					<img src="/assets/img/home/budgets.png" alt="{% t pages.home.governance-heading%}">
@@ -262,18 +278,27 @@ description: pages.home.description
 	<!--
 		FASTEST GROWING NETWORK
 	-->
-	<section class="section--masternode">
+	<section>
 		<div class="content">
 			<div class="row">
-				<div class="col-sm-6 globe-text-container">
+				<div class="col-sm-6">
 					<h2>{% t pages.home.network-growth-heading %}</h2>
 
 					{% tmd pages.home.network-growth-text %}
 
 					<a href="{{ basenav }}/currency" class="btn-blue">{% t pages.home.network-growth-btn %}</a>
 				</div>
+				<!--div class="col-sm-6 home-network-graphic">
+					<img src="/assets/img/home/graph.png" alt="{% t pages.home.network-growth-heading %}">
+				</div-->
+				<div class="col-sm-6 home-network-graphic-live">
+					<a href="http://178.254.23.111/~pub/Dash/Dash_Info.html" target="_blank">
+						<img src="http://178.254.23.111/~pub/masternode_count.png" alt="{% t pages.home.network-growth-heading %}">
+					</a>
+				</div>
 			</div>
 		</div>
+
 		<div class="globecontainer" data-js-masternode-globe></div>
 		<script type="text/javascript" src="/assets/js/dash-masternode-globe.min.js"></script>
 		<script type="text/javascript">
@@ -307,7 +332,7 @@ description: pages.home.description
 
 					{% tmd pages.home.evolution-text %}
 
-					<a href="{% t pages.home.evolution-link %}" class="btn-blue">{% t pages.home.evolution-btn %}</a>
+					<a href="{% t pages.home.evolution-link %}" target="_blank" class="btn-blue">{% t pages.home.evolution-btn %}</a>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6">
 					<img src="/assets/img/home/evo.png" alt="Dash Evolution">
