@@ -1,40 +1,90 @@
----
-layout: default
----
+<!doctype html>
+<html>
+  <head>
+    {% include base.html %}
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Dash</title>
+    <meta name="description" content="{% t page.description %}">
 
-{% include hero/post.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-<div class="page page--post">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
-	<div class="section section--post">
-		<div class="section__content content">
-			<div class="section__main">
-				<div class="postcontent">
-					{{ content }}
+    <link rel="stylesheet" type="text/css" href="/dist/css/main.min.css">
+  </head>
+
+  <body>
+
+	{% include hero/post.html %}
+
+	<div class="page page--post">
+
+		<div class="section section--post">
+			<div class="section__content content">
+				<div class="section__main">
+					<div class="postcontent">
+						{% if page.image %}
+							<img src="/assets/img/blog/{{ page.image }}">
+						{% endif %}
+
+						{{ content }}
+					</div>
+
+					{% include author.html %}
 				</div>
+				<aside class="section__sidebar">
+					<h3 class="section__sidebar-title">Related</h3>
+					{% for post in site.related_posts limit:5 %}
+						<article class="featurepost featurepost--sidebar">
+							<div class="featurepost__preview {% if post.image %}featurepost__preview--image{% else %}featurepost__preview--no-image{% endif %}">
+								{% if post.image %}
+									<img src="/assets/img/blog/{{ post.image }}" class="featurepost__image">
+								{% endif %}
+							</div>
 
-				{% include author.html %}
+							<h2 class="featurepost__title"><a href="{{ basenav }}{{ post.url }}">{{ post.title }}</a></h2>
+
+							<em class="featurepost__date">{{ post.date | date: "%b %d, %Y" }}</em>
+
+							<p class="featurepost__description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+							<div class="featurepost__divider"></div>
+						</article>
+					{% endfor %}
+				</aside>
 			</div>
-			<aside class="section__sidebar">
-				<h3 class="section__sidebar-title">Related</h3>
-				{% for post in site.related_posts limit:5 %}
-					<article class="featurepost featurepost--sidebar">
-						<div class="featurepost__preview {% if post.image %}featurepost__preview--image{% else %}featurepost__preview--no-image{% endif %}">
-							{% if post.image %}
-								<img src="/assets/img/blog/{{ post.image }}" class="featurepost__image">
-							{% endif %}
-						</div>
-
-						<h2 class="featurepost__title"><a href="{{ basenav }}{{ post.url }}">{{ post.title }}</a></h2>
-
-						<em class="featurepost__date">{{ post.date | date: "%b %d, %Y" }}</em>
-
-						<p class="featurepost__description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-						<div class="featurepost__divider"></div>
-					</article>
-				{% endfor %}
-			</aside>
 		</div>
+
 	</div>
 
-</div>
+    <!-- Footer -->
+    <footer class="footer">
+      {% include footer.html %}
+    </footer>
+
+    <!-- Mobile Nav -->
+    <div class="overlay" id="overlay" data-js-overlay-menu>
+      <a href="/"><img src="/assets/img/logo-white.png" alt="Dash" class="logo"></a>
+        {% include nav-mobile.html %}
+    </div>
+
+    <!-- JavaScript -->
+    <script src="//cdn.jsdelivr.net/lodash/4.12.0/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+    <script src="/dist/js/main.min.js"></script>
+    <script>
+      function formatNumber (num) {
+          return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+      }
+
+      function formatCurrency (num,decimal) {
+          var _decimal;
+          _decimal = typeof decimal !== "undefined" ? decimal : 2;
+          return parseFloat(num).toFixed(_decimal).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+      }
+    </script>
+
+  </body>
+</html>
