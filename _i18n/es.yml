@@ -7,8 +7,8 @@ pages:
     hero-heading: ¡Dash es Dinero en Efectivo Digital!
     hero-text: El primer sistema de dinero digital totalmente descentralizado. <br /> Conoce el Dinero en Efectivo Digital.
 
-    video-heading: Dash es dinero en efectivo digital que puedes gastar online
-    video-text: Usa Dash para hacer pagos instantáneos y anónimos online o en tiendas físicas, usando nuestra segura plataforma de código abierto, mantenida por miles de usuarios alrededor del mundo
+    video-heading: Dash es dinero en efectivo digital que puedes gastar en linea
+    video-text: Usa Dash para hacer pagos instantáneos y anónimos en linea o en tiendas físicas, usando nuestra segura plataforma de código abierto, mantenida por miles de usuarios alrededor del mundo
     video-btn: Descripción general en video
 
     feature-private-heading: Privado
@@ -18,17 +18,17 @@ pages:
     feature-secure-heading: Seguro
     feature-secure-text: Dash es seguro
 
-    merchants-heading: Compra directamente con Dash
-    merchants-text: Compras instantáneas y anónimas, directamente desde tu cartera Dash
-    merchants-btn: Más comerciantes
+    merchants-heading: Comerciantes directamente con Dash
+    merchants-text: Comerciantes instantáneas y anónimas, directamente desde tu cartera Dash
+    merchants-btn: Más Comerciantes
     merchants-link: https://dashpay.atlassian.net/wiki/x/IgAFBQ
-    merchants-join-btn: Conviértete en comerciante
+    merchants-join-btn: Conviértete en Comerciantes
     merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
 
     architecture-heading: Arquitectura de red Next-Gen
-    architecture-text:  La esencia de la tecnología única de Dash es un diseño de red P2P en dos niveles, tecnología premia a los usuarios que ejecutan un tipo especial de nodo llamado Masternode y lo mantienen 24/7 con hardware dedicado. La red requiere que los que mantienen los Masternodes deban proporcionar una prueba criptográfica que poseen 1.000 Dash por Masternode. Esto asegura la red contra ataques Sybil al hacer este tipo de ataques prohibitivamente caros.
+    architecture-text:  La esencia de la tecnología única de Dash es un diseño de red P2P en dos niveles, tecnología premia a los usuarios que ejecutan un tipo especial de nodo llamado Masternode y lo mantienen 24/7 con hardware dedicado. La red requiere que los que mantienen los Masternodes deban proporcionar una prueba criptográfica que poseen 1.000 Dash por Masternode. Esto asegura la red contra ataques de tipo gemelo al hacer este tipo de ataques prohibitivamente caros.
 
-      Los Masternodes trabajan juntos en grupos y no se pueden falsificar cómo los fullnodes en otras monedas digitales. Esto significa que pueden ofrecer nuevos tipos de servicios descentralizados como transacciones instantáneas, anonimización y gobernanza, sin la amenaza de ataques a la red de bajo costo.
+      Los Masternodes trabajan juntos en grupos y no se pueden falsificar cómo los nodos en otras monedas digitales. Esto significa que pueden ofrecer nuevos tipos de servicios descentralizados como transacciones instantáneas, anonimización y gobernanza, sin la amenaza de ataques a la red de bajo costo.
     architecture-btn: Aprende más
     architecture-link: https://dashpay.atlassian.net/wiki/x/VIHPB
 
@@ -72,7 +72,7 @@ pages:
     setup-btn: Aprende más
     setup-link: https://dashpay.atlassian.net/wiki/x/YoHPB
 
-    buy-heading: Compra Dash Online
+    buy-heading: Compra Dash en linea
     buy-text: Convierte tu moneda local a Dash y envíalo a tu monedero
     buy-btn: Compra Dash
     buy-link: https://dashpay.atlassian.net/wiki/x/mYDPB
@@ -88,7 +88,7 @@ pages:
     atm-link: https://dashpay.atlassian.net/wiki/x/nIDPB
 
     shop-heading: Compra directamente con Dash
-    shop-text: Compras anónimas y instantáneas online, directamente desde tu monedero Dash
+    shop-text: Compras anónimas y instantáneas en linea, directamente desde tu monedero Dash
     shop-btn: Más comerciantes
     shop-link: https://dashpay.atlassian.net/wiki/x/-IDPB
     shop-join-btn: Conviértete en comerciante
@@ -124,7 +124,7 @@ pages:
     mining-link: https://dashpay.atlassian.net/wiki/x/GoHPB
 
     funding-heading: Desarrolla la red con la financiación del Blockchain
-    funding-text: La red Dash financia cada mes las propuestas ganadoras para todo aquello que puede mejorar Dash, cosas cómo contratar desarrolladores, tomar decisiones o integrar pagos en Dash en tiendas online o puntos de venta.
+    funding-text: La red Dash financia cada mes las propuestas ganadoras para todo aquello que puede mejorar Dash, cosas cómo contratar desarrolladores, tomar decisiones o integrar pagos en Dash en tiendas en linea o puntos de venta.
     funding-btn: Presenta una propuesta
     funding-link: https://dashcentral.org/
 
