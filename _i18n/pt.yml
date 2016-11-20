@@ -14,13 +14,13 @@ pages:
 
     feature-private-heading: Privado
     feature-private-text: Dash e privado.
-    feature-instant-heading: Instantaneo
-    feature-instant-text: Dash e instantaneo.
+    feature-instant-heading: Instantâneo
+    feature-instant-text: Dash e instantâneo.
     feature-secure-heading: Seguro
     feature-secure-text: Dash e seguro.
 
     merchants-heading: Compre direto com Dash
-    merchants-text: Compras instantaneas e anônimas, diretamente de sua carteira Dash
+    merchants-text: Compras instantâneo e anônimas, diretamente de sua carteira Dash
     merchants-btn: Mais Vendedores
     merchants-link: https://dashpay.atlassian.net/wiki/x/EwAFBQ
     merchants-join-btn: Tornar-se um Comerciante
@@ -152,8 +152,8 @@ pages:
     blockchain-heading: Blockchain
 
   community:
-    title: Entra na Cominidade Dash
-    description: Entra na Cominidade Dash
+    title: Entra na Comunidade Dash
+    description: Entra na Comunidade Dash
     hero-heading: unte-se a nossa Comunidade
     hero-text: Tornar-se parte da comunidade Dash
     hero-forum-btn: Oficial Forums
@@ -171,7 +171,7 @@ pages:
     social-text: Encontrar Dash em um apps social
 
     news-heading: News &amp; Informação
-    news-text: Site criado por membros da cominidade Dash
+    news-text: Site criado por membros da comunidade Dash
 
     development-heading: Deselvolvimento
     development-text: Sites e ferramentas para deselvolvedores
@@ -183,7 +183,7 @@ pages:
 
     conferences-heading: Conferencias
     technology-heading: Tecnologia
-    community-heading: Cominidade
+    community-heading: Comunidade
 
     youtube-btn: Dash YouTube
 
@@ -221,7 +221,7 @@ nav:
   explorers: Block Explorers
   stats: Estatistica da Rede
 
-  community: Cominidade
+  community: Comunidade
   discussion: Discussão
   social-apps: Social Apps
   news: News &amp; Info
