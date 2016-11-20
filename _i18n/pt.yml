@@ -5,12 +5,12 @@ pages:
     Título: Oficial Website | Moeda Digital Segura
     Descrição: Dash é dinheiro Digital
     hero-heading: Dash é dinheiro Digital!
-    hero-text: O primeiro sistema de dinheiro digital verdadeiramente descentralizada. < br / > Meet Dinheiro Cash.
+    hero-text: O primeiro sistema de dinheiro digital descentralizado. Conheça o Dinheiro Digital. < br / > Meet Dinheiro Cash.
 
 
-    video-heading: Dash e dinheiro digital você pode gastar Online
-    video-text: Use Dash para fazer muito rapido, paramentos anonimos online ou em lojas, usando a nossa plataforma open-source, segura e hospedada por milhares de usuarios ao redor do mundo.
-    video-btn: Assista o Video Visão Geral
+    video-heading: Dash e dinheiro digital, você pode gastar Online
+    video-text: Use Dash para fazer pagamentos rápidos, privados e on-line ou em uma loja usando a nossa plataforma open-source hospedada por milhares de usuários ao redor do mundo.
+    video-btn: O que é Dash
 
     feature-private-heading: Privado
     feature-private-text: Dash e privado.
@@ -28,23 +28,23 @@ pages:
 
     architecture-heading: Next-Gen Arquitetura de Rede
     architecture-text:
-      O core da Dash e um projeto P2P de dois niveus que premia os usuarios que execultam um tipo especial de nó chamado de masternode que e hospedado 24/7h em hardware dedicado. A rede exige que os masternode deve conter 1000 dash por masternode. Isso protege a rede contra ataques Sybil.
+      O núcleo da Dash e um projeto P2P de dois níveis que premia os usuários que executam um tipo especial de nó chamado de masternode que e hospedado 24/7h em hardware dedicado. A rede exige que os masternode deve conter 1000 dash por masternode. Isso protege a rede contra ataques Sybil. Masternode trabalha junto em clusters e nao pode ser falsificado como fullnodes em outras moedas digitais. Isso significa que eles podem oferecer novos tipos de serviços descentralizados, como transações instantâneas, anônimas e a governança, sem a ameaça de ataques a rede.
 
       Masternode trabalha junto em clusters e nao pode ser falsificado como fullnodes em outras moedas digitais. Isso significa que eles podem oferecer novos tipos de serviços descentralizados, como transações instantâneas, anônimase a governança, sem a ameaça de ataques a rede.
     architecture-btn: Leia Mais
     architecture-link: https://dashpay.atlassian.net/wiki/x/jILEB
 
-    governance-heading: Primeira em auto gobernança, Protocolo de financiamento
-    governance-text: Qualquer projeto importante da decisao da Dash e estabelecido e financiado por um processo publico descentralizado que financia projetos autonomamente, com base na rede de votos dos masternode. Isto significa que Dash pode financiar o seu proprio crescimento e adoção, consenso e garantigo, e todos são responsaveis para a rede. Não so isso, mas um invasor não pode brincar com o sistema sem comprar mais da metade da oferta de moedas.
+    governance-heading: Primeira em auto governança, Protocolo de financiamento
+    governance-text: Qualquer projeto importante da decisão da Dash e estabelecido e financiado por um processo público descentralizado que financia projetos autonomamente, com base na rede de votos dos masternode. Isto significa que Dash pode financiar o seu próprio crescimento e adoção, e o consenso é garantido, e todos são responsáveis para a rede. Não só isso, mas um invasor não pode brincar com o sistema sem comprar mais da metade da oferta de moedas.
     proposal-btn: Propostas
     proposal-submit-btn: Apresentar uma Proposta
 
-    network-growth-heading: O rapido crescimento da Rede
-    network-growth-text: Graças ao incentivo, a rede Dash tem crescido para 3,900 Masternodes significa que Dash e a unica moeda que pode competir com Bitcoin para o futuro do poder de processamento de transações e escabilidade
+    network-growth-heading: O rápido crescimento da Rede
+    network-growth-text: Graças ao incentivo, a rede Dash tem crescido para 3,900 Masternodes significa que Dash e a única moeda que pode competir com Bitcoin para o futuro do poder de processamento de transações e escalabilidade
     network-growth-btn: Estatisticas da Rede
 
     evolution-heading: Evolução da Moeda Digital
-    evolution-text: Qual é o proximo? Nós estamos trabalhando em um novo serviço descentralizado armazenados na rede masternode que abrirá a Dash para a web e móvel ao ser tão facil de usar como o PayPal, mas totalmente descentralizada. Fique Atento...
+    evolution-text: Qual é o próxima? Nós estamos trabalhando em um novo serviço descentralizado armazenados na rede masternode que abrirá a Dash para a web e para mobile, será tão fácil de usar como o PayPal, mas totalmente descentralizada. Fique Atento…
     evolution-btn: Leia Mais
     evolution-link: https://dashpay.atlassian.net/wiki/x/nILEB
 
@@ -52,13 +52,13 @@ pages:
     news-btn: Ver todas as Noticias
 
     get-started-heading: Como Começar
-    get-started-text: Download a carteira e começar a usar dinheiro digital!
+    get-started-text: Download a carteira e começar a usar o dinheiro digital!
     get-started-btn: Obter Dash
 
   get-dash:
     title: Obter Dash
     description: Download da carteira e pegar Dash em uma exchange.
-    hero-heading: Download  Carteira Dash
+    hero-heading: Download da Carteira
     hero-text: Download do mais recente cliente Dash
     hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
     hero-wallet-version-select: Escolha Outro
