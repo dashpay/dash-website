@@ -32,9 +32,9 @@
 			z-index: 1;
 			top: 0;
 			bottom: 0;
-			left: 0;
+			left: -1px; // fixes visual bug on uneven widths
 			width: 10%;
-			background: linear-gradient(to right, white 10%, transparent 100%);
+			background: linear-gradient(to right, white 10%, rgba(255,255,255,0) 100%);
 		}
 		&::after {
 			content: '';
@@ -43,9 +43,9 @@
 			z-index: 1;
 			top: 0;
 			bottom: 0;
-			right: 0;
+			right: -1px; // fixes visual bug on uneven widths
 			width: 10%;
-			background: linear-gradient(to left, white 10%, transparent 100%);
+			background: linear-gradient(to left, white 10%, rgba(255,255,255,0) 100%);
 		}
 	}
 
@@ -53,10 +53,10 @@
 		.ctabox {
 			&__inner {
 				&::before {
-					background: linear-gradient(to right, $color-gray-light 10%, transparent 100%);
+					background: linear-gradient(to right, $color-gray-light 10%, rgba($color-gray-light, 0) 100%);
 				}
 				&::after {
-					background: linear-gradient(to left, $color-gray-light 10%, transparent 100%);
+					background: linear-gradient(to left, $color-gray-light 10%, rgba($color-gray-light, 0) 100%);
 				}
 			}
 		}
