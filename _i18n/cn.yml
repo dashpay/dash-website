@@ -5,18 +5,18 @@ pages:
     title: 官方网站 | 私人数字现金
     description: 达世币是数字现金
     hero-heading: 达世币是数字现金！
-    hero-text: 第一个真正去中心化的数字货币体系<br />了解达世币.
+    hero-text: 第一个真正去中心化的数字货币体系<br />了解达世币
 
     video-heading: 达世币是数字货币，您可以在网上进行使用
-    video-text: 使用达世币，通过由全球成千上万用户所组成的安全的点对点平台，实现即时、匿名支付和资金存储。
+    video-text: 使用达世币，通过由全球成千上万用户所组成的安全的点对点平台，实现即时、匿名支付和资金存储
     video-btn: 浏览概括视频
 
     feature-private-heading: 隐私
-    feature-private-text: 达世币能够保护隐私.
+    feature-private-text: 达世币能够保护隐私
     feature-instant-heading: 即时
-    feature-instant-text: 达世币支持即时支付.
+    feature-instant-text: 达世币支持即时支付
     feature-secure-heading: 安全
-    feature-secure-text: 达世币十分安全.
+    feature-secure-text: 达世币十分安全
 
     merchants-heading: 支持达世币商户
     merchants-text: 使用达世币钱包，即时、匿名付款
@@ -30,18 +30,18 @@ pages:
     architecture-btn: 了解更多
     architecture-link: https://dashpay.atlassian.net/wiki/x/qIHEB
 
-    governance-heading: 第一个去中心化管理，自己自足的预算系统
-    governance-text: 任何针对达世币的重要项目决议均由一个去中心化的公开程序达成共识并资助。这一程序根据主节点网络投票自动资助该项目。这就意味着达世币可以资助自己的增长和采用，保证意见一致通过，且每个人都要对这个网络负责。不仅如此，攻击者未购买超过半数的货币供应量的话是不能愚弄系统的。
+    governance-heading: 第一个去中心化管理,自给自足的预算系统
+    governance-text: 任何针对达世币的重要项目决议均由一个去中心化的公开程序达成共识并资助。这一程序根据主节点网络投票自动资助该项目。这就意味着达世币可以资助自身的增长，并能促使其被更多商家采用。能够保持网络一致性，每一个人都是网络的重要组成部分。不仅如此，攻击者若未购得超过半数总量的达世币的话就不可能欺骗网络。
 
     proposal-btn: 提案
     proposal-submit-btn: 提交预案
 
     network-growth-heading: 最高速成长的网络
-    network-growth-text: 多亏了奖励化，达世币的网络已经增至3900个主节点，意味着在交易处理能力和未来扩展方面，达世币是唯一一种能够与比特币竞争的货币。
+    network-growth-text: 得益于奖励机制，达世币网络中的主节点已经增至4180个，意味着在交易处理能力和未来扩展方面，达世币是唯一一个能够与比特币相竞争的货币。
     network-growth-btn: 网络状态
 
     evolution-heading: 数字货币的进化
-    evolution-text: 接下来是什么呢？我们正致力于一种运行于主节点上的新的去中心化服务，将来会把达世币开发至网页和手机上，并且它会像贝宝（PayPal）一样易用，但还是完全去中心化。敬请期待...
+    evolution-text: 接下来是什么？我们正致力于一种运行于主节点上的新的去中心化服务，将来会把达世币开发至网页和手机上，并且它会像贝宝（PayPal）一样易用，但还是完全去中心化。敬请期待...
     evolution-btn: 了解更多
     evolution-link: https://dashpay.atlassian.net/wiki/x/uICAB
 
@@ -62,7 +62,7 @@ pages:
     hero-download-btn: 下载
     hero-guide-btn: 设置向导
     hero-buy-btn: 购买达世币
-    hero-spend-btn: 花费达世币
+    hero-spend-btn: 使用达世币
     hero-trade-btn: 交易达世币
 
     setup-heading: 了解如何设置你的钱包
@@ -71,28 +71,30 @@ pages:
     setup-link: https://dashpay.atlassian.net/wiki/x/x4CAB
 
     buy-heading: 在线购买达世币
-    buy-text: 将本地货币兑换成达世币并发送到自己的钱包中
+    buy-text: 将本地货币兑换成达世币并发送到个人钱包中
     buy-btn: 购买达世币
     buy-link: https://dashpay.atlassian.net/wiki/x/joCAB
 
     trade-heading: 在交易所兑换达世币
-    trade-text: 在交易所用本地货币兑换达世币
+    trade-text: 在交易所将本地货币兑换成达世币
     trade-btn: 交易达世币
     trade-link: https://dashpay.atlassian.net/wiki/x/l4CAB
 
     atm-heading: 在ATM机购买达世币
-    atm-text: 在你的国家使用ATM机来即时购买达世币
+    atm-text: 在你的国家使用ATM机
+              来即时购买达世币
     atm-btn: ATM分布图
     atm-link: https://dashpay.atlassian.net/wiki/x/kYCAB
 
     shop-heading: 支持达世币的商户
-    shop-text: 使用达世币钱包，进行即时、匿名的线上付款
+    shop-text: 匿名的线上付款, 使用达世币钱包，进行即时
     shop-btn: 更多商户
     shop-link: https://dashpay.atlassian.net/wiki/x/34DEB
     shop-join-btn: 成为商户
 
     visa-heading: Visa商店
-    visa-text: 达世币-Visa借记卡无需外汇手续费，手机钱包"点击即付"
+    visa-text: 达世币-Visa借记卡无需外汇手续费，
+               手机钱包"点击即付"
     visa-btn: 立刻获得
     visa-link: https://shakepay.co/#/
 
@@ -209,7 +211,7 @@ pages:
 nav:
   what-is-dash: 什么是达世币
   get-dash: 获得达世币
-  merchants: Merchants
+  merchants: 商户
   download: 下载钱包
   buy: 购买达世币
   shop: 支持达世币的商户
