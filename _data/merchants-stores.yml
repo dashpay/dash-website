@@ -19,11 +19,6 @@
   url: http://bitlasers.com
   image: Bitlaser.jpg
 
-- name: DeMadera
-  title: Watches/Jewellery/Access
-  url: http://demadera.nl
-  image: DeMadera.jpg
-
 - name: PexPeppers
   title: Hot Sauce
   url: https://www.pexpeppers.com
@@ -38,16 +33,6 @@
   title: Winery
   url: http://www.misconductwineco.com
   image: misconductwine_logo.jpg
-
-- name: Party Cakes4u
-  title: Cake Shop
-  url: http://www.partycakes4u.co.uk/
-  image: PartyCakesforYou.jpg
-
-- name: CryptoPet
-  title: Pets
-  url: http://cryptopet.com/
-  image: CryptoPet.jpg
 
 - name: Healthiverse
   title: Health
