@@ -34,11 +34,6 @@
   url: http://seymour-locksmiths.co.uk/hove/
   image: SeymourLocksmith.jpg
 
-- name: BitcoinSeedStore
-  title: Watches
-  url: http://www.bitcoinseedstore.com
-  image: BitcoinSeedStore.jpg
-
 - name: Misconduct Wine Company
   title: Winery
   url: http://www.misconductwineco.com
@@ -59,7 +54,7 @@
   url: http://healthiverse.net
   image: Healthiverse.jpg
 
-- name: Above All House Plants
+- name: Above All House Plans
   title: House/ Garden
   url: http://www.aboveallhouseplans.com
   image: AboveAllHousePlants.jpg
