@@ -31,7 +31,7 @@ pages:
       At Dash’s core is a unique fully-incentivized peer-to-peer network.  Miners are rewarded for securing the blockchain and masternodes are rewarded for validating, storing and serving the blockchain to users.
 
 
-      Masternodes represent a new layer of network servers that work in highly secure clusters called quorums to provide a variety of decentralized services, like instant transactions, anonymization and governance, while eliminating the threat of low-cost network attacks.
+      Masternodes represent a new layer of network servers that work in highly secure clusters called quorums to provide a variety of decentralized services, like instant transactions, privacy and governance, while eliminating the threat of low-cost network attacks.
 
     architecture-btn: Learn More
     architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
@@ -173,7 +173,7 @@ pages:
     funding-link: https://dashcentral.org/
 
     integrate-heading: Do you take Dash?
-    integrate-text: Integrate instant, anonymous payments to your webstore, app or retail outlet
+    integrate-text: Integrate instant, private payments to your webstore, app or retail outlet
     integrate-btn: Integrate Dash
     integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
     integrate-payment-processor-btn: Payment Processors
