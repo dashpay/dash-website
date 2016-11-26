@@ -28,6 +28,7 @@
   description:
   image: timothy.png
   email: timothy@dash.org
+  pgp: https://keybase.io/tgflynn
   twitter:
 
 - name: Crowning
@@ -43,7 +44,7 @@
   description:
   image: chaeplin.jpeg
   email: chaeplin@gmail.com
-  pgp:
+  pgp: https://keybase.io/chaeplin
   twitter:
 
 - name: MooCowMoo
@@ -115,7 +116,7 @@
   description:
   image: anon.png
   email: 0xfff@protonmail.com
-  pgp:
+  pgp: https://keybase.io/0xfff
   twitter:
 
 - name: Acidburn
@@ -139,7 +140,7 @@
   description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
   image: anon.png
   email: quantumexplorerdash@gmail.com
-  pgp:
+  pgp: https://keybase.io/quantumexplorer
   twitter:
 
 - name: Tomasz Ludek
@@ -147,7 +148,7 @@
   description:
   image: tomasz.png
   email: tomasz@dash.org
-  pgp:
+  pgp: https://keybase.io/tomaszludek
   twitter:
 
 - name: Akhavr
@@ -225,9 +226,9 @@
 - name: Alex-ru
   title: Dash Russia Coordinator
   description:
-  image:
+  image: alex-ru.jpg
   email: alex.dash.russia@gmail.com
-  pgp:
+  pgp: https://keybase.io/alex_ru
   twitter:
 
 - name: Alexy and Raico
@@ -241,9 +242,9 @@
 - name: David Dinkins
   title: Writer / Editor
   description:
-  image:
+  image: david.jpg
   email: david@dashpay.io
-  pgp:
+  pgp: https://keybase.io/ddink7
   twitter:
 
 - name: Balu
@@ -254,13 +255,6 @@
   pgp:
   twitter:
 
-- name: Ahmed Aseeri
-  title: Project Manager
-  description:
-  image:
-  email:
-  pgp:
-  twitter:
 
 - name: Slawek
   title: Testing and Deployment
