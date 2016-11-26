@@ -25,7 +25,7 @@
 
 - name: Timothy Flynn
   title: Core Developer
-  description:
+  description: With an educational background and early career experience in physics Tim transitioned to software engineering oriented roles beginning in the late 90's. He is a skilled C++ developer who has worked on a wide range of applications ranging from distributed control systems to neural networks for handwriting recognition.  His former employers include CERN, the CNRS (the French national research agency) and Lockheed-Martin.
   image: timothy.png
   email: timothy@dash.org
   pgp: https://keybase.io/tgflynn
