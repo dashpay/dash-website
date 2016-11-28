@@ -41,7 +41,7 @@
 
 - name: Chae-Pil Lim
   title: Core Development
-  description:
+  description: Chaep-pil(AKA "chaeplin") has a degree in electronic engineering and over 15 years experience as a networkwork engineer.
   image: chaeplin.jpeg
   email: chaeplin@gmail.com
   pgp: https://keybase.io/chaeplin
@@ -55,17 +55,9 @@
   pgp: https://keybase.io/moocowmoo
   twitter:
 
-- name: Tyler Willis
-  title: Core Developer
-  description:
-  image:
-  email: tyler@dash.org
-  pgp:
-  twitter:
-
 - name: TheLazieR Yip
   title: Core Developer
-  description:
+  description: “thelazier” has a background in Freelance Programming, Security Admin in *nix, System Admin for ISP , System and Network Admin for Domain Registrar and Hosting Companies, IT Infrastructure for Card Payment Company for 2 year, IT Infrastructure for Television Broadcaster. Now he works as Project Manager for Card Management System Software.
   image: thelazier.jpeg
   email: thelazier@gmail.com
   pgp: https://keybase.io/thelazier
@@ -81,7 +73,7 @@
 
 - name: Nathan Marley
   title: Evolution Developer
-  description:
+  description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
   image: nathan.jpeg
   email: nathan@dash.org
   pgp: https://keybase.io/nmarley
@@ -105,7 +97,7 @@
 
 - name: Alex Werner
   title: Evolution Backend Developer
-  description:
+  description: While his academic background is in Chinese Studies, Political Science and International Law, "Cofresi" has been working for 15 years with different technologies in the telecom industry as a systems administrator and webmaster, for the most part concentrating on client/server backends and database administration.
   image: alex_werner.png
   email: alex@werner.fr
   pgp: https://keybase.io/awerner
@@ -119,17 +111,9 @@
   pgp: https://keybase.io/0xfff
   twitter:
 
-- name: Acidburn
-  title: Evolution Frontend Developer
-  description:
-  image: anon.png
-  email:
-  pgp:
-  twitter:
-
 - name: Joshua Seigler
   title: Evolution Frontend Developer
-  description:
+  description: "Joshua" has a degree in computer science and mathematics, and six years of professional experience in web development. He likes decentralized, permissionless systems, teaching, learning, board games, the internet, and the Oxford comma.
   image: joshua.png
   email: joshua@seigler.net
   pgp: https://keybase.io/joshuaseigler
@@ -155,13 +139,13 @@
   title: Developer
   description:
   image: akhavr.jpeg
-  email:
+  email: akhavr@gmail.com
   pgp:
   twitter:
 
 - name: Jeff Smith
   title: Network Operations
-  description:
+  description: Jeff (AKA “coingun”) has a computer science background with specialization in Network Operations and Distributed Dynamic Network Asset scaling. He comes to Dash with a decade of experience designing, developing, and deploying dynamically scaling web assets built around the LAMPS stack. He has a passion for security, cryptography, and hardware hacking.
   image: coingun.png
   email: jeff@dash.org
   pgp: https://keybase.io/coingun
@@ -225,7 +209,7 @@
 
 - name: Alex-ru
   title: Dash Russia Coordinator
-  description:
+  description: “Alex-ru” has over 10 years of experience in small business development with many aspects of project management, promotion of HiTech technologies, and Internet marketing. He is using his expertise and knowing of local Russian market to form a strong local community and promote Dash in and for Russia.
   image: alex-ru.jpg
   email: alex.dash.russia@gmail.com
   pgp: https://keybase.io/alex_ru
@@ -241,7 +225,7 @@
 
 - name: David Dinkins
   title: Writer / Editor
-  description:
+  description: David Dinkins (AKA "ddink7") works in retail management, and has his master's degree in history. He has been part of the Dash project since a few months after its inception. His role is primarily writing and editing. David is also currently working on his MBA.
   image: david.jpg
   email: david@dashpay.io
   pgp: https://keybase.io/ddink7
@@ -252,9 +236,8 @@
   description:
   image: balu.png
   email: balu@dash.org
-  pgp:
+  pgp: https://keybase.io/balu
   twitter:
-
 
 - name: Slawek
   title: Testing and Deployment
