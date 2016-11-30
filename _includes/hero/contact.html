@@ -1,0 +1,61 @@
+<div class="hero" id="hero">
+	<div class="hero__background">
+
+	</div>
+
+	<!-- Navigation -->
+	{% include nav-desktop.html %}
+
+	<!-- Hero content -->
+	<div class="hero__content">
+		<h1 class="hero__title">{% t pages.contact.hero-heading %}</h1>
+		<p class="hero__lead">{% t pages.contact.hero-text %}</p>
+
+    <div class="row">
+      <div class="col-sm-3">
+        {% t pages.contact.form-pretext %} <br/>
+        {% t pages.contact.form-pretext-2 %}
+      </div>
+      <div class="col-sm-7">
+        <form>
+          <div class="row">
+            <div class="col-xs-12">
+              <input placeholder="Name" type="text" class="input-block">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <input class="input-block" placeholder="Email" type="text">
+            </div>
+            <div class="col-xs-6">
+              <select class="form-control" placeholder="category">
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <textarea placeholder="Message" class="input-block"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+		<div class="hero__buttons">
+			<a href="https://www.dash.org/forum/" class="btn-blue-solid">{% t pages.community.hero-forum-btn %}</a>
+		</div>
+		<div class="hero__buttons">
+
+			<a href="#community-discussion" class="btn-white-solid">{% t pages.community.hero-discussion-btn %}</a>
+			<a href="#community-social" class="btn-white-solid">{% t pages.community.hero-social-btn %}</a>
+			<a href="#community-news" class="btn-white-solid">{% t pages.community.hero-news-btn %}</a>
+			<a href="#community-development" class="btn-white-solid">{% t pages.community.hero-development-btn %}</a>
+			<a href="#community-masternode" class="btn-white-solid">{% t pages.community.hero-masternodes-btn %}</a>
+			<!--<a href="#community-media" class="btn-white-solid">{% t pages.community.hero-video-btn %}</a>-->
+		</div>
+	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe"></div>
+</div>
