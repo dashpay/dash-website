@@ -12,11 +12,11 @@
 		<p class="hero__lead">{% t pages.contact.hero-text %}</p>
 
     <div class="row">
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         {% t pages.contact.form-pretext %} <br/>
         {% t pages.contact.form-pretext-2 %}
       </div>
-      <div class="col-sm-7">
+      <div class="col-sm-6">
         <form>
           <div class="row">
             <div class="col-xs-12">
@@ -29,6 +29,7 @@
             </div>
             <div class="col-xs-6">
               <select class="form-control" placeholder="category">
+								<option value="">Category</option>
                 <option value="feedback">Feedback</option>
               </select>
             </div>
@@ -38,11 +39,22 @@
               <textarea placeholder="Message" class="input-block"></textarea>
             </div>
           </div>
+					<div class="row">
+						<div class="col-xs-12">
+							<input class="submit" type="submit" value="Send Message">
+						</div>
+					</div>
         </form>
       </div>
     </div>
-		<h5>{% t pages.contact.mail-list-heading %}</h5>
-		{% t pages.contact.mail-list-text %}
+
+	</div>
+
+	<div class="hero__content">
+		<section class="section section--cta">
+			<h5>{% t pages.contact.mail-list-heading %}</h5>
+			{% t pages.contact.mail-list-text %}
+		</section>
 	</div>
 
 	<!-- Hero stripe -->
