@@ -8,303 +8,200 @@ description: pages.contact.description
 
 <div class="page-contact">
 
+	<section class="section section--cta">
+		<div class="section__content">
+			<h3>{% t pages.contact.social-text-heading %}</h3>
+			{% tmd pages.contact.social-text %}
+		</div>
+	</section>
+
 	<!--
     CTA sections
 	-->
-	<section id="community-discussion" class="section section--cta">
+	<section id="contact-social" class="section section--cta">
 		<div class="section__content">
 			<div>
-				<h2>{% t pages.community.discussion-heading %}<a class="permalink" title="Permalink" id="discussion"></a></h2>
-
-				{% tmd pages.community.discussion-text %}
+				<h2>{% t pages.contact.social-heading %}<a class="permalink" title="Permalink" id="contact"></a></h2>
 			</div>
 
-			<div class="ctabox" data-js-ctabox>
-				<div class="ctabox__inner">
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.dash.org/forum" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashforum_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Dash Forum</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.reddit.com/r/dashpay/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/reddit_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Reddit</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://bitcointalk.org/index.php?topic=421615.0" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/bitcointalk_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">BitcoinTalk</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://forum.bitcoin.com/dash/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/bitcoindotcom_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Bitcoin.com Forum</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://dash-nation-invite.herokuapp.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/slack_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Dash Nation</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://digitalcash24.herokuapp.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/slack_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">DigitalCash24</h4>
-							</div>
-						</a>
-					</article>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="https://www.dash.org/forum" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dashforum_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.reddit.com/r/dashpay/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/reddit_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://bitcointalk.org/index.php?topic=421615.0" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/bitcointalk_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://forum.bitcoin.com/dash/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/bitcoindotcom_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="http://dash-nation-invite.herokuapp.com/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/slack_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://digitalcash24.herokuapp.com/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/slack_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://twitter.com/dashpay" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/twitter_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.facebook.com/DashPay" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/facebook_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="https://plus.google.com/communities/101869723775111070721" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/google-plus-logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.linkedin.com/company/dash---digitalcash-cryptocurrency-?trk=company_logo" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/linkedin_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.instagram.com/dashpay/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/instagram_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.youtube.com/dashorg" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/youtube_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="http://www.dashnation.com/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dashnation_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="http://thedashtimes.com/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dashtimes_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://dashdot.io/alpha/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dashdotalpha_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="http://whatisdash.org/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dash_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="http://dashndrink.com/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dashndrink_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.dashcentral.org/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dashcentral_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="hhttps://www.dashninja.pl/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/dashninja_logo.png" class="social-image">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="community-social" class="section section--cta section--gray-light-bg">
+	<section class="section section--cta">
 		<div class="section__content">
 			<div>
-				<h2>{% t pages.community.social-heading %}<a class="permalink" title="Permalink" id="social"></a></h2>
-
-				{% tmd pages.community.social-text %}
+				<h2>{% t pages.contact.volunteer-heading %}<a class="permalink" title="Permalink" id="volunteer"></a></h2>
 			</div>
 
-			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
-				<div class="ctabox__inner">
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://twitter.com/dashpay" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/twitter_logo.png" class="ctabox__image">
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.facebook.com/DashPay" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/facebook_logo.png" class="ctabox__image">
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://plus.google.com/communities/101869723775111070721" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/googleplus_logo.png" class="ctabox__image">
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.linkedin.com/company/dash---digitalcash-cryptocurrency-?trk=company_logo" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/linkedin_logo.png" class="ctabox__image">
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.instagram.com/dashpay/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/instagram_logo.png" class="ctabox__image">
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.youtube.com/dashorg" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/youtube_logo.png" class="ctabox__image">
-							</div>
-						</a>
-					</article>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="https://github.com/dashpay/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/github_logo.png" class="social-image">
+						</div>
+					</a>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="community-news" class="section section--cta">
-		<div class="section__content">
-			<div>
-				<h2>{% t pages.community.news-heading %}<a class="permalink" title="Permalink" id="news"></a></h2>
-
-				{% tmd pages.community.news-text %}
-			</div>
-
-			<div class="ctabox" data-js-ctabox>
-
-				<div class="ctabox__inner">
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://www.dashnation.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashnation_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Dash Nation</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://thedashtimes.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashtimes_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Dash Times</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://dashdot.io/alpha/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashdotalpha_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">DashDot Alpha</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://whatisdash.org/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dash_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">What Is Dash?</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://dashndrink.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashndrink_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Dash N Drink</h4>
-							</div>
-						</a>
-					</article>
+				<div class="col-sm-3">
+					<a href="https://dashpay.atlassian.net/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/jira_logo.png" class="social-image">
+						</div>
+					</a>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="community-development" class="section section--cta section--gray-light-bg">
-		<div class="section__content">
-			<div>
-				<h2>{% t pages.community.development-heading %}<a class="permalink" title="Permalink" id="development"></a></h2>
-
-				{% tmd pages.community.development-text %}
-			</div>
-
-			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
-				<div class="ctabox__inner">
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://github.com/dashpay/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/github_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Github</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://dashpay.atlassian.net/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/jira_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">JIRA</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://dashpay.atlassian.net/wiki/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/atlassian_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Dash Wiki</h4>
-							</div>
-						</a>
-					</article>
+				<div class="col-sm-3">
+					<a href="https://dashpay.atlassian.net/wiki/" target="_blank" class="ctabox__link">
+						<div class="">
+							<img src="/assets/img/community/atlassian_logo.png" class="social-image">
+						</div>
+					</a>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="community-masternode" class="section section--cta">
-		<div class="section__content">
-			<div>
-				<h2>{% t pages.community.masternode-heading %}<a class="permalink" title="Permalink" id="masternodes"></a></h2>
-
-				{% tmd pages.community.masternode-text %}
-			</div>
-
-			<div class="ctabox" data-js-ctabox>
-				<div class="ctabox__inner">
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.dashcentral.org/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashcentral_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Dash Central</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="hhttps://www.dashninja.pl/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashninja_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">DashNinja</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1867885" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dash_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Hosting Services</h4>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8880153" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dash_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Tools</h4>
-							</div>
-						</a>
-					</article>
-				</div>
+				<div class="col-sm-3"></div>
 			</div>
 		</div>
 	</section>

@@ -1,6 +1,7 @@
 
 # For multiple paragraph content add two line breaks
 pages:
+  
   contact:
     title: Contact Dash
     description: Contact Dash
@@ -9,6 +10,12 @@ pages:
     hero-text: Feedback text
     form-pretext: For technical support or troubleshooting with wallets, mining, or other general questions, please visit DashTalk or one of the many other community resources.
     form-pretext-2: For other inquiries, use this form.
+    social-heading: Forums & Social Media
+    mail-list-heading: Mailing List
+    mail-list-text: Have trouble keeping up-to-date? Join our mailing list.
+    social-text-heading: Visit DashTalk
+    social-text: For technical support or troubleshooting with wallets, mining, or other general questions, please visit DashTalk or one of the many other community resources.
+    volunteer-heading: Volunteer
 
   home:
     title: Dash Official Website | Dash Crypto Currency
