@@ -1,0 +1,322 @@
+ 
+# For multiple paragraph content add two line breaks
+pages:
+  home:
+    title: Site Officiel | Crypto-monnaie Dash
+    description: Dash est une monnaie numérique
+    hero-image:
+    hero-heading: Dash est une monnaie numérique
+    hero-text:Le premier réseau de monnaie numérique réellement décentralisé.<br />Découvrez Dash (le Digital Cash).
+ 
+    video-heading: Dash Est Une Monnaie Numérique Que Vous Pouvez Dépensez Sur Internet
+    video-text: Utilisez Dash pour réaliser des paiement instantanés et anonymes, sur internet ou en magasin, grâce à notre plateforme en code libre (open-source) sécurisée et hébergée par des milliers d'utilisateurs dans le monde.
+    video-btn: Vidéo de Présentation
+ 
+    feature-private-heading: Confidentiel
+    feature-private-text: Protégez vos données financières. PrivateSend sécurise votre l'historique de vos paiements. Vos comptes sont confidentiels
+    feature-instant-heading: Instantané
+    feature-instant-text: Votre temps est précieux. Les paiements InstantSend sont validés en moins d'une seconde.
+    feature-secure-heading: Sécurisé
+    feature-secure-text:Voici la preuve de votre sécurité. Les transactions sont confirmés par 1000 Gigahah de puissance de calcul X11 ASIC et par plus de 4100 serveurs hébergés dans le monde entier.
+ 
+    merchants-heading: Achetez directement avec des Dash
+    merchants-text: Achats en lignes instantanés et anonymes, directement depuis votre porte-monnaie Dash
+    merchants-btn: Plus de commerces
+    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
+    merchants-join-btn: Devenez commerçant
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+ 
+    architecture-heading: Réseau P2P de prochaine génération 
+    architecture-text:
+      Le fondement de Dash c'est un réseau incitatif pair à pair (peer-to-peer) unique en son genre. Les mineurs sont récompensés en sécurisant la blockchain et les masternodes sont récompensés en validant, stockant et mettant à disposition la blockchain aux utilisateurs.
+ 
+ 
+      Les masternodes représentent une nouvelle couche de serveurs réseaux qui travaillent dans des groupes hautement sécurisés appelés quorums et qui fournissent de nombreux services décentralisés comme les paiements instantanés, la confidentialité et la gouvernance, tout en éliminant de fait la possibilité d'une attaque "à bas coût" du réseau.
+ 
+    architecture-btn: En Savoir Plus
+    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+ 
+    governance-heading: Premier protocole à la gestion et au financement autonomes
+    governance-text: Avec Dash, tout le monde peut s'exprimer. Chacun a la possibilité de proposer directement à la communauté des projets. Que vous ayez dans compétences en marketing, en développement, ou autre, tout ce qui permet à Dash de grandir et d'être amélioré peut être financé. Cela veut dire que Dash peut financer sa propre croissance et sa propre adoption, tout en garantissant le consensus et responsabilisant chacun à travers du réseau.
+ 
+ 
+                     Il vous suffit de faire une proposition de financement (treasury proposal) et présenter votre idée à la communauté pour la défendre et obtenir un financement. Et si vous gérez un masternode, n'oubliez pas de voter !
+    proposal-btn: Propositions
+    proposal-submit-btn: Faire une Proposition
+ 
+    network-growth-heading: Le Réseau Qui Grandit Le Plus Rapidement
+    network-growth-text:
+ Grâce à une stratégie d'incitation, le réseau Dash a grandi depuis son lancement en 2014 et est maintenant constitué par 4100 Masternodes : le réseau pair à pair (peer-to-peer) Dash est donc un des plus grands au monde.
+ 
+ 
+      Plus de nœuds signifie plus de services sécurisés et une opportunité plus importante pour les utilisateurs finaux d'accéder à de la monnaie numérique n'importe où dans le monde 24 heures sur 24 et 7 jours sur 7.
+    network-growth-btn: Statistiques du Réseau
+ 
+    evolution-heading: Digital Currency Evolution
+    evolution-text:
+ 
+ La prochaine étape ? Nous voulons rendre les monnaies numériques si faciles d'utilisation que même votre grand-mère en aurait.
+ 
+ 
+      Dash Evolution vous permettra de vous connecter depuis n'importe quel appareil, aussi facilement que vous le faites avec PayPal, mais de manière totalement décentralisée. Restez à l'affût…
+    evolution-btn:En Savoir Plus
+    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+ 
+    news-heading: Dernières actualités
+    news-btn: Voir toutes les actualités
+ 
+    get-started-heading: Commencez ici
+    get-started-text: Téléchargez le porte-monnaie et commencez à utilisez de la monnaie numérique !
+    get-started-btn: Obtenez des Dash
+ 
+  get-dash:
+    title: Obtenez des Dash
+    description:Téléchargez le porte-monnaie et obtenez des Dash sur une plateforme web d'échange
+    hero-image: get-dash-n.jpg
+    hero-heading:Téléchargez le porte-monnaie Dash
+    hero-text: Téléchargez le dernier client Dash pour débuter
+    hero-wallet-version: Porte-monnaie Dash (Full client v12.0.56) pour Mac OSX
+    hero-wallet-version-select: Choisissez-en un autre
+    hero-download-btn:Téléchargez
+    hero-guide-btn: Mode d'emploi
+    hero-buy-btn: Achetez des Dash
+    hero-spend-btn: Dépensez vos Dash
+    hero-trade-btn: Echangez des Dash
+ 
+    claim-heading: Achetez, vendez, échangez des Dash
+    claim-subline: Les Dash peuvent être acquis, stockés et échangés de nombreuses manières différentes
+ 
+    setup-heading: Apprenez à installer votre porte-monnaie 
+    setup-text:
+    setup-btn: En Savoir Plus
+    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
+ 
+    buy-heading: Achetez des Dash sur internet
+    buy-text: Changez votre monnaie locale en Dash et envoyez-les dans votre porte-monnaie
+    buy-btn: Achetez des Dash
+    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
+ 
+    trade-heading: Echangez des Dash sur des plateformes web d'échange
+    trade-text: Echangez des monnaies locales contre des Dash sur des plateformes web d'échange
+    trade-btn: Echangez des Dash
+    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
+ 
+    atm-heading: Echangez des Dash à un distributeur automatique de billet
+    atm-text: Achetez des Dash depuis un distributeur de billets dans votre pays
+    atm-btn: Localiser un distributeur de billets
+    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
+ 
+    shop-heading: Achetez directement avec des Dash
+    shop-text: Achats en ligne instantanés et anonymes, directement depuis votre porte-monnaie Dash
+    shop-btn: Plus de commerces
+    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
+    shop-join-btn: Devenez commerçant
+ 
+    visa-heading: Achetez dans des boutiques Visa
+    visa-text: Carte bancaire Dash zéro commission à l'étranger et avec la fonction smartphone "tap and pay"
+    visa-btn: Obtenez Shake
+    visa-link: https://shakepay.co/#/
+ 
+    need-heading: Besoins de Dash ?
+    need-text: Inscrivez-vous sur le forum et on vous enverra des Dash!
+    need-btn: Inscrivez-vous à Dash
+    need-link: https://www.dash.org/forum
+    need-input: Entrez Votre Adresse Email
+ 
+  merchants:
+    title: Commerçants
+    description: Dépensez des Dash chez ces commerçants et pour ces services
+    hero-image: participate.jpg
+    hero-heading: Achetez avec des Dash
+    hero-text: Dépensez vos Dash de manière instantanée et sécurisée chez ces commerçants et dans ces services
+    hero-map-btn: Carte des commerçants
+    hero-integrate-btn: Acceptez les Dash
+    hero-getlisted-btn: Faites-vous répertorier
+    cards-heading: Cartes bancaires
+    email-heading: Fournisseurs d'email
+    vpn-heading: Fournisseurs de VPN
+    hosting-heading: Hébergement et VPS
+    design-heading: Conception Web et Graphique
+    gifts-heading: Cartes Cadeaux
+    games-heading: Jeux
+    casinos-heading: Casinos en ligne
+    stores-heading: Boutiques en ligne
+    metals-heading: Métaux précieux
+ 
+ 
+  participate:
+    title: Rejoignez le réseau Dash
+    description: Rejoignez le réseau Dash
+    hero-image: participate.jpg
+    hero-heading: Aidez à construire la monnaie numérique
+    hero-text: Contribuez et gagnez des Dash en renforçant, sécurisant et développant le réseau Dash.
+    hero-masternodes-btn: Masternodes
+    hero-mining-btn:Miner
+    hero-funding-btn:Financement
+ 
+    claim-heading: Soutenez le réseau
+    claim-subline: Les Dash peuvent être acquis, stockés et échangés de nombreuses manières différentes
+ 
+    masternode-heading: Installez un Masernode et renforcez le Réseau Dash
+    masternode-text:Renforcez Dash en hébergeant un masternode ou en rejoignant un service d'hébergement mutualisé. Comme les administrateurs de masternodes fournissent des services décentralisés à nos utilisateurs, ils en sont récompensés
+    masternode-btn: Installez un Masternode
+    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
+ 
+    mining-heading:Commencez à miner et sécurisez le réseau Dash
+    mining-text:Minez des Dash avec votrepropre ordinateur ou avec du matériel dédié. Comme ils sécurisent le réseau Dash, les mineurs en sont récompensés,
+    mining-btn:Commencez à miner
+    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+ 
+    funding-heading:Développez le Réseau grâce à un financement de la blockchain
+    funding-text:La Communauté Dash finance chaque mois n'importe quelles propositions majoritaires comme, par exemple, employer des développeurs, prendre des décisions ou intégrer Dash à des boutiques en ligne ou à des magasins supplémentaires .
+    funding-btn: Faire une Proposition
+    funding-link: https://dashcentral.org/
+ 
+    integrate-heading:Acceptez-vous les Dash ?
+    integrate-text:Acceptez les paiements instantannés, anonymes dans votre boutique en ligne, dans votre application ou dans votre magasin
+    integrate-btn:Acceptez les Dash
+    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+    integrate-payment-processor-btn: Systèmes de paiement
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
+    integrate-contact-btn:Contactez notre équipe
+ 
+  currency:
+    title:Réseau Dash
+    description:Monnaie Dash
+    hero-image: currency.jpg
+    hero-heading: Dash est une monnaie numérique (du cash digital) !
+    hero-text: Dernières infos sur les marchés Dash, la Trésorerie, les Masternodes et la Blockchain
+    hero-markets-btn: Marchés
+    hero-governance-btn: Trésorerie
+    hero-network-btn: Masternodes
+    hero-blockchain-btn: Blockchain
+    hero-mining-btn:Miner
+ 
+    markets-heading: Marchés
+    governance-heading: Trésorerie
+    network-heading: Masternodes
+    blockchain-heading: Blockchain
+    mining-heading:Miner
+ 
+  community:
+    title: Rejoignez la communauté Dash
+    description: Rejoignez la communauté Dash
+    hero-image: community.jpg
+    hero-heading: Rejoignez notre communauté
+    hero-text: Faites parti de la communauté Dash
+    hero-forum-btn: Forums officiels
+    hero-discussion-btn: Discussion
+    hero-social-btn: Applications pour réseaux sociaux
+    hero-news-btn: Infos &amp; Actualités
+    hero-development-btn: Développement
+    hero-masternodes-btn: Masternodes
+    hero-video-btn: Vidéo &amp; Audio
+ 
+    discussion-heading: Discussion
+    discussion-text: Discutez de Dash sur ces forums !
+ 
+    social-heading: Social
+    social-text: Retrouvez Dash sur ces applications pour réseaux sociaux
+ 
+    news-heading: Information &amp; Actualités
+    news-text: Sites internet créés par les membres de la communauté Dash
+ 
+    development-heading: Développement
+    development-text: Sites &amp; outils pour développeurs
+ 
+    masternode-heading: Outils Masternode
+    masternode-text:Installez, gérez et hébergez votre masternode
+ 
+    media-heading: Media Dash
+ 
+    conferences-heading: Conférences
+    technology-heading: Technologie
+    community-heading: Communauté
+ 
+    youtube-btn: YouTube Dash
+ 
+  tos:
+    title: Conditions d'utilisation
+    terms:
+      Dash est uniquement destiné à un usage licite et ne doit pas être utilisé autrement. Ni Dash, ni aucun de ses développeurs ou contributeurs ne soutiennent l'utilisation de Dash à des fins licites ni ne la faciliteront d'aucune manière.
+ 
+ 
+      A notre connaissance l'utilisation de Dash n'est pas illégale dans la plupart des juridictions. Cependant, certaines juridictions pourraient imposer des limitations dans l'usage des crypto-monnaies et/ou l'utilisation des outils de confidentialité. En cas de doute, mettez-vous en contact avec un avocat de votre région afin d'éviter tout acte qui puisse être considéré comme illégal dans votre juridiction.
+ 
+ 
+      Le contenu de ce site ou tout autre site internet associé à Dash n'a pas valeur d'avis juridique. Si vous avez des doutes sur le plan juridique ou si vous avez besoin de conseil, mettez-vous en contact avec un avocat de votre juridiction.
+ 
+ 
+      Le contenu de ce site internet, ou tout autre site internet asssocié avec Dash ne constitue pas un conseil en investissement. Il est nécessaire de faire preuve de jugement et de se baser sur de nombreuses sources d'informations avant d'investir dans Dash.
+ 
+    # Need some Dash - get content from get-dash ^^
+  blog:
+      title: Le Blog Digital Cash
+      description: Dernières actualités et informations sur Dash
+      search-btn: Recherchez sur le blog
+      community-news-btn:Actualités de la communauté
+ 
+  team:
+    title: L'Equipe Dash
+    description: Désigné par notre Réseau et financé mensuellement par la blockchain pour développer la technologie centrale Dash.
+    core-proposal-btn: Proposition Centrale
+    core-proposal-link: https://www.dashcentral.org/p/core-team
+    core-approval-btn: Acceptation du Réseau
+    core-approval-link: http://dashvotetracker.com/history.html?ProposalID=12
+    core-join-btn: Rejoignez Notre Equipe
+nav:
+  what-is-dash: Qu'est-ce que Dash
+  get-dash: Obtenez des Dash
+  merchants: Commerçants
+  download: Téléchargez le porte-monnaie
+  buy: Achetez des Dash
+  shop: Achetez avec des Dash
+  debit: Carte bancaire Dash
+ 
+  participate: Contribuez
+  mining: Commencez à miner
+  masternode: Installez un Masternode
+  wallet: Installez un porte-monnaie
+  funding: Sollicitez un financement
+ 
+  currency: Réseaux
+  exchange: Plateformes web d'échange
+  governance: Gouvernance
+  explorers: Explorateurs de Blocks
+  stats: Statistiques du Réseau
+ 
+  community: Communauté
+  discussion: Discussion
+  social-apps: Applications pour réseaux sociaux
+  news: Infos &amp; Actualités
+  tools-dev: Outils de développement
+  tools-masternodes: Outils Masternode
+ 
+  project: Projet
+  help: Aide &amp; Support
+  info: Information sur le projet
+  team: Equipe
+  contact: Contact
+  foundation: Fondation
+  philosophy: Philosophie
+  technology: Technologie
+  wiki: Wiki
+ 
+ 
+  search: Rechercher
+ 
+  social: Social
+  blog: Blog
+  reddit: Reddit
+  twitter: Twitter
+  youtube: YouTube
+  google: Google+
+  linkedin: LinkedIn
+  facebook: Facebook
+  instagram: Instagram
+  github: GitHub
+ 
+  tos: Conditions d'utilisation
+  sitemap: Sitemap
+  sitesource: Code source
+ 
