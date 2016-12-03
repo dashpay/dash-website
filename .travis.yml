@@ -1,3 +1,8 @@
+notifications:
+  email:
+    - perry@node40.com
+    - press@dash.org
+    - andy@dash.org
 language: node_js
 node_js:
   - 4.5.0
