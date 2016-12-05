@@ -13,7 +13,7 @@ sudo: false
 addons:
   ssh_known_hosts:
   - $hostname
-  - 74.70.165.55
+  - 146.185.153.42
   apt:
     sources:
     - ubuntu-toolchain-r-test
