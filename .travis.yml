@@ -29,7 +29,7 @@ before_install:
   -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
 - rvm install 2.3.1
 before_deploy:
-- eval "$(ssh-agent -s)"
+- eval "ssh-agent -s"
 - chmod 600 $TRAVIS_BUILD_DIR/$IdentityFile
 - ssh-add $TRAVIS_BUILD_DIR/$IdentityFile
 deploy:
