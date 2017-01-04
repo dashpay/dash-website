@@ -7,8 +7,8 @@ pages:
     hero-heading: ¡Dash es Dinero en Efectivo Digital!
     hero-text: El primer sistema de dinero digital totalmente descentralizado. <br /> Conoce el Dinero en Efectivo Digital.
 
-    video-heading: Dash es dinero en efectivo digital que puedes gastar en linea
-    video-text: Usa Dash para hacer pagos instantáneos y privada en linea o en tiendas físicas, usando nuestra segura plataforma de código abierto, mantenida por miles de usuarios alrededor del mundo
+    video-heading: Dash es dinero en efectivo digital que puedes gastar en línea
+    video-text: Usa Dash para hacer pagos instantáneos y privados en línea o en tiendas físicas, usando nuestra segura plataforma de código abierto, mantenida por miles de usuarios alrededor del mundo
     video-btn: Descripción general en video
 
     feature-private-heading: Privado
@@ -18,15 +18,15 @@ pages:
     feature-secure-heading: Seguro
     feature-secure-text: Dash es seguro
 
-    merchants-heading: Comerciantes directamente con Dash
-    merchants-text: Comerciantes instantáneas y privada, directamente desde tu cartera Dash
+    merchants-heading: Compra en línea pagando con Dash
+    merchants-text: Compra de manera instantánea y privada, directamente desde tu cartera Dash
     merchants-btn: Más Comerciantes
     merchants-link: https://dashpay.atlassian.net/wiki/x/IgAFBQ
-    merchants-join-btn: Conviértete en Comerciantes
+    merchants-join-btn: Conviértete en Comerciante
     merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
 
     architecture-heading: Arquitectura de red Next-Gen
-    architecture-text:  La esencia de la tecnología única de Dash es un diseño de red P2P en dos niveles, tecnología premia a los usuarios que ejecutan un tipo especial de nodo llamado Masternode y lo mantienen 24/7 con hardware dedicado. La red requiere que los que mantienen los Masternodes deban proporcionar una prueba criptográfica que poseen 1.000 Dash por Masternode. Esto asegura la red contra ataques de tipo gemelo al hacer este tipo de ataques prohibitivamente caros.
+    architecture-text:  La esencia de la tecnología única de Dash es un diseño de red P2P (Peer-to-Peer) en dos niveles. Esta tecnología premia a los usuarios que ejecutan un tipo especial de nodo llamado Masternode y lo mantienen 24/7 con hardware dedicado. La red requiere que quienes mantienen los Masternodes deban proporcionar una prueba criptográfica de que poseen 1,000.00 Dash por Masternode. Esto asegura la red contra ataques de tipo “gemelo” al hacer este tipo de ataques prohibitivamente caros
 
       Los Masternodes trabajan juntos en grupos y no se pueden falsificar cómo los nodos en otras monedas digitales. Esto significa que pueden ofrecer nuevos tipos de servicios descentralizados como transacciones instantáneas, anonimización y gobernanza, sin la amenaza de ataques a la red de bajo costo.
     architecture-btn: Aprende más
@@ -203,7 +203,7 @@ pages:
 nav:
   what-is-dash: ¿Qué es Dash?
   get-dash: Obtén Dash
-  merchants: Merchants
+  merchants: Comercios
   download: Descarga el monedero
   buy: Compra Dash
   shop: Compra con Dash
