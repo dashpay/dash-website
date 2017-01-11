@@ -54,4 +54,4 @@ srcset:
   source: assets/img
   output: assets/img/resized
 
-keep_files: ['assets/img/resized']
+keep_files: ['assets/img/resized','es/assets/img/resized','cn/assets/img/resized','pt/assets/img/resized','ru/assets/img/resized','it/assets/img/resized']
