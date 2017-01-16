@@ -6,122 +6,45 @@ description: pages.wallets.description
 
 {% include hero/wallets.html %}
 
+{% include modals/win-core.html %}
+
+{% assign desktop-os-collection = site.data.wallets-collection | where:"type","desktop" | group_by:"os" %}
+{% assign mobile-os-collection = site.data.wallets-collection | where:"type","mobile" | group_by:"os" %}
+{% assign hardware-wallets = site.data.wallets-collection | where:"type","hardware" %}
+{% assign paper-wallets = site.data.wallets-collection | where:"type","paper" %}
+{% assign security-wallets = site.data.wallets-collection | where:"type","security" %}
+
 <div class="page page--wallets">
+
   <section class="section">
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-desktop-header %}</h3>
       <p>{% t pages.wallets.wallets-desktop-subtitle %}</p>
-      <ul class="nav2 nav-pills bottom-space">
-        <li class="active"><a data-toggle="pill" href="#windows">Windows</a></li>
-        <li><a data-toggle="pill" href="#osx">OSX</a></li>
-        <li><a data-toggle="pill" href="#linux">Linux</a></li>
-        <li><a data-toggle="pill" href="#ppa">PPA</a></li>
+      <ul id="wallet-os-tabs" class="nav2 nav-pills bottom-space">
+        {% for wallet-os in desktop-os-collection %}
+          <li {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-os.name}}">
+            {% case wallet-os.name %}
+              {% when 'win32' %}
+                Windows
+              {% when 'win64' %}
+                Windows
+              {% when 'osx' %}
+                OSX
+              {% when 'linux' %}
+                Linux
+              {% when 'ppa' %}
+                PPA
+              {% else %}
+                Other OS
+            {% endcase %}
+          </a></li>
+        {% endfor %}
       </ul>
-
       <div class="tab-content">
-        <div id="windows" class="tab-pane fade in active">
-          <div class="row">
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Core</h4>
-                  <button type="button" class="btn center-block" data-toggle="modal" data-target="#winDashCore">Open</button>
-                  {% include modals/win-core.html %}
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Electrum</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Jaxx</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Exodus</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="osx" class="tab-pane fade">
-          <div class="row">
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Core</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Electrum</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Jaxx</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Exodus</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="linux" class="tab-pane fade">
-          <div class="row">
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Core</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Electrum</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Jaxx</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Exodus</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="ppa" class="tab-pane fade">
-          <div class="row">
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Core</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center"> Dash Electrum</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Jaxx</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Exodus</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+      {% for wallet-os in desktop-os-collection %}
+        {% include wallet-tile.html %}
+      {% endfor %}
       </div>
-
     </div>
   </section>
 
@@ -129,63 +52,25 @@ description: pages.wallets.description
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-mobile-header %}</h3>
       <p>{% t pages.wallets.wallets-mobile-subtitle %}</p>
-      <ul class="nav2 nav-pills">
-        <li class="active"><a data-toggle="pill" href="#android">Android</a></li>
-        <li><a data-toggle="pill" href="#ios">iOS</a></li>
+      <ul id="wallet-mobile-os-tabs" class="nav2 nav-pills bottom-space">
+        {% for wallet-os in mobile-os-collection %}
+        <li {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-os.name}}">
+          {% case wallet-os.name %}
+          {% when 'android' %}
+          Android
+          {% when 'ios' %}
+          iOS
+          {% else %}
+          Other Mobile OS
+          {% endcase %}
+        </a></li>
+        {% endfor %}
       </ul>
-
       <div class="tab-content">
-        <div id="android" class="tab-pane fade in active">
-          <div class="row">
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Core</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Coinomi</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Jaxx</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Exodus</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="ios" class="tab-pane fade">
-          <div class="row">
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Dash Core</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Coinomi</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Jaxx</h4>
-              </div>
-            </div>
-            <div class="col-xs-3">
-              <div class="wallet-tile">
-                <h4 class="text-center">Exodus</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+        {% for wallet-os in mobile-os-collection %}
+        {% include wallet-tile.html %}
+        {% endfor %}
       </div>
-
-
     </div>
   </section>
 
@@ -194,29 +79,17 @@ description: pages.wallets.description
       <h3>{% t pages.wallets.wallets-hardware-header %}</h3>
       <p>{% t pages.wallets.wallets-hardware-subtitle %}</p>
       <div class="row">
-        <div class="col-xs-3">
-          <div class="wallet-tile">
-            <h4 class="text-center">Trezor</h4>
-          </div>
-        </div>
-        <div class="col-xs-3">
-          <div class="wallet-tile">
-            <h4 class="text-center">KeepKey</h4>
-          </div>
-        </div>
-        <div class="col-xs-3">
-          <div class="wallet-tile">
-            <h4 class="text-center">Ledger</h4>
-          </div>
-        </div>
+        {% for wallet-os in hardware-wallets %}
+        {% include wallet-tile.html %}
+        {% endfor %}
       </div>
     </div>
   </section>
-
   <section class="section">
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-paper-header %}</h3>
       <p>{% t pages.wallets.wallets-paper-subtitle %}</p>
+
     </div>
   </section>
 
@@ -226,5 +99,4 @@ description: pages.wallets.description
       <p>{% t pages.wallets.wallets-security-subtitle %}</p>
     </div>
   </section>
-
 </div>

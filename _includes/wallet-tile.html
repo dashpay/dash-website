@@ -1,0 +1,28 @@
+<div id="{{wallet-os.name}}" class="tab-pane fade in out {% if forloop.first == true %}active{% endif %}">
+  <div class="row">
+    {% for wallet in wallet-os.items %}
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="wallet-tile" data-toggle="modal" data-target="#winDashCore">
+        <div class="thumbnail">
+          <div class="logo-container">
+            <img src="{{ wallet.logo_url }}"/>
+          </div>
+          <div class="caption">
+            <h4>{{ wallet.name }}</h4>
+            <div class="fine-print">
+              {{ wallet.description }}
+            </div>
+          </div>
+          <div class="wallet-links-container">
+            {% for link in wallet.links %}
+            <div class="link">
+              <a href="{{link.url}}" target="_blank">{{ link.label}} </a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
