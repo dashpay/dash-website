@@ -1,0 +1,54 @@
+<!-- Modal -->
+{% for wallet in vendor-group.items %}
+<div id="{{wallet.os}}-{{wallet.vendor_id}}-{{wallet.type_id}}-{{wallet.product_id}}-modal"
+     class="modal fade wallet-modal-container" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h1 class="modal-title">{{ wallet.product_label }} for Dash</h1>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-7 col-md-push-5 col-xs-12 text-right">
+                        <img src="http://lorempixel.com/400/400/sports/{{wallet.product_label}}"/>
+                    </div>
+
+                    <div class="col-md-5 col-md-pull-7 col-xs-12">
+                        <div>
+                            <p class="bottom-space">{{wallet.description}}</p>
+
+                            <h5 class="bottom-space">
+                                <span>
+                                    {% t pages.wallets.modal-security-label %}: &nbsp;
+                                </span>
+                                <a href="{{wallet.product_security_url}}" target="_blank">{{wallet.product_security_label}}</a>
+                            </h5>
+
+
+                            <h5 class="bottom-space">
+                                <span>
+                                    {% t pages.wallets.modal-source-code-label %}: &nbsp;
+                                </span>
+                                <a href="{{wallet.product_source_url}}" target="_blank">{{wallet.product_source_label}}</a>
+                            </h5>
+
+                            <h5 class="bottom-space">
+                                <span>
+                                    {% t pages.wallets.modal-website-label %}: &nbsp;
+                                </span>
+                                <a href="{{wallet.product_website_url}}" target="_blank">{{wallet.product_website_label}}</a>
+                            </h5>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Download {{wallet.product_label}}"><span
+                                    aria-hidden="true">Download {{wallet.product_label}}</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

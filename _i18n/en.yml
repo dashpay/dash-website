@@ -20,6 +20,12 @@ pages:
     wallets-paper-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     wallets-security-header: Security
     wallets-security-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-header-vendor-label-descriptor: Wallet for Dash
+    modal-download-action-button-label: Download
+    modal-security-label: Security
+    modal-source-code-label: Source Code
+    modal-website-label: Website
+
     modal-core-header: Download Dash Core
     modal-electrum-header: Download Dash Electrum
     modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

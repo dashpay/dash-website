@@ -3,31 +3,34 @@ layout: default
 title: pages.wallets.title
 description: pages.wallets.description
 ---
-
 {% include hero/wallets.html %}
 
 {% include modals/win-core.html %}
 
-{% assign desktop-os-collection = site.data.wallets-collection | where:"type","desktop" | group_by:"os" %}
+{% assign desktop-os-collection = site.data.wallets-collection | where:"type","desktop" | group_by:"os"    %}
 {% assign mobile-os-collection = site.data.wallets-collection | where:"type","mobile" | group_by:"os" %}
-{% assign hardware-wallets = site.data.wallets-collection | where:"type","hardware" %}
-{% assign paper-wallets = site.data.wallets-collection | where:"type","paper" %}
-{% assign security-wallets = site.data.wallets-collection | where:"type","security" %}
+{% assign product-collection = site.data.wallets-collection | group_by:"product_id" %}
+{% assign vendor-collection = site.data.wallets-collection |  group_by:"vendor_id" %}
+{% assign hardware-wallets = site.data.wallets-collection | sort: "product_label" | where:"type","hardware" %}
+{% assign paper-wallets = site.data.wallets-collection | sort: "product_label" | where:"type","paper" %}
+{% assign security-wallets = site.data.wallets-collection| sort: "product_label" | where:"type","security" %}
 
+{% for vendor-group in vendor-collection %}
+  {% include modals/vendor-group-download-collection.html %}
+{% endfor %}
 <div class="page page--wallets">
-
   <section class="section">
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-desktop-header %}</h3>
       <p>{% t pages.wallets.wallets-desktop-subtitle %}</p>
-      <ul id="wallet-os-tabs" class="nav2 nav-pills bottom-space">
-        {% for wallet-os in desktop-os-collection %}
-          <li {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-os.name}}">
-            {% case wallet-os.name %}
+      <ul id="wallet-os-tabs" class="nav2 nav-tabs">
+        {% for wallet-group in desktop-os-collection %}
+          <li role="presentation" {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-group.name}}">
+            {% case wallet-group.name %}
               {% when 'win32' %}
-                Windows
+                Windows (32bit)
               {% when 'win64' %}
-                Windows
+                Windows (64bit)
               {% when 'osx' %}
                 OSX
               {% when 'linux' %}
@@ -41,8 +44,8 @@ description: pages.wallets.description
         {% endfor %}
       </ul>
       <div class="tab-content">
-      {% for wallet-os in desktop-os-collection %}
-        {% include wallet-tile.html %}
+      {% for wallet-group in desktop-os-collection %}
+        {% include wallet-tile-group-container.html %}
       {% endfor %}
       </div>
     </div>
@@ -52,10 +55,10 @@ description: pages.wallets.description
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-mobile-header %}</h3>
       <p>{% t pages.wallets.wallets-mobile-subtitle %}</p>
-      <ul id="wallet-mobile-os-tabs" class="nav2 nav-pills bottom-space">
-        {% for wallet-os in mobile-os-collection %}
-        <li {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-os.name}}">
-          {% case wallet-os.name %}
+      <ul id="wallet-mobile-os-tabs" class="nav2 nav-tabs ">
+        {% for wallet-group in mobile-os-collection %}
+        <li {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-group.name}}">
+          {% case wallet-group.name %}
           {% when 'android' %}
           Android
           {% when 'ios' %}
@@ -66,37 +69,49 @@ description: pages.wallets.description
         </a></li>
         {% endfor %}
       </ul>
-      <div class="tab-content">
-        {% for wallet-os in mobile-os-collection %}
-        {% include wallet-tile.html %}
+      <div class="tab-content well">
+        {% for wallet-group in mobile-os-collection %}
+        {% include wallet-tile-group-container.html %}
         {% endfor %}
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section clearfix">
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-hardware-header %}</h3>
       <p>{% t pages.wallets.wallets-hardware-subtitle %}</p>
       <div class="row">
-        {% for wallet-os in hardware-wallets %}
+        {% for wallet in hardware-wallets %}
         {% include wallet-tile.html %}
         {% endfor %}
       </div>
     </div>
   </section>
-  <section class="section">
+
+  <section class="section clearfix">
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-paper-header %}</h3>
       <p>{% t pages.wallets.wallets-paper-subtitle %}</p>
 
+      <div class="row">
+        {% for wallet in paper-wallets %}
+        {% include wallet-tile.html %}
+        {% endfor %}
+      </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section clearfix">
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-security-header %}</h3>
       <p>{% t pages.wallets.wallets-security-subtitle %}</p>
+      <div class="row">
+        {% for wallet in security-wallets %}
+        {% include wallet-tile.html %}
+        {% endfor %}
+      </div>
     </div>
   </section>
+
 </div>

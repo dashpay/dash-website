@@ -37,7 +37,7 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light,9);
 	cursor: pointer;
 	text-align: center;
 	margin: $wallet-tile-spacing auto;
-	border: 1px solid #ccc;
+	border: 1px solid $color-gray;
 	min-height: $wallet-tile-min-height;
 	max-width: $wallet-tile-max-width;
 	overflow: hidden;
@@ -127,6 +127,12 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light,9);
 				}
 			}
 		}
+	}
+}
+
+.wallet-modal-container {
+	& .modal-header {
+		border-bottom: none;
 	}
 }
 

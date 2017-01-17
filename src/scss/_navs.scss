@@ -6,6 +6,10 @@
 // Base class
 // --------------------------------------------------
 
+$nav-tabs-link-hover-border-color: $color-blue;
+$nav-tabs-border-color: $color-gray;
+$nav-link-hover-bg:  lighten($color-blue-light,9);
+
 .nav2 {
   margin-bottom: 0;
   padding-left: 0; // Override default ul/ol
@@ -20,6 +24,13 @@
       position: relative;
       display: block;
       padding: $nav-link-padding;
+
+      -o-transition:.15s;
+      -ms-transition:.15s;
+      -moz-transition:.15s;
+      -webkit-transition:.15s;
+      transition:.15s;
+
       &:hover,
       &:focus {
         text-decoration: none;

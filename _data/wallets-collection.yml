@@ -3,6 +3,16 @@
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core
+  product_label: Dash Core
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
   links:
     -
       label: Download Installer
@@ -11,7 +21,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: pgp
+      label: PGP
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe.asc"
 
 - name: Dash Electrum
@@ -19,6 +29,16 @@
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win32
   type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_website_label: Electrum-Dash.org
+  product_website_url: "https://electrum-dash.org/"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/electrum-dash"
   links:
     -
       label: Download
@@ -40,42 +60,66 @@
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: win32
   type: desktop
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  product_id: jaxx
+  product_label: Jaxx
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
   links:
     -
-      label: Download
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
+      label: Jaxx Downloads
+      url: "https://jaxx.io/support.html"
 
 - name: Dash Core
   description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
   logo_url: /assets/img/dash_circle_normal.png
   os: osx
   type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core
+  product_label: Dash Core
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
   links:
     -
-      label: Download Installer
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
+      label: Download DMG
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-osx.dmg"
     -
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
       label: pgp
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe.asc"
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-osx.dmg.asc"
 
 - name: Dash Electrum
   description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
   logo_url: /assets/img/wallets/electrum_banner.png
   os: osx
   type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/electrum-dash"
   links:
     -
-      label: Download
-      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe"
+      label: Download PKG
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Installer.pkg"
     -
       label: Hash File
-      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.DIGESTS.txt"
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Installer.pkg.DIGESTS.txt"
     -
       label: PGP
-      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Installer.pkg.asc"
 
 - name: Jaxx
   description: |
@@ -86,129 +130,57 @@
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: osx
   type: desktop
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  product_id: jaxx
+  product_label: Jaxx
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
   links:
     -
-      label: Download
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
+      label: Jaxx Downloads
+      url: "https://jaxx.io/support.html"
 
-- name: Dummy osx
-  description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  logo_url: "https://dummyimage.com/100x100/ebebe3/336699&text=dummy%20osx%20logo"
-  os: osx
-  type: desktop
-  links:
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-- name: Dummy osx
-  description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  logo_url: "https://dummyimage.com/100x100/ebebe3/336699&text=dummy%20osx%20logo"
-  os: osx
-  type: desktop
-  links:
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-- name: Dummy osx
-  description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  logo_url: "https://dummyimage.com/100x100/ebebe3/336699&text=dummy%20osx%20logo"
-  os: osx
-  type: desktop
-  links:
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-
-- name: Dummy linux
-  description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  logo_url: "https://dummyimage.com/100x100/ebebe3/336699&text=dummy%20linux%20logo"
-  os: linux
-  type: desktop
-  links:
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-- name: Dummy linux
-  description: |
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-  logo_url: "https://dummyimage.com/100x100/ebebe3/336699&text=dummy%20linux%20logo"
-  os: linux
-  type: desktop
-  links:
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-- name: Dummy linux
-  description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    <img alt="Chuck Norris" src="data:image/jpeg;base64,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" >
-  logo_url: "https://dummyimage.com/100x100/ebebe3/336699&text=dummy%20linux%20logo"
-  os: linux
-  type: desktop
-  links:
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-    -
-      label: Get Dummy Here
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-
-- name: Dash Core
+- name: Dash Wallet by Hash Engineering
   description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
   logo_url: /assets/img/dash_circle_normal.png
   os: android
   type: mobile
+  vendor_id: hash_engineering_solutions
+  vendor_label: Hash Engineering Solutions
+  product_id: dash_android_wallet
+  product_label: Dash Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/HashEngineering/dash-wallet"
   links:
     -
-      label: Download Installer
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
-    -
-      label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
-    -
-      label: pgp
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe.asc"
+      label: Google Play Download
+      url: "https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet"
 
 - name: Coinomi
   description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
   logo_url: "/assets/img/wallets/coinomi.ico"
   os: android
   type: mobile
+  vendor_id: coinomi
+  vendor_label: Coinomi
+  product_id: coinomi_wallet
+  product_label: Coinomi Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/Coinomi/coinomi-android"
   links:
     -
       label: Google Play Download
       url: "https://play.google.com/store/apps/details?id=com.coinomi.wallet"
+    -
+      label: Download APK
+      url: "https://github.com/Coinomi/coinomi-android/releases/download/gb-final/coinomi-1.6.5.apk"
 
 - name: Jaxx
   description: |
@@ -219,6 +191,14 @@
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: android
   type: mobile
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  product_id: jaxx
+  product_label: Jaxx Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
   links:
     -
       label: Google Play Download
@@ -226,9 +206,17 @@
 
 - name: iPhone Dash Wallet
   description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
-  logo_url: /assets/img/dash_circle_normal.png
+  logo_url: "/assets/img/wallets/iOS.png"
   os: ios
   type: mobile
+  vendor_id: quantum_explorer
+  vendor_label: Quantum Explorer
+  product_id: ios_wallet
+  product_label: iOSWallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/QuantumExplorer/dashwallet"
   links:
     -
       label: Installation Instructions
@@ -239,7 +227,107 @@
   logo_url: "https://www.exodus.io/favicon.ico"
   os: ios
   type: mobile
+  vendor_id: exodus
+  vendor_label: Exodus
+  product_id: exodus
+  product_label: Exodus Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Not Open Source
+  product_source_url:
   links:
     -
       label: Download Options
       url: "https://www.exodus.io/releases/"
+
+- name: Exodus
+  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  logo_url: "https://www.exodus.io/favicon.ico"
+  os: win64
+  type: desktop
+  vendor_id: exodus
+  vendor_label: Exodus
+  product_id: exodus
+  product_label: Exodus Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Not Open Source
+  product_source_url:
+  links:
+    -
+      label: Download Options
+      url: "https://www.exodus.io/releases/"
+
+- name: Exodus
+  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  logo_url: "https://www.exodus.io/favicon.ico"
+  os: linux
+  type: desktop
+  vendor_id: exodus
+  vendor_label: Exodus
+  product_id: exodus
+  product_label: Exodus Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Not Open Source
+  product_source_url:
+  links:
+    -
+      label: Download Options
+      url: "https://www.exodus.io/releases/"
+- name: Dash Core Paper Wallet
+  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  logo_url: /assets/img/dash_circle_normal.png
+  os:
+  type: paper
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_paper
+  product_label: Dash Core Paper Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/paper.dash.org"
+  links:
+    -
+      label: Setup Instructions
+      url: "https://dashpay.atlassian.net/wiki/display/DOC/Paper+Wallet"
+
+- name: Ledger Nano S
+  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  logo_url: /assets/img/wallets/ledger-nano-s-fold-medium.png
+  os:
+  type: hardware
+  vendor_id: ledger
+  vendor_label: Ledger
+  product_id: ledger_nano_s
+  product_label: Ledger Nano S
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/LedgerHQ/ledger-nano-s"
+  links:
+    -
+      label: Purchase Options
+      url: "https://www.ledgerwallet.com/products/ledger-nano-s"
+
+- name: Trezor
+  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  logo_url: "/assets/img/wallets/trezor-logo.png"
+  os:
+  type: hardware
+  vendor_id: trezor
+  vendor_label: Trezor
+  product_id: trezor
+  product_label: Trezor Hardware Wallet
+  product_security_label: .&#40full node/spv/hosted&#41
+  product_security_url: .&#40full node/spv/hosted&#41
+  product_source_label: Github
+  product_source_url: "https://github.com/trezor"
+  links:
+    -
+      label: Purchase Options
+      url: "https://shop.trezor.io"
+    -
+      label: Usage Instructions
+      url: "https://dashpay.atlassian.net/wiki/display/DOC/Using+Trezor+with+Dash"
