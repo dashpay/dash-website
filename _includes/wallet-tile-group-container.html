@@ -1,0 +1,7 @@
+<div id="{{wallet-group.name}}" class="tab-pane fade in out {% if forloop.first == true %}active{% endif %}">
+  <div class="row">
+    {% for wallet in wallet-group.items %}
+      {% include wallet-tile.html %}
+    {% endfor %}
+  </div>
+</div>
