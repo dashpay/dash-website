@@ -23,6 +23,10 @@ you're in a hurry or lost or you just need to Make It Work©
 	text-align: center;
 }
 
+.text-left {
+	text-align: left;
+}
+
 $wallet-tile-min-height: 20em;
 $wallet-tile-max-width: 25em;
 $wallet-tile-logo-container-height: 5.5em;
@@ -80,7 +84,7 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light,9);
 				padding: 0 0 $wallet-tile-spacing 0;
 			}
 			& .fine-print {
-				overflow: scroll;
+				overflow-y: auto;
 				min-height: $wallet-tile-caption-fine-print-height;
 				max-height: $wallet-tile-caption-fine-print-height*2;
 				margin: 0 0 $wallet-tile-spacing 0;
@@ -147,9 +151,9 @@ a.blog_link {
 }
 
 .img-circle {
-		margin: 1px;
-		border:1px solid #dddddd;
-		border-radius: 50%;
+	margin: 1px;
+	border:1px solid #dddddd;
+	border-radius: 50%;
 }
 
 .background-title {
@@ -158,3 +162,91 @@ a.blog_link {
 	margin-top: 30px;
 	margin-bottom: 0;
 }
+.b-modal{
+	&__close {
+		position: absolute;
+		right: 32px;
+		top: 32px;
+		width: 32px;
+		height: 32px;
+		cursor: pointer;
+		&:hover{
+			&:before, &:after {
+				background-color: #000;
+			}
+		}
+		&:before, &:after {
+			position: absolute;
+			left: 15px;
+			content: ' ';
+			height: 33px;
+			width: 2px;
+			background-color: #fff;
+			transition:.5s;
+		}
+		&:before {
+			transform: rotate(45deg);
+		}
+		&:after {
+			transform: rotate(-45deg);
+		}
+	}
+	&__title {
+		color: #fff;
+		font-size: 2.6em;
+	}
+	&__content{
+		background-color: #1c75bc;
+	}
+	&__header{
+		padding-left: 44px;
+		border: none;
+	}
+	&__body{
+		border: 0;
+		padding-left: 44px;
+	}
+	&__descr{
+		color: #fff;
+		font-size: 1.5em;
+	}
+	&__accent{
+		color: #fff;
+		font-size: 0.9em;
+	}
+	&__sidebar{
+		padding: 3px 0 0 42px;
+		border-left: 1px solid rgba(255,255,255, .22);
+	}
+	&__select{
+		position: relative;
+		padding: 14px 50px 12px 10px;
+		background: #1c75bc;
+		border-radius: 2px;
+		border: 1px solid #6aaee6;
+		color:#fff;
+		font-size: 1em;
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		cursor:pointer;
+		&:after{
+			content: '';
+			position: absolute;
+			top: 50%;
+			right: 12px;
+			margin-top: -2px;
+			vertical-align: middle;width: 0;
+			height: 0;
+			margin-left: 2px;
+			vertical-align: middle;
+			border-top: 4px solid #000;
+			border-right: 4px solid transparent;
+			border-bottom: 0 dotted;
+			border-left: 4px solid transparent;
+		}
+	}
+}
+
+
