@@ -1,0 +1,274 @@
+---
+layout: default
+title: pages.update.title
+description: pages.update.description
+---
+
+
+{% include hero/update-12-1.html %}
+
+<div class="page page--home">
+
+	<!--
+		WHAT IS DASH?
+		LINK TO VIDEO.
+	-->
+	<section class="section section--home-cta">
+		<div class="section__content">
+				<h2 class="section__title">{% t pages.home.video-heading %}</h2>
+				<div class="section__lead">{% tmd pages.home.video-text %}</div>
+
+				<div class="section__btn-grp">
+					<a href="https://www.youtube.com/watch?v=S0oNO3mbBE8" class="btn-blue btn-large" target="_blank" data-js-popup="video">{% t pages.home.video-btn %}</a>
+					<a href="{{ basenav }}/get-dash/" class="btn-blue-solid btn-large">{% t nav.download %}</a>
+				</div>
+		</div>
+	</section>
+
+	<!--
+		MERCHANTS
+	-->
+	<section class="b-get-section">
+		<div class="content">
+			<img src="/assets/img/update/woocommerce.png" alt="">
+			<h2>{% t pages.update.merchants-heading %}</h2>
+
+			<p>{% tmd pages.update.merchants-text %}</p>
+
+			<a href="{{ basenav }}/get-dash/" class="btn-white-solid">{% t pages.update.merchants-btn%}</a>
+
+		</div>
+	</section>
+
+	<!--
+		INTEGRATION
+	-->
+	<section>
+		<div class="content">
+			<div>
+				<h2>{% t pages.update.integrate-heading %}</h2>
+
+				{% tmd pages.update.integrate-text %}
+			</div>
+
+			<div class="ctabox ctabox_small-font ctabox--gray-light-bg" data-js-ctabox>
+				<div class="ctabox__inner">
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://shakepay.co" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/network.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">EVOLUTION</h4>
+								<p class="ctabox__description">Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution.</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://www.livingroomofsatoshi.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/update.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">RESEARCH</h4>
+								<p class="ctabox__description">In January 2016 we released an early Evolution prototype based on Electrum which enabled basic functions such as registering a username and paying friends by name.</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/frontend.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">FRONTEND</h4>
+							<p class="ctabox__description">The 3 main areas of frontend design and development have been to design a secure, SPV based Web Wallet, merchant tools to enable drag-and-drop checkout on a website, and an SDK that connects web clients to DAPI.</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/backend.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">BACKEND</h4>
+								<p class="ctabox__description">The first has been to port BitPay’s Bitcore Platform to Dash including merging Bitcore Node to DashCore 12.1 for native API support.</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://shapeshift.io" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/code.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title"> CORE</h4>
+								<p class="ctabox__description">Evolution Core work has been focused on first providing a basis to the new system in the form of Sentinel and improving DashCore to be implementation-agnostic to governance functions and objects.</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://misconductwineco.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/strategic.jpg" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">NETWORK</h4>
+								<p class="ctabox__description">Enforcement will be turned off for this network upgrade, meaning nodes running the old version of the Dash software (12.0) will quickly stop being paid (contingent on miners upgrading).</p>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+
+			<div>
+				<a href="/merchants/" target="_blank" class="btn-blue">{% t pages.update.slack-btn %}</a>
+				<a href="{% t pages.home.merchants-link %}" target="_blank" class="btn-blue">{% t pages.update.forum-btn %}</a>
+			</div>
+		</div>
+	</section>
+
+	<!--
+		DASH FEATURES
+		PRIVATE | INSTANT | SECURE
+	-->
+	<section>
+		<div class="content">
+			<div class="row features-collection">
+				<div class="col-sm-4">
+					<img src="/assets/img/home/instant.svg" height="100" alt="{% t pages.home.feature-instant-heading %}">
+					<h2>{% t pages.home.feature-instant-heading %}</h2>
+					{% tmd pages.home.feature-instant-text %}
+				</div>
+				<div class="col-sm-4">
+					<img src="/assets/img/home/private.svg" height="100" alt="{% t pages.home.feature-private-heading %}">
+					<h2>{% t pages.home.feature-private-heading %}</h2>
+					{% tmd pages.home.feature-private-text %}
+				</div>
+				<div class="col-sm-4">
+					<img src="/assets/img/home/secure.svg" height="100" alt="{% t pages.home.feature-secure-heading %}">
+					<h2>{% t pages.home.feature-secure-heading %}</h2>
+					{% tmd pages.home.feature-secure-text %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--
+		NETWORK ARCHITECTURE
+	-->
+	<section class="section--masternode">
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>{% t pages.update.execution-heading %}</h2>
+
+					{% tmd pages.update.execution-text %}
+
+					<a href="{% t pages.home.architecture-link %}" target="_blank" class="btn-blue">{% t pages.update.execution-btn %}</a>
+				</div>
+				<div class="col-sm-6 home-architecture-graphic">
+					<img src="/assets/img/update/execution.png" alt="{% t pages.home.execution-heading %}">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--
+		SELF GOVERNING | SELF FUNDING
+	-->
+	<section>
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-6">
+					<h2>{% t pages.update.update-heading%}</h2>
+
+					{% tmd pages.update.update-text %}
+
+					<a href="http://dashvotetracker.com/" target="_blank" class="btn-blue">{% t pages.update.proposal-btn %}</a>
+
+					<a href="https://dashcentral.org/" target="_blank" class="btn-blue">{% t pages.update.proposal-submit-btn %}</a>
+				</div>
+				<div class="col-sm-6 col-sm-pull-6 home-budgets-graphic">
+					<img src="/assets/img/update/updateevo.png" alt="{% t pages.home.governance-heading%}">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--
+		FASTEST GROWING NETWORK
+	-->
+	<section>
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>{% t pages.update.evolution-research-heading %}</h2>
+
+					{% tmd pages.update.evolution-research-text %}
+
+					<a href="{{ basenav }}/currency" class="btn-blue">{% t pages.update.evolution-research-btn %}</a>
+				</div>
+				<div class="col-sm-6 home-network-graphic-live">
+					<img src="/assets/img/update/research.png" alt="{% t pages.update.esearch-heading %}">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--
+		EVOLUTION
+	-->
+	<section>
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-6">
+					<h2>{% t pages.update.launching-heading %}</h2>
+
+					{% tmd pages.update.launching-text %}
+
+					<a href="{% t pages.home.launching-link %}" target="_blank" class="btn-blue">{% t pages.update.launching-btn %}</a>
+				</div>
+				<div class="col-sm-6 col-sm-pull-6 home-evolution-graphic">
+					<img src="/assets/img/home/evo.png" alt="Dash Evolution">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--
+		LATEST NEWS
+	-->
+	<section class="home-latest-news">
+		<div class="content">
+			<h2>{% t pages.home.news-heading %}</h2>
+
+			<div class="row">
+				{% for post in site.posts limit:4 %}
+				<div class="col-sm-6 col-md-3">
+					<div class="news-post">
+						<div class="news-image">
+							{% if post.image %}
+								<img src="{{ basenav }}/assets/img/blog/{{ post.image }}">
+							{% endif %}
+						</div>
+						<div class="news-body">
+							<h3 class="news-title">{{ post.title }}</h3>
+							<div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
+							<p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
+							<a class="read-more" href="{{ basenav }}{{ post.url }}">Read More...</a>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+
+			<div>
+				<a href="{{ basenav }}/blog/" class="btn-blue">{% t pages.home.news-btn %}</a>
+			</div>
+		</div>
+	</section>
+
+
+</div>

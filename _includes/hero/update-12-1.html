@@ -1,0 +1,25 @@
+<div class="hero" id="hero">
+	<div class="hero__background">
+		{% srcset hero/home.jpg ppi:1,2 class="hero__background-image" %}
+			{% srcset_source width:1920 %}
+			{% srcset_source width:1280 %}
+			{% srcset_source width:1024 %}
+			{% srcset_source width:800 %}
+		{% endsrcset %}
+	</div>
+
+	<!-- Navigation -->
+	{% include nav-desktop.html %}
+
+	<!-- Hero content -->
+	<div class="hero__content">
+		<h1 class="hero__title">{% t pages.update.hero-heading %}</h1>
+		<p class="hero__lead">{% t pages.update.hero-text %}</p>
+		<div class="hero__buttons">
+			<a href="get-dash/" class="btn-blue-solid btn-large">{% t pages.update.hero-btn %}</a>
+		</div>
+	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe"></div>
+</div>

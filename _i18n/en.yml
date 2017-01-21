@@ -2,6 +2,64 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  update:
+    title: Dash Official Website | Dash Crypto Currency
+    description: Dash is Digital Cash
+
+    hero-image:
+    hero-heading: 12.1 Update
+    hero-text: Launching a new software release on the network requires that all budget proposals be re-submitted into the system.
+    hero-btn: >
+      Launch date: February 5th, 2017
+
+    video-heading: CORE DEVELOPMENT
+    video-text: The first area of progress is Dash Core. In addition to running the network at present, Dash Core also serves as the backbone of the Evolution engine.
+    video-btn: Overview Video
+
+    merchants-heading: WooCommerce Integration
+    merchants-text: Download Plugin for WooCommerce Wordpress and start using Digital Cash!
+    merchants-btn: Get Plugin
+
+    integrate-heading: 12.1 Updates
+    integrate-text: Sentinel can also be re-geared and deployed to operate digital companies that have a built-in workforce, infrastructure to deploy again, and as an engine for storage and retrieval of information.
+
+    slack-btn: Slack Chanel
+    forum-btn: Dash Forums
+
+    execution-heading: STRATEGIC EXECUTION
+    execution-text:
+      ARyan Taylor, Dash’s CFO, has coordinated a deal with Arizona State University’s SkySong incubator, allowing us access to their top tier facility in Tempe, Arizona.
+
+
+      There are 29 fast-growing, innovative startups sharing this location, and we look forward to talking with many of them. We also look forward to hiring exceptional talent from the University.
+
+    execution-btn: Learn More
+    execution-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+
+    update-heading: EVOLUTION UPDATE
+    update-text:
+      Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution. This comes after months of conversations between Andy and myself about how each component of Evolution works, then reimagining it and improving the components and designs systematically.
+
+      Since the original research phase, documentation, specifications, plans and diagrams have been being drafted, growing into a collection of documents that will be put into a wiki with full documentation for Evolution’s end-to-end design and implementation.
+    proposal-btn: Proposals
+    proposal-submit-btn: Submit a Proposal
+
+    evolution-research-heading: EVOLUTION RESEARCH
+    evolution-research-text:
+      In January 2016 we released an early Evolution prototype based on Electrum which enabled basic functions such as registering a username and paying friends by name.
+
+      The prototype was pretty basic, with user interaction limited to just paying a few friends and user data stored on a dev server, but at least it proved the concept.
+      What we set out to do then was to design and prototype all the key technologies that would make these functions work in a purely P2P way, with data secured on the Dash blockchain and accessible from anywhere on any device, with integrated SPV based security and no centralized intermediary services required, and using the most common and censorship resistant protocol available – HTTP(S)
+    evolution-research-btn: Network Stats
+
+    launching-heading: LAUNCHING DATES
+    launching-text: >
+      Launching a new software release on the network requires that all budget proposals be re-submitted into the system.
+
+      Due to the timing of superblocks, we have a short window to launch, near the beginning of the month. In order to ensure we launch the most stable possible version of the software without interfering with the budget system, we would like to hold off until early February to launch 12.1. Launch date: February 5th, 2017.
+    launching-btn: Reddit
+    launching-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+
   wallets:
     title: Dash Wallets
     description: Get the right Dash wallet for your platform
