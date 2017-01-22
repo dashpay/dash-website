@@ -33,62 +33,36 @@ pages:
       Included below is our current work on Evolution, that adds many components such as:
 
 
-    feature-private-heading: Private
-    feature-private-text: Protect your financial information.  PrivateSend ensures your activity history and balances are private.
-    feature-instant-heading: Instant
-    feature-instant-text: Your time is valuable.  InstantSend payments confirm in less than a second.
-    feature-secure-heading: Secure
-    feature-secure-text: Security you can count on.  Transactions are confirmed by 1,000 Gigahash of X11 ASIC computing power and over 4,100 servers hosted around the world.
+    docs-heading: Evolution Documentation
 
-    merchants-heading: Shop direct with Dash
-    merchants-text: Instant and private purchases, direct from your Dash wallet
-    merchants-btn: More Merchants
-    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
-    merchants-join-btn: Become a Merchant
-    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+    docs-text: The documentation below is intended to be a very early version of what we’re planning on implementing, however, everything is subject to change over time. These aren’t really intended to be whitepapers, just simple technical documents showing the design choices and structures.
 
-    architecture-heading: Next-Gen P2P Network
-    architecture-text:
-      At Dash’s core is a unique fully-incentivized peer-to-peer network.  Miners are rewarded for securing the blockchain and masternodes are rewarded for validating, storing and serving the blockchain to users.
+    docs-btn: Learn More
+    docs-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
 
+    update-heading: EVOLUTION UPDATE
+    update-text:
+      Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution. This comes after months of conversations between Andy and myself about how each component of Evolution works, then reimagining it and improving the components and designs systematically.
 
-      Masternodes represent a new layer of network servers that work in highly secure clusters called quorums to provide a variety of decentralized services, like instant transactions, privacy and governance, while eliminating the threat of low-cost network attacks.
-
-    architecture-btn: Learn More
-    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
-
-    governance-heading: First Self Governing, Self Funding Protocol
-    governance-text: In Dash, everyone has a voice and the ability to propose projects directly to the network.  Anything you can do - from marketing to development - that helps Dash grow and improve can be funded.  This means Dash funds its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network.
-
-
-                     Just submit a treasury proposal and present your idea to the network for funding and make your case, or if you operate a Masternode, be sure to vote!
+      Since the original research phase, documentation, specifications, plans and diagrams have been being drafted, growing into a collection of documents that will be put into a wiki with full documentation for Evolution’s end-to-end design and implementation.
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
 
-    network-growth-heading: The Fastest Growing Network
-    network-growth-text:
-      Thanks to incentivization, Dash’s network has grown to 4,100 masternodes since launch in 2014, meaning Dash’s peer-to-peer network is one of the largest in the world.
+    evolution-research-heading: EVOLUTION RESEARCH
+    evolution-research-text:
+      In January 2016 we released an early Evolution prototype based on Electrum which enabled basic functions such as registering a username and paying friends by name.
 
+      The prototype was pretty basic, with user interaction limited to just paying a few friends and user data stored on a dev server, but at least it proved the concept.
+      What we set out to do then was to design and prototype all the key technologies that would make these functions work in a purely P2P way, with data secured on the Dash blockchain and accessible from anywhere on any device, with integrated SPV based security and no centralized intermediary services required, and using the most common and censorship resistant protocol available – HTTP(S)
+    evolution-research-btn: Network Stats
 
-      More nodes means more secure services, and more capacity for end-users to access Digital Cash from anywhere in the world, 24/7.
-    network-growth-btn: Network Stats
+    launching-heading: LAUNCHING DATES
+    launching-text: >
+      Launching a new software release on the network requires that all budget proposals be re-submitted into the system.
 
-    evolution-heading: Digital Currency Evolution
-    evolution-text:
-
-      What's next? We want digital currencies to be so easy to use your Grandma would use them.
-
-
-      Dash Evolution will enable you to signup and access your Dash from any device and transact as easily as you can with PayPal, but in a fully decentralized way. Stay tuned...
-    evolution-btn: Learn More
-    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
-
-    news-heading: Latest News
-    news-btn: View All News
-
-    get-started-heading: Get Started
-    get-started-text: Download the wallet and start using Digital Cash!
-    get-started-btn: Get Dash
+      Due to the timing of superblocks, we have a short window to launch, near the beginning of the month. In order to ensure we launch the most stable possible version of the software without interfering with the budget system, we would like to hold off until early February to launch 12.1. Launch date: February 5th, 2017.
+    launching-btn: Budgets
+    launching-link: https://www.dashcentral.org/budget
 
   update:
     title: Dash Official Website | Dash Crypto Currency
