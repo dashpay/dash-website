@@ -13,53 +13,77 @@ pages:
 
     subscribe-btn: Subscribe
 
-    video-heading: CORE DEVELOPMENT
-    video-text: The first area of progress is Dash Core. In addition to running the network at present, Dash Core also serves as the backbone of the Evolution engine.
+    video-heading: DEVELOPMENT
+    video-text: Dash Evolution creates a new type of cryptographic currency with various advanced features that assist in the creation of decentralized technology. Dash introduces a tiered network design, which allows users to do various jobs for the network, along with decentralized API access and a decentralized file system.
     video-btn: Overview Video
+    sentinel-btn: Sentinel
 
-    merchants-heading: WooCommerce Integration
-    merchants-text: Download Plugin for WooCommerce Wordpress and start using Digital Cash!
-    merchants-btn: Get Plugin
+    prototype-heading: Dash Evolution Prototype
+    prototype-text: We will be writing the software for this project in stages, the first stage will take about 2 months to have a very early prototype for Dash Evolution that includes a basic implementation of DashDrive, Primitives, DAPI and a simple T3 wallet. In six to eight months, we should be entering testnet phase with most basic functionality. In 12-18 months, we plan for the first release version (a stable prototype).
+    prototype-btn: Dash Prototype
 
-    integrate-heading: 12.1 Updates
-    integrate-text: Sentinel can also be re-geared and deployed to operate digital companies that have a built-in workforce, infrastructure to deploy again, and as an engine for storage and retrieval of information.
-
-    slack-btn: Slack Chanel
-    forum-btn: Dash Forums
-
-    execution-heading: STRATEGIC EXECUTION
-    execution-text:
-      Ryan Taylor, Dash’s CFO, has coordinated a deal with Arizona State University’s SkySong incubator, allowing us access to their top tier facility in Tempe, Arizona.
+    component-heading: Dash Evolution Prototype
+    component-text: We will be writing the software for this project in stages, the first stage will take about 2 months to have a very early prototype for Dash Evolution that includes a basic implementation of DashDrive, Primitives, DAPI and a simple T3 wallet. In six to eight months, we should be entering testnet phase with most basic functionality. In 12-18 months, we plan for the first release version (a stable prototype).
+    component-btn: Dash Prototype
 
 
-      There are 29 fast-growing, innovative startups sharing this location, and we look forward to talking with many of them. We also look forward to hiring exceptional talent from the University.
+    feature-private-heading: Private
+    feature-private-text: Protect your financial information.  PrivateSend ensures your activity history and balances are private.
+    feature-instant-heading: Instant
+    feature-instant-text: Your time is valuable.  InstantSend payments confirm in less than a second.
+    feature-secure-heading: Secure
+    feature-secure-text: Security you can count on.  Transactions are confirmed by 1,000 Gigahash of X11 ASIC computing power and over 4,100 servers hosted around the world.
 
-    execution-btn: Learn More
-    execution-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
+    merchants-heading: Shop direct with Dash
+    merchants-text: Instant and private purchases, direct from your Dash wallet
+    merchants-btn: More Merchants
+    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
+    merchants-join-btn: Become a Merchant
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
 
-    update-heading: EVOLUTION UPDATE
-    update-text:
-      Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution. This comes after months of conversations between Andy and myself about how each component of Evolution works, then reimagining it and improving the components and designs systematically.
+    architecture-heading: Next-Gen P2P Network
+    architecture-text:
+      At Dash’s core is a unique fully-incentivized peer-to-peer network.  Miners are rewarded for securing the blockchain and masternodes are rewarded for validating, storing and serving the blockchain to users.
 
-      Since the original research phase, documentation, specifications, plans and diagrams have been being drafted, growing into a collection of documents that will be put into a wiki with full documentation for Evolution’s end-to-end design and implementation.
+
+      Masternodes represent a new layer of network servers that work in highly secure clusters called quorums to provide a variety of decentralized services, like instant transactions, privacy and governance, while eliminating the threat of low-cost network attacks.
+
+    architecture-btn: Learn More
+    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+
+    governance-heading: First Self Governing, Self Funding Protocol
+    governance-text: In Dash, everyone has a voice and the ability to propose projects directly to the network.  Anything you can do - from marketing to development - that helps Dash grow and improve can be funded.  This means Dash funds its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network.
+
+
+                     Just submit a treasury proposal and present your idea to the network for funding and make your case, or if you operate a Masternode, be sure to vote!
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
 
-    evolution-research-heading: EVOLUTION RESEARCH
-    evolution-research-text:
-      In January 2016 we released an early Evolution prototype based on Electrum which enabled basic functions such as registering a username and paying friends by name.
+    network-growth-heading: The Fastest Growing Network
+    network-growth-text:
+      Thanks to incentivization, Dash’s network has grown to 4,100 masternodes since launch in 2014, meaning Dash’s peer-to-peer network is one of the largest in the world.
 
-      The prototype was pretty basic, with user interaction limited to just paying a few friends and user data stored on a dev server, but at least it proved the concept.
-      What we set out to do then was to design and prototype all the key technologies that would make these functions work in a purely P2P way, with data secured on the Dash blockchain and accessible from anywhere on any device, with integrated SPV based security and no centralized intermediary services required, and using the most common and censorship resistant protocol available – HTTP(S)
-    evolution-research-btn: Network Stats
 
-    launching-heading: LAUNCHING DATES
-    launching-text: >
-      Launching a new software release on the network requires that all budget proposals be re-submitted into the system.
+      More nodes means more secure services, and more capacity for end-users to access Digital Cash from anywhere in the world, 24/7.
+    network-growth-btn: Network Stats
 
-      Due to the timing of superblocks, we have a short window to launch, near the beginning of the month. In order to ensure we launch the most stable possible version of the software without interfering with the budget system, we would like to hold off until early February to launch 12.1. Launch date: February 5th, 2017.
-    launching-btn: Budgets
-    launching-link: https://www.dashcentral.org/budget
+    evolution-heading: Digital Currency Evolution
+    evolution-text:
+
+      What's next? We want digital currencies to be so easy to use your Grandma would use them.
+
+
+      Dash Evolution will enable you to signup and access your Dash from any device and transact as easily as you can with PayPal, but in a fully decentralized way. Stay tuned...
+    evolution-btn: Learn More
+    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+
+    news-heading: Latest News
+    news-btn: View All News
+
+    get-started-heading: Get Started
+    get-started-text: Download the wallet and start using Digital Cash!
+    get-started-btn: Get Dash
+
   update:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash

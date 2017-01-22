@@ -1,7 +1,7 @@
 ---
 layout: default
-title: pages.home.title
-description: pages.home.description
+title: pages.evolution.title
+description: pages.evolution.description
 ---
 
 
@@ -15,12 +15,12 @@ description: pages.home.description
 	-->
 	<section class="section section--home-cta">
 		<div class="section__content">
-				<h2 class="section__title">{% t pages.home.video-heading %}</h2>
-				<div class="section__lead">{% tmd pages.home.video-text %}</div>
+				<h2 class="section__title">{% t pages.evolution.video-heading %}</h2>
+				<div class="section__lead">{% tmd pages.evolution.video-text %}</div>
 
 				<div class="section__btn-grp">
-					<a href="https://www.youtube.com/watch?v=S0oNO3mbBE8" class="btn-blue btn-large" target="_blank" data-js-popup="video">{% t pages.home.video-btn %}</a>
-					<a href="{{ basenav }}/get-dash/" class="btn-blue-solid btn-large">{% t nav.download %}</a>
+					<a href="https://www.youtube.com/watch?v=rcHC40YmS0g" class="btn-blue btn-large" target="_blank" data-js-popup="video">{% t pages.evolution.video-btn %}</a>
+					<a href="{{ basenav }}/get-dash/" class="btn-blue-solid btn-large">{% t pages.evolution.sentinel-btn %}</a>
 				</div>
 		</div>
 	</section>
@@ -28,156 +28,95 @@ description: pages.home.description
 	<!--
 		MERCHANTS
 	-->
+
+	<section class="home-get-started-cta evo-prototype-section">
+		<div class="content">
+			<h2>{% t pages.evolution.prototype-heading %}</h2>
+
+			{% tmd pages.evolution.prototype-text %}
+
+			<a href="{{ basenav }}/get-dash/" class="btn-white-solid">{% t pages.evolution.prototype-btn %}</a>
+
+			<img src="/assets/img/evolution/bigwallet.png" alt="">
+		</div>
+	</section>
+
+	<!--
+		INTEGRATION
+	-->
 	<section>
 		<div class="content">
 			<div>
-				<h2>{% t pages.home.merchants-heading %}</h2>
+				<h2>{% t pages.update.integrate-heading %}</h2>
 
-				{% tmd pages.home.merchants-text %}
+				{% tmd pages.update.integrate-text %}
 			</div>
 
-			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
+			<div class="ctabox ctabox_small-font ctabox--gray-light-bg" data-js-ctabox>
 				<div class="ctabox__inner">
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://shakepay.co" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/shakepay_logo.png" class="ctabox__image">
+								<img src="/assets/img/update/network.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">Shake Pay</h4>
-								<p class="ctabox__description">Dash-Visa Debit Card</p>
+								<h4 class="ctabox__title">EVOLUTION</h4>
+								<p class="ctabox__description">Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution.</p>
 							</div>
 						</a>
 					</article>
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://www.livingroomofsatoshi.com/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/livingroomofsatoshi_logo.png" class="ctabox__image">
+								<img src="/assets/img/update/update.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-							<h4 class="ctabox__title">Living Room of..</h4>
-							<p class="ctabox__description">Pay bills in Australia</p>
+								<h4 class="ctabox__title">RESEARCH</h4>
+								<p class="ctabox__description">In January 2016 we released an early Evolution prototype based on Electrum which enabled basic functions such as registering a username and paying friends by name.</p>
 							</div>
 						</a>
 					</article>
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/bolehvpn.png" class="ctabox__image">
+								<img src="/assets/img/update/frontend.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-							<h4 class="ctabox__title">Boleh VPN</h4>
-							<p class="ctabox__description">Secure, Private VPN</p>
+							<h4 class="ctabox__title">FRONTEND</h4>
+							<p class="ctabox__description">The 3 main areas of frontend design and development have been to design a secure, SPV based Web Wallet, merchant tools to enable drag-and-drop checkout on a website, and an SDK that connects web clients to DAPI.</p>
 							</div>
 						</a>
 					</article>
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://node40.com" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/node40.png" class="ctabox__image">
+								<img src="/assets/img/update/backend.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">Node40</h4>
-								<p class="ctabox__description">Masternode Hosting</p>
+								<h4 class="ctabox__title">BACKEND</h4>
+								<p class="ctabox__description">The first has been to port BitPay’s Bitcore Platform to Dash including merging Bitcore Node to DashCore 12.1 for native API support.</p>
 							</div>
 						</a>
 					</article>
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://shapeshift.io" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/shapeshift_logo.png" class="ctabox__image">
+								<img src="/assets/img/update/code.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">ShapeShift</h4>
-								<p class="ctabox__description">Exchange Dash for Bitcoin</p>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.qhoster.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/qhoster.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-							<h4 class="ctabox__title">Qhoster</h4>
-							<p class="ctabox__description">Quality Hosting</p>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://www.isg3d.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/isg3d_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">ISG3D</h4>
-								<p class="ctabox__description">3D Printing Services</p>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://www.coaex.com" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/coaex_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">CoaEX</h4>
-								<p class="ctabox__description">Precious Metals</p>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://bravenewbookstore.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/bravenewbooks_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">BraveNewBooks</h4>
-								<p class="ctabox__description">Book Store</p>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://giftoff.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/giftoff_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">GiftOff</h4>
-								<p class="ctabox__description">Gift Cards</p>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://key4co.in" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/key4coin_logo.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">Key4Coin</h4>
-								<p class="ctabox__description">Game Keys</p>
-							</div>
-						</a>
-					</article>
-					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://protonmail.com/" target="_blank" class="ctabox__link">
-							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/protonmail.png" class="ctabox__image">
-							</div>
-							<div class="ctabox__text">
-								<h4 class="ctabox__title">ProtonMail</h4>
-								<p class="ctabox__description">Secure, Private Email</p>
+								<h4 class="ctabox__title"> CORE</h4>
+								<p class="ctabox__description">Evolution Core work has been focused on first providing a basis to the new system in the form of Sentinel and improving DashCore to be implementation-agnostic to governance functions and objects.</p>
 							</div>
 						</a>
 					</article>
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://misconductwineco.com/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/merchants/misconductwine_logo.jpg" class="ctabox__image">
+								<img src="/assets/img/update/strategic.jpg" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">Misconduct Wine</h4>
-								<p class="ctabox__description">Premium micro-lot wines</p>
+								<h4 class="ctabox__title">NETWORK</h4>
+								<p class="ctabox__description">Enforcement will be turned off for this network upgrade, meaning nodes running the old version of the Dash software (12.0) will quickly stop being paid (contingent on miners upgrading).</p>
 							</div>
 						</a>
 					</article>
@@ -185,8 +124,8 @@ description: pages.home.description
 			</div>
 
 			<div>
-				<a href="/merchants/" target="_blank" class="btn-blue">{% t pages.home.merchants-btn %}</a>
-				<a href="{% t pages.home.merchants-link %}" target="_blank" class="btn-blue">{% t pages.home.merchants-join-btn %}</a>
+				<a href="/merchants/" target="_blank" class="btn-blue">{% t pages.update.slack-btn %}</a>
+				<a href="{% t pages.home.merchants-link %}" target="_blank" class="btn-blue">{% t pages.update.forum-btn %}</a>
 			</div>
 		</div>
 	</section>
@@ -224,14 +163,14 @@ description: pages.home.description
 		<div class="content">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>{% t pages.home.architecture-heading %}</h2>
+					<h2>{% t pages.update.execution-heading %}</h2>
 
-					{% tmd pages.home.architecture-text %}
+					{% tmd pages.update.execution-text %}
 
-					<a href="{% t pages.home.architecture-link %}" target="_blank" class="btn-blue">{% t pages.home.architecture-btn %}</a>
+					<a href="{% t pages.update.execution-link %}" target="_blank" class="btn-blue">{% t pages.update.execution-btn %}</a>
 				</div>
 				<div class="col-sm-6 home-architecture-graphic">
-					<img src="/assets/img/home/globe.png" alt="{% t pages.home.architecture-heading %}">
+					<img src="/assets/img/update/execution.png" alt="{% t pages.home.execution-heading %}">
 				</div>
 			</div>
 		</div>
@@ -244,16 +183,13 @@ description: pages.home.description
 		<div class="content">
 			<div class="row">
 				<div class="col-sm-6 col-sm-push-6">
-					<h2>{% t pages.home.governance-heading%}</h2>
+					<h2>{% t pages.update.update-heading %}</h2>
 
-					{% tmd pages.home.governance-text %}
+					{% tmd pages.update.update-text %}
 
-					<a href="http://dashvotetracker.com/" target="_blank" class="btn-blue">{% t pages.home.proposal-btn %}</a>
-
-					<a href="https://dashcentral.org/" target="_blank" class="btn-blue">{% t pages.home.proposal-submit-btn %}</a>
 				</div>
-				<div class="col-sm-6 col-sm-pull-6 home-budgets-graphic">
-					<img src="/assets/img/home/budgets.png" alt="{% t pages.home.governance-heading%}">
+				<div class="col-sm-6 col-sm-pull-6 ">
+					<img src="/assets/img/update/updateevo.png" alt="{% t pages.update.update-heading %}">
 				</div>
 			</div>
 		</div>
@@ -266,17 +202,14 @@ description: pages.home.description
 		<div class="content">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>{% t pages.home.network-growth-heading %}</h2>
+					<h2>{% t pages.update.evolution-research-heading %}</h2>
 
-					{% tmd pages.home.network-growth-text %}
+					{% tmd pages.update.evolution-research-text %}
 
-					<a href="{{ basenav }}/currency" class="btn-blue">{% t pages.home.network-growth-btn %}</a>
+					<a href="{{ basenav }}/currency" class="btn-blue">{% t pages.update.evolution-research-btn %}</a>
 				</div>
-				<!--div class="col-sm-6 home-network-graphic">
-					<img src="/assets/img/home/graph.png" alt="{% t pages.home.network-growth-heading %}">
-				</div-->
 				<div class="col-sm-6 home-network-graphic-live">
-					<img src="http://178.254.23.111/~pub/masternode_count.png" alt="{% t pages.home.network-growth-heading %}">
+					<img src="/assets/img/update/research.png" alt="{% t pages.update.research-heading %}">
 				</div>
 			</div>
 		</div>
@@ -289,14 +222,14 @@ description: pages.home.description
 		<div class="content">
 			<div class="row">
 				<div class="col-sm-6 col-sm-push-6">
-					<h2>{% t pages.home.evolution-heading %}</h2>
+					<h2>{% t pages.update.launching-heading %}</h2>
 
-					{% tmd pages.home.evolution-text %}
+					{% tmd pages.update.launching-text %}
 
-					<a href="{% t pages.home.evolution-link %}" target="_blank" class="btn-blue">{% t pages.home.evolution-btn %}</a>
+					<a href="{% t pages.home.launching-link %}" target="_blank" class="btn-blue">{% t pages.update.launching-btn %}</a>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 home-evolution-graphic">
-					<img src="/assets/img/home/evo.png" alt="Dash Evolution">
+					<img src="/assets/img/update/budget.png" alt="Dash Evolution">
 				</div>
 			</div>
 		</div>
@@ -335,19 +268,5 @@ description: pages.home.description
 		</div>
 	</section>
 
-	<!--
-		GET STARTED
-	-->
-	<section class="home-get-started-cta">
-		<div class="content">
-			<h2>{% t pages.home.get-started-heading %}</h2>
-
-			{% tmd pages.home.get-started-text %}
-
-			<a href="{{ basenav }}/get-dash/" class="btn-white-solid">{% t pages.home.get-started-btn %}</a>
-
-			<img src="/assets/img/home/macbook.png" alt="">
-		</div>
-	</section>
 
 </div>
