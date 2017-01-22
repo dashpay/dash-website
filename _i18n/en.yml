@@ -28,13 +28,13 @@ pages:
 
     execution-heading: STRATEGIC EXECUTION
     execution-text:
-      ARyan Taylor, Dash’s CFO, has coordinated a deal with Arizona State University’s SkySong incubator, allowing us access to their top tier facility in Tempe, Arizona.
+      Ryan Taylor, Dash’s CFO, has coordinated a deal with Arizona State University’s SkySong incubator, allowing us access to their top tier facility in Tempe, Arizona.
 
 
       There are 29 fast-growing, innovative startups sharing this location, and we look forward to talking with many of them. We also look forward to hiring exceptional talent from the University.
 
     execution-btn: Learn More
-    execution-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+    execution-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
 
     update-heading: EVOLUTION UPDATE
     update-text:
@@ -57,8 +57,8 @@ pages:
       Launching a new software release on the network requires that all budget proposals be re-submitted into the system.
 
       Due to the timing of superblocks, we have a short window to launch, near the beginning of the month. In order to ensure we launch the most stable possible version of the software without interfering with the budget system, we would like to hold off until early February to launch 12.1. Launch date: February 5th, 2017.
-    launching-btn: Reddit
-    launching-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+    launching-btn: Budgets
+    launching-link: https://www.dashcentral.org/budget
 
   wallets:
     title: Dash Wallets
