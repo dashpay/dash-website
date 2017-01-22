@@ -16,6 +16,11 @@
 		bottom: 0;
 		left: 0;
 	}
+	&_no-overlay{
+		&:after {
+			display: none;
+		}
+	}
 }
 .hero__background-image {
 	position: relative;

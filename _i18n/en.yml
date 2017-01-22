@@ -7,10 +7,11 @@ pages:
     description: Dash is Digital Cash
 
     hero-image:
-    hero-heading: 12.1 Update
-    hero-text: Launching a new software release on the network requires that all budget proposals be re-submitted into the system.
-    hero-btn: >
-      Launch date: February 5th, 2017
+    hero-heading: DASH EVOLUTION
+    hero-text: Dash Evolution, the first cryptocurrency you can use on web and mobile without an intermediary.
+    hero-btn:  More about Evolution
+
+    subscribe-btn: Subscribe
 
     video-heading: CORE DEVELOPMENT
     video-text: The first area of progress is Dash Core. In addition to running the network at present, Dash Core also serves as the backbone of the Evolution engine.
