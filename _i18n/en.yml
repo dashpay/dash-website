@@ -18,13 +18,19 @@ pages:
     video-btn: Overview Video
     sentinel-btn: Sentinel
 
+    slack-btn: Slack Chanel
+    forum-btn: Dash Forums
+
     prototype-heading: Dash Evolution Prototype
     prototype-text: We will be writing the software for this project in stages, the first stage will take about 2 months to have a very early prototype for Dash Evolution that includes a basic implementation of DashDrive, Primitives, DAPI and a simple T3 wallet. In six to eight months, we should be entering testnet phase with most basic functionality. In 12-18 months, we plan for the first release version (a stable prototype).
     prototype-btn: Dash Prototype
 
+    slack-btn: Slack Chanel
+    forum-btn: Dash Forums
+
     component-heading: Dash Evolution Prototype
-    component-text: We will be writing the software for this project in stages, the first stage will take about 2 months to have a very early prototype for Dash Evolution that includes a basic implementation of DashDrive, Primitives, DAPI and a simple T3 wallet. In six to eight months, we should be entering testnet phase with most basic functionality. In 12-18 months, we plan for the first release version (a stable prototype).
-    component-btn: Dash Prototype
+    component-text: >
+      Included below is our current work on Evolution, that adds many components such as:
 
 
     feature-private-heading: Private

@@ -47,9 +47,9 @@ description: pages.evolution.description
 	<section>
 		<div class="content">
 			<div>
-				<h2>{% t pages.update.integrate-heading %}</h2>
+				<h2>{% t pages.evolution.component-heading %}</h2>
 
-				{% tmd pages.update.integrate-text %}
+				{% tmd pages.evolution.component-text %}
 			</div>
 
 			<div class="ctabox ctabox_small-font ctabox--gray-light-bg" data-js-ctabox>
@@ -60,8 +60,8 @@ description: pages.evolution.description
 								<img src="/assets/img/update/network.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">EVOLUTION</h4>
-								<p class="ctabox__description">Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution.</p>
+								<h4 class="ctabox__title">DashDrive</h4>
+								<p class="ctabox__description">A decentralized shared file system that lives on the second tier network</p>
 							</div>
 						</a>
 					</article>
@@ -71,8 +71,8 @@ description: pages.evolution.description
 								<img src="/assets/img/update/update.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">RESEARCH</h4>
-								<p class="ctabox__description">In January 2016 we released an early Evolution prototype based on Electrum which enabled basic functions such as registering a username and paying friends by name.</p>
+								<h4 class="ctabox__title">DAPI</h4>
+								<p class="ctabox__description">A decentralized API which allows third tier users to access the network securely</p>
 							</div>
 						</a>
 					</article>
@@ -82,8 +82,8 @@ description: pages.evolution.description
 								<img src="/assets/img/update/frontend.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-							<h4 class="ctabox__title">FRONTEND</h4>
-							<p class="ctabox__description">The 3 main areas of frontend design and development have been to design a secure, SPV based Web Wallet, merchant tools to enable drag-and-drop checkout on a website, and an SDK that connects web clients to DAPI.</p>
+							<h4 class="ctabox__title">DashPay Decentralized Wallets</h4>
+							<p class="ctabox__description">These wallets are light clients connected to the network via DAPI and run on various platforms</p>
 							</div>
 						</a>
 					</article>
@@ -93,8 +93,8 @@ description: pages.evolution.description
 								<img src="/assets/img/update/backend.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">BACKEND</h4>
-								<p class="ctabox__description">The first has been to port BitPay’s Bitcore Platform to Dash including merging Bitcore Node to DashCore 12.1 for native API support.</p>
+								<h4 class="ctabox__title">Second Tier</h4>
+								<p class="ctabox__description">The masternode network, which provides compensated infrastructure for the project</p>
 							</div>
 						</a>
 					</article>
@@ -104,8 +104,8 @@ description: pages.evolution.description
 								<img src="/assets/img/update/code.png" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title"> CORE</h4>
-								<p class="ctabox__description">Evolution Core work has been focused on first providing a basis to the new system in the form of Sentinel and improving DashCore to be implementation-agnostic to governance functions and objects.</p>
+								<h4 class="ctabox__title"> Budgets</h4>
+								<p class="ctabox__description">The second tier is given voting power to allocate funds for specific projects on the network via the budget system</p>
 							</div>
 						</a>
 					</article>
@@ -115,8 +115,30 @@ description: pages.evolution.description
 								<img src="/assets/img/update/strategic.jpg" class="ctabox__image">
 							</div>
 							<div class="ctabox__text">
-								<h4 class="ctabox__title">NETWORK</h4>
-								<p class="ctabox__description">Enforcement will be turned off for this network upgrade, meaning nodes running the old version of the Dash software (12.0) will quickly stop being paid (contingent on miners upgrading).</p>
+								<h4 class="ctabox__title">Governance</h4>
+								<p class="ctabox__description">The second tier is given voting power to govern the currency and chart the course the currency takes</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://misconductwineco.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/strategic.jpg" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Quorum Chain</h4>
+								<p class="ctabox__description">This feature introduces a permanent stable masternode list, which can be used to calculate past and present quorums</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://misconductwineco.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/update/strategic.jpg" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Social Wallet</h4>
+								<p class="ctabox__description">We introduce a social wallet, which allows friends lists, grouping of users and shared multisig accounts.</p>
 							</div>
 						</a>
 					</article>
@@ -124,37 +146,12 @@ description: pages.evolution.description
 			</div>
 
 			<div>
-				<a href="/merchants/" target="_blank" class="btn-blue">{% t pages.update.slack-btn %}</a>
-				<a href="{% t pages.home.merchants-link %}" target="_blank" class="btn-blue">{% t pages.update.forum-btn %}</a>
+				<a href="/merchants/" target="_blank" class="btn-blue">{% t pages.evolution.slack-btn %}</a>
+				<a href="{% t pages.home.merchants-link %}" target="_blank" class="btn-blue">{% t pages.evolution.forum-btn %}</a>
 			</div>
 		</div>
 	</section>
 
-	<!--
-		DASH FEATURES
-		PRIVATE | INSTANT | SECURE
-	-->
-	<section>
-		<div class="content">
-			<div class="row features-collection">
-				<div class="col-sm-4">
-					<img src="/assets/img/home/instant.svg" height="100" alt="{% t pages.home.feature-instant-heading %}">
-					<h2>{% t pages.home.feature-instant-heading %}</h2>
-					{% tmd pages.home.feature-instant-text %}
-				</div>
-				<div class="col-sm-4">
-					<img src="/assets/img/home/private.svg" height="100" alt="{% t pages.home.feature-private-heading %}">
-					<h2>{% t pages.home.feature-private-heading %}</h2>
-					{% tmd pages.home.feature-private-text %}
-				</div>
-				<div class="col-sm-4">
-					<img src="/assets/img/home/secure.svg" height="100" alt="{% t pages.home.feature-secure-heading %}">
-					<h2>{% t pages.home.feature-secure-heading %}</h2>
-					{% tmd pages.home.feature-secure-text %}
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<!--
 		NETWORK ARCHITECTURE
