@@ -1,11 +1,63 @@
-- name: Dash Core
+- name: "Dash Core Win/32 ZIP"
   description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
-  product_id: dash_core
+  product_id: dash_core_win_32_zip
+  product_label: Dash Core Win/32 ZIP
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download ZIP
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
+    -
+      label: PGP
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
+
+- name: "Dash Core Win/32 Installer"
+  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  logo_url: /assets/img/dash_circle_normal.png
+  os: win32
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_win_32_install
+  product_label: Dash Core
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links: 
+    -
+      label: Download Installer 
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe" 
+    - 
+      label: Hash File 
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc" 
+    - 
+      label: PGP 
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe.asc"
+
+- name: "Dash Core Win/64 Installer"
+  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  logo_url: /assets/img/dash_circle_normal.png
+  os: win64
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_win_64_install
   product_label: Dash Core
   product_security_label: "https://www.dash.org"
   product_security_url: "https://www.dash.org"
@@ -16,18 +68,175 @@
   links:
     -
       label: Download Installer
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe"
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win64-setup.exe"
     -
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
       label: PGP
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe.asc"
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win64-setup.exe.asc"
 
-- name: Dash Electrum
+- name: Dash Core Win/64 ZIP
+  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  logo_url: /assets/img/dash_circle_normal.png
+  os: win64
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_win_64_zip
+  product_label: Dash Core
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download ZIP
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
+    -
+      label: PGP
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win64.zip.asc"
+
+
+- name: Dash Core Linux 32 Bit
+  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  logo_url: /assets/img/dash_circle_normal.png
+  os: linux
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_linux_32
+  product_label: Dash Core
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download TGZ
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-linux32.tar.gz"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
+    -
+      label: PGP
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-linux32.tar.gz.asc"
+
+- name: Dash Core Linux 64 Bit
+  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  logo_url: /assets/img/dash_circle_normal.png
+  os: linux
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_linux_64
+  product_label: Dash Core
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download TGZ
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-linux64.tar.gz"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
+    -
+      label: PGP
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-linux64.tar.gz.asc"
+
+- name: Dash Core Raspberry Pi 2
+  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  logo_url: /assets/img/dash_circle_normal.png
+  os: linux
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_linux_64
+  product_label: Dash Core
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download TGZ
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-RPi2.tar.gz"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
+    -
+      label: PGP
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-RPi2.tar.gz.asc"
+
+- name: Dash Electrum 32/64bit
+  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  logo_url: /assets/img/wallets/electrum_banner.png
+  os: linux
+  type: desktop
+  vendor_id: electrum
+  vendor_label: Electrum
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Electrum-Dash.org
+  product_website_url: "https://electrum-dash.org/"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/electrum-dash"
+  links:
+    -
+      label: Download PKG
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin"
+    -
+      label: Hash File
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.DIGESTS.txt"
+    -
+      label: PGP
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.asc"
+
+- name: Dash Electrum 32/64bit
   description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win32
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Electrum-Dash.org
+  product_website_url: "https://electrum-dash.org/"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/electrum-dash"
+  links:
+    -
+      label: Download
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe"
+    -
+      label: Hash File
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.DIGESTS.txt"
+    -
+      label: PGP
+      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
+
+- name: Dash Electrum 32/64bit
+  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  logo_url: /assets/img/wallets/electrum_banner.png
+  os: win64
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
@@ -58,7 +267,53 @@
     Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
     Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
+  os: linux
+  type: desktop
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  product_id: jaxx
+  product_label: Jaxx
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
+  links:
+    -
+      label: Jaxx Downloads
+      url: "https://jaxx.io/support.html"
+
+- name: Jaxx
+  description: |
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    <img  alt="Donate DASH" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRIR2k_r5o_3aPescvPqtFQvDB9LNJNqSTM_dB6Ag3HzacgrxHmsA">
+    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+  logo_url: "https://jaxx.io/images/favicon.ico"
   os: win32
+  type: desktop
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  product_id: jaxx
+  product_label: Jaxx
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
+  links:
+    -
+      label: Jaxx Downloads
+      url: "https://jaxx.io/support.html"
+
+- name: Jaxx
+  description: |
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    <img  alt="Donate DASH" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRIR2k_r5o_3aPescvPqtFQvDB9LNJNqSTM_dB6Ag3HzacgrxHmsA">
+    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+  logo_url: "https://jaxx.io/images/favicon.ico"
+  os: win64
   type: desktop
   vendor_id: jaxx
   vendor_label: Jaxx
@@ -204,29 +459,12 @@
       label: Google Play Download
       url: "https://play.google.com/store/apps/details?id=com.kryptokit.jaxx"
 
-- name: iPhone Dash Wallet
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
-  logo_url: "/assets/img/wallets/iOS.png"
-  os: ios
-  type: mobile
-  vendor_id: quantum_explorer
-  vendor_label: Quantum Explorer
-  product_id: ios_wallet
-  product_label: iOSWallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
-  product_source_url: "https://github.com/QuantumExplorer/dashwallet"
-  links:
-    -
-      label: Installation Instructions
-      url: "https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=16646233"
 
 - name: Exodus
   description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
   logo_url: "https://www.exodus.io/favicon.ico"
-  os: ios
-  type: mobile
+  os: win64
+  type: desktop
   vendor_id: exodus
   vendor_label: Exodus
   product_id: exodus
@@ -243,7 +481,7 @@
 - name: Exodus
   description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
   logo_url: "https://www.exodus.io/favicon.ico"
-  os: win64
+  os: osx
   type: desktop
   vendor_id: exodus
   vendor_label: Exodus
@@ -292,6 +530,24 @@
     -
       label: Setup Instructions
       url: "https://dashpay.atlassian.net/wiki/display/DOC/Paper+Wallet"
+
+- name: KeepKey Hardware Wallet
+  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  logo_url: "https://avatars3.githubusercontent.com/u/73358?v=3&s=400"
+  os:
+  type: hardware
+  vendor_id: keepkey
+  vendor_label: KeepKey
+  product_id: keepkey
+  product_label: KeepKey Hardware Wallet
+  product_security_label: "https://www.keepkey.com"
+  product_security_url: "https://www.keepkey.com"
+  product_source_label: Github
+  product_source_url: "https://github.com/dstanchfield/trezor-mcu/commits/master"
+  links:
+    -
+      label: Purchase Options
+      url: "https://www.keepkey.com"
 
 - name: Ledger Nano S
   description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
