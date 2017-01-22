@@ -10,6 +10,7 @@
 
 	<!-- Navigation -->
 	{% include nav-desktop.html %}
+	{% include base.html %}
 
 	<!-- Hero content -->
 	<div class="hero__content">
@@ -17,7 +18,7 @@
 		<p class="hero__lead">{% t pages.home.hero-text %}</p>
 
 		<div class="hero__buttons">
-			<a href="get-dash/" class="btn-blue-solid btn-large">{% t nav.get-dash %}</a>
+			<a href="{{ basenav }}/get-dash/" class="btn-blue-solid btn-large">{% t nav.get-dash %}</a>
 		</div>
 	</div>
 
