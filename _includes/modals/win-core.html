@@ -3,32 +3,35 @@
   <div class="modal-dialog modal-lg" role="document">
 
     <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center">{% t pages.wallets.modal-core-header %}</h4>
+    <div class="modal-content b-modal__content">
+      <div class="modal-header b-modal__header">
+        <span class="close b-modal__close pull-right" data-dismiss="modal" aria-hidden="true"></span>
+        <h4 class="modal-title text-left b-modal__title">{% t pages.wallets.modal-core-header %}</h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body b-modal__body">
         <div class="row">
           <div class="col-xs-8">
             <div class="row">
               <div class="col-xs-12">
-                <p class="bottom-space">{% t pages.wallets.modal-win-core-description %}</p>
+                <p class="bottom-space b-modal__descr">{% t pages.wallets.modal-win-core-description %}</p>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <p class="bottom-space"><u>{% t pages.wallets.modal-win-core-security-key %}: </u>{% t pages.wallets.modal-win-core-security-value %} <a href="#" data-toggle="tooltip" title="security tooltip">?</a></p>
+                <p class="bottom-space">
+                <span class="b-modal__accent">{% t pages.wallets.modal-win-core-security-key %}: </span>{% t pages.wallets.modal-win-core-security-value %} <a href="#" data-toggle="tooltip" title="security tooltip">?</a></p>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <p class="bottom-space"><u>{% t pages.wallets.modal-win-core-source-code-key %}: </u>{% t pages.wallets.modal-win-core-source-code-value %} <a href="#" data-toggle="tooltip" title="source code tooltip">?</a></p>
+                <p class="bottom-space">
+                     <span class="b-modal__accent">{% t pages.wallets.modal-win-core-source-code-key %}: </span>
+                    {% t pages.wallets.modal-win-core-source-code-value %} <a href="#" data-toggle="tooltip" title="source code tooltip">?</a></p>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <select name="" id="" class="bottom-space">
+                <select name="" id="" class="bottom-space b-modal__select">
                   <option value="win32">Windows 32-bit</option>
                   <option value="win64">Windows 64-bit</option>
                 </select>
@@ -51,23 +54,31 @@
             </div>
           </div>
           <div class="col-xs-4">
-            <div class="row">
-              <div class="col-xs-12">
-                <h5>{% t pages.wallets.modal-core-users-text %}</h5>
-                <p class="bottom-space">{% t pages.wallets.modal-core-users-value %}</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                <h5>{% t pages.wallets.modal-core-masternode-text %}</h5>
-                <p class="bottom-space">{% t pages.wallets.modal-core-masternode-value %}</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                <h5>{% t pages.wallets.modal-core-pool-text %}</h5>
-                <p class="bottom-space">{% t pages.wallets.modal-core-pool-value %}</p>
-              </div>
+            <div class="b-modal__sidebar">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="b-modal__accent bottom-space">
+                        <h5>{% t pages.wallets.modal-core-users-text %}</h5>
+                        <p class="bottom-space">{% t pages.wallets.modal-core-users-value %}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="b-modal__accent bottom-space">
+                        <h5>{% t pages.wallets.modal-core-masternode-text %}</h5>
+                        <p class="bottom-space">{% t pages.wallets.modal-core-masternode-value %}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="b-modal__accent bottom-space">
+                        <h5>{% t pages.wallets.modal-core-pool-text %}</h5>
+                        <p class="bottom-space">{% t pages.wallets.modal-core-pool-value %}</p>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
