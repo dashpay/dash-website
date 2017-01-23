@@ -10,6 +10,7 @@
 
 	<!-- Navigation -->
 	{% include nav-desktop.html %}
+	{% include base.html %}
 
 	<!-- Hero content -->
 	<div class="hero__content">
@@ -17,8 +18,8 @@
 		<p class="hero__lead">{% t pages.evolution.hero-text %}</p>
 
 		<div class="hero__buttons">
-			<a href="get-dash/" class="btn-blue-solid btn-large">{% t pages.evolution.hero-btn %}</a>
-			<a href="get-dash/" class="btn-blue-solid btn-large">{% t pages.evolution.subscribe-btn %}</a>
+			<a href="{{basenav}}/get-dash/" class="btn-blue-solid btn-large">{% t pages.evolution.hero-btn %}</a>
+			<a href="{{basenav}}/get-dash/" class="btn-blue-solid btn-large">{% t pages.evolution.subscribe-btn %}</a>
 		</div>
 	</div>
 
