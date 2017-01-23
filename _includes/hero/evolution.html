@@ -1,6 +1,6 @@
 <div class="hero" id="hero">
-	<div class="hero__background">
-		{% srcset hero/home.jpg ppi:1,2 class="hero__background-image" %}
+	<div class="hero__background hero__background_no-overlay">
+		{% srcset evolution/bg1.png ppi:1,2 class="hero__background-image" %}
 			{% srcset_source width:1920 %}
 			{% srcset_source width:1280 %}
 			{% srcset_source width:1024 %}
@@ -10,15 +10,15 @@
 
 	<!-- Navigation -->
 	{% include nav-desktop.html %}
-	{% include base.html %}
 
 	<!-- Hero content -->
 	<div class="hero__content">
-		<h1 class="hero__title">{% t pages.home.hero-heading %}</h1>
-		<p class="hero__lead">{% t pages.home.hero-text %}</p>
+		<h1 class="hero__title">{% t pages.evolution.hero-heading %}</h1>
+		<p class="hero__lead">{% t pages.evolution.hero-text %}</p>
 
 		<div class="hero__buttons">
-			<a href="{{ basenav }}/get-dash/" class="btn-blue-solid btn-large">{% t nav.get-dash %}</a>
+			<a href="get-dash/" class="btn-blue-solid btn-large">{% t pages.evolution.hero-btn %}</a>
+			<a href="get-dash/" class="btn-blue-solid btn-large">{% t pages.evolution.subscribe-btn %}</a>
 		</div>
 	</div>
 
