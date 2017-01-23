@@ -12,14 +12,30 @@ description: pages.team.description
 
 		<div class="section__content content">
 			<div class="section__intro">
-				<h1 class="section__title">{% t pages.team.core-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h1>
+				<h2 class="section__title">{% t pages.team.core-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h2>
 			</div>
 			<ul class="member-list">
 				{% for member in site.data.team %}
-					{% include member-list.html %}
+					{% if member.core-team %}
+						{% include member-list.html %}
+					{% endif %}
 				{% endfor %}
 			</ul>
 		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.dev-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h2>
+			</div>
+			<ul class="member-list">
+				{% for member in site.data.team %}
+					{% unless  member.core-team %}
+						{% include member-list.html %}
+					{% endunless %}
+				{% endfor %}
+			</ul>
+		</div>
+
 		<!--
 		<div class="section__content content">
 			<div>

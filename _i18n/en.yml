@@ -462,6 +462,9 @@ pages:
     core-approval-btn: Network Approval
     core-approval-link: http://dashvotetracker.com/history.html?ProposalID=12
     core-join-btn: Join Our Team
+    core-heading: Core Team
+    dev-heading:  >
+      Developers / Support:
 nav:
   what-is-dash: What is Dash
   get-dash: Get Dash

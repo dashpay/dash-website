@@ -6,6 +6,7 @@
   email: evan@dash.org
   pgp: https://keybase.io/eduffield
   twitter:
+  core-team: true
 
 - name: Holger Schinzel
   title: Quality Assurance, Automation, Testing
@@ -14,6 +15,7 @@
   email: holger@dash.org
   pgp: https://keybase.io/schinzelh
   twitter:
+  core-team: true
 
 - name: UdjinM6
   title: Core Developer
@@ -22,6 +24,7 @@
   email: udjinm6@dash.org
   pgp: https://keybase.io/udjinm6
   twitter:
+  core-team: true
 
 - name: Timothy Flynn
   title: Core Developer
@@ -54,6 +57,7 @@
   email: moo@dash.org
   pgp: https://keybase.io/moocowmoo
   twitter:
+  core-team: true
 
 - name: TheLazieR
   title: Core Developer
@@ -70,6 +74,7 @@
   email: andy@dash.org
   pgp:
   twitter:
+  core-team: true
 
 - name: Nathan Marley
   title: Evolution Developer
@@ -158,6 +163,7 @@
   email: fernando@dash.org
   pgp: https://keybase.io/fernandog
   twitter: https://twitter.com/fernando
+  core-team: true
 
 - name: Philipp Engelhorn
   title: Press & Multitool
@@ -166,6 +172,7 @@
   email: press@dash.org
   pgp: https://keybase.io/tungfa
   twitter:
+  core-team: true
 
 - name: Daniel Diaz
   title: Business Development
@@ -174,6 +181,7 @@
   email: daniel@dash.org
   pgp:
   twitter:
+  core-team: true
 
 - name: Ryan Taylor
   title: Finance
@@ -182,6 +190,7 @@
   email: ryan@dash.org
   pgp:
   twitter:
+  core-team: true
 
 - name: Robert Wiecko
   title: Project Management
@@ -190,6 +199,7 @@
   email: robert@dash.org
   pgp: https://keybase.io/robertwiecko
   twitter:
+  core-team: true
 
 - name: Mario Müller
   title: Security Specialist
