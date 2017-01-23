@@ -18,7 +18,7 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
-[{package.json,npm-shrinkwrap.json,.travis.yml,_config.yml}]
+[{package.json,npm-shrinkwrap.json,.travis.yml,_config.yml, data/_wallets-collection.yml}]
 indent_style = space
 
 [test/expected/*]

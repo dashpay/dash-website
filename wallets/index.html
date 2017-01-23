@@ -4,9 +4,9 @@ title: pages.wallets.title
 description: pages.wallets.description
 ---
 {% include hero/wallets.html %}
-
 {% include modals/win-core.html %}
 
+{% assign desktop-os-order-list = "win32,win64,osx,linux" | split: ','%}
 {% assign desktop-os-collection = site.data.wallets-collection | where:"type","desktop" | group_by:"os"    %}
 {% assign mobile-os-collection = site.data.wallets-collection | where:"type","mobile" | group_by:"os" %}
 {% assign product-collection = site.data.wallets-collection | group_by:"product_id" %}
@@ -18,35 +18,44 @@ description: pages.wallets.description
 {% for vendor-group in vendor-collection %}
   {% include modals/vendor-group-download-collection.html %}
 {% endfor %}
+
 <div class="page page--wallets">
   <section class="section">
     <div class="section__content">
       <h3>{% t pages.wallets.wallets-desktop-header %}</h3>
       <p>{% t pages.wallets.wallets-desktop-subtitle %}</p>
       <ul id="wallet-os-tabs" class="nav2 nav-tabs">
-        {% for wallet-group in desktop-os-collection %}
-          <li role="presentation" {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-group.name}}">
-            {% case wallet-group.name %}
-              {% when 'win32' %}
-                Windows (32bit)
-              {% when 'win64' %}
-                Windows (64bit)
-              {% when 'osx' %}
-                OSX
-              {% when 'linux' %}
-                Linux
-              {% when 'ppa' %}
-                PPA
-              {% else %}
-                Other OS
-            {% endcase %}
-          </a></li>
+        {% for os-sequence in desktop-os-order-list %}
+			{% for wallet-group in desktop-os-collection %}
+				{% if os-sequence == wallet-group.name %}
+				  <li role="presentation" {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-group.name}}">
+					{% case wallet-group.name %}
+					  {% when 'win32' %}
+						Windows (32bit)
+					  {% when 'win64' %}
+						Windows (64bit)
+					  {% when 'osx' %}
+						OSX
+					  {% when 'linux' %}
+						Linux
+					  {% when 'ppa' %}
+						PPA
+					  {% else %}
+						Other OS
+					{% endcase %}
+				  </a></li>
+		  		{% endif %}
+			{% endfor %}
         {% endfor %}
       </ul>
       <div class="tab-content">
-      {% for wallet-group in desktop-os-collection %}
-        {% include wallet-tile-group-container.html %}
-      {% endfor %}
+		  {% for os-sequence in desktop-os-order-list %}
+			  {% for wallet-group in desktop-os-collection %}
+				{% if os-sequence == wallet-group.name %}
+					{% include wallet-tile-group-container.html %}
+				{% endif %}
+			  {% endfor %}
+		  {% endfor %}
       </div>
     </div>
   </section>
