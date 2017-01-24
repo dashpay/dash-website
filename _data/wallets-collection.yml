@@ -21,7 +21,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
 
 - name: "Dash Core Win/32 Installer"
@@ -47,7 +47,7 @@
       label: Hash File 
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc" 
     - 
-      label: PGP 
+      label: Keybase Identity 
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe.asc"
 
 - name: "Dash Core Win/64 Installer"
@@ -73,7 +73,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win64-setup.exe.asc"
 
 - name: Dash Core Win/64 ZIP
@@ -99,7 +99,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win64.zip.asc"
 
 
@@ -126,7 +126,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/dash-0.12.0.58-linux32.tar.gz.asc"
 
 - name: Dash Core Linux 64 Bit
@@ -152,7 +152,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/dash-0.12.0.58-linux64.tar.gz.asc"
 
 - name: Dash Core Raspberry Pi 2
@@ -178,7 +178,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/dash-0.12.0.58-RPi2.tar.gz.asc"
 
 - name: Dash Electrum 32/64bit
@@ -204,7 +204,7 @@
       label: Hash File
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.DIGESTS.txt"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.asc"
 
 - name: Dash Electrum 32/64bit
@@ -230,7 +230,7 @@
       label: Hash File
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.DIGESTS.txt"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
 
 - name: Dash Electrum 32/64bit
@@ -256,7 +256,7 @@
       label: Hash File
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.DIGESTS.txt"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
 
 - name: Jaxx
@@ -349,7 +349,7 @@
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
     -
-      label: pgp
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/dash-0.12.0.58-osx.dmg.asc"
 
 - name: Dash Electrum
@@ -373,7 +373,7 @@
       label: Hash File
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Installer.pkg.DIGESTS.txt"
     -
-      label: PGP
+      label: Keybase Identity
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Installer.pkg.asc"
 
 - name: Jaxx
