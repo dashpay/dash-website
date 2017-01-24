@@ -162,6 +162,7 @@ a.blog_link {
 	margin-top: 30px;
 	margin-bottom: 0;
 }
+
 .b-modal{
 	&__close {
 		position: absolute;
@@ -249,8 +250,6 @@ a.blog_link {
 	}
 }
 
-
-
 .b-get-section {
 	background-image: url(../../assets/img/update/bg2.png);
 	color: white;
@@ -277,6 +276,7 @@ a.blog_link {
 		color: $color-blue;
 	}
 }
+
 .ctabox_small-font{
 	p{
 		padding-left: 20px;
@@ -292,4 +292,70 @@ a.blog_link {
 
 .evo-prototype-section{
 	background-image: url(../../assets/img/evolution/bg2.png);
+}
+
+.b-graphic-tile {
+	animation: fadein 0.4s;
+	cursor: pointer;
+	text-align: center;
+	margin: $wallet-tile-spacing auto;
+	border: 1px solid $color-gray;
+	min-height: $wallet-tile-min-height;
+	max-width: $wallet-tile-max-width;
+	overflow: hidden;
+	transition:.25s;
+
+	& .thumbnail{
+		& .logo-container {
+			margin: $wallet-tile-spacing auto;
+			padding: $wallet-tile-spacing*.3;
+			display: block;
+			overflow: hidden;
+			img {
+				max-height: 80px;
+			}
+		}
+		& .caption {
+			line-height: 1 !important;
+			margin: $wallet-tile-spacing;
+			h4 {
+				padding: 0 0 $wallet-tile-spacing 0;
+			}
+			& .fine-print {
+				overflow-y: auto;
+				min-height: $wallet-tile-caption-fine-print-height;
+				max-height: $wallet-tile-caption-fine-print-height*2;
+				margin: 0 0 $wallet-tile-spacing 0;
+				font-size: $wallet-tile-caption-fine-print-font-size;
+				line-height: 1.5 !important;
+				color: $color-gray-dark;
+			}
+		}
+		& .wallet-links-container {
+			width: 100%;
+			& .link {
+				border-top: solid 1px $color-gray;
+				margin: 0 auto;
+				width: 90%;
+				display: block;
+				transition:1.25s;
+				&:hover, &:focus {
+					background-color: lighten($wallet-tile-hover-background-base-color,3);
+					border-color:  white;
+				}
+				& a {
+					display: block;
+					margin: 0;
+					padding: $wallet-tile-spacing*.3;
+					height: 100%;
+					width: 100%;
+					transition:.5s;
+					&:hover, &:focus {
+						@include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color,$mid-color: lighten($wallet-tile-hover-background-base-color,9),$end-color:$wallet-tile-hover-background-base-color );
+						transition:.5s;
+					}
+				}
+			}
+		}
+	}
 }

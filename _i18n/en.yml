@@ -2,6 +2,25 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  graphics:
+    title: Dash Official Website | Dash Crypto Currency
+    description: Dash is Digital Cash
+
+    hero-image:
+    hero-heading: Promotional Graphics
+    hero-text:
+      Dash Evolution, the first cryptocurrency you can use on web and mobile without an intermediary.
+      These graphics can be used for display in online services, retail establishments, press or other promotional purposes
+    licence: The Dash logo and wordmark are licensed for use under a Creative Commons Attribution-ShareAlike 4.0 International License.
+    licence-link-text: Creative Commons Attribution-ShareAlike 4.0 International License.
+    licence-link: https://creativecommons.org/licenses/by-sa/4.0/
+
+    logos-header: Logos & Icons
+    merchants-header: Merchant Buttons
+    dontaion-header: Donation Buttons
+    community-header: Community
+    indent-header: Dash Visual Identity
+
   evolution:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash

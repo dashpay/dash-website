@@ -1,0 +1,37 @@
+---
+layout: default
+title: pages.graphics.title
+description: pages.graphics.description
+---
+{% include hero/graphics.html %}
+
+
+<div class="page page--wallets">
+	<section class="section">
+		<div class="section__content">
+			<h2>{% t pages.graphics.logos-header %}</h2>
+			<div class="row">
+				<div class="col-xs-12 col-md-3">
+					<div class="b-graphic-tile">
+						<div class="thumbnail">
+							<div class="logo-container">
+								<img src="/assets/img/graphics/dash_logo_s.png"/>
+							</div>
+							<div class="caption">
+								<h4>{{ wallet.logo_url }}</h4>
+								<div class="fine-print">
+								   png
+								</div>
+							</div>
+							<div class="wallet-links-container">
+								<div class="link">
+									<a href="{{link.url}}" target="_blank">123123 </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
