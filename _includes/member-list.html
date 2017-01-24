@@ -21,8 +21,8 @@
 	<div class="member__detail member__detail--email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
 	{% endif %}
 
-	{% if member.pgp %}
-	<div class="member__detail member__detail--pgp"><a href="{{ member.pgp }}"  target="_blank">PGP Key</a></div>
+	{% if member.keybase %}
+	<div class="member__detail member__detail--pgp"><a href="{{ member.keybase }}"  target="_blank">Keybase Identity</a></div>
 	{% endif %}
 
 	{% if member.twitter %}
