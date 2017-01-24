@@ -3,24 +3,46 @@
 <div id="{{wallet.os}}-{{wallet.vendor_id}}-{{wallet.type_id}}-{{wallet.product_id}}-modal"
      class="modal fade wallet-modal-container" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
+        <div class="modal-content b-modal__content">
             <div class="modal-header">
-                <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h1 class="modal-title">{{ wallet.product_label }} for Dash</h1>
+        		<span class="close b-modal__close pull-right" data-dismiss="modal" aria-hidden="true"></span>
+                <h1 class="modal-title b-modal__title">{{ wallet.product_label }} for Dash</h1>
             </div>
-            <div class="modal-body">
+            <div class="modal-body b-modal__body">
                 <div class="row">
-                    <div class="col-md-7 col-md-push-5 col-xs-12 text-right">
-                        <img src="http://lorempixel.com/400/400/sports/{{wallet.product_label}}"/>
+                    <div class="col-md-4 col-md-push-8 col-xs-12 text-left b-modal__sidebar">
+		                <div class="row">
+		                  <div class="col-xs-12">
+		                    <div class="b-modal__accent bottom-space">
+		                        <h5>{% t pages.wallets.modal-core-users-text %}</h5>
+		                        <p class="bottom-space">{% t pages.wallets.modal-core-users-value %}</p>
+		                    </div>
+		                  </div>
+		                </div>
+		                <div class="row">
+		                  <div class="col-xs-12">
+		                    <div class="b-modal__accent bottom-space">
+		                        <h5>{% t pages.wallets.modal-core-masternode-text %}</h5>
+		                        <p class="bottom-space">{% t pages.wallets.modal-core-masternode-value %}</p>
+		                    </div>
+		                  </div>
+		                </div>
+		                <div class="row">
+		                  <div class="col-xs-12">
+		                    <div class="b-modal__accent bottom-space">
+		                        <h5>{% t pages.wallets.modal-core-pool-text %}</h5>
+		                        <p class="bottom-space">{% t pages.wallets.modal-core-pool-value %}</p>
+		                    </div>
+		                  </div>
+		                </div>
                     </div>
 
-                    <div class="col-md-5 col-md-pull-7 col-xs-12">
+                    <div class="col-md-8 col-md-pull-4 col-xs-12">
                         <div>
-                            <p class="bottom-space">{{wallet.description}}</p>
+                            <p class="bottom-space b-modal__descr">{{wallet.description}}</p>
 
                             <h5 class="bottom-space">
-                                <span>
+                                <span class="b-modal__accent">
                                     {% t pages.wallets.modal-security-label %}: &nbsp;
                                 </span>
                                 <a href="{{wallet.product_security_url}}" target="_blank">{{wallet.product_security_label}}</a>
@@ -28,13 +50,13 @@
 
 
                             <h5 class="bottom-space">
-                                <span>
+                                <span class="b-modal__accent">
                                     {% t pages.wallets.modal-source-code-label %}: &nbsp;
                                 </span>
                                 <a href="{{wallet.product_source_url}}" target="_blank">{{wallet.product_source_label}}</a>
                             </h5>
 
-                            <h5 class="bottom-space">
+                            <h5 class="bottom-space b-modal__accent">
                                 <span>
                                     {% t pages.wallets.modal-website-label %}: &nbsp;
                                 </span>
