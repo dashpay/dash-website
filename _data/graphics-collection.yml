@@ -90,3 +90,51 @@
       label: Hi-Res
       url: accepted_here_beveled_highres.png
 
+- type: merchants
+  img-link: accepted_here_squared_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_squared_normal.png
+    -
+      label: Hi-Res
+      url: accepted_here_squared_highres.png
+
+
+- type: merchants
+  img-link: accepted_here_borderless_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_borderless_normal.png
+    -
+      label: Hi-Res
+      url: accepted_here_borderless_highres.png
+
+
+- type: merchants
+  img-link: accepted_here_light_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_light_normal.png
+    -
+      label: Hi-Res
+      url: accepted_here_light_highres.png
+
+
+- type: merchants
+  img-link: accepted_here_light_mono_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_light_mono_normal.png
+    -
+      label: Hi-Res
+      url: accepted_here_light_mono_highres.png
+
+
