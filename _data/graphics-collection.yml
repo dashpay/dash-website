@@ -1,0 +1,34 @@
+- type: logo
+  img-link: dash_logo_s.png
+  format: png
+  links:
+    -
+      label: Small
+      url: dash_logo_s.png
+    -
+      label: Medium
+      url: dash_logo_m.png
+    -
+      label: Large
+      url: dash_logo_l.png
+    -
+      label: Full
+      url: dash_logo_f.png
+
+- type: logo
+  img-link: dash_logo_s.png
+  format: png
+  links:
+    -
+      label: Small
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip"
+    -
+      label: Medium
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
+    -
+      label: Large
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
+    -
+      label: Full
+      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
+
