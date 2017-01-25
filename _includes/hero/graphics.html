@@ -14,13 +14,16 @@
 
 	<!-- Hero content -->
 	<div class="hero__content">
-		<h1 class="hero__title">{% t pages.graphics.hero-heading %}</h1>
-		<p class="hero__lead">{% t pages.graphics.hero-text %}</p>
-		<p class="hero__lead">
-			{% t pages.graphics.licence %}
-			<a href="{% t pages.graphics.licence-link %}">{% t pages.graphics.licence-link-text %}</a>
-		</p>
-
+		<div class="row">
+			<div class="col-xs-12 col-md-7">
+				<h1 class="hero__title">{% t pages.graphics.hero-heading %}</h1>
+				<p class="hero__lead">{% t pages.graphics.hero-text %}</p>
+				<p class="hero__lead">
+					{% t pages.graphics.licence %}
+					<a href="{% t pages.graphics.licence-link %}">{% t pages.graphics.licence-link-text %}</a>
+				</p>
+			</div>
+		</div>
 	</div>
 
 	<!-- Hero stripe -->

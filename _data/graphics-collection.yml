@@ -16,19 +16,77 @@
       url: dash_logo_f.png
 
 - type: logo
-  img-link: dash_logo_s.png
+  img-link: dash_icon_s.png
   format: png
   links:
     -
       label: Small
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip"
+      url: dash_icon_s.png
     -
       label: Medium
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.0.58/SHA256SUMS.asc"
+      url: dash_icon_m.png
     -
       label: Large
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
+      url: dash_icon_l.png
     -
       label: Full
-      url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
+      url: dash_icon_f.png
+
+- type: logo
+  img-link: dash_circle_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: dash_circle_normal.png
+    -
+      label: Hi-Res
+      url: dash_circle_highres.png
+
+- type: logo
+  img-link: dash_heart_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: dash_heart_normal.png
+    -
+      label: Hi-Res
+      url: dash_heart_highres.png
+
+- type: logo
+  img-link: instantx_logo_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: instantx_logo_normal.png
+    -
+      label: Hi-Res
+      url: instantx_logo_highres.png
+
+- type: logo
+  img-link: x11_logo_s.png
+  format: png
+  links:
+    -
+      label: Small
+      url: x11_logo_s.png
+    -
+      label: Medium
+      url: x11_logo_m.png
+    -
+      label: Large
+      url: x11_logo_l.png
+
+- type: merchants
+  img-link: accepted_here_beveled_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_beveled_normal.png
+    -
+      label: Hi-Res
+      url: accepted_here_beveled_highres.png
 
