@@ -5,7 +5,7 @@ We are using Jekyll to generate the static html files.
 https://jekyllrb.com
 
 ### Requirements (mac)
-* Ruby: `brew install ruby`
+* Ruby: `brew install ruby` (v2.3.3 works, v2.4.0 *does not*)
 * Ruby Gems: https://rubygems.org/pages/download
 * NodeJS: https://nodejs.org/en/ (Ideally >=4.5.0)
 * Python: `brew install python`
@@ -39,6 +39,8 @@ Then run `bundle install`
 Production builds should be handled by CI.
 
 `npm run build` will build a fully minified, mangled, and compressed build to the _site directory.
+
+ `npm run htmlproof` will run ImageCheck, ScriptCheck, and LinkCheck on the built "_site" folder "*.html" files. Travis CI will not deploy unless this command finishes successfully!
 
 Mac
 xcode-select --install
