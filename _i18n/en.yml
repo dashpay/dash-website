@@ -111,7 +111,8 @@ pages:
 
     hero-image:
     hero-heading: 12.1 Update
-    hero-text: Launching a new software release on the network requires that all budget proposals be re-submitted into the system.
+    hero-text: We are launching a new software release on the network. Everyone needs to update to the new version, including ordinary users, pools, miners, and masternodes. All budget proposals must be resubmitted into the system as well. Note - Enforcement will be turned off during this upgrade, so masternodes that do not update will quickly stop being paid.
+
     hero-btn: >
       Launch date: February 5th, 2017
 
@@ -123,7 +124,7 @@ pages:
     merchants-text: Download Plugin for WooCommerce Wordpress and start using Digital Cash!
     merchants-btn: Get Plugin
 
-    integrate-heading: 12.1 Updates
+    integrate-heading: Dash Evolution Progress
     integrate-text: Sentinel can also be re-geared and deployed to operate digital companies that have a built-in workforce, infrastructure to deploy again, and as an engine for storage and retrieval of information.
 
     slack-btn: Slack Chanel
@@ -141,7 +142,7 @@ pages:
 
     update-heading: EVOLUTION UPDATE
     update-text:
-      Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution. This comes after months of conversations between Andy and myself about how each component of Evolution works, then reimagining it and improving the components and designs systematically.
+      Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution. This comes after months of conversations between Andy and Dash Lead Developer Evan Duffield about how each component of Evolution works, then reimagining it and improving the components and designs systematically.
 
       Since the original research phase, documentation, specifications, plans and diagrams have been being drafted, growing into a collection of documents that will be put into a wiki with full documentation for Evolution’s end-to-end design and implementation.
     proposal-btn: Proposals
@@ -149,7 +150,7 @@ pages:
 
     evolution-research-heading: EVOLUTION RESEARCH
     evolution-research-text:
-      In January 2016 we released an early Evolution prototype based on Electrum which enabled basic functions such as registering a username and paying friends by name.
+      In January 2016 we released an early Evolution prototype based on Electrum. Since then, we have been creating reams of documentation and have completely outlined the design goals and begun implementing them.
 
       The prototype was pretty basic, with user interaction limited to just paying a few friends and user data stored on a dev server, but at least it proved the concept.
       What we set out to do then was to design and prototype all the key technologies that would make these functions work in a purely P2P way, with data secured on the Dash blockchain and accessible from anywhere on any device, with integrated SPV based security and no centralized intermediary services required, and using the most common and censorship resistant protocol available – HTTP(S)
