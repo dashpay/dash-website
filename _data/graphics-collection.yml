@@ -280,3 +280,91 @@
     -
       label: Hi-Res
       url: paywithdashbutton_HR_-06.png
+
+- type: buttons
+  img-link: donations_accepted_beveled_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donations_accepted_beveled_normal.png
+    -
+      label: Hi-Res
+      url: donations_accepted_beveled_highres.png
+
+- type: buttons
+  img-link: donations_accepted_squared_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donations_accepted_squared_normal.png
+    -
+      label: Hi-Res
+      url: donations_accepted_squared_highres.png
+
+- type: buttons
+  img-link: donations_accepted_borderless_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donations_accepted_borderless_normal.png
+    -
+      label: Hi-Res
+      url: donations_accepted_borderless_highres.png
+
+- type: buttons
+  img-link: donations_accepted_light_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donations_accepted_light_normal.png
+    -
+      label: Hi-Res
+      url: pdonations_accepted_light_highres.png
+
+- type: buttons
+  img-link: donations_accepted_light_mono_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donations_accepted_light_mono_normal.png
+    -
+      label: Hi-Res
+      url: donations_accepted_light_mono_highres.png
+
+- type: buttons
+  img-link: donate_modern_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donate_modern_normal.png
+    -
+      label: Hi-Res
+      url: donate_modern_highres.png
+
+- type: buttons
+  img-link: donate_modern_vertical_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donate_modern_vertical_normal.png
+    -
+      label: Hi-Res
+      url: donate_modern_vertical_highres.png
+
+- type: buttons
+  img-link: donate_minimal_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: donate_minimal_normal.png
+    -
+      label: Hi-Res
+      url: donate_minimal_highres.png

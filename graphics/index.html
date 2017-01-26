@@ -7,6 +7,7 @@ description: pages.graphics.description
 
 {% assign logos =  site.data.graphics-collection | where:"type","logo" %}
 {% assign merchants =  site.data.graphics-collection | where:"type","merchants" %}
+{% assign buttons =  site.data.graphics-collection | where:"type","buttons" %}
 
 <div class="page">
 	<section class="section">
@@ -25,6 +26,17 @@ description: pages.graphics.description
 			<h2>{% t pages.graphics.merchants-header %}</h2>
 			<div class="row">
 				{% for graphic in merchants %}
+					{% include graphics-tile.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="section__content">
+			<h2>{% t pages.graphics.dontaion-header %}</h2>
+			<div class="row">
+				{% for graphic in buttons %}
 					{% include graphics-tile.html %}
 				{% endfor %}
 			</div>
