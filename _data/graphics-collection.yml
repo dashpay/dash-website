@@ -192,3 +192,91 @@
     -
       label: Hi-Res
       url: privately_accepted_here_light_mono_highres.png
+
+- type: merchants
+  img-link: accepted_here_modern_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_modern_normal.png
+    -
+      label: Hi-Res
+      url: accepted_here_modern_highres.png
+
+- type: merchants
+  img-link: accepted_here_modern_vertical_normal.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_modern_vertical_normal.png
+    -
+      label: Hi-Res
+      url: accepted_here_modern_vertical_highres.png
+
+- type: merchants
+  img-link: paywithdashbutton-01.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: paywithdashbutton-01.png
+    -
+      label: Hi-Res
+      url: paywithdashbutton_HR_-01.png
+
+- type: merchants
+  img-link: paywithdashbutton-02.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: paywithdashbutton-02.png
+    -
+      label: Hi-Res
+      url: paywithdashbutton_HR_-02.png
+
+- type: merchants
+  img-link: paywithdashbutton-03.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: paywithdashbutton-03.png
+    -
+      label: Hi-Res
+      url: paywithdashbutton_HR_-03.png
+
+- type: merchants
+  img-link: paywithdashbutton-04.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: paywithdashbutton-04.png
+    -
+      label: Hi-Res
+      url: paywithdashbutton_HR_-04.png
+
+- type: merchants
+  img-link: paywithdashbutton-05.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: paywithdashbutton-05.png
+    -
+      label: Hi-Res
+      url: paywithdashbutton_HR_-05.png
+
+- type: merchants
+  img-link: paywithdashbutton-06.png
+  format: png
+  links:
+    -
+      label: Normal
+      url: accepted_here_beveled_normal.png
+    -
+      label: Hi-Res
+      url: paywithdashbutton_HR_-06.png
