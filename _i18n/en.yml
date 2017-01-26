@@ -21,6 +21,12 @@ pages:
     community-header: Community
     indent-header: Dash Visual Identity
 
+    color-header: Color Scheme
+    color-text: These are recommended usage guidelines for maintaining a consistent design aesthetic for the Dash brand.
+
+    typography-header: Typography
+    typography-text: These are recommended usage guidelines for maintaining a consistent design aesthetic for the Dash brand.
+
   evolution:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash

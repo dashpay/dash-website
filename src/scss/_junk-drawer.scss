@@ -359,3 +359,29 @@ a.blog_link {
 		}
 	}
 }
+
+.color-box{
+	width: 44px;
+	height: 44px;
+	float:left;
+	&_blue{
+		background-color: #1d71b8;
+	}
+	&_gray{
+		background-color: #e3e3e3;
+	}
+	&_black{
+		background-color: #000000;
+	}
+	&_white{
+		border: 2px solid #ebebea;
+		background-color: #ffffff;
+	}
+}
+.text-word-wrap{
+	word-wrap: break-word;
+}
+.color-article{
+	float: left;
+	margin-left: 15px;
+}
