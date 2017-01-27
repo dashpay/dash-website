@@ -11,6 +11,10 @@ you're in a hurry or lost or you just need to Make It Work©
 	display: block;
 }
 
+.hidden{
+	display: none !important;
+}
+
 .bottom-space {
 	margin-bottom: 3%;
 }
@@ -378,10 +382,18 @@ a.blog_link {
 		background-color: #ffffff;
 	}
 }
+
 .text-word-wrap{
 	word-wrap: break-word;
 }
+
 .color-article{
 	float: left;
 	margin-left: 15px;
+}
+
+#mc_embed_signup{
+	background:transparent;
+	clear:left;
+	font:14px Helvetica,Arial,sans-serif;
 }

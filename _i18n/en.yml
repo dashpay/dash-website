@@ -146,7 +146,7 @@ pages:
     execution-btn: Learn More
     execution-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
 
-    update-heading: EVOLUTION UPDATE
+    update-heading: Sentinel
     update-text:
       Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution. This comes after months of conversations between Andy and Dash Lead Developer Evan Duffield about how each component of Evolution works, then reimagining it and improving the components and designs systematically.
 
@@ -223,6 +223,7 @@ pages:
     social-text-heading: Visit DashTalk
     social-text: For technical support or troubleshooting with wallets, mining, or other general questions, please visit DashTalk or one of the many other community resources.
     volunteer-heading: Volunteer
+    join-btn: Join
 
   home:
     title: Dash Official Website | Dash Crypto Currency
