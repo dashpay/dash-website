@@ -323,7 +323,7 @@
       url: donations_accepted_light_normal.png
     -
       label: Hi-Res
-      url: pdonations_accepted_light_highres.png
+      url: donations_accepted_light_highres.png
 
 - type: buttons
   img-link: donations_accepted_light_mono_normal.png
