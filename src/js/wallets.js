@@ -8,5 +8,9 @@
 		$('.wallet-tile a').click(function (event) {
 			event.stopImmediatePropagation();
 		});
+
+		$('.wallet-modal-container button[data-url]').click(function (event) {
+			window.open($(event.currentTarget).data('url'));
+		});
 	});
 }(jQuery));

@@ -5,26 +5,25 @@ you're in a hurry or lost or you just need to Make It Work©
 
 */
 
-
 .center-block {
-	margin: 0 auto;
-	display: block;
+  margin: 0 auto;
+  display: block;
 }
 
 .bottom-space {
-	margin-bottom: 3%;
+  margin-bottom: 3%;
 }
 
 .text-right {
-	text-align: right;
+  text-align: right;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .text-left {
-	text-align: left;
+  text-align: left;
 }
 
 $wallet-tile-min-height: 20em;
@@ -34,354 +33,399 @@ $wallet-tile-logo-container-width: 5.5em;
 $wallet-tile-spacing: .7em;
 $wallet-tile-caption-fine-print-font-size: 0.6em;
 $wallet-tile-caption-fine-print-height: $wallet-tile-caption-fine-print-font-size*8.5;
-$wallet-tile-hover-background-base-color: lighten($color-blue-light,9);
+$wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
 
 .wallet-tile {
-	animation: fadein 0.4s;
-	cursor: pointer;
-	text-align: center;
-	margin: $wallet-tile-spacing auto;
-	border: 1px solid $color-gray;
-	min-height: $wallet-tile-min-height;
-	max-width: $wallet-tile-max-width;
-	overflow: hidden;
-	-o-transition:.25s;
-	-ms-transition:.25s;
-	-moz-transition:.25s;
-	-webkit-transition:.25s;
-	transition:.25s;
+  animation: fadein 0.4s;
+  cursor: pointer;
+  text-align: center;
+  margin: $wallet-tile-spacing auto;
+  border: 1px solid $color-gray;
+  min-height: $wallet-tile-min-height;
+  max-width: $wallet-tile-max-width;
+  overflow: hidden;
+  -o-transition: .25s;
+  -ms-transition: .25s;
+  -moz-transition: .25s;
+  -webkit-transition: .25s;
+  transition: .25s;
 
-	&:hover,&:focus {
-		background-color: $wallet-tile-hover-background-base-color;
-		border-color: $color-blue;
-		a {
-			color: darken($color-blue, 15);
-		}
-		& .thumbnail .caption .fine-print {
-			color: darken($color-gray-dark,15);
-		}
+  &:hover, &:focus {
+	background-color: $wallet-tile-hover-background-base-color;
+	border-color: $color-blue;
+	a {
+	  color: darken($color-blue, 15);
+	}
+	& .thumbnail .caption .fine-print {
+	  color: darken($color-gray-dark, 15);
+	}
 
-		& .thumbnail .wallet-links-container .link {
-			border-top: solid 1px darken($color-gray,15);
-		}
+	& .thumbnail .wallet-links-container .link {
+	  border-top: solid 1px darken($color-gray, 15);
 	}
-	& .thumbnail{
-		& .logo-container {
-			margin: $wallet-tile-spacing auto;
-			padding: $wallet-tile-spacing*.3;
-			display: block;
-			max-width: $wallet-tile-logo-container-width;
-			max-height: $wallet-tile-logo-container-height;
-			overflow: hidden;
-			img {
-				max-height: 80px;
-			}
-		}
-		& .caption {
-			line-height: 1 !important;
-			margin: $wallet-tile-spacing;
-			h4 {
-				padding: 0 0 $wallet-tile-spacing 0;
-			}
-			& .fine-print {
-				overflow-y: auto;
-				min-height: $wallet-tile-caption-fine-print-height;
-				max-height: $wallet-tile-caption-fine-print-height*2;
-				margin: 0 0 $wallet-tile-spacing 0;
-				font-size: $wallet-tile-caption-fine-print-font-size;
-				line-height: 1.5 !important;
-				color: $color-gray-dark;
-			}
-		}
-		& .wallet-links-container {
-			width: 100%;
-			& .link {
-				border-top: solid 1px $color-gray;
-				margin: 0 auto;
-				width: 90%;
-				display: block;
-				-o-transition:1.25s;
-				-ms-transition:1.25s;
-				-moz-transition:1.25s;
-				-webkit-transition:1.25s;
-				transition:1.25s;
-				&:hover, &:focus {
-					background-color: lighten($wallet-tile-hover-background-base-color,3);
-					border-color:  white;
-				}
-				& a {
-					display: block;
-					margin: 0;
-					padding: $wallet-tile-spacing*.3;
-					height: 100%;
-					width: 100%;
-					-o-transition:.5s;
-					-ms-transition:.5s;
-					-moz-transition:.5s;
-					-webkit-transition:.5s;
-					transition:.5s;
-					&:hover, &:focus {
-						@include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color,$mid-color: lighten($wallet-tile-hover-background-base-color,9),$end-color:$wallet-tile-hover-background-base-color );
-						-o-transition:.5s;
-						-ms-transition:.5s;
-						-moz-transition:.5s;
-						-webkit-transition:.5s;
-						transition:.5s;
-					}
-				}
-			}
-		}
+  }
+  & .thumbnail {
+	& .logo-container {
+	  margin: $wallet-tile-spacing auto;
+	  padding: $wallet-tile-spacing*.3;
+	  display: block;
+	  max-width: $wallet-tile-logo-container-width;
+	  max-height: $wallet-tile-logo-container-height;
+	  overflow: hidden;
+	  img {
+		max-height: 80px;
+	  }
 	}
+	& .caption {
+	  line-height: 1 !important;
+	  margin: $wallet-tile-spacing;
+	  h4 {
+		padding: 0 0 $wallet-tile-spacing 0;
+	  }
+	  & .fine-print {
+		overflow-y: auto;
+		min-height: $wallet-tile-caption-fine-print-height;
+		max-height: $wallet-tile-caption-fine-print-height*2;
+		margin: 0 0 $wallet-tile-spacing 0;
+		font-size: $wallet-tile-caption-fine-print-font-size;
+		line-height: 1.5 !important;
+		color: $color-gray-dark;
+	  }
+	}
+	& .wallet-links-container {
+	  width: 100%;
+	  & .link {
+		border-top: solid 1px $color-gray;
+		margin: 0 auto;
+		width: 90%;
+		display: block;
+		-o-transition: 1.25s;
+		-ms-transition: 1.25s;
+		-moz-transition: 1.25s;
+		-webkit-transition: 1.25s;
+		transition: 1.25s;
+		&:hover, &:focus {
+		  background-color: lighten($wallet-tile-hover-background-base-color, 3);
+		  border-color: white;
+		}
+		& a {
+		  display: block;
+		  margin: 0;
+		  padding: $wallet-tile-spacing*.3;
+		  height: 100%;
+		  width: 100%;
+		  -o-transition: .5s;
+		  -ms-transition: .5s;
+		  -moz-transition: .5s;
+		  -webkit-transition: .5s;
+		  transition: .5s;
+		  &:hover, &:focus {
+			@include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color, $mid-color: lighten($wallet-tile-hover-background-base-color, 9), $end-color: $wallet-tile-hover-background-base-color);
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+		  }
+		}
+	  }
+	}
+  }
 }
 
 .wallet-modal-container {
-	& .modal-header {
-		border-bottom: none;
+
+
+  & .modal-header {
+	border-bottom: none;
+  }
+  &.dash-core {
+	& .btn.btn-default {
+	  border: 1px solid $color-blue-highlight;
+	  &:hover, &:focus {
+		background-color: $wallet-tile-hover-background-base-color;
+		border-color: white;
+		color: $color-blue-dark;
+	  }
 	}
+  }
 }
 
 img.staff {
-	max-width: 100px;
-	float: left;
-	margin-right: 10px;
+  max-width: 100px;
+  float: left;
+  margin-right: 10px;
 }
 
 a.blog_link {
-	text-align:right;
+  text-align: right;
 }
 
 .img-circle {
-	margin: 1px;
-	border:1px solid #dddddd;
-	border-radius: 50%;
+  margin: 1px;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
 }
 
 .background-title {
-	background-color: $color-gray;
-	padding: 10px;
-	margin-top: 30px;
-	margin-bottom: 0;
+  background-color: $color-gray;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
-.b-modal{
-	&__close {
-		position: absolute;
-		right: 32px;
-		top: 32px;
-		width: 32px;
-		height: 32px;
-		cursor: pointer;
-		&:hover{
-			&:before, &:after {
-				background-color: #000;
-			}
+.b-modal {
+  &__close {
+	position: absolute;
+	right: 32px;
+	top: 32px;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	&:hover, .dash-core &:hover {
+	  &:before, &:after {
+		background-color: #000;
+	  }
+	}
+	&:before, &:after {
+	  position: absolute;
+	  left: 15px;
+	  content: ' ';
+	  height: 33px;
+	  width: 2px;
+	  transition: .5s;
+	  background-color: $color-blue-dark;
+	  .dash-core & {
+		background-color: #fff;
+
+	  }
+	}
+	&:before {
+	  transform: rotate(45deg);
+	}
+	&:after {
+	  transform: rotate(-45deg);
+	}
+  }
+  &__title {
+	font-size: 2.6em;
+	margin-right: 45px;
+	.dash-core & {
+	  color: #fff;
+	}
+  }
+  &__content {
+	background-color: #fff;
+	.dash-core & {
+	  background-color: #1c75bc;
+	}
+  }
+  &__header {
+	padding-left: 44px;
+	border: none;
+  }
+  &__body {
+	border: 0;
+	padding-left: 44px;
+  }
+  &__descr {
+	.dash-core & {
+	  color: #fff;
+	}
+	font-size: 1.5em;
+  }
+  &__accent {
+	.dash-core & {
+	  color: #fff;
+	}
+	font-size: 0.9em;
+  }
+  &__sidebar {
+	padding: 3px 15px 0 42px;
+	@media (min-width: $screen-sm-min) {
+	  border-left: none;
+	  border-top: 1px solid $color-gray;
+	  .dash-core & {
+		border-left: none;
+		border-top: 1px solid rgba(255, 255, 255, .22);
+	  }
+	}
+	@media (min-width: $screen-md-min) {
+	  border-left: 1px solid $color-gray;
+	  border-top: none;
+	  .dash-core & {
+		  border-left: 1px solid rgba(255, 255, 255, .22);
+		  border-top: none;
 		}
-		&:before, &:after {
-			position: absolute;
-			left: 15px;
-			content: ' ';
-			height: 33px;
-			width: 2px;
-			background-color: #fff;
-			transition:.5s;
-		}
-		&:before {
-			transform: rotate(45deg);
-		}
-		&:after {
-			transform: rotate(-45deg);
-		}
 	}
-	&__title {
-		color: #fff;
-		font-size: 2.6em;
+
+  }
+  &__select {
+	position: relative;
+	padding: 14px 50px 12px 10px;
+	background: #1c75bc;
+	border-radius: 2px;
+	border: 1px solid #6aaee6;
+	color: #fff;
+	font-size: 1em;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	&:after {
+	  content: '';
+	  position: absolute;
+	  top: 50%;
+	  right: 12px;
+	  margin-top: -2px;
+	  vertical-align: middle;
+	  width: 0;
+	  height: 0;
+	  margin-left: 2px;
+	  vertical-align: middle;
+	  border-top: 4px solid #000;
+	  border-right: 4px solid transparent;
+	  border-bottom: 0 dotted;
+	  border-left: 4px solid transparent;
 	}
-	&__content{
-		background-color: #1c75bc;
-	}
-	&__header{
-		padding-left: 44px;
-		border: none;
-	}
-	&__body{
-		border: 0;
-		padding-left: 44px;
-	}
-	&__descr{
-		color: #fff;
-		font-size: 1.5em;
-	}
-	&__accent{
-		color: #fff;
-		font-size: 0.9em;
-	}
-	&__sidebar{
-		padding: 3px 0 0 42px;
-		border-left: 1px solid rgba(255,255,255, .22);
-	}
-	&__select{
-		position: relative;
-		padding: 14px 50px 12px 10px;
-		background: #1c75bc;
-		border-radius: 2px;
-		border: 1px solid #6aaee6;
-		color:#fff;
-		font-size: 1em;
-		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
-		-webkit-appearance:none;
-		-moz-appearance:none;
-		appearance:none;
-		cursor:pointer;
-		&:after{
-			content: '';
-			position: absolute;
-			top: 50%;
-			right: 12px;
-			margin-top: -2px;
-			vertical-align: middle;width: 0;
-			height: 0;
-			margin-left: 2px;
-			vertical-align: middle;
-			border-top: 4px solid #000;
-			border-right: 4px solid transparent;
-			border-bottom: 0 dotted;
-			border-left: 4px solid transparent;
-		}
-	}
+  }
 }
 
 .b-get-section {
-	background-image: url(../../assets/img/update/bg2.png);
+  background-image: url(../../assets/img/update/bg2.png);
+  color: white;
+  padding: 40px 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  h1, h2, h3 {
 	color: white;
-	padding: 40px 0;
-	overflow: hidden;
-	position: relative;
-	text-align: center;
-	h1, h2, h3 {
-		color: white;
-	}
-	h2 {
-		margin-top: 0px;
-	}
-	.page--home>section:not(.section) p {
-		max-width: 50em;
-		margin: 20px auto;
-	}
-	img {
-		margin-top: 30px;
-		vertical-align: text-top;
-	}
+  }
+  h2 {
+	margin-top: 0px;
+  }
+  .page--home > section:not(.section) p {
+	max-width: 50em;
+	margin: 20px auto;
+  }
+  img {
+	margin-top: 30px;
+	vertical-align: text-top;
+  }
 
-	.btn-white-solid {
-		color: $color-blue;
-	}
+  .btn-white-solid {
+	color: $color-blue;
+  }
 }
 
-.ctabox_small-font{
-	p{
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 0.8em;
-		height: 100%;
-		word-wrap: normal;
-		white-space: normal;
-		line-height: 1.3;
-		text-align: left;
-	}
+.ctabox_small-font {
+  p {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 0.8em;
+	height: 100%;
+	word-wrap: normal;
+	white-space: normal;
+	line-height: 1.3;
+	text-align: left;
+  }
 }
 
-.evo-prototype-section{
-	background-image: url(../../assets/img/evolution/bg2.png);
+.evo-prototype-section {
+  background-image: url(../../assets/img/evolution/bg2.png);
 }
 
 .b-graphic-tile {
-	animation: fadein 0.4s;
-	cursor: pointer;
-	text-align: center;
-	margin: $wallet-tile-spacing auto;
-	border: 1px solid $color-gray;
-	min-height: $wallet-tile-min-height;
-	max-width: $wallet-tile-max-width;
-	overflow: hidden;
-	transition:.25s;
+  animation: fadein 0.4s;
+  cursor: pointer;
+  text-align: center;
+  margin: $wallet-tile-spacing auto;
+  border: 1px solid $color-gray;
+  min-height: $wallet-tile-min-height;
+  max-width: $wallet-tile-max-width;
+  overflow: hidden;
+  transition: .25s;
 
-	& .thumbnail{
-		& .logo-container {
-			margin: $wallet-tile-spacing auto;
-			padding: $wallet-tile-spacing*.3;
-			display: block;
-			overflow: hidden;
-			img {
-				max-height: 80px;
-			}
-		}
-		& .caption {
-			line-height: 1 !important;
-			margin: $wallet-tile-spacing;
-			h4 {
-				padding: 0 0 $wallet-tile-spacing 0;
-			}
-			& .fine-print {
-				overflow-y: auto;
-				min-height: $wallet-tile-caption-fine-print-height;
-				max-height: $wallet-tile-caption-fine-print-height*2;
-				margin: 0 0 $wallet-tile-spacing 0;
-				font-size: $wallet-tile-caption-fine-print-font-size;
-				line-height: 1.5 !important;
-				color: $color-gray-dark;
-			}
-		}
-		& .wallet-links-container {
-			width: 100%;
-			& .link {
-				border-top: solid 1px $color-gray;
-				margin: 0 auto;
-				width: 90%;
-				display: block;
-				transition:1.25s;
-				&:hover, &:focus {
-					background-color: lighten($wallet-tile-hover-background-base-color,3);
-					border-color:  white;
-				}
-				& a {
-					display: block;
-					margin: 0;
-					padding: $wallet-tile-spacing*.3;
-					height: 100%;
-					width: 100%;
-					transition:.5s;
-					&:hover, &:focus {
-						@include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color,$mid-color: lighten($wallet-tile-hover-background-base-color,9),$end-color:$wallet-tile-hover-background-base-color );
-						transition:.5s;
-					}
-				}
-			}
-		}
+  & .thumbnail {
+	& .logo-container {
+	  margin: $wallet-tile-spacing auto;
+	  padding: $wallet-tile-spacing*.3;
+	  display: block;
+	  overflow: hidden;
+	  img {
+		max-height: 80px;
+	  }
 	}
+	& .caption {
+	  line-height: 1 !important;
+	  margin: $wallet-tile-spacing;
+	  h4 {
+		padding: 0 0 $wallet-tile-spacing 0;
+	  }
+	  & .fine-print {
+		overflow-y: auto;
+		min-height: $wallet-tile-caption-fine-print-height;
+		max-height: $wallet-tile-caption-fine-print-height*2;
+		margin: 0 0 $wallet-tile-spacing 0;
+		font-size: $wallet-tile-caption-fine-print-font-size;
+		line-height: 1.5 !important;
+		color: $color-gray-dark;
+	  }
+	}
+	& .wallet-links-container {
+	  width: 100%;
+	  & .link {
+		border-top: solid 1px $color-gray;
+		margin: 0 auto;
+		width: 90%;
+		display: block;
+		transition: 1.25s;
+		&:hover, &:focus {
+		  background-color: lighten($wallet-tile-hover-background-base-color, 3);
+		  border-color: white;
+		}
+		& a {
+		  display: block;
+		  margin: 0;
+		  padding: $wallet-tile-spacing*.3;
+		  height: 100%;
+		  width: 100%;
+		  transition: .5s;
+		  &:hover, &:focus {
+			@include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color, $mid-color: lighten($wallet-tile-hover-background-base-color, 9), $end-color: $wallet-tile-hover-background-base-color);
+			transition: .5s;
+		  }
+		}
+	  }
+	}
+  }
 }
 
-.color-box{
-	width: 44px;
-	height: 44px;
-	float:left;
-	&_blue{
-		background-color: #1d71b8;
-	}
-	&_gray{
-		background-color: #e3e3e3;
-	}
-	&_black{
-		background-color: #000000;
-	}
-	&_white{
-		border: 2px solid #ebebea;
-		background-color: #ffffff;
-	}
+.color-box {
+  width: 44px;
+  height: 44px;
+  float: left;
+  &_blue {
+	background-color: #1d71b8;
+  }
+  &_gray {
+	background-color: #e3e3e3;
+  }
+  &_black {
+	background-color: #000000;
+  }
+  &_white {
+	border: 2px solid #ebebea;
+	background-color: #ffffff;
+  }
 }
-.text-word-wrap{
-	word-wrap: break-word;
+
+.text-word-wrap {
+  word-wrap: break-word;
 }
-.color-article{
-	float: left;
-	margin-left: 15px;
+
+.color-article {
+  float: left;
+  margin-left: 15px;
 }
