@@ -1,7 +1,13 @@
 <!-- Modal -->
 {% for wallet in vendor-group.items %}
 <div id="{{wallet.os}}-{{wallet.vendor_id}}-{{wallet.type_id}}-{{wallet.product_id}}-modal"
-     class="modal fade wallet-modal-container" role="dialog" tabindex="-1">
+
+	 {% if wallet.vendor_id == 'dash_core' %}
+		class="modal fade wallet-modal-container dash-core"
+	{% else %}
+     	class="modal fade wallet-modal-container"
+	{% endif %}
+	 role="dialog" tabindex="-1">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content b-modal__content">
             <div class="modal-header">
@@ -64,8 +70,8 @@
                             </h5>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Download {{wallet.product_label}}"><span
-                                    aria-hidden="true">Download {{wallet.product_label}}</span></button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="{{wallet.links[0].label}}" data-url="{{wallet.links[0].url}}" ><span
+                                    aria-hidden="true">{{wallet.links[0].label}}: {{wallet.name}}</span></button>
                         </div>
                     </div>
                 </div>
