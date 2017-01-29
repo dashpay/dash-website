@@ -1,5 +1,5 @@
 - name: "Dash Core Win/32 ZIP"
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
@@ -25,7 +25,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win32.zip.asc"
 
 - name: "Dash Core Win/32 Installer"
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
@@ -51,7 +51,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win32-setup.exe.asc"
 
 - name: "Dash Core Win/64 Installer"
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
   os: win64
   type: desktop
@@ -77,7 +77,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-win64-setup.exe.asc"
 
 - name: Dash Core Win/64 ZIP
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
   os: win64
   type: desktop
@@ -104,7 +104,7 @@
 
 
 - name: Dash Core Linux 32 Bit
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
@@ -130,8 +130,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-linux32.tar.gz.asc"
 
 - name: Dash Core Linux 64 Bit
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
-  logo_url: /assets/img/dash_circle_normal.png
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   os: linux
   type: desktop
   vendor_id: dash_core
@@ -156,7 +155,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-linux64.tar.gz.asc"
 
 - name: Dash Core Raspberry Pi 2
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
@@ -182,7 +181,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-RPi2.tar.gz.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: Dash Core "Light" Wallet (No Features incl IS, PS, ....)
   logo_url: /assets/img/wallets/electrum_banner.png
   os: linux
   type: desktop
@@ -208,7 +207,7 @@
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: Dash Core "Light" Wallet (No Features incl IS, PS, ....)
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win32
   type: desktop
@@ -234,7 +233,7 @@
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description:Dash Core "Light" Wallet (No Features incl IS, PS, ....)
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win64
   type: desktop
@@ -261,11 +260,17 @@
 
 - name: Jaxx
   description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    <img  alt="Donate DASH" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRIR2k_r5o_3aPescvPqtFQvDB9LNJNqSTM_dB6Ag3HzacgrxHmsA">
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+   Jaxx Blockchain Interface & Wallet
+   Philosophy
+   1. We never access or hold onto user funds.
+   2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
+   3. We are design-oriented, offering simple, attractive user interfaces and experiences.
+   4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
+   5. We remove friction points whenever possible.
+   6. We never require users to input any personal information including email addresses.
+   With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
+   MultiCurrency Wallet
+   Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: linux
   type: desktop
@@ -284,11 +289,17 @@
 
 - name: Jaxx
   description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    <img  alt="Donate DASH" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRIR2k_r5o_3aPescvPqtFQvDB9LNJNqSTM_dB6Ag3HzacgrxHmsA">
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+   Jaxx Blockchain Interface & Wallet
+   Philosophy
+   1. We never access or hold onto user funds.
+   2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
+   3. We are design-oriented, offering simple, attractive user interfaces and experiences.
+   4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
+   5. We remove friction points whenever possible.
+   6. We never require users to input any personal information including email addresses.
+   With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
+   MultiCurrency Wallet
+   Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)cidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: win32
   type: desktop
@@ -307,11 +318,17 @@
 
 - name: Jaxx
   description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    <img  alt="Donate DASH" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRIR2k_r5o_3aPescvPqtFQvDB9LNJNqSTM_dB6Ag3HzacgrxHmsA">
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    Jaxx Blockchain Interface & Wallet
+    Philosophy
+    1. We never access or hold onto user funds.
+    2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
+    3. We are design-oriented, offering simple, attractive user interfaces and experiences.
+    4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
+    5. We remove friction points whenever possible.
+    6. We never require users to input any personal information including email addresses.
+    With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
+    MultiCurrency Wallet
+    Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: win64
   type: desktop
@@ -329,7 +346,7 @@
       url: "https://jaxx.io/support.html"
 
 - name: Dash Core
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
   os: osx
   type: desktop
@@ -353,7 +370,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-osx.dmg.asc"
 
 - name: Dash Electrum
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: Dash Core "Light" Wallet (No Features incl IS, PS, ....)
   logo_url: /assets/img/wallets/electrum_banner.png
   os: osx
   type: desktop
@@ -378,10 +395,17 @@
 
 - name: Jaxx
   description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    Jaxx Blockchain Interface & Wallet
+    Philosophy
+    1. We never access or hold onto user funds.
+    2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
+    3. We are design-oriented, offering simple, attractive user interfaces and experiences.
+    4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
+    5. We remove friction points whenever possible.
+    6. We never require users to input any personal information including email addresses.
+    With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
+    MultiCurrency Wallet
+    Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpt, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: osx
   type: desktop
@@ -399,7 +423,18 @@
       url: "https://jaxx.io/support.html"
 
 - name: Dash Wallet by Hash Engineering
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: Have your Dash always with you, in your pocket! You pay by quickly scanning a QR code. As a merchant, you receive payments reliably and instantly. Dash Wallet is the first mobile Dash app, and arguably also the most secure! (Requires Android 4 or higher)
+     FEATURES
+   • InstantSend available
+   • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
+   • Display of Dash amount in DASH, mDASH and µDASH.
+   • Conversion to and from national currencies.
+   • Sending and receiving of Dash via NFC, QR codes or Dash URLs.
+   • Address book for regularly used Dash addresses.
+   • When you're offline, you can still pay via Bluetooth.
+   • System notification for received coins.
+   • Sweeping of paper wallets (e.g. those used for cold storage).
+   • App widget for Dash balance.
   logo_url: /assets/img/dash_circle_normal.png
   os: android
   type: mobile
@@ -417,7 +452,17 @@
       url: "https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet"
 
 - name: Coinomi
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: MultiCurrency Wallet, securely with our cross-chain enabled mobile hybrid wallet.
+   • Superb Security
+     Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will remain safe under your ultimate control.
+   • Enhanced Privacy & Anonymity
+     No KYC bureaucracy to access your funds, no IP association, no identity linking, no transactions tracking. Our servers anonymize your requests by hiding your IP from prying eyes.
+   • Exchange Inside
+     Convert between altcoins instantly from within the app, through our strategic partner ShapeShift.
+   • One-time Backup
+     Hierarchical Deterministic Wallet (BIP44) enables you to keep everything accessible and secure with just one super-passphrase which you only have to back-up once and for all.
+   • Open Source & Transparent
+     No hidden code, no malicious modules, no exploits, no small letters. Our code is publicly available and publicly reviewed.
   logo_url: "/assets/img/wallets/coinomi.ico"
   os: android
   type: mobile
@@ -439,10 +484,17 @@
 
 - name: Jaxx
   description: |
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        Jaxx Blockchain Interface & Wallet
+    Philosophy
+    1. We never access or hold onto user funds.
+    2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
+    3. We are design-oriented, offering simple, attractive user interfaces and experiences.
+    4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
+    5. We remove friction points whenever possible.
+    6. We never require users to input any personal information including email addresses.
+    With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
+    MultiCurrency Wallet
+    Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpt, sed diam nonummy nibh euismod tincidunt ut laoreeteuismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: android
   type: mobile
@@ -461,7 +513,7 @@
 
 
 - name: Exodus
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
   logo_url: "https://www.exodus.io/favicon.ico"
   os: win64
   type: desktop
@@ -479,7 +531,7 @@
       url: "https://www.exodus.io/releases/"
 
 - name: Exodus
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
   logo_url: "https://www.exodus.io/favicon.ico"
   os: osx
   type: desktop
@@ -497,7 +549,7 @@
       url: "https://www.exodus.io/releases/"
 
 - name: Exodus
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description:Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
   logo_url: "https://www.exodus.io/favicon.ico"
   os: linux
   type: desktop
@@ -514,7 +566,7 @@
       label: Download Options
       url: "https://www.exodus.io/releases/"
 - name: Dash Core Paper Wallet
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: Paper wallets are a form of cold wallet and essentially a bearer instrument – whoever holds them has access to both the Dash private key and therefore the address.
   logo_url: /assets/img/dash_circle_normal.png
   os:
   type: paper
@@ -532,7 +584,7 @@
       url: "https://dashpay.atlassian.net/wiki/display/DOC/Paper+Wallet"
 
 - name: KeepKey Hardware Wallet
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: KeepKey is a hardware wallet that secures Dash (and other cryptocurrencies). Your assets are protected from hackers and thieves. KeepKey works with the wallet software on your computer by taking over the management of private key generation, private key storage, and transaction signing.
   logo_url: "https://avatars3.githubusercontent.com/u/73358?v=3&s=400"
   os:
   type: hardware
@@ -550,7 +602,7 @@
       url: "https://www.keepkey.com"
 
 - name: Ledger Nano S
-  description: Nam a tristique nunc, dictum accumsan mauris. Aenean lacinia odio in eros posuere consequat. Maecenas ac vulputate urna, et sodales.
+  description: Ledger Nano S is a Dash (Bitcoin, Ethereum and Altcoins) hardware wallet, based on robust safety features for storing cryptographic assets and securing digital payments. It connects to any computer (USB) and embeds a secure OLED display to double-check and confirm each transaction with a single tap on its side buttons.
   logo_url: /assets/img/wallets/ledger-nano-s-fold-medium.png
   os:
   type: hardware
@@ -568,7 +620,7 @@
       url: "https://www.ledgerwallet.com/products/ledger-nano-s"
 
 - name: Trezor
-  description: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+  description: TREZOR is a hardware wallet providing advanced security for handling bitcoin private keys. Unlike traditional cold storage methods (offline storage or paper wallet), TREZOR is able to make secure payments without exposing your private keys to a potentially compromised computer
   logo_url: "/assets/img/wallets/trezor-logo.png"
   os:
   type: hardware
