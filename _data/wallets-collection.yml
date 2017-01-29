@@ -131,6 +131,7 @@
 
 - name: Dash Core Linux 64 Bit
   description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
   vendor_id: dash_core
