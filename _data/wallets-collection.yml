@@ -182,7 +182,7 @@
       url: "https://www.dash.org/binaries/dash-0.12.0.58-RPi2.tar.gz.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Dash Core "Light" Wallet (No Features incl IS, PS, ....)
+  description: Dash Core "Light" Wallet (No Features)
   logo_url: /assets/img/wallets/electrum_banner.png
   os: linux
   type: desktop
@@ -208,7 +208,7 @@
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Dash Core "Light" Wallet (No Features incl IS, PS, ....)
+  description: Dash Core "Light" Wallet (No Features)
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win32
   type: desktop
@@ -234,7 +234,7 @@
       url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Dash Core "Light" Wallet (No Features incl IS, PS, ....)
+  description: Dash Core "Light" Wallet (No Features)
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win64
   type: desktop
@@ -261,17 +261,7 @@
 
 - name: Jaxx
   description: |
-   Jaxx Blockchain Interface & Wallet
-   Philosophy
-   1. We never access or hold onto user funds.
-   2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
-   3. We are design-oriented, offering simple, attractive user interfaces and experiences.
-   4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
-   5. We remove friction points whenever possible.
-   6. We never require users to input any personal information including email addresses.
-   With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
-   MultiCurrency Wallet
-   Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)
+   All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: linux
   type: desktop
@@ -290,17 +280,7 @@
 
 - name: Jaxx
   description: |
-   Jaxx Blockchain Interface & Wallet
-   Philosophy
-   1. We never access or hold onto user funds.
-   2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
-   3. We are design-oriented, offering simple, attractive user interfaces and experiences.
-   4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
-   5. We remove friction points whenever possible.
-   6. We never require users to input any personal information including email addresses.
-   With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
-   MultiCurrency Wallet
-   Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)cidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+   All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds. nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: win32
   type: desktop
@@ -319,17 +299,7 @@
 
 - name: Jaxx
   description: |
-    Jaxx Blockchain Interface & Wallet
-    Philosophy
-    1. We never access or hold onto user funds.
-    2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
-    3. We are design-oriented, offering simple, attractive user interfaces and experiences.
-    4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
-    5. We remove friction points whenever possible.
-    6. We never require users to input any personal information including email addresses.
-    With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
-    MultiCurrency Wallet
-    Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.im veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: win64
   type: desktop
@@ -396,17 +366,7 @@
 
 - name: Jaxx
   description: |
-    Jaxx Blockchain Interface & Wallet
-    Philosophy
-    1. We never access or hold onto user funds.
-    2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.
-    3. We are design-oriented, offering simple, attractive user interfaces and experiences.
-    4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.
-    5. We remove friction points whenever possible.
-    6. We never require users to input any personal information including email addresses.
-    With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
-    MultiCurrency Wallet
-    Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpt, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: osx
   type: desktop
@@ -490,20 +450,7 @@
     <p>
     Jaxx Blockchain Interface & Wallet
     </p>
-    <h5>Philosophy</h5>
-    <ol>
-    <li>1. We never access or hold onto user funds.</li>
-    <li>2. We offer a client-side security model, with private keys hosted locally and never sent to any servers.</li>
-    <li>3. We are design-oriented, offering simple, attractive user interfaces and experiences.</li>
-    <li>4. We use standards that ensure should we ever go down or cease to exist, your keys can be imported into another service.</li>
-    <li>5. We remove friction points whenever possible.</li>
-    <li>6. We never require users to input any personal information including email addresses.</li>
-    </ol>
-    <p>
-    With a focus on unifying the look and feel across devices and focusing on customer service, security, design, and user experience, our goal is to make the Jaxx Blockchain Interface & Wallet the default wallet of choice for the masses.
-    MultiCurrency Wallet
-    Single master seed backup (This will be the only seed you will ever need in the future for any coin we integrate)diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpt, sed diam nonummy nibh euismod tincidunt ut laoreeteuismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </p>
+    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
   logo_url: "https://jaxx.io/images/favicon.ico"
   os: android
   type: mobile
