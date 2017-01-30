@@ -319,7 +319,7 @@ pages:
     buy-heading: Buy Dash Online
     buy-text: Convert local currency to Dash and send it to your wallet
     buy-btn: Buy Dash
-    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
+    buy-link: https://dashpay.atlassian.net/wiki/x/JwDnAg
 
     trade-heading: Trade Dash on an exchange
     trade-text: Trade local currency for Dash on an exchange
@@ -329,7 +329,7 @@ pages:
     atm-heading: Buy Dash at an ATM
     atm-text: Instant Dash purchases from an ATM in your country
     atm-btn: ATM Locator
-    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
+    atm-link: https://dashpay.atlassian.net/wiki/x/JgAFBQ
 
     shop-heading: Shop direct with Dash
     shop-text: Instant and private online purchases, direct from your Dash wallet
@@ -400,9 +400,9 @@ pages:
     integrate-heading: Do you take Dash?
     integrate-text: Integrate instant, private payments to your webstore, app or retail outlet
     integrate-btn: Integrate Dash
-    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+    integrate-link: https://dashpay.atlassian.net/wiki/x/k4EkBQ
     integrate-payment-processor-btn: Payment Processors
-    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/x/moD8AQ
     integrate-contact-btn: Contact Our Team
 
   currency:
