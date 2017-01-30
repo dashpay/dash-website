@@ -47,6 +47,11 @@
 			width: 10%;
 			background: linear-gradient(to left, white 10%, rgba(255,255,255,0) 100%);
 		}
+		&_no-gradient{
+			&::before, &:after{
+				display: none;
+			}
+		}
 	}
 
 	&--gray-light-bg {
