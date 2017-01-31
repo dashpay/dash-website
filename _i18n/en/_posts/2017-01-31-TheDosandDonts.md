@@ -72,5 +72,5 @@ CT: How optimistic are you about cryptocurrency adoption among the general econo
 
 JB: I am optimistic that eventually, in the long run, cryptocurrency will be widely adopted. I think it is inevitable. In the short term, however, with entrepreneurs focused on short term goals and most always overloaded. I don't think the value proposition exists for mass adoption to come soon.
 
-https://cointelegraph.com/news/the-dos-and-donts-of-pushing-crypto-evangelist-john-bush
+<https://cointelegraph.com/news/the-dos-and-donts-of-pushing-crypto-evangelist-john-bush>
 
