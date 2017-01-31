@@ -148,9 +148,9 @@ pages:
 
     update-heading: Sentinel
     update-text:
-      Lead evolution developer Andy Freer has been locked away producing huge amounts of documentation for the various concepts of Evolution. This comes after months of conversations between Andy and Dash Lead Developer Evan Duffield about how each component of Evolution works, then reimagining it and improving the components and designs systematically.
-
-      Since the original research phase, documentation, specifications, plans and diagrams have been being drafted, growing into a collection of documents that will be put into a wiki with full documentation for Evolution’s end-to-end design and implementation.
+      An all-powerful toolset for Dash
+      Sentinel is an autonomous agent for persisting, processing and automating Dash V12.1 governance objects and tasks, and for expanded functions in the upcoming Dash V13 release (Evolution).
+      Sentinel is implemented as a Python application that binds to a local version 12.1 dashd instance on each Dash V12.1 Masternode.
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
 
