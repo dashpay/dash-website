@@ -162,7 +162,7 @@
   image: fernando.png
   email: fernando@dash.org
   keybase: https://keybase.io/fernandog
-  twitter: https://twitter.com/fernando
+  twitter:
   core-team: true
 
 - name: Philipp Engelhorn
@@ -263,7 +263,7 @@
   image: splawik21.png
   email: splawik21@dash.org
   keybase: https://keybase.io/splawik21
-  twitter: https://twitter.com/splawik21
+  twitter:
 
 - name: Perry Woodin
   title: Advisor
@@ -271,4 +271,4 @@
   image: perry_sm.jpg
   email: perry@node40.com
   keybase: https://keybase.io/perrywoodin
-  twitter: https://twitter.com/node_40
+  twitter:
