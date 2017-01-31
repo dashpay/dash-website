@@ -10,16 +10,18 @@
 	<!-- Navigation -->
 	{% include nav-desktop.html logo-color='black' %}
 
+
 	<!-- Hero content -->
 	<div class="hero__content">
 		<h1 class="hero__title">{% t pages.get-dash.hero-heading %}</h1>
 		<p class="hero__lead">{% t pages.get-dash.hero-text %}</p>
 
 		<div class="hero__buttons hero__buttons--get-dash">
-			<a href="#" class="btn-blue-solid btn-large">{% t pages.get-dash.hero-download-btn %}</a>
+			<button id="download-detected-platform-button" href="#" class="btn-blue-solid btn-large">{% t pages.get-dash.hero-download-btn %}</button>
 			<a href="../wallets/" class="btn-large btn-white-solid">{% t pages.get-dash.hero-all-wallets-btn %}</a>
 		</div>
-		<p class="hero__text">{% t pages.get-dash.hero-wallet-version %} – (<a href="#" class="hero__link">{% t pages.get-dash.hero-wallet-version-select %}</a>)</p>
+		<p id="platform-not-detected">{% t pages.get-dash.hero-platform-not-detected %}</p>
+
 		<div class="hero__buttons">
 			<a href="#getdash-wallet-setup" class="btn-white-solid">{% t pages.get-dash.hero-guide-btn %}</a>
 			<a href="#getdash-buy" class="btn-white-solid">{% t pages.get-dash.hero-buy-btn %}</a>

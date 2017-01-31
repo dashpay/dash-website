@@ -301,6 +301,7 @@ pages:
     hero-text: Download the latest Dash client to get started
     hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
     hero-wallet-version-select: Choose Another
+    hero-platform-not-detected: "We're sorry, but your platform could not be automatically detected. Please select \"All Wallets\" to find a compatible version."
     hero-download-btn: Download
     hero-all-wallets-btn: All Wallets
     hero-guide-btn: Setup Guide

@@ -1,0 +1,88 @@
+/**
+ * Created by cwilliams on 1/30/17.
+ */
+
+;(function ($) {
+	'use strict';
+
+	$(document).ready(function () {
+		initDownloadButton();
+	});
+
+	function getBestWalletMatch() {
+		var _walletsCollection = _.flatten(walletsCollectionByOs.map(function (walletGroupCollection){
+				return walletGroupCollection.items;
+			})),
+			_family = platform.os.family,
+			_vendor = 'dash_core',
+			_walletOs = 'win32',
+			_type = 'desktop'
+			;
+
+		switch (true) {
+			case /(^Mac OS X$|^OS X$|^Mac$|^Macintosh$)/.test(_family):
+				_walletOs = 'osx';
+				_vendor = 'dash_core';
+				_type = 'desktop';
+				break;
+			case /android/gi.test(_family):
+				_walletOs = 'android';
+				_vendor = 'hash_engineering_solutions';
+				_type = 'mobile';
+				break;
+			case /Windows/gi.test(_family):
+				_walletOs = platform.os.architecture === 64 ? 'win64' : 'win32';
+				_vendor = 'dash_core';
+				_type = 'desktop';
+				break;
+			case /^ios/gi.test(_family):
+				_walletOs = 'ios'
+				_vendor = '';
+				_type = '';
+				break;
+			case /(linux|centos|debian|fedora|freebsd|gentoo|haiku|kubuntu|openbsd|red hat|suse|ubuntu|cygwin)/gi.test(_family):
+				_walletOs = 'linux';
+				_vendor = 'dash_core';
+				_type = 'desktop';
+				break;
+			default:
+				// do nothing;
+				break;
+		}
+
+		var detectedWallet = _.find(_walletsCollection,{os:_walletOs,vendor_id:_vendor,type:_type});
+
+		return detectedWallet;
+	}
+
+	function onDownloadClick (event) {
+		var _dlButton = $(event.target),
+			_linkTo = _dlButton.data('detectedWallet').links[0].url;
+		;
+		window.open(_linkTo,"_blank");
+	}
+
+	function initDownloadButton(){
+		var _downloadButton = $('#download-detected-platform-button'),
+			_detectedWallet = getBestWalletMatch(),
+			_notDetectedMessage = $('#platform-not-detected');
+			;
+
+		if (_detectedWallet) {
+			_downloadButton.html(_detectedWallet.links[0].label+': '+_detectedWallet.name)
+				.attr({
+					title: platform.os.toString()
+				})
+				.data('detectedWallet',_detectedWallet)
+				.click(onDownloadClick)
+				.show()
+			;
+			_notDetectedMessage.hide();
+		} else {
+			_downloadButton.hide();
+			_notDetectedMessage.show();
+		}
+		return _downloadButton;
+	}
+
+}(jQuery));
