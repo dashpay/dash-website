@@ -1,6 +1,6 @@
-{% assign desktop-os-collection = site.data.wallets-collection | where:"type","desktop" | group_by:"os"  %}
+{% assign wallet-collection-by-os = site.data.wallets-collection | group_by:"os"  %}
 
 <script>
-	var walletsCollectionByOs = {{ desktop-os-collection | jsonify }};
+	var walletsCollectionByOs = {{ wallet-collection-by-os | jsonify }};
 	console.log('walletsCollectionByOs : ' , walletsCollectionByOs  );
 </script>

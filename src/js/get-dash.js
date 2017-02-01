@@ -6,7 +6,9 @@
 	'use strict';
 
 	$(document).ready(function () {
-		initDownloadButton();
+		if (typeof(walletsCollectionByOs) !== 'undefined' && walletsCollectionByOs) {
+			initDownloadButton();
+		}
 	});
 
 	function getBestWalletMatch() {
@@ -15,8 +17,10 @@
 			})),
 			_family = platform.os.family,
 			_vendor = 'dash_core',
+			_product_id = null,
 			_walletOs = 'win32',
-			_type = 'desktop'
+			_type = 'desktop',
+			detectedWallet = {}
 			;
 
 		switch (true) {
@@ -42,6 +46,7 @@
 				break;
 			case /(linux|centos|debian|fedora|freebsd|gentoo|haiku|kubuntu|openbsd|red hat|suse|ubuntu|cygwin)/gi.test(_family):
 				_walletOs = 'linux';
+				_product_id = platform.os.architecture === 32 ? 'dash_core_linux_32' : 'dash_core_linux_64';
 				_vendor = 'dash_core';
 				_type = 'desktop';
 				break;
@@ -50,8 +55,13 @@
 				break;
 		}
 
-		var detectedWallet = _.find(_walletsCollection,{os:_walletOs,vendor_id:_vendor,type:_type});
+		if ( _product_id ) {
+			detectedWallet = _.find(_walletsCollection,{product_id:_product_id});
+		} else {
+			detectedWallet = _.find(_walletsCollection,{os:_walletOs,vendor_id:_vendor,type:_type});
+		}
 
+		console.info('detectedWallet: ' , detectedWallet, {os:_walletOs,vendor_id:_vendor,type:_type});
 		return detectedWallet;
 	}
 
@@ -68,19 +78,21 @@
 			_notDetectedMessage = $('#platform-not-detected');
 			;
 
-		if (_detectedWallet) {
-			_downloadButton.html(_detectedWallet.links[0].label+': '+_detectedWallet.name)
-				.attr({
-					title: platform.os.toString()
-				})
-				.data('detectedWallet',_detectedWallet)
-				.click(onDownloadClick)
-				.show()
-			;
-			_notDetectedMessage.hide();
-		} else {
-			_downloadButton.hide();
-			_notDetectedMessage.show();
+		if (_downloadButton && _downloadButton.length > 0) {
+			if (_detectedWallet) {
+				_downloadButton.html(_detectedWallet.links[0].label+': '+_detectedWallet.name)
+					.attr({
+						title: platform.os.toString()
+					})
+					.data('detectedWallet',_detectedWallet)
+					.click(onDownloadClick)
+					.show()
+				;
+				_notDetectedMessage.hide();
+			} else {
+				_downloadButton.hide();
+				_notDetectedMessage.show();
+			}
 		}
 		return _downloadButton;
 	}

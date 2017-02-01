@@ -6,7 +6,6 @@
  */
 ;(function() {
 	'use strict';
-	console.log('platform.js');
 
 	/** Used to determine if values are of the language type `Object`. */
 	var objectTypes = {
