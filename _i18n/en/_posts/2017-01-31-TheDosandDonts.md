@@ -2,7 +2,7 @@
 author: tungfa
 layout: post
 image: TheDosandDonts.jpg
-title: The Dos and Don'ts of Pushing Crypto: Evangelist John Bush
+title: "The Dos and Don'ts of Pushing Crypto: Evangelist John Bush"
 ---
 While Bitcoin value and use continue to grow year after year, cryptocurrency is still a far cry from total main street adoption.
 

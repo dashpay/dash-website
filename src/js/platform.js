@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 /*!
  * Platform.js <https://mths.be/platform>
  * Copyright 2014-2016 Benjamin Tan <https://demoneaux.github.io/>
