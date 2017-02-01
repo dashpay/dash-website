@@ -11,6 +11,11 @@
 		;
 
 	$(document).ready(function () {
+		_ = window._ || null,
+		walletsCollectionByOs = window.walletsCollectionByOs || undefined,
+		platform = window.platform || undefined
+		;
+
 		if (typeof(walletsCollectionByOs) !== 'undefined' && walletsCollectionByOs) {
 			initDownloadButton();
 		}
@@ -82,14 +87,15 @@
 	function initDownloadButton() {
 		var _downloadButton = $('#download-detected-platform-button'),
 			_detectedWallet = getBestWalletMatch(),
-			_notDetectedMessage = $('#platform-not-detected')
+			_notDetectedMessage = $('#platform-not-detected'),
+			_platform = platform
 			;
 
 		if (_downloadButton && _downloadButton.length > 0) {
-			if (_detectedWallet && platform) {
+			if (_detectedWallet && _platform) {
 				_downloadButton.html(_detectedWallet.links[0].label + ': ' + _detectedWallet.name)
 					.attr({
-						title: platform.os.toString()
+						title: _platform.os.toString()
 					})
 					.data('detectedWallet',_detectedWallet)
 					.click(onDownloadClick)
