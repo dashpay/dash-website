@@ -106,3 +106,10 @@ image: /assets/images/2016/05/Node40-banner.jpg
 title: New website for Node40
 description: Check out the new website for Node40
 ```
+
+###Blog Post Images
+Image paths for blogs are currently relative to /{language}/assets/img/blog by default. If we replaced the image path from the front matter above with:
+```
+	image: MyImage.jpg
+```
+... will look for `"MyImage.jpg"` in the `/assets/img/blog` folder. 

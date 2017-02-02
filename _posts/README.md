@@ -6,3 +6,28 @@ Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and
 2011-12-31-new-years-eve-is-awesome.md
 2011-12-31-new-years-eve-is-awesome.html
 2012-09-12-how-to-write-a-blog.textile
+
+## Writing a Blog Post
+Blog posts can be written in MarkDown (*.md) or HTML (*.html).
+
+Posts need to be saved in the `_posts` directory and the filename must always start with YYYY-MM-DD-
+
+For example: `2016-05-12-new-website.md`
+
+###Front matter
+The top page of every post should contain the following (Example):
+```
+author: perry
+layout: post
+image: Node40-banner.jpg
+title: New website for Node40
+description: Check out the new website for Node40
+```
+
+###Blog Post Images
+Image paths for blogs are currently relative to {language}/assets/img/blog by default. If we replaced the image path from the front matter above with:
+```
+	image: MyImage.jpg
+```
+... will look for `"MyImage.jpg"` in the `/{language}/assets/img/blog` folder. 
+

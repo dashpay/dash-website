@@ -126,9 +126,11 @@ pages:
     video-text: The first area of progress is Dash Core. In addition to running the network at present, Dash Core also serves as the backbone of the Evolution engine.
     video-btn: Overview Video
 
-    merchants-heading: WooCommerce Integration
-    merchants-text: Download Plugin for WooCommerce Wordpress and start using Digital Cash!
-    merchants-btn: Get Plugin
+    merchants-heading: Please check for your mandatory update details
+    merchants-text: All Miners, Pools, Wallets, Exchnanes , Merchants ... are required to update
+    merchants-btn: Pools
+    masternodes-btn: Masternodes
+    exchanges-btn: Exchanges
 
     integrate-heading: Dash Evolution Progress
     integrate-text: Sentinel can also be re-geared and deployed to operate digital companies that have a built-in workforce, infrastructure to deploy again, and as an engine for storage and retrieval of information.
@@ -136,15 +138,14 @@ pages:
     slack-btn: Slack Chanel
     forum-btn: Dash Forums
 
-    execution-heading: STRATEGIC EXECUTION
+    execution-heading: What is Evolution
     execution-text:
-      Ryan Taylor, Dash’s CFO, has coordinated a deal with Arizona State University’s SkySong incubator, allowing us access to their top tier facility in Tempe, Arizona.
+      Dash Evolution creates a new type of cryptographic currency with various advanced features that assist in the creation of decentralized technology. Dash introduces a tiered network design, which allows users to do various jobs for the network, along with decentralized API access and a decentralized file system.
 
 
-      There are 29 fast-growing, innovative startups sharing this location, and we look forward to talking with many of them. We also look forward to hiring exceptional talent from the University.
 
     execution-btn: Learn More
-    execution-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
+    execution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
 
     update-heading: Sentinel
     update-text:
