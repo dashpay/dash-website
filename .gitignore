@@ -1,5 +1,7 @@
 .DS_Store
 
+npm-debug.log
+
 _site
 dist
 
@@ -7,6 +9,7 @@ dist
 .brackets.json
 .jekyll-metadata
 .idea/
+
 
 styles/.sass-cache
 styles/.sass-cache/*

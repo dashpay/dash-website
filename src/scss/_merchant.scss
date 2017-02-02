@@ -12,7 +12,7 @@ $m: 'member';
 	}
 	&__image-wrapper {
 		@include overflow-image-wrapper();
-		padding-bottom: ((105/140)*100%);
+		padding-bottom: ((106/140)*100%);
 	}
 
 	&__image {

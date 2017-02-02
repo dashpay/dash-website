@@ -5,18 +5,32 @@
 ;(function ($) {
 	'use strict';
 
+	var _ = window._ || null,
+		walletsCollectionByOs = window.walletsCollectionByOs || undefined,
+		platform = window.platform || undefined
+		;
+
 	$(document).ready(function () {
-		initDownloadButton();
+		_ = window._ || null,
+		walletsCollectionByOs = window.walletsCollectionByOs || undefined,
+		platform = window.platform || undefined
+		;
+
+		if (typeof(walletsCollectionByOs) !== 'undefined' && walletsCollectionByOs) {
+			initDownloadButton();
+		}
 	});
 
 	function getBestWalletMatch() {
-		var _walletsCollection = _.flatten(walletsCollectionByOs.map(function (walletGroupCollection){
+		var _walletsCollection = _.flatten(walletsCollectionByOs.map(function (walletGroupCollection) {
 				return walletGroupCollection.items;
 			})),
-			_family = platform.os.family,
+			_family = platform && platform.os && platform.os.family,
 			_vendor = 'dash_core',
+			_productId = null,
 			_walletOs = 'win32',
-			_type = 'desktop'
+			_type = 'desktop',
+			detectedWallet = {}
 			;
 
 		switch (true) {
@@ -36,51 +50,62 @@
 				_type = 'desktop';
 				break;
 			case /^ios/gi.test(_family):
-				_walletOs = 'ios'
+				_walletOs = 'ios';
 				_vendor = '';
 				_type = '';
 				break;
 			case /(linux|centos|debian|fedora|freebsd|gentoo|haiku|kubuntu|openbsd|red hat|suse|ubuntu|cygwin)/gi.test(_family):
 				_walletOs = 'linux';
+				_productId = platform.os.architecture === 32 ? 'dash_core_linux_32' : 'dash_core_linux_64';
 				_vendor = 'dash_core';
 				_type = 'desktop';
 				break;
 			default:
+
 				// do nothing;
 				break;
 		}
 
-		var detectedWallet = _.find(_walletsCollection,{os:_walletOs,vendor_id:_vendor,type:_type});
+		if (_productId) {
+			detectedWallet = _.find(_walletsCollection,{ product_id: _productId});
+		} else {
+			detectedWallet = _.find(_walletsCollection,{ os: _walletOs, vendor_id: _vendor, type: _type});
+		}
 
+		console.info('detectedWallet: ' , detectedWallet, { os: _walletOs, vendor_id: _vendor, type: _type});
 		return detectedWallet;
 	}
 
-	function onDownloadClick (event) {
+	function onDownloadClick(event) {
 		var _dlButton = $(event.target),
-			_linkTo = _dlButton.data('detectedWallet').links[0].url;
+			_linkTo = _dlButton.data('detectedWallet').links[0].url
 		;
-		window.open(_linkTo,"_blank");
+
+		window.open(_linkTo,'_blank');
 	}
 
-	function initDownloadButton(){
+	function initDownloadButton() {
 		var _downloadButton = $('#download-detected-platform-button'),
 			_detectedWallet = getBestWalletMatch(),
-			_notDetectedMessage = $('#platform-not-detected');
+			_notDetectedMessage = $('#platform-not-detected'),
+			_platform = platform
 			;
 
-		if (_detectedWallet) {
-			_downloadButton.html(_detectedWallet.links[0].label+': '+_detectedWallet.name)
-				.attr({
-					title: platform.os.toString()
-				})
-				.data('detectedWallet',_detectedWallet)
-				.click(onDownloadClick)
-				.show()
-			;
-			_notDetectedMessage.hide();
-		} else {
-			_downloadButton.hide();
-			_notDetectedMessage.show();
+		if (_downloadButton && _downloadButton.length > 0) {
+			if (_detectedWallet && _platform) {
+				_downloadButton.html(_detectedWallet.links[0].label + ': ' + _detectedWallet.name)
+					.attr({
+						title: _platform.os.toString()
+					})
+					.data('detectedWallet',_detectedWallet)
+					.click(onDownloadClick)
+					.show()
+				;
+				_notDetectedMessage.hide();
+			} else {
+				_downloadButton.hide();
+				_notDetectedMessage.show();
+			}
 		}
 		return _downloadButton;
 	}

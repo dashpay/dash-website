@@ -313,17 +313,18 @@ description: pages.home.description
 				{% for post in site.posts limit:4 %}
 				<div class="col-sm-6 col-md-3">
 					<div class="news-post">
-						<div class="news-image">
-							{% if post.image %}
-								<img src="{{ basenav }}/assets/img/blog/{{ post.image }}">
-							{% endif %}
-						</div>
-						<div class="news-body">
-							<h3 class="news-title">{{ post.title }}</h3>
-							<div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
-							<p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
-							<a class="read-more" href="{{ basenav }}{{ post.url }}">Read More...</a>
-						</div>
+						<a href="{{ basenav }}{{ post.url }}">
+							<div class="news-image">
+								{% if post.image %}
+									<img src="{{ basenav }}/assets/img/blog/{{ post.image }}">
+								{% endif %}
+							</div>
+							<div class="news-body">
+								<h3 class="news-title">{{ post.title }}</h3>
+								<div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
+								<p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
+							</div>
+						</a>
 					</div>
 				</div>
 				{% endfor %}
