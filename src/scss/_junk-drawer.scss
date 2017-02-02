@@ -439,3 +439,10 @@ a.blog_link {
 	clear:left;
 	font:14px Helvetica,Arial,sans-serif;
 }
+
+.section--colored {
+	background-color: $color-blue;
+	color: white;
+	padding-top: 55px;
+	margin-bottom: 55px;
+}
