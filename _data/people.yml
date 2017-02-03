@@ -3,6 +3,8 @@ perry:
   twitter: PerryWoodin
   image: /assets/img/perry_sm.jpg
 tungfa:
-  name: Philipp Engelhorn
+  name: DashPay
+  # Philipp Engelhorn
   twitter: DashPay
-  image: /assets/img/authors/philipp.png
+  image: 
+  # /assets/img/authors/philipp.png
