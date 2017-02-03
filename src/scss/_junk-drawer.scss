@@ -11,7 +11,7 @@ you're in a hurry or lost or you just need to Make It Work©
 }
 
 .hidden{
-	display: none !important;
+    display: none !important;
 }
 
 .bottom-space {
@@ -55,85 +55,85 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
   transition: .25s;
 
   &:hover, &:focus {
-	background-color: $wallet-tile-hover-background-base-color;
-	border-color: $color-blue;
-	a {
-	  color: darken($color-blue, 15);
-	}
-	& .thumbnail .caption .fine-print {
-	  color: darken($color-gray-dark, 15);
-	}
+    background-color: $wallet-tile-hover-background-base-color;
+    border-color: $color-blue;
+    a {
+      color: darken($color-blue, 15);
+    }
+    & .thumbnail .caption .fine-print {
+      color: darken($color-gray-dark, 15);
+    }
 
-	& .thumbnail .wallet-links-container .link {
-	  border-top: solid 1px darken($color-gray, 15);
-	}
+    & .thumbnail .wallet-links-container .link {
+      border-top: solid 1px darken($color-gray, 15);
+    }
   }
   & .thumbnail {
-	& .logo-container {
-	  margin: $wallet-tile-spacing auto;
-	  padding: $wallet-tile-spacing*.3;
-	  display: block;
-	  max-width: $wallet-tile-logo-container-width;
-	  max-height: $wallet-tile-logo-container-height;
-	  overflow: hidden;
-	  img {
-		max-height: 80px;
-	  }
-	}
-	& .caption {
-	  line-height: 1 !important;
-	  margin: $wallet-tile-spacing;
-	  h4 {
-		padding: 0 0 $wallet-tile-spacing 0;
-	  }
-	  & .fine-print {
-		overflow-y: auto;
-		min-height: $wallet-tile-caption-fine-print-height;
-		max-height: $wallet-tile-caption-fine-print-height*2;
-		margin: 0 0 $wallet-tile-spacing 0;
-		font-size: $wallet-tile-caption-fine-print-font-size;
-		line-height: 1.5 !important;
-		color: $color-gray-dark;
-	  }
-	}
-	& .wallet-links-container {
-	  width: 100%;
-	  & .link {
-		border-top: solid 1px $color-gray;
-		margin: 0 auto;
-		width: 90%;
-		display: block;
-		-o-transition: 1.25s;
-		-ms-transition: 1.25s;
-		-moz-transition: 1.25s;
-		-webkit-transition: 1.25s;
-		transition: 1.25s;
-		&:hover, &:focus {
-		  background-color: lighten($wallet-tile-hover-background-base-color, 3);
-		  border-color: white;
-		}
-		& a {
-		  display: block;
-		  margin: 0;
-		  padding: $wallet-tile-spacing*.3;
-		  height: 100%;
-		  width: 100%;
-		  -o-transition: .5s;
-		  -ms-transition: .5s;
-		  -moz-transition: .5s;
-		  -webkit-transition: .5s;
-		  transition: .5s;
-		  &:hover, &:focus {
-			@include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color, $mid-color: lighten($wallet-tile-hover-background-base-color, 9), $end-color: $wallet-tile-hover-background-base-color);
-			-o-transition: .5s;
-			-ms-transition: .5s;
-			-moz-transition: .5s;
-			-webkit-transition: .5s;
-			transition: .5s;
-		  }
-		}
-	  }
-	}
+    & .logo-container {
+      margin: $wallet-tile-spacing auto;
+      padding: $wallet-tile-spacing*.3;
+      display: block;
+      max-width: $wallet-tile-logo-container-width;
+      max-height: $wallet-tile-logo-container-height;
+      overflow: hidden;
+      img {
+        max-height: 80px;
+      }
+    }
+    & .caption {
+      line-height: 1 !important;
+      margin: $wallet-tile-spacing;
+      h4 {
+        padding: 0 0 $wallet-tile-spacing 0;
+      }
+      & .fine-print {
+        overflow-y: auto;
+        min-height: $wallet-tile-caption-fine-print-height;
+        max-height: $wallet-tile-caption-fine-print-height*2;
+        margin: 0 0 $wallet-tile-spacing 0;
+        font-size: $wallet-tile-caption-fine-print-font-size;
+        line-height: 1.5 !important;
+        color: $color-gray-dark;
+      }
+    }
+    & .wallet-links-container {
+      width: 100%;
+      & .link {
+        border-top: solid 1px $color-gray;
+        margin: 0 auto;
+        width: 90%;
+        display: block;
+        -o-transition: 1.25s;
+        -ms-transition: 1.25s;
+        -moz-transition: 1.25s;
+        -webkit-transition: 1.25s;
+        transition: 1.25s;
+        &:hover, &:focus {
+          background-color: lighten($wallet-tile-hover-background-base-color, 3);
+          border-color: white;
+        }
+        & a {
+          display: block;
+          margin: 0;
+          padding: $wallet-tile-spacing*.3;
+          height: 100%;
+          width: 100%;
+          -o-transition: .5s;
+          -ms-transition: .5s;
+          -moz-transition: .5s;
+          -webkit-transition: .5s;
+          transition: .5s;
+          &:hover, &:focus {
+            @include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color, $mid-color: lighten($wallet-tile-hover-background-base-color, 9), $end-color: $wallet-tile-hover-background-base-color);
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -141,17 +141,17 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
 
 
   & .modal-header {
-	border-bottom: none;
+    border-bottom: none;
   }
   &.dash-core {
-	& .btn.btn-default {
-	  border: 1px solid $color-blue-highlight;
-	  &:hover, &:focus {
-		background-color: $wallet-tile-hover-background-base-color;
-		border-color: white;
-		color: $color-blue-dark;
-	  }
-	}
+    & .btn.btn-default {
+      border: 1px solid $color-blue-highlight;
+      &:hover, &:focus {
+        background-color: $wallet-tile-hover-background-base-color;
+        border-color: white;
+        color: $color-blue-dark;
+      }
+    }
   }
 }
 
@@ -180,119 +180,119 @@ a.blog_link {
 
 .b-modal {
   &__close {
-	position: absolute;
-	right: 32px;
-	top: 32px;
-	width: 32px;
-	height: 32px;
-	cursor: pointer;
-	&:hover, .dash-core &:hover {
-	  &:before, &:after {
-		background-color: #000;
-	  }
-	}
-	&:before, &:after {
-	  position: absolute;
-	  left: 15px;
-	  content: ' ';
-	  height: 33px;
-	  width: 2px;
-	  transition: .5s;
-	  background-color: $color-blue-dark;
-	  .dash-core & {
-		background-color: #fff;
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    &:hover, .dash-core &:hover {
+      &:before, &:after {
+        background-color: #000;
+      }
+    }
+    &:before, &:after {
+      position: absolute;
+      left: 15px;
+      content: ' ';
+      height: 33px;
+      width: 2px;
+      transition: .5s;
+      background-color: $color-blue-dark;
+      .dash-core & {
+        background-color: #fff;
 
-	  }
-	}
-	&:before {
-	  transform: rotate(45deg);
-	}
-	&:after {
-	  transform: rotate(-45deg);
-	}
+      }
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
   }
   &__title {
-	font-size: 2.6em;
-	margin-right: 45px;
-	.dash-core & {
-	  color: #fff;
-	}
+    font-size: 2.6em;
+    margin-right: 45px;
+    .dash-core & {
+      color: #fff;
+    }
   }
   &__content {
-	background-color: #fff;
-	.dash-core & {
-	  background-color: #1c75bc;
-	}
+    background-color: #fff;
+    .dash-core & {
+      background-color: #1c75bc;
+    }
   }
   &__header {
-	padding-left: 44px;
-	border: none;
+    padding-left: 44px;
+    border: none;
   }
   &__body {
-	border: 0;
-	padding-left: 44px;
+    border: 0;
+    padding-left: 44px;
   }
   &__descr {
-	.dash-core & {
-	  color: #fff;
-	}
-	font-size: 1.5em;
+    .dash-core & {
+      color: #fff;
+    }
+    font-size: 1.5em;
   }
   &__accent {
-	.dash-core & {
-	  color: #fff;
-	}
-	font-size: 0.9em;
+    .dash-core & {
+      color: #fff;
+    }
+    font-size: 0.9em;
   }
   &__sidebar {
-	padding: 3px 15px 0 42px;
-	@media (min-width: $screen-sm-min) {
-	  border-left: none;
-	  border-top: 1px solid $color-gray;
-	  .dash-core & {
-		border-left: none;
-		border-top: 1px solid rgba(255, 255, 255, .22);
-	  }
-	}
-	@media (min-width: $screen-md-min) {
-	  border-left: 1px solid $color-gray;
-	  border-top: none;
-	  .dash-core & {
-		  border-left: 1px solid rgba(255, 255, 255, .22);
-		  border-top: none;
-		}
-	}
+    padding: 3px 15px 0 42px;
+    @media (min-width: $screen-sm-min) {
+      border-left: none;
+      border-top: 1px solid $color-gray;
+      .dash-core & {
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, .22);
+      }
+    }
+    @media (min-width: $screen-md-min) {
+      border-left: 1px solid $color-gray;
+      border-top: none;
+      .dash-core & {
+          border-left: 1px solid rgba(255, 255, 255, .22);
+          border-top: none;
+        }
+    }
 
   }
   &__select {
-	position: relative;
-	padding: 14px 50px 12px 10px;
-	background: #1c75bc;
-	border-radius: 2px;
-	border: 1px solid #6aaee6;
-	color: #fff;
-	font-size: 1em;
-	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	cursor: pointer;
-	&:after {
-	  content: '';
-	  position: absolute;
-	  top: 50%;
-	  right: 12px;
-	  margin-top: -2px;
-	  vertical-align: middle;
-	  width: 0;
-	  height: 0;
-	  margin-left: 2px;
-	  vertical-align: middle;
-	  border-top: 4px solid #000;
-	  border-right: 4px solid transparent;
-	  border-bottom: 0 dotted;
-	  border-left: 4px solid transparent;
-	}
+    position: relative;
+    padding: 14px 50px 12px 10px;
+    background: #1c75bc;
+    border-radius: 2px;
+    border: 1px solid #6aaee6;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      margin-top: -2px;
+      vertical-align: middle;
+      width: 0;
+      height: 0;
+      margin-left: 2px;
+      vertical-align: middle;
+      border-top: 4px solid #000;
+      border-right: 4px solid transparent;
+      border-bottom: 0 dotted;
+      border-left: 4px solid transparent;
+    }
   }
 }
 
@@ -303,36 +303,48 @@ a.blog_link {
   overflow: hidden;
   position: relative;
   text-align: center;
+  z-index: 1;
+  &:after {
+    content: '';
+    background-image: -webkit-linear-gradient(315deg, rgba(40,61,129,0.7) 0%, rgba(28,117,188,0.8) 100%);
+    background-image: linear-gradient(-225deg, rgba(40,61,129,0.7) 0%, rgba(28,117,188,0.8) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
   h1, h2, h3 {
-	color: white;
+    color: white;
   }
   h2 {
-	margin-top: 0px;
+    margin-top: 0px;
   }
   .page--home > section:not(.section) p {
-	max-width: 50em;
-	margin: 20px auto;
+    max-width: 50em;
+    margin: 20px auto;
   }
   img {
-	margin-top: 30px;
-	vertical-align: text-top;
+    margin-top: 30px;
+    vertical-align: text-top;
   }
 
   .btn-white-solid {
-	color: $color-blue;
+    color: $color-blue;
   }
 }
 
 .ctabox_small-font {
   p {
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: 0.8em;
-	height: 100%;
-	word-wrap: normal;
-	white-space: normal;
-	line-height: 1.3;
-	text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 0.8em;
+    height: 100%;
+    word-wrap: normal;
+    white-space: normal;
+    line-height: 1.3;
+    text-align: left;
   }
 }
 
@@ -352,57 +364,57 @@ a.blog_link {
   transition: .25s;
 
   & .thumbnail {
-	& .logo-container {
-	  margin: $wallet-tile-spacing auto;
-	  padding: $wallet-tile-spacing*.3;
-	  display: block;
-	  overflow: hidden;
-	  img {
-		max-height: 80px;
-	  }
-	}
-	& .caption {
-	  line-height: 1 !important;
-	  margin: $wallet-tile-spacing;
-	  h4 {
-		padding: 0 0 $wallet-tile-spacing 0;
-	  }
-	  & .fine-print {
-		overflow-y: auto;
-		min-height: $wallet-tile-caption-fine-print-height;
-		max-height: $wallet-tile-caption-fine-print-height*2;
-		margin: 0 0 $wallet-tile-spacing 0;
-		font-size: $wallet-tile-caption-fine-print-font-size;
-		line-height: 1.5 !important;
-		color: $color-gray-dark;
-	  }
-	}
-	& .wallet-links-container {
-	  width: 100%;
-	  & .link {
-		border-top: solid 1px $color-gray;
-		margin: 0 auto;
-		width: 90%;
-		display: block;
-		transition: 1.25s;
-		&:hover, &:focus {
-		  background-color: lighten($wallet-tile-hover-background-base-color, 3);
-		  border-color: white;
-		}
-		& a {
-		  display: block;
-		  margin: 0;
-		  padding: $wallet-tile-spacing*.3;
-		  height: 100%;
-		  width: 100%;
-		  transition: .5s;
-		  &:hover, &:focus {
-			@include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color, $mid-color: lighten($wallet-tile-hover-background-base-color, 9), $end-color: $wallet-tile-hover-background-base-color);
-			transition: .5s;
-		  }
-		}
-	  }
-	}
+    & .logo-container {
+      margin: $wallet-tile-spacing auto;
+      padding: $wallet-tile-spacing*.3;
+      display: block;
+      overflow: hidden;
+      img {
+        max-height: 80px;
+      }
+    }
+    & .caption {
+      line-height: 1 !important;
+      margin: $wallet-tile-spacing;
+      h4 {
+        padding: 0 0 $wallet-tile-spacing 0;
+      }
+      & .fine-print {
+        overflow-y: auto;
+        min-height: $wallet-tile-caption-fine-print-height;
+        max-height: $wallet-tile-caption-fine-print-height*2;
+        margin: 0 0 $wallet-tile-spacing 0;
+        font-size: $wallet-tile-caption-fine-print-font-size;
+        line-height: 1.5 !important;
+        color: $color-gray-dark;
+      }
+    }
+    & .wallet-links-container {
+      width: 100%;
+      & .link {
+        border-top: solid 1px $color-gray;
+        margin: 0 auto;
+        width: 90%;
+        display: block;
+        transition: 1.25s;
+        &:hover, &:focus {
+          background-color: lighten($wallet-tile-hover-background-base-color, 3);
+          border-color: white;
+        }
+        & a {
+          display: block;
+          margin: 0;
+          padding: $wallet-tile-spacing*.3;
+          height: 100%;
+          width: 100%;
+          transition: .5s;
+          &:hover, &:focus {
+            @include gradient-horizontal-three-colors($start-color: $wallet-tile-hover-background-base-color, $mid-color: lighten($wallet-tile-hover-background-base-color, 9), $end-color: $wallet-tile-hover-background-base-color);
+            transition: .5s;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -411,17 +423,17 @@ a.blog_link {
   height: 44px;
   float: left;
   &_blue {
-	background-color: #1d71b8;
+    background-color: #1d71b8;
   }
   &_gray {
-	background-color: #e3e3e3;
+    background-color: #e3e3e3;
   }
   &_black {
-	background-color: #000000;
+    background-color: #000000;
   }
   &_white {
-	border: 2px solid #ebebea;
-	background-color: #ffffff;
+    border: 2px solid #ebebea;
+    background-color: #ffffff;
   }
 }
 
@@ -435,18 +447,18 @@ a.blog_link {
 }
 
 #mc_embed_signup{
-	background:transparent;
-	clear:left;
-	font:14px Helvetica,Arial,sans-serif;
+    background:transparent;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
 }
 
 .section--colored {
-	background-color: $color-blue;
-	color: white;
-	padding-top: 55px;
-	margin-bottom: 55px;
+    background-color: $color-blue;
+    color: white;
+    padding-top: 55px;
+    margin-bottom: 55px;
 }
 
 .ctabox__image {
-		background-color: rgba(173,219,255,0.1);
-	}
+    background-color: rgba(173,219,255,0.1);
+}
