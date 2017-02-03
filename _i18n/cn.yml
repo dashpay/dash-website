@@ -59,7 +59,9 @@ pages:
     hero-text: 下载最新的达世币客户端，开启达世币之旅
     hero-wallet-version: 达世币钱包 (完整客户端 v12.0.56) OSX版
     hero-wallet-version-select: 选择另一个
+    hero-platform-not-detected: 很抱歉，您的设备无法被自动识别。请选择 “所有钱包”，找到兼容的版本。
     hero-download-btn: 下载
+    hero-all-wallets-btn: 所有钱包
     hero-guide-btn: 设置向导
     hero-buy-btn: 购买达世币
     hero-spend-btn: 使用达世币

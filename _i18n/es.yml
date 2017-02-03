@@ -61,6 +61,8 @@ pages:
     hero-text: Descarga la última versión del cliente de Dash para empezar
     hero-wallet-version: Monedero Dash (Cliente completo v12.0.56) para OSX
     hero-wallet-version-select: Elige otro
+    hero-platform-not-detected: 'Los sentimos, pero su plataforma podría no ser automáticamente detectada. Por favor, seleccione "Todos los monederos" para encontrar una versión compatible.'
+    hero-all-wallets-btn: Todos los monederos
     hero-download-btn: Descarga
     hero-guide-btn: Guia de instalación
     hero-buy-btn: Compra Dash

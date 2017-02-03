@@ -76,6 +76,8 @@ pages:
     hero-text: Скачайте последнюю версию ПО Dash
     hero-wallet-version: Кошелёк Dash (полный клиент v12.0.56) для OSX
     hero-wallet-version-select: Выбрать Другой
+    hero-platform-not-detected: "К сожалению, ваша платформа не распознана автоматически. Пожалуйста, выберите «Все кошельки» для выбора совместимой версии."
+    hero-all-wallets-btn: Все кошельки
     hero-download-btn: Скачать
     hero-guide-btn: Руководство по Установке
     hero-buy-btn: Купить Dash
@@ -196,7 +198,7 @@ pages:
     network-heading: Мастерноды
     blockchain-heading: Блокчейн
     mining-heading: Майнинг
-    
+
   community:
     title: Присоединяйтесь к Сообществу Dash
     description: Присоединяйтесь к Сообществу Dash

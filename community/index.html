@@ -6,25 +6,28 @@ description: pages.community.description
 
 {% include hero/community.html %}
 
+
 <div class="page-community">
 
 	<!--
     CTA sections
 	-->
+	
+	
+	
 	<section id="community-discussion" class="section section--cta">
-		<div class="section__content">
+		<div class="section__content"> <!--section__content -->
 			<div>
 				<h2>{% t pages.community.discussion-heading %}<a class="permalink" title="Permalink" id="discussion"></a></h2>
 
 				{% tmd pages.community.discussion-text %}
 			</div>
-
-			<div class="ctabox" data-js-ctabox>
-				<div class="ctabox__inner ctabox__inner_no-gradient">
+			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
+				<div class="ctabox__inner">
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://www.dash.org/forum" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/dashforum_logo.png" class="ctabox__image">
+								<img src="/assets/img/community/dashforum_logo.png" class="ctabox__image" >
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">Dash Forum</h4>
@@ -34,7 +37,7 @@ description: pages.community.description
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://www.reddit.com/r/dashpay/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/reddit_logo.png" class="ctabox__image">
+								<img src="/assets/img/community/reddit_logo.png" class="ctabox__image" >
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">Reddit</h4>
@@ -44,7 +47,7 @@ description: pages.community.description
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://bitcointalk.org/index.php?topic=421615.0" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/bitcointalk_logo.png" class="ctabox__image">
+								<img src="/assets/img/community/bitcointalk_logo.png" class="ctabox__image" >
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">BitcoinTalk</h4>
@@ -54,7 +57,7 @@ description: pages.community.description
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://forum.bitcoin.com/dash/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
-								<img src="/assets/img/community/bitcoindotcom_logo.png" class="ctabox__image">
+								<img src="/assets/img/community/bitcoindotcom_logo.png" class="ctabox__image" >
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">Bitcoin.com Forum</h4>
@@ -62,7 +65,7 @@ description: pages.community.description
 						</a>
 					</article>
 					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="http://dash-nation-invite.herokuapp.com/" target="_blank" class="ctabox__link">
+						<a href="http://dash-nation-invite.herokuapp.com/" target="_blank" class="ctabox__link" >
 							<div class="ctabox__imagewrapper">
 								<img src="/assets/img/community/slack_logo.png" class="ctabox__image">
 							</div>
@@ -72,7 +75,7 @@ description: pages.community.description
 						</a>
 					</article>
 					<article class="ctabox__cta" data-js-ctabox-item>
-						<a href="https://digitalcash24.herokuapp.com/" target="_blank" class="ctabox__link">
+						<a href="https://digitalcash24.herokuapp.com/" target="_blank" class="ctabox__link" >
 							<div class="ctabox__imagewrapper">
 								<img src="/assets/img/community/slack_logo.png" class="ctabox__image">
 							</div>
@@ -93,9 +96,8 @@ description: pages.community.description
 
 				{% tmd pages.community.social-text %}
 			</div>
-
 			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
-				<div class="ctabox__inner ctabox__inner_no-gradient">
+				<div class="ctabox__inner">
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://twitter.com/dashpay" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
@@ -150,10 +152,8 @@ description: pages.community.description
 
 				{% tmd pages.community.news-text %}
 			</div>
-
-			<div class="ctabox" data-js-ctabox>
-
-				<div class="ctabox__inner ctabox__inner_no-gradient">
+			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
+				<div class="ctabox__inner">
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="http://www.dashnation.com/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
@@ -216,9 +216,8 @@ description: pages.community.description
 
 				{% tmd pages.community.development-text %}
 			</div>
-
 			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
-				<div class="ctabox__inner ctabox__inner_no-gradient">
+				<div class="ctabox__inner">
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://github.com/dashpay/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
@@ -258,12 +257,11 @@ description: pages.community.description
 		<div class="section__content">
 			<div>
 				<h2>{% t pages.community.masternode-heading %}<a class="permalink" title="Permalink" id="masternodes"></a></h2>
-
+				
 				{% tmd pages.community.masternode-text %}
 			</div>
-
-			<div class="ctabox" data-js-ctabox>
-				<div class="ctabox__inner ctabox__inner_no-gradient">
+			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
+				<div class="ctabox__inner">
 					<article class="ctabox__cta" data-js-ctabox-item>
 						<a href="https://www.dashcentral.org/" target="_blank" class="ctabox__link">
 							<div class="ctabox__imagewrapper">
