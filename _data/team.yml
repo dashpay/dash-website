@@ -32,7 +32,7 @@
   image: timothy.png
   email: timothy@dash.org
   keybase: https://keybase.io/tgflynn
-  twitter:
+  twitter: true
 
 - name: Crowning
   title: Core Development / Testing
@@ -83,6 +83,7 @@
   email: nathan@dash.org
   keybase: https://keybase.io/nmarley
   twitter:
+  core-team: true
 
 - name: Jon Kindel
   title: Evolution Backend Lead
@@ -91,6 +92,7 @@
   email: jon@dash.org
   keybase: https://keybase.io/snogcel
   twitter:
+  core-team: true
 
 - name: Cofresi
   title: Evolution Backend Developer
@@ -155,6 +157,7 @@
   email: jeff@dash.org
   keybase: https://keybase.io/coingun
   twitter:
+  core-team: true
 
 - name: Fernando Gutierrez
   title: Multitool
@@ -256,6 +259,7 @@
   email: balu@dash.org
   keybase: https://keybase.io/balu
   twitter:
+  core-team: true
 
 - name: Slawek
   title: Testing and Deployment
