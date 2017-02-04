@@ -140,7 +140,7 @@ pages:
 
     execution-heading: What is Evolution
     execution-text:
-      Dash Evolution creates a new type of cryptographic currency with various advanced features that assist in the creation of decentralized technology. Dash introduces a tiered network design, which allows users to do various jobs for the network, along with decentralized API access and a decentralized file system.
+      Dash Evolution will take all the complexity out of digital currency, making it as easy to pay with Dash as it is to pay with PayPal. The advantage is that, unlike PayPal, Dash Evolution will be completely decentralized and not-for-profit.
 
 
 
@@ -150,8 +150,7 @@ pages:
     update-heading: Sentinel
     update-text:
       An all-powerful toolset for Dash
-      Sentinel is an autonomous agent for persisting, processing and automating Dash V12.1 governance objects and tasks, and for expanded functions in the upcoming Dash V13 release (Evolution).
-      Sentinel is implemented as a Python application that binds to a local version 12.1 dashd instance on each Dash V12.1 Masternode.
+      Dash’s new Sentinel technology is the engine that will power Dash Evolution. It’s extremely powerful and flexible, which will allow much easier network updates. Additionally, Sentinel can be customized to create numerous new applications that will run on the network. It’s possible to create digital companies, for instance, using Sentinel.
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
 
