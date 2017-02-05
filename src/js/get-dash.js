@@ -93,7 +93,7 @@
 
 		if (_downloadButton && _downloadButton.length > 0) {
 			if (_detectedWallet && _platform) {
-				_downloadButton.html(_detectedWallet.links[0].label + ': ' + _detectedWallet.name)
+				_downloadButton.html(_detectedWallet.name)
 					.attr({
 						title: _platform.os.toString()
 					})
