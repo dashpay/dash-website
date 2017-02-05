@@ -39,9 +39,6 @@ pages:
     how-heading: How to
     how-link: MANUAL PLUGIN INSTALLATION
     how-text: >
-      http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation
-
-
       There are a few cases when manually installing a WordPress Plugin is appropriate.
 
       If you wish to control the placement and process of installing a WordPress Plugin.
@@ -61,9 +58,10 @@ pages:
       If downloaded as a zip archive, extract the Plugin folder to your desktop.
       Read through the "readme" file thoroughly to ensure you follow the installation instructions.
       With your FTP program, upload the Plugin folder to the wp-content/plugins folder in your WordPress directory online.
-      Go to Plugins screen and find the newly uploaded Plugin in the list.
+    how-text-plugin:  screen and find the newly uploaded Plugin in the list.
       Click Activate to activate it.
       Check the Details readme file for customization and further instructions.
+    how-text-link: Go to Plugin
 
   graphics:
     title: Dash Official Website | Dash Crypto Currency
