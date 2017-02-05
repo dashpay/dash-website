@@ -249,7 +249,7 @@ pages:
     merchants-btn: More Merchants
     merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
     merchants-join-btn: Become a Merchant
-    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Dash+Payment+Processor+Overview
 
     architecture-heading: Next-Gen P2P Network
     architecture-text:
