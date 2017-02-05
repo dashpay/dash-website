@@ -5,7 +5,7 @@
 	margin-right: 10px;
 	margin-bottom: 10px;
     line-height: 30px;
-    height: 40px;
+    min-height: 40px;
 	display: inline-block;
 	@include font-base();
 	background-color: $color-blue;
@@ -20,7 +20,7 @@
 .btn-large {
 	font-size: 24px;
 	padding: 10px 25px;
-	height: 50px;
+	min-height: 50px;
 }
 
 .btn-white-solid {
