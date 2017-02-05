@@ -141,7 +141,7 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
 
 
   & .modal-header {
-    border-bottom: none;
+    border-bottom: 1px solid #e5e5e5;
   }
   &.dash-core {
     & .btn.btn-default {
@@ -201,7 +201,6 @@ a.blog_link {
       background-color: $color-blue-dark;
       .dash-core & {
         background-color: #fff;
-
       }
     }
     &:before {
@@ -212,8 +211,9 @@ a.blog_link {
     }
   }
   &__title {
-    font-size: 2.6em;
+    font-size: 1.6em;
     margin-right: 45px;
+    padding-left: 25px;
     .dash-core & {
       color: #fff;
     }
@@ -236,7 +236,7 @@ a.blog_link {
     .dash-core & {
       color: #fff;
     }
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   &__accent {
     .dash-core & {
@@ -262,7 +262,9 @@ a.blog_link {
           border-top: none;
         }
     }
-
+    img{
+    	max-width: 200px;
+    }
   }
   &__select {
     position: relative;
@@ -460,5 +462,6 @@ a.blog_link {
 }
 
 .ctabox__image {
-    background-color: rgba(173,219,255,0.1);
+    background-color: #fff;
 }
+

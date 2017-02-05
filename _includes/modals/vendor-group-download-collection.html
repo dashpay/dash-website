@@ -17,30 +17,38 @@
             <div class="modal-body b-modal__body">
                 <div class="row">
                     <div class="col-md-4 col-md-push-8 col-xs-12 text-left b-modal__sidebar">
-		                <div class="row">
-		                  <div class="col-xs-12">
-		                    <div class="b-modal__accent bottom-space">
-		                        <h5>{% t pages.wallets.modal-core-users-text %}</h5>
-		                        <p class="bottom-space">{% t pages.wallets.modal-core-users-value %}</p>
-		                    </div>
-		                  </div>
-		                </div>
-		                <div class="row">
-		                  <div class="col-xs-12">
-		                    <div class="b-modal__accent bottom-space">
-		                        <h5>{% t pages.wallets.modal-core-masternode-text %}</h5>
-		                        <p class="bottom-space">{% t pages.wallets.modal-core-masternode-value %}</p>
-		                    </div>
-		                  </div>
-		                </div>
-		                <div class="row">
-		                  <div class="col-xs-12">
-		                    <div class="b-modal__accent bottom-space">
-		                        <h5>{% t pages.wallets.modal-core-pool-text %}</h5>
-		                        <p class="bottom-space">{% t pages.wallets.modal-core-pool-value %}</p>
-		                    </div>
-		                  </div>
-		                </div>
+						{% if wallet.vendor_id == 'dash_core' %}
+			                <div class="row">
+			                  <div class="col-xs-12">
+			                    <div class="b-modal__accent bottom-space">
+			                        <h5>{% t pages.wallets.modal-core-users-text %}</h5>
+			                        <p class="bottom-space">{% t pages.wallets.modal-core-users-value %}</p>
+			                    </div>
+			                  </div>
+			                </div>
+			                <div class="row">
+			                  <div class="col-xs-12">
+			                    <div class="b-modal__accent bottom-space">
+			                        <h5>{% t pages.wallets.modal-core-masternode-text %}</h5>
+			                        <p class="bottom-space">{% t pages.wallets.modal-core-masternode-value %}</p>
+			                    </div>
+			                  </div>
+			                </div>
+			                <div class="row">
+			                  <div class="col-xs-12">
+			                    <div class="b-modal__accent bottom-space">
+			                        <h5>{% t pages.wallets.modal-core-pool-text %}</h5>
+			                        <p class="bottom-space">{% t pages.wallets.modal-core-pool-value %}</p>
+			                    </div>
+			                  </div>
+			                </div>
+						{% else %}
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <img src="{{ wallet.logo_url }}"/>
+                                </div>
+                            </div>
+						{% endif %}
                     </div>
 
                     <div class="col-md-8 col-md-pull-4 col-xs-12">
