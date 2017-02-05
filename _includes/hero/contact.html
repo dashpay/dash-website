@@ -1,3 +1,5 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <div class="hero" id="hero">
 	<div class="hero__background">
 
@@ -17,20 +19,20 @@
         {% t pages.contact.form-pretext-2 %}
       </div>
       <div class="col-sm-6">
-        <form>
+        <form onsubmit="return false;">
           <div class="row">
             <div class="col-xs-12">
-              <input placeholder="Name" type="text" class="input-block">
+              <input id="contact_name" placeholder="Name" type="text" class="input-block">
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <input class="input-block" placeholder="Email" type="text">
+              <input id = 'contact_email' class="input-block" placeholder="Email" type="text">
             </div>
            </div>
           <div class="row">
             <div class="col-xs-12">
-              <select class="form-control input-block" placeholder="category">
+              <select id="contact_category" class="form-control input-block" placeholder="category">
 				<option value="">Category</option>
                 <option value="feedback">Feedback</option>
               </select>
@@ -38,12 +40,12 @@
 	      </div>
           <div class="row">
             <div class="col-xs-12">
-              <textarea placeholder="Message" class="input-block"></textarea>
+              <textarea id="contact_message" placeholder="Message" class="input-block"></textarea>
             </div>
           </div>
 			<div class="row">
 				<div class="col-xs-12">
-					<input class="btn-blue-solid" type="submit" value="Send Message">
+					<input class="btn-blue-solid reset" type="submit" value="Send Message">
 				</div>
 			</div>
         </form>
@@ -56,3 +58,5 @@
 	<!-- Hero stripe -->
 	<div class="hero__stripe"></div>
 </div>
+
+
