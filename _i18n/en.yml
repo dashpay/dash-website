@@ -132,11 +132,9 @@ pages:
     masternodes-btn: Masternodes
     exchanges-btn: Exchanges
 
-    integrate-heading: Dash Evolution Progress
-    integrate-text: Sentinel can also be re-geared and deployed to operate digital companies that have a built-in workforce, infrastructure to deploy again, and as an engine for storage and retrieval of information.
-
-    slack-btn: Slack Chanel
-    forum-btn: Dash Forums
+    proposal-heading: Proposal Automated Service
+    proposal-text:
+    proposal-btn: Learn more
 
     execution-heading: What is Evolution
     execution-text:
