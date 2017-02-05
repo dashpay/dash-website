@@ -124,6 +124,9 @@ pages:
     need-link: https://www.dash.org/forum/topic/Русский-russian.27/
     need-input: Введите ваш Email адрес
 
+  wallets:
+    hero-text: Кошелёк — это программа, с помощью которой вы можете получать, хранить и отправлять ваши средства Dash. Он прост в использовании и позволяет задействовать встроенную функцию анонимизации PrivateSend
+
   merchants:
     title: Оплачивайте в Dash
     description: Оплачивайте товары и услуги с помощью Dash

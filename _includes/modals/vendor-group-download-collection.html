@@ -1,7 +1,6 @@
 <!-- Modal -->
 {% for wallet in vendor-group.items %}
 <div id="{{wallet.os}}-{{wallet.vendor_id}}-{{wallet.type_id}}-{{wallet.product_id}}-modal"
-
 	 {% if wallet.vendor_id == 'dash_core' %}
 		class="modal fade wallet-modal-container dash-core"
 	{% else %}
@@ -18,6 +17,13 @@
                 <div class="row">
                     <div class="col-md-4 col-md-push-8 col-xs-12 text-left b-modal__sidebar">
 						{% if wallet.vendor_id == 'dash_core' %}
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="b-modal__accent bottom-space">
+										<h5>{% t pages.wallets.modal-core-minimum-reqs %}:</h5>
+									</div>
+								</div>
+							</div>
 			                <div class="row">
 			                  <div class="col-xs-12">
 			                    <div class="b-modal__accent bottom-space">
@@ -53,33 +59,88 @@
 
                     <div class="col-md-8 col-md-pull-4 col-xs-12">
                         <div>
-                            <p class="bottom-space b-modal__descr">{{wallet.description}}</p>
+							<h5 class="bottom-space">
+								<p class="bottom-space b-modal__accent">
+									{% t pages.wallets.modal-platform%}:
 
-                            <h5 class="bottom-space">
-                                <span class="b-modal__accent">
-                                    {% t pages.wallets.modal-security-label %}: &nbsp;
-                                </span>
-                                <a href="{{wallet.product_security_url}}" target="_blank">{{wallet.product_security_label}}</a>
-                            </h5>
+									{% if wallet.type == "desktop" %}
+										{% t pages.wallets.wallets-desktop-header %}
+									{% elsif wallet.type == "mobile" %}
+										{% t pages.wallets.wallets-mobile-header %}
+									{% elsif wallet.type == "hardware" %}
+										{% t pages.wallets.wallets-hardware-header %}
+									{% elsif wallet.type == "paper" %}
+										{% t pages.wallets.wallets-paper-header %}
+									{% endif %}
+								</p>
+							</h5>
 
+							{% if wallet.type == "hardware" || wallet.type == "paper" %}
+								<p class="bottom-space b-modal__descr">{{wallet.description}}</p>
+							{% else %}
+
+								{% if wallet.control_type %}
+								<h5 class="bottom-space">
+									<p class="bottom-space b-modal__accent">
+										{% t pages.wallets.modal-control-label %}:
+
+										{% if wallet.control_type == "full" %}
+											{% t pages.wallets.modal-control-full %}
+										{% elsif wallet.control_type == "semi" %}
+											{% t pages.wallets.modal-control-semi %}
+										{% endif %}
+									</p>
+								</h5>
+								{% endif %}
+
+								{% if wallet.validation_type %}
+								<h5 class="bottom-space">
+									<p class="bottom-space b-modal__accent">
+										{% t pages.wallets.modal-validation-label %}:
+
+										{% if wallet.validation_type == "full" %}
+											{% t pages.wallets.modal-validation-full %}
+										{% elsif wallet.validation_type == "spv" %}
+											{% t pages.wallets.modal-validation-spv %}
+										{% elsif wallet.validation_type == "hosted" %}
+											{% t pages.wallets.modal-validation-hosted %}
+										{% endif %}
+									</p>
+								</h5>
+								{% endif %}
+
+								{% if wallet.control_type %}
+								<h5 class="bottom-space">
+									<p class="bottom-space b-modal__accent">
+										{% t pages.wallets.modal-access-label %}:
+
+										{% if wallet.access_type == "p2p" %}
+											{% t pages.wallets.modal-access-p2p %}
+										{% elsif wallet.access_type == "multi" %}
+											{% t pages.wallets.modal-access-multi %}
+										{% elsif wallet.access_type == "vendor" %}
+											{% t pages.wallets.modal-access-vendor %}
+										{% endif %}
+									</p>
+								</h5>
+								{% endif %}
+							{% endif %}
 
                             <h5 class="bottom-space">
                                 <span class="b-modal__accent">
                                     {% t pages.wallets.modal-source-code-label %}: &nbsp;
+									{% if wallet.product_source_url %}
+										<a href="{{wallet.product_source_url}}" target="_blank">{% t pages.wallets.modal-source-code-view%}</a>
+									{% else %}
+										{% t pages.wallets.modal-source-closed-label %}
+									{% endif %}
                                 </span>
-                                <a href="{{wallet.product_source_url}}" target="_blank">{{wallet.product_source_label}}</a>
                             </h5>
 
-                            <h5 class="bottom-space b-modal__accent">
-                                <span>
-                                    {% t pages.wallets.modal-website-label %}: &nbsp;
-                                </span>
-                                <a href="{{wallet.product_website_url}}" target="_blank">{{wallet.product_website_label}}</a>
-                            </h5>
                         </div>
                         <div>
                             <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="{{wallet.links[0].label}}" data-url="{{wallet.links[0].url}}" ><span
-                                    aria-hidden="true">{{wallet.links[0].label}}: {{wallet.name}}</span></button>
+                                    aria-hidden="true">{{wallet.links[0].label}}</span></button>
                         </div>
                     </div>
                 </div>
