@@ -111,6 +111,7 @@ $m: 'section';
 				@include mq($to: 600px) { // optical
 					& > * {
 						width: 100%;
+    					text-align: center;
 					}
 				}
 			}
