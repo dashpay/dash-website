@@ -1,17 +1,17 @@
 - name: "Dash Core Win/64 Installer"
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win64
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_id: dash_core_win_64_install
   product_label: Dash Core
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Dash.org
   product_website_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -25,19 +25,19 @@
       url: "/binaries/dash-0.12.1.0-win64-setup.exe.asc"
 
 - name: Dash Core Win/64 ZIP
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win64
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_id: dash_core_win_64_zip
   product_label: Dash Core
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Dash.org
   product_website_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -51,19 +51,19 @@
       url: "/binaries/dash-0.12.1.0-win64.zip.asc"
 
 - name: "Dash Core Win/32 Installer"
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_id: dash_core_win_32_install
   product_label: Dash Core
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Dash.org
   product_website_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -77,19 +77,19 @@
       url: "/binaries/dash-0.12.1.0-win32-setup.exe.asc"
 
 - name: "Dash Core Win/32 ZIP"
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_id: dash_core_win_32_zip
   product_label: Dash Core Win/32 ZIP
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Dash.org
   product_website_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -103,7 +103,7 @@
       url: "/binaries/dash-0.12.1.0-win32.zip.asc"
 
 - name: Dash Core Linux 32 Bit
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
@@ -111,11 +111,13 @@
   vendor_label: Dash Core
   product_id: dash_core_linux_32
   product_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_security_label: "https://www.dash.org"
   product_security_url: "https://www.dash.org"
   product_website_label: Dash.org
   product_website_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -129,19 +131,19 @@
       url: "/binaries/dash-0.12.1.0-linux32.tar.gz.asc"
 
 - name: Dash Core Linux 64 Bit
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_id: dash_core_linux_64
   product_label: Dash Core
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Dash.org
   product_website_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -155,7 +157,7 @@
       url: "/binaries/dash-0.12.1.0-linux64.tar.gz.asc"
 
 - name: Dash Core Raspberry Pi 2
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
@@ -163,11 +165,11 @@
   vendor_label: Dash Core
   product_id: dash_core_linux_64
   product_label: Dash Core
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_website_label: Dash.org
   product_website_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -181,19 +183,19 @@
       url: "/binaries/dash-0.12.1.0-RPi2.tar.gz.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Dash Core "Light" Wallet (No Features)
+  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
   logo_url: /assets/img/wallets/electrum_banner.png
   os: linux
   type: desktop
   vendor_id: electrum
   vendor_label: Electrum
+  control_type: full
+  validation_type: spv
+  access_type: multi
   product_id: dash_electrum
   product_label: Dash Electrum
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Electrum-Dash.org
   product_website_url: "https://electrum-dash.org/"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/electrum-dash"
   links:
     -
@@ -207,19 +209,19 @@
       url: "/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Dash Core "Light" Wallet (No Features)
+  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win32
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: multi
   product_id: dash_electrum
   product_label: Dash Electrum
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Electrum-Dash.org
   product_website_url: "https://electrum-dash.org/"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/electrum-dash"
   links:
     -
@@ -233,19 +235,19 @@
       url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
 
 - name: Dash Electrum 32/64bit
-  description: Dash Core "Light" Wallet (No Features)
+  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
   logo_url: /assets/img/wallets/electrum_banner.png
   os: win64
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: multi
   product_id: dash_electrum
   product_label: Dash Electrum
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_website_label: Electrum-Dash.org
   product_website_url: "https://electrum-dash.org/"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/electrum-dash"
   links:
     -
@@ -266,11 +268,11 @@
   type: desktop
   vendor_id: jaxx
   vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://jaxx.io/support.html"
   links:
     -
@@ -285,11 +287,11 @@
   type: desktop
   vendor_id: jaxx
   vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://jaxx.io/support.html"
   links:
     -
@@ -304,11 +306,11 @@
   type: desktop
   vendor_id: jaxx
   vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://jaxx.io/support.html"
   links:
     -
@@ -316,17 +318,17 @@
       url: "https://jaxx.io/support.html"
 
 - name: Dash Core
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: osx
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
   product_id: dash_core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_label: Dash Core
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/dash"
   links:
     -
@@ -340,17 +342,17 @@
       url: "/binaries/dash-0.12.1.0-osx.dmg.asc"
 
 - name: Dash Electrum
-  description: Dash Core "Light" Wallet (No Features incl IS, PS, ....)
+  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
   logo_url: /assets/img/wallets/electrum_banner.png
   os: osx
   type: desktop
   vendor_id: dash_core
   vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
   product_id: dash_electrum
   product_label: Dash Electrum
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/electrum-dash"
   links:
     -
@@ -371,11 +373,11 @@
   type: desktop
   vendor_id: jaxx
   vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://jaxx.io/support.html"
   links:
     -
@@ -401,11 +403,11 @@
   type: mobile
   vendor_id: hash_engineering_solutions
   vendor_label: Hash Engineering Solutions
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: dash_android_wallet
   product_label: Dash Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/HashEngineering/dash-wallet"
   links:
     -
@@ -425,16 +427,16 @@
       Hierarchical Deterministic Wallet (BIP44) enables you to keep everything accessible and secure with just one super-passphrase which you only have to back-up once and for all.
     • Open Source & Transparent
       No hidden code, no malicious modules, no exploits, no small letters. Our code is publicly available and publicly reviewed.
-  logo_url: "/assets/img/wallets/coinomi.ico"
+  logo_url: "/assets/img/wallets/coinomi-logo-medium.png"
   os: android
   type: mobile
   vendor_id: coinomi
   vendor_label: Coinomi
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: coinomi_wallet
   product_label: Coinomi Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/Coinomi/coinomi-android"
   links:
     -
@@ -455,10 +457,11 @@
   type: mobile
   vendor_id: jaxx
   vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: jaxx
   product_label: Jaxx Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
   product_source_label: Github
   product_source_url: "https://jaxx.io/support.html"
   links:
@@ -468,20 +471,22 @@
 
 - name: Exodus
   description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
-  logo_url: "https://www.exodus.io/favicon.ico"
+  logo_url: "/assets/img/wallets/exodus.png"
   os: win64
   type: desktop
   vendor_id: exodus
   vendor_label: Exodus
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: exodus
   product_label: Exodus Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Not Open Source
-  product_source_url:
   links:
     -
-      label: Download Options
+      label: Exodus Downloads
       url: "https://www.exodus.io/releases/"
 
 - name: Exodus
@@ -491,46 +496,40 @@
   type: desktop
   vendor_id: exodus
   vendor_label: Exodus
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: exodus
   product_label: Exodus Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Not Open Source
-  product_source_url:
   links:
     -
-      label: Download Options
+      label: Exodus Downloads
       url: "https://www.exodus.io/releases/"
 
 - name: Exodus
   description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
-  logo_url: "https://www.exodus.io/favicon.ico"
+  logo_url: "/assets/img/wallets/exodus.png"
   os: linux
   type: desktop
   vendor_id: exodus
   vendor_label: Exodus
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
   product_id: exodus
   product_label: Exodus Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Not Open Source
-  product_source_url:
   links:
     -
-      label: Download Options
+      label: Exodus Downloads
       url: "https://www.exodus.io/releases/"
 - name: Dash Core Paper Wallet
   description: Paper wallets are a form of cold wallet and essentially a bearer instrument – whoever holds them has access to both the Dash private key and therefore the address.
   logo_url: /assets/img/dash_circle_normal.png
-  os:
   type: paper
   vendor_id: dash_core
   vendor_label: Dash Core
   product_id: dash_paper
   product_label: Dash Core Paper Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/dashpay/paper.dash.org"
   links:
     -
@@ -540,15 +539,11 @@
 - name: KeepKey Hardware Wallet
   description: KeepKey is a hardware wallet that secures Dash (and other cryptocurrencies). Your assets are protected from hackers and thieves. KeepKey works with the wallet software on your computer by taking over the management of private key generation, private key storage, and transaction signing.
   logo_url: "https://avatars3.githubusercontent.com/u/73358?v=3&s=400"
-  os:
   type: hardware
   vendor_id: keepkey
   vendor_label: KeepKey
   product_id: keepkey
   product_label: KeepKey Hardware Wallet
-  product_security_label: "https://www.keepkey.com"
-  product_security_url: "https://www.keepkey.com"
-  product_source_label: Github
   product_source_url: "https://github.com/dstanchfield/trezor-mcu/commits/master"
   links:
     -
@@ -558,15 +553,11 @@
 - name: Ledger Nano S
   description: Ledger Nano S is a Dash (Bitcoin, Ethereum and Altcoins) hardware wallet, based on robust safety features for storing cryptographic assets and securing digital payments. It connects to any computer (USB) and embeds a secure OLED display to double-check and confirm each transaction with a single tap on its side buttons.
   logo_url: /assets/img/wallets/ledger-nano-s-fold-medium.png
-  os:
   type: hardware
   vendor_id: ledger
   vendor_label: Ledger
   product_id: ledger_nano_s
   product_label: Ledger Nano S
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/LedgerHQ/ledger-nano-s"
   links:
     -
@@ -576,15 +567,11 @@
 - name: Trezor
   description: TREZOR is a hardware wallet providing advanced security for handling bitcoin private keys. Unlike traditional cold storage methods (offline storage or paper wallet), TREZOR is able to make secure payments without exposing your private keys to a potentially compromised computer
   logo_url: "/assets/img/wallets/trezor-logo.png"
-  os:
   type: hardware
   vendor_id: trezor
   vendor_label: Trezor
   product_id: trezor
   product_label: Trezor Hardware Wallet
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_source_label: Github
   product_source_url: "https://github.com/trezor"
   links:
     -
