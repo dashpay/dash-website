@@ -2,6 +2,69 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  woocommerce:
+    title: Dash Official Website | Dash Crypto Currency
+    description: Dash is Digital Cash
+
+    hero-heading: WooCommerce
+    hero-text: WooCommerce is a free eCommerce plugin that allows you to sell anything, beautifully. Built to integrate seamlessly with WordPress, WooCommerce is the world’s favorite eCommerce solution that gives both store owners and developers complete control.
+
+    hero-btn: Github Repo
+    hero-btn-download: Zip download
+    hero-description: Please make sure your site meets
+    hero-description-link: the technical requirements
+
+    plugin-heading: >
+      What is Plugin:
+    plugin-text: Three GoUrl Payment Integration Options for WooCommerce
+
+    feature-private-heading: Private
+    feature-private-text: Protect your financial information.  PrivateSend ensures your activity history and balances are private.
+    feature-instant-heading: Instant
+    feature-instant-text: Your time is valuable.  InstantSend payments confirm in less than a second.
+    feature-secure-heading: Secure
+    feature-secure-text: Security you can count on.  Transactions are confirmed by 1,000 Gigahash of X11 ASIC computing power and over 4,100 servers hosted around the world.
+
+    video-heading:
+    video-btn: Woocommerce Overview Video
+
+    install-heading: WordPress DashSetupvideo
+    install-text: >
+      Dash Evolution creates a new type of cryptographic currency
+      with various advanced features that assist in the creation of decentralized technology.
+      Dash introduces a tiered network design, which allows users to do various jobs for the network, along with
+      decentralized API access and a decentralized file system.
+    install-btn: Learn More
+
+    how-heading: How to
+    how-link: MANUAL PLUGIN INSTALLATION
+    how-text: >
+      http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation
+
+
+      There are a few cases when manually installing a WordPress Plugin is appropriate.
+
+      If you wish to control the placement and process of installing a WordPress Plugin.
+
+      If your server does not permit automatic installation of a WordPress Plugin.
+
+      The WordPress Plugin is not in the WordPress Plugins Directory.
+
+      Installation of a WordPress Plugin manually requires FTP familiarity and the awareness that you may put your site at risk if you install a WordPress Plugin incompatible with the current version or from an unreliable source.
+
+      Backup your site completely before proceeding.
+
+      To install a WordPress Plugin manually:
+
+
+      Download your WordPress Plugin to your desktop.
+      If downloaded as a zip archive, extract the Plugin folder to your desktop.
+      Read through the "readme" file thoroughly to ensure you follow the installation instructions.
+      With your FTP program, upload the Plugin folder to the wp-content/plugins folder in your WordPress directory online.
+      Go to Plugins screen and find the newly uploaded Plugin in the list.
+      Click Activate to activate it.
+      Check the Details readme file for customization and further instructions.
+
   graphics:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash
