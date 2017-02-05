@@ -197,7 +197,7 @@
   core-team: true
 
 - name: Robert Wiecko
-  title: Project Management
+  title: Project Manager
   description: Robert (AKA “__kot__”, “kot”) brings 14+ years of professional experience in the IT industry. He is certified Scrum Master, PM and ITIL professional, fascinated by digital currencies, global economics, music and healthy lifestyle.
   image: RobertWiecko.jpg
   email: robert@dash.org
@@ -254,7 +254,7 @@
   twitter:
 
 - name: Balu
-  title: Project Management
+  title: Project Manager
   description: Balazs (AKA \"balu\") has an MSc. in Finance, and brings 7 years of experience working in mostly IT projects. He's a PSM-II certified Scrum Master who loves spending his time helping development teams increase their efficiency. He's an avid fan of fintech, self-improvement, and good food.
   image: balu.png
   email: balu@dash.org
@@ -266,8 +266,32 @@
   title: Testing and Deployment
   description: Slawek (AKA \“splawik21\”) has a degree in management & marketing. He brings 6 years of experience as a team leader in direct sales and another 5 years on leadership positions in automotive industry. IT hobbyist, Polish Dash sub-forum founder and crypto-currency enthusiast.
   image: splawik21.png
-  email: splawik21@dash.org
+  email: splawik21@dashpay.io
   keybase: https://keybase.io/splawik21
+  twitter:
+
+- name: Chuck
+  title: FrontEnd Developer
+  description:
+  image:
+  email:
+  keybase:
+  twitter:
+
+- name: Mr.V
+  title: FrontEnd Developer
+  description:
+  image:
+  email:
+  keybase:
+  twitter:
+
+- name: prtfw
+  title: FrontEnd Developer
+  description:
+  image:
+  email:
+  keybase:
   twitter:
 
 - name: Perry Woodin
