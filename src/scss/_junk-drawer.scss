@@ -262,7 +262,9 @@ a.blog_link {
           border-top: none;
         }
     }
-
+    img{
+    	max-width: 200px;
+    }
   }
   &__select {
     position: relative;
