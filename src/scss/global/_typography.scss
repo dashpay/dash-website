@@ -71,18 +71,30 @@ $line-height-heading: 1.2;
 	font-size: pxToRem($font-size-xlarge);
 	line-height: $line-height-heading;
 	letter-spacing: -0.004em;
+	@include mq($to: medium) {
+		font-size: pxToRem($font-size-large);
+		letter-spacing: 0;
+	}
 }
 @mixin font-title-xlarge() {
 	font-weight: $font-weight-light;
 	font-size: pxToRem($font-size-xlarge);
 	line-height: $line-height-heading;
 	letter-spacing: -0.015em;
+	@include mq($to: medium) {
+		font-size: pxToRem($font-size-large);
+		letter-spacing: -0.007em;
+	}
 }
 @mixin font-title-xxlarge() {
 	font-weight: $font-weight-light;
 	font-size: pxToRem($font-size-xxlarge);
 	line-height: $line-height-heading;
 	letter-spacing: -0.025em;
+	@include mq($to: medium) {
+		font-size: pxToRem($font-size-xlarge);
+		letter-spacing: -0.015em;
+	}
 }
 
 @mixin link-style($link: $color-blue-highlight, $visited: lighten($color-blue,25), $hover: lighten($color-blue-highlight,2), $active: lighten($color-blue-highlight,2)) {
