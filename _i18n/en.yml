@@ -246,7 +246,7 @@ pages:
     wallets-paper-header: Paper
     wallets-paper-subtitle: Paper wallets are a form of cold wallet and essentially a bearer instrument.
     wallets-security-header: Security
-    wallets-security-subtitle: Please secure your wallets by protecting them with difficult-to-guess passwords and by backing them up in a secure place. If your funds are lost or stolen, there is no way to recover them! If using a hardware and online Wallets, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. (Very helpful apps for Password/Seed security are KeePass.info and others)
+    wallets-security-subtitle: Please secure your wallets by protecting them with difficult-to-guess passwords and by backing them up in a secure place. If your funds are lost or stolen, there is no way to recover them! If using a hardware and online Wallets, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. (Very helpful apps for Password/Seed security are <http://keepass.info> and others)
     modal-header-vendor-label-descriptor: Wallet for Dash
     modal-download-action-button-label: Download
     modal-security-label: Security
