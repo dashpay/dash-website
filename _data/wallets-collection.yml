@@ -491,7 +491,7 @@
 
 - name: Exodus
   description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
-  logo_url: "https://www.exodus.io/favicon.ico"
+  logo_url: "/assets/img/wallets/exodus.png"
   os: osx
   type: desktop
   vendor_id: exodus
