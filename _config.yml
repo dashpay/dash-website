@@ -21,7 +21,7 @@ description: Digital Cash
 
 url: https://www.dash.org
 
-api: http://www-test.dash.org/api/v1
+api: /api/v1
 
 languages: ["en", "es", "cn", "pt", "ru", "it"]
 exclude_from_localizations: ["assets","dist","style-guide"]
