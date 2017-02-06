@@ -242,7 +242,7 @@ pages:
     wallets-security-header: Security
     modal-platform: Platform
 
-    wallets-security-subtitle: Please secure your wallets by protecting them with strong, difficult-to-guess passwords and by backing them up in a secure place. If your funds are lost or stolen, there is no way to recover them without a backup. If using a hardware and online Wallets, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. (Very helpful apps for Password/Seed security are <http://keepass.info> and others)
+    wallets-security-subtitle: Please secure your wallets by protecting them with strong, difficult-to-guess passwords and by backing them up in a secure place. Always chose to encrypt your wallet and any backups, because if your funds are lost or stolen, there is no way to recover them. If using an HD wallet such as a hardware or paper wallet, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. For help on securing passowrds, visit 
     modal-header-vendor-label-descriptor: Wallet for Dash
     modal-download-action-button-label: Download
     modal-source-code-view: View
