@@ -45,7 +45,7 @@
 
 - name: Chae-Pil Lim
   title: Core Development
-  description: Chaep-pil(AKA "chaeplin") has a degree in electronic engineering and over 15 years experience as a networkwork engineer.
+  description: Chaep-pil(AKA \"chaeplin\") has a degree in electronic engineering and over 15 years experience as a networkwork engineer.
   image: chaeplin.jpeg
   email: chaeplin@gmail.com
   keybase: https://keybase.io/chaeplin
@@ -88,7 +88,7 @@
 
 - name: Jon Kindel
   title: Evolution Backend Lead
-  description: Jon (AKA "snogcel") has a degree in Information Systems with 3 years experience in project management and 10+ years in web development including HTML, PHP, CSS, NodeJS and JavaScript.
+  description: Jon (AKA \"snogcel\") has a degree in Information Systems with 3 years experience in project management and 10+ years in web development including HTML, PHP, CSS, NodeJS and JavaScript.
   image: jon.png
   email: jon@dash.org
   keybase: https://keybase.io/snogcel
@@ -97,7 +97,7 @@
 
 - name: Cofresi
   title: Evolution Backend Developer
-  description: While his academic background is in Chinese Studies, Political Science and International Law, "Cofresi" has been working for 15 years with different technologies in the telecom industry as a systems administrator and webmaster, for the most part concentrating on client/server backends and database administration.
+  description: While his academic background is in Chinese Studies, Political Science and International Law, \"Cofresi\" has been working for 15 years with different technologies in the telecom industry as a systems administrator and webmaster, for the most part concentrating on client/server backends and database administration.
   image: cofresi.png
   email: cofresi888@gmail.com
   keybase: https://keybase.io/cofresi
@@ -105,7 +105,7 @@
 
 - name: Alex Werner
   title: Evolution Backend Developer
-  description: While his academic background is in Chinese Studies, Political Science and International Law, "Cofresi" has been working for 15 years with different technologies in the telecom industry as a systems administrator and webmaster, for the most part concentrating on client/server backends and database administration.
+  description: While his academic background is in Chinese Studies, Political Science and International Law, \"Cofresi\" has been working for 15 years with different technologies in the telecom industry as a systems administrator and webmaster, for the most part concentrating on client/server backends and database administration.
   image: alex_werner.png
   email: alex@werner.fr
   keybase: https://keybase.io/awerner
@@ -113,7 +113,7 @@
 
 - name: 0xfff
   title: Evolution Frontend Developer
-  description: \"0xfff\" is a frontend-developer and designer. With a background in both Design and Computer Science he's able to deliver the whole process. From concept to design to implementation. He brings 5 years of experience doing work in an agency context and later as a freelancer."
+  description: \"0xfff\" is a frontend-developer and designer. With a background in both Design and Computer Science he's able to deliver the whole process. From concept to design to implementation. He brings 5 years of experience doing work in an agency context and later as a freelancer.
   image: anon.png
   email: 0xfff@protonmail.com
   keybase: https://keybase.io/0xfff
@@ -171,7 +171,7 @@
 
 - name: Philipp Engelhorn
   title: Press & Multitool
-  description: Philipp (AKA "tungfa") is a freelance photographer who brings 20 years of press, magazine & newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
+  description: Philipp (AKA \"tungfa\") is a freelance photographer who brings 20 years of press, magazine & newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
   image: philipp.png
   email: press@dash.org
   keybase: https://keybase.io/tungfa
@@ -296,7 +296,7 @@
 
 - name: Perry Woodin
   title: Advisor
-  description: Co-founder of <a href="https://node40.com" target="_blank">Node40</a>
+  description: Co-founder of <a href=\"https://node40.com\" target=\"_blank\">Node40</a>
   image: perry_sm.jpg
   email: perry@node40.com
   keybase: https://keybase.io/perrywoodin
