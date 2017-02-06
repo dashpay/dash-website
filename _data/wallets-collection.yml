@@ -432,7 +432,7 @@
   type: mobile
   vendor_id: coinomi
   vendor_label: Coinomi
-  control_type: semi
+  control_type: full
   validation_type: hosted
   access_type: vendor
   product_id: coinomi_wallet
