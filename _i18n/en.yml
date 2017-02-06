@@ -289,7 +289,8 @@ pages:
     hero-heading: Contact
     hero-text:
     form-pretext: For technical support or troubleshooting with wallets, mining, or other general questions, please visit DashTalk or one of the many other community resources.
-    form-pretext-2: For other inquiries, use this form.
+    form-pretext-2: For other inquiries, use this link.
+        # form-pretext-2: For other inquiries, use this form.
     social-heading: Forums & Social Media
     mail-list-heading: Mailing List
     mail-list-text: Have trouble keeping up-to-date? Join our mailing list.
@@ -322,7 +323,7 @@ pages:
     merchants-btn: More Merchants
     merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
     merchants-join-btn: Become a Merchant
-    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Dash+Payment+Processor+Overview
 
     architecture-heading: Next-Gen P2P Network
     architecture-text:

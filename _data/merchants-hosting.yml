@@ -8,6 +8,6 @@
   image: FlokiNet.jpg
 
 - name: OcculusOmega
-  title: (Tor service)
+  title: (Tor service - url accessible using tor browser)
   url: http://occuomegawqtkl6j.onion/
   image: OcculusOmega.png
