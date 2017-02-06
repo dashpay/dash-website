@@ -29,11 +29,7 @@ pages:
     video-btn: Woocommerce Overview Video
 
     install-heading: WordPress DashSetupvideo
-    install-text: >
-      Dash Evolution creates a new type of cryptographic currency
-      with various advanced features that assist in the creation of decentralized technology.
-      Dash introduces a tiered network design, which allows users to do various jobs for the network, along with
-      decentralized API access and a decentralized file system.
+    install-text:
     install-btn: Learn More
 
     how-heading: How to
@@ -94,21 +90,22 @@ pages:
 
     hero-image:
     hero-heading: DASH EVOLUTION
-    hero-text: Dash Evolution, the first cryptocurrency you can use on web and mobile without an intermediary.
+    hero-text: A glimpse at the future of payments
     hero-btn:  More about Evolution
 
     subscribe-btn: Subscribe
 
-    video-heading: DEVELOPMENT
-    video-text: Dash Evolution creates a new type of cryptographic currency with various advanced features that assist in the creation of decentralized technology. Dash introduces a tiered network design, which allows users to do various jobs for the network, along with decentralized API access and a decentralized file system.
-    video-btn: Overview Video
+    video-heading: MISSION
+    video-text: Evolution's mission is to make digital cash easy to use and easy to access for all users, including your grandma.  Every user can setup an Account on the blockchain, add contacts and pay them by name and purchase from websites and mobile apps with a single click.
+    video-btn: Prototype Video
+    video-btn2: Wallet Preview
     sentinel-btn: Sentinel
 
     slack-btn: Slack Chanel
     forum-btn: Dash Forums
 
-    evo-prototype-heading: Dash Evolution Prototype
-    evo-prototype-text: We will be writing the software for this project in stages, the first stage will take about 2 months to have a very early prototype for Dash Evolution that includes a basic implementation of DashDrive, Primitives, DAPI and a simple T3 wallet. In six to eight months, we should be entering testnet phase with most basic functionality. In 12-18 months, we plan for the first release version (a stable prototype).
+    evo-prototype-heading: LITE WALLETS
+    evo-prototype-text: Evolution introduces a new class of lite-wallet, with SPV security and browser compatibility that connects direct to our P2P network of over 4,000 nodes who get rewarded for hosting user accounts on the blockchain.
     evo-prototype-btn: Dash Prototype
 
     slack-btn: Slack Chanel
@@ -119,9 +116,9 @@ pages:
       Included below is our current work on Evolution, that adds many components such as:
 
 
-    docs-heading: Evolution Documentation
+    docs-heading: CONSUMER FRIENDLY
 
-    docs-text: The documentation below is intended to be a very early version of what we’re planning on implementing, however, everything is subject to change over time. These aren’t really intended to be whitepapers, just simple technical documents showing the design choices and structures.
+    docs-text: In Evolution you can connect direct with merchants and get moderated refunds on all purchases or even setup auto-debits to pay subscriptions automatically.  Every merchant that integrates Dash is searchable on the blockchain and you can rate purchases so the community can decide who's providing a good service or not.
 
     docs-btn: Learn More
     docs-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
@@ -134,12 +131,10 @@ pages:
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
 
-    prototype-heading: Evolution Prototype
+    prototype-heading: EVOLUTION ALPHA
     prototype-text:
-      Explore all of the features of the Dash Evolution prototype. Including Registration, Validation of the account, login, friending, pay-to-alias and pay-with-dash buttons.
+      With Dash 12.1 released our next step will be an Alpha version of Evolution launched later in 2017.  We will be releasing things before then including the whitepaper, so please check back here for updates and stay tuned!
 
-
-     We will be releasing many more documents not here yet in the near future, please keep coming back to see updates and progress of Evolution.
     prototype-btn: Network Stats
 
     explore-heading: Explore Dash
@@ -152,15 +147,14 @@ pages:
     subscribe-btn: Subscribe to News
     follow-soc-btn: Follow Twitter
 
-    merchants-heading: MERCHANTS
+    merchants-heading: MERCHANT FRIENDLY
     merchants-text:
-      Add Dash payments to your app in minutes using common web standards.
+      Add Dash payments to your site or mobile app in minutes using a simple, decentralized API.
 
-      Forget about complex infrastructure or centralized services being needed to handle your customer's funds. Keep full control of your funds without the hassle or hidden costs of centralized payment processors.
+      Forget about complex infrastructure or relying on 3rd parties to handle your customer's payments and build direct relationships with your customers using the blockchain.
 
     merchants-btn: For Merchants
     merchants-plugin-btn: Woocommerce Plugin
-
 
     social-heading: Dash Social
 
