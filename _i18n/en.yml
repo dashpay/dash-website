@@ -7,7 +7,7 @@ pages:
     description: Dash is Digital Cash
 
     hero-heading: WooCommerce
-    hero-text: WooCommerce is a free eCommerce plugin that allows you to sell anything, beautifully. Built to integrate seamlessly with WordPress, WooCommerce is the world’s favorite eCommerce solution that gives both store owners and developers complete control.
+    hero-text: Get WooCommerce for Dash
 
     hero-btn: Github Repo
     hero-btn-download: Zip download
@@ -15,8 +15,8 @@ pages:
     hero-description-link: the technical requirements
 
     plugin-heading: >
-      What is Plugin:
-    plugin-text: Three GoUrl Payment Integration Options for WooCommerce
+      What is WooCommerce
+    plugin-text: WooCommerce is a free eCommerce plugin that allows you to sell anything, beautifully. Built to integrate seamlessly with WordPress, WooCommerce is the world’s favorite eCommerce solution that gives both store owners and developers complete control.
 
     feature-private-heading: Private
     feature-private-text: Protect your financial information.  PrivateSend ensures your activity history and balances are private.
@@ -28,12 +28,11 @@ pages:
     video-heading:
     video-btn: Woocommerce Overview Video
 
-    install-heading: WordPress DashSetupvideo
+    install-heading: WordPress Plugin Installation
     install-text:
     install-btn: Learn More
 
-    how-heading: How to
-    how-link: MANUAL PLUGIN INSTALLATION
+    how-heading: Manual Installation
     how-text: >
       There are a few cases when manually installing a WordPress Plugin is appropriate.
 
@@ -47,17 +46,17 @@ pages:
 
       Backup your site completely before proceeding.
 
-      To install a WordPress Plugin manually:
 
 
       Download your WordPress Plugin to your desktop.
       If downloaded as a zip archive, extract the Plugin folder to your desktop.
       Read through the "readme" file thoroughly to ensure you follow the installation instructions.
       With your FTP program, upload the Plugin folder to the wp-content/plugins folder in your WordPress directory online.
-    how-text-plugin:  screen and find the newly uploaded Plugin in the list.
+    how-text-plugin:  Go to the Plugin screen and find the newly uploaded Plugin in the list.
       Click Activate to activate it.
       Check the Details readme file for customization and further instructions.
-    how-text-link: Go to Plugin
+    how-text-link: Get Plugin
+    how-install-link: Install Plugin
 
   graphics:
     title: Dash Official Website | Dash Crypto Currency
