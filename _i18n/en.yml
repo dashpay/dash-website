@@ -95,7 +95,7 @@ pages:
     subscribe-btn: Subscribe
 
     video-heading: MISSION
-    video-text: Evolution's mission is to make digital cash easy to use and easy to access for all users, including your grandma.  Every user can setup an Account on the blockchain, add contacts and pay them by name and purchase from websites and mobile apps with a single click.
+    video-text: Evolution’s mission is to make digital cash easy to use and access for all users, even those who aren’t technologically savvy. Anybody will be able setup an account on the blockchain, add contacts and pay them by name. Purchases from websites or mobile apps will be simple, requiring only a single click.
     video-btn: Prototype Video
     video-btn2: Wallet Preview
     sentinel-btn: Sentinel
@@ -103,8 +103,8 @@ pages:
     slack-btn: Slack Chanel
     forum-btn: Dash Forums
 
-    evo-prototype-heading: LITE WALLETS
-    evo-prototype-text: Evolution introduces a new class of lite-wallet, with SPV security and browser compatibility that connects direct to our P2P network of over 4,000 nodes who get rewarded for hosting user accounts on the blockchain.
+    evo-prototype-heading: LIGHT WALLETS
+    evo-prototype-text: Evolution will introduce a new type of light wallet which will have SPV security and browser compatibility. This wallet will connect directly to our P2P network of over 4,000 nodes.
     evo-prototype-btn: Dash Prototype
 
     slack-btn: Slack Chanel
@@ -117,7 +117,7 @@ pages:
 
     docs-heading: CONSUMER FRIENDLY
 
-    docs-text: In Evolution you can connect direct with merchants and get moderated refunds on all purchases or even setup auto-debits to pay subscriptions automatically.  Every merchant that integrates Dash is searchable on the blockchain and you can rate purchases so the community can decide who's providing a good service or not.
+    docs-text: In Evolution, you will be able to connect directly with merchants to make purchases or even setup auto debits to pay for subscription services. Every merchant that integrates Dash will be searchable on the blockchain. You’ll be able to rate purchases so the community can decide which vendors are providing quality products and services.”chain and you can rate purchases so the community can decide who's providing a good service or not.
 
     docs-btn: Learn More
     docs-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
@@ -132,7 +132,7 @@ pages:
 
     prototype-heading: EVOLUTION ALPHA
     prototype-text:
-      With Dash 12.1 released our next step will be an Alpha version of Evolution launched later in 2017.  We will be releasing things before then including the whitepaper, so please check back here for updates and stay tuned!
+      Now that Dash 12.1 has been released, our next step will be to release an alpha version of Evolution toward the end of 2017. We will be making additional releases before then, including a full whitepaper, so please check back here for updates. Stay tuned!
 
     prototype-btn: Network Stats
 
@@ -150,7 +150,7 @@ pages:
     merchants-text:
       Add Dash payments to your site or mobile app in minutes using a simple, decentralized API.
 
-      Forget about complex infrastructure or relying on 3rd parties to handle your customer's payments and build direct relationships with your customers using the blockchain.
+      Forget about complex infrastructure or relying on third parties to handle your customer's payments and build direct relationships with your customers using the blockchain.
 
     merchants-btn: For Merchants
     merchants-plugin-btn: Woocommerce Plugin
@@ -242,7 +242,7 @@ pages:
     wallets-security-header: Security
     modal-platform: Platform
 
-    wallets-security-subtitle: Please secure your wallets by protecting them with strong, difficult-to-guess passwords and by backing them up in a secure place. Always chose to encrypt your wallet and any backups, because if your funds are lost or stolen, there is no way to recover them. If using an HD wallet such as a hardware or paper wallet, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. For help on securing passowrds, visit 
+    wallets-security-subtitle: Please secure your wallets by protecting them with strong, difficult-to-guess passwords and by backing them up in a secure place. Always chose to encrypt your wallet and any backups, because if your funds are lost or stolen, there is no way to recover them. If using an HD wallet such as a hardware or paper wallet, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. For help on securing passowrds, visit
     modal-header-vendor-label-descriptor: Wallet for Dash
     modal-download-action-button-label: Download
     modal-source-code-view: View
