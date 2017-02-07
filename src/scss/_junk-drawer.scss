@@ -263,7 +263,7 @@ a.blog_link {
         }
     }
     img{
-    	max-width: 200px;
+        max-width: 200px;
     }
   }
   &__select {
@@ -464,4 +464,10 @@ a.blog_link {
 .ctabox__image {
     background-color: #fff;
 }
-
+.graphic-exmaple-light{
+    font-weight: $font-weight-xlight;
+}
+.graphic-exmaple-brand{
+    font-family: $font-family-brand;
+    font-weight: $font-weight-bold;
+}

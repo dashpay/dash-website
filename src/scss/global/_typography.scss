@@ -2,14 +2,17 @@
 @import "../fonts/montserrat/light";
 @import "../fonts/montserrat/regular";
 @import "../fonts/montserrat/medium";
+@import "../fonts/gunshipital/regular";
 
 $font-family-body: 'Montserrat', Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
 $font-family-heading: $font-family-body;
+$font-family-brand: 'Gunship Italic', sans-serif;
 
 $font-weight-xlight: 200;
 $font-weight-light: 300;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
+$font-weight-bold: 700;
 
 $font-size-base: $font-size-base; // This is stored in the _variables.scss because it is required earlier
 $font-size-base-plus: 19px;
