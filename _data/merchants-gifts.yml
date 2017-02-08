@@ -3,9 +3,9 @@
   url: http://www.cryptodechange.com
   image: CryptodeChange.jpg
 
-- name: PremiumGiftCards
-  url: #
-  image: PremiumGiftCards.png
+# - name: PremiumGiftCards
+#   url: #
+#   image: PremiumGiftCards.png
 
 - name: Gift Off
   url: https://giftoff.com
