@@ -263,7 +263,7 @@
 - name: Jaxx
   description: |
    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "https://jaxx.io/images/favicon.ico"
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
   os: linux
   type: desktop
   vendor_id: jaxx
@@ -282,7 +282,7 @@
 - name: Jaxx
   description: |
    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "https://jaxx.io/images/favicon.ico"
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
   os: win32
   type: desktop
   vendor_id: jaxx
@@ -301,7 +301,7 @@
 - name: Jaxx
   description: |
     All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "https://jaxx.io/images/favicon.ico"
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
   os: win64
   type: desktop
   vendor_id: jaxx
@@ -368,7 +368,7 @@
 - name: Jaxx
   description: |
     All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "https://jaxx.io/images/favicon.ico"
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
   os: osx
   type: desktop
   vendor_id: jaxx
@@ -452,7 +452,7 @@
     Jaxx Blockchain Interface & Wallet
     </p>
     All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "https://jaxx.io/images/favicon.ico"
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
   os: android
   type: mobile
   vendor_id: jaxx
