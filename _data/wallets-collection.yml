@@ -403,7 +403,7 @@
   type: mobile
   vendor_id: hash_engineering_solutions
   vendor_label: Hash Engineering Solutions
-  control_type: semi
+  control_type: full
   validation_type: hosted
   access_type: vendor
   product_id: dash_android_wallet
