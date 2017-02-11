@@ -71,7 +71,7 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
   & .thumbnail {
     & .logo-container {
       margin: $wallet-tile-spacing auto;
-      padding: $wallet-tile-spacing*.3;
+      padding: 0;
       display: block;
       max-width: $wallet-tile-logo-container-width;
       max-height: $wallet-tile-logo-container-height;
