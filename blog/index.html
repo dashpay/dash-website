@@ -6,6 +6,19 @@ description: pages.blog.description
 
 {% include hero/blog.html %}
 
+<!--
+
+__________ ____ ___.___.____     ________ ._.
+\______   \    |   \   |    |    \______ \| |
+ |    |  _/    |   /   |    |     |    |  \ |
+ |    |   \    |  /|   |    |___  |    `   \|
+ |______  /______/ |___|_______ \/_______  /_
+        \/                     \/        \/\/
+
+201702102218
+
+-->
+
 <div class="page page--blog">
 
 	<section class="section">
@@ -14,6 +27,7 @@ description: pages.blog.description
 			{% for post in paginator.posts %}
 			<!-- limit:10 -->
 				<article class="featurepost">
+
 					<div class="featurepost__preview {% if post.image %}featurepost__preview--image{% else %}featurepost__preview--no-image{% endif %}">
 						{% if post.image %}
 						<a href="{{ basenav }}{{ post.url }}"><img src="/assets/img/blog/{{ post.image }}" class="featurepost__image"></a>
@@ -25,6 +39,7 @@ description: pages.blog.description
 					<em class="featurepost__date">{{ post.date | date: "%b %d, %Y" }}</em>
 
 					<p class="featurepost__description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+
 					<div class="featurepost__divider"></div>
 				</article>
 			{% endfor %}
