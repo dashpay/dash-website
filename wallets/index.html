@@ -19,7 +19,7 @@ description: pages.wallets.description
 {% include wallets_js_data.html %}
 
 {% for vendor-group in vendor-collection %}
-  {% include modals/vendor-group-download-collection.html %}
+{% include modals/vendor-group-download-collection.html %}
 {% endfor %}
 
 <div class="page page--wallets">
@@ -27,7 +27,8 @@ description: pages.wallets.description
 	<section class="section clearfix">
 		<div class="section__content">
 			<h3>{% t pages.wallets.wallets-security-header %}</h3>
-			<p>{% t pages.wallets.wallets-security-subtitle %} <a href="http://keepass.info/" target="_blank">keepass.info</a></p>
+			<p>{% t pages.wallets.wallets-security-subtitle %} <a href="http://keepass.info/" target="_blank">keepass.info</a>
+			</p>
 			<div class="row">
 				{% for wallet in security-wallets %}
 				{% include wallet-tile.html %}
@@ -36,94 +37,96 @@ description: pages.wallets.description
 		</div>
 	</section>
 
-  <section class="section">
-    <div class="section__content">
-      <h3 id="wallets">{% t pages.wallets.wallets-desktop-header %}</h3>
-      <p>{% t pages.wallets.wallets-desktop-subtitle %}</p>
-      <ul id="wallet-os-tabs" class="nav2 nav-tabs">
-        {% for os-sequence in desktop-os-order-list %}
-			{% for wallet-group in desktop-os-collection %}
+	<section class="section">
+		<div class="section__content">
+			<h3 id="wallets">{% t pages.wallets.wallets-desktop-header %}</h3>
+			<p>{% t pages.wallets.wallets-desktop-subtitle %}</p>
+			<ul id="wallet-os-tabs" class="nav2 nav-tabs">
+				{% for os-sequence in desktop-os-order-list %}
+				{% for wallet-group in desktop-os-collection %}
 				{% if os-sequence == wallet-group.name %}
-				  <li role="tab" {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-group.name}}">
+				<li role="tab" {%if forloop.first== true %}class="active" {% endif %}><a data-toggle="pill"
+																						 href="#{{wallet-group.name}}">
 					{% case wallet-group.name %}
-					  {% when 'win64' %}
-					  Windows (64bit)
-					  {% when 'win32' %}
-						Windows (32bit)
-					  {% when 'osx' %}
-						OSX
-					  {% when 'linux' %}
-						Linux
-					  {% when 'ppa' %}
-						PPA
-					  {% else %}
-						Other OS
+					{% when 'win64' %}
+					Windows (64bit)
+					{% when 'win32' %}
+					Windows (32bit)
+					{% when 'osx' %}
+					OSX
+					{% when 'linux' %}
+					Linux
+					{% when 'ppa' %}
+					PPA
+					{% else %}
+					Other OS
 					{% endcase %}
-				  </a></li>
-		  		{% endif %}
-			{% endfor %}
-        {% endfor %}
-      </ul>
-      <div class="tab-content">
-		  {% for os-sequence in desktop-os-order-list %}
-			  {% for wallet-group in desktop-os-collection %}
-				{% if os-sequence == wallet-group.name %}
-					{% include wallet-tile-group-container.html %}
+				</a></li>
 				{% endif %}
-			  {% endfor %}
-		  {% endfor %}
-      </div>
-    </div>
-  </section>
+				{% endfor %}
+				{% endfor %}
+			</ul>
+			<div class="tab-content">
+				{% for os-sequence in desktop-os-order-list %}
+				{% for wallet-group in desktop-os-collection %}
+				{% if os-sequence == wallet-group.name %}
+				{% include wallet-tile-group-container.html %}
+				{% endif %}
+				{% endfor %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
 
-  <section class="section">
-    <div class="section__content">
-      <h3>{% t pages.wallets.wallets-mobile-header %}</h3>
-      <p>{% t pages.wallets.wallets-mobile-subtitle %}</p>
-      <ul id="wallet-mobile-os-tabs" class="nav2 nav-tabs " role="">
-        {% for wallet-group in mobile-os-collection %}
-        <li {%if forloop.first == true %}class="active"{% endif %} role="tab"><a data-toggle="pill" href="#{{wallet-group.name}}">
-          {% case wallet-group.name %}
-          {% when 'android' %}
-          Android
-          {% when 'ios' %}
-          iOS
-          {% else %}
-          Other Mobile OS
-          {% endcase %}
-        </a></li>
-        {% endfor %}
-      </ul>
-      <div class="tab-content well">
-        {% for wallet-group in mobile-os-collection %}
-        {% include wallet-tile-group-container.html %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+	<section class="section">
+		<div class="section__content">
+			<h3>{% t pages.wallets.wallets-mobile-header %}</h3>
+			<p>{% t pages.wallets.wallets-mobile-subtitle %}</p>
+			<ul id="wallet-mobile-os-tabs" class="nav2 nav-tabs " role="">
+				{% for wallet-group in mobile-os-collection %}
+				<li {%if forloop.first== true %}class="active" {% endif %} role="tab"><a data-toggle="pill"
+																						 href="#{{wallet-group.name}}">
+					{% case wallet-group.name %}
+					{% when 'android' %}
+					Android
+					{% when 'ios' %}
+					iOS
+					{% else %}
+					Other Mobile OS
+					{% endcase %}
+				</a></li>
+				{% endfor %}
+			</ul>
+			<div class="tab-content well">
+				{% for wallet-group in mobile-os-collection %}
+				{% include wallet-tile-group-container.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
 
-  <section class="section clearfix">
-    <div class="section__content">
-      <h3>{% t pages.wallets.wallets-hardware-header %}</h3>
-      <p>{% t pages.wallets.wallets-hardware-subtitle %}</p>
-      <div class="row">
-        {% for wallet in hardware-wallets %}
-        {% include wallet-tile.html %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  <section class="section clearfix">
-    <div class="section__content">
-      <h3>{% t pages.wallets.wallets-paper-header %}</h3>
-      <p>{% t pages.wallets.wallets-paper-subtitle %}</p>
+	<section class="section clearfix">
+		<div class="section__content">
+			<h3>{% t pages.wallets.wallets-hardware-header %}</h3>
+			<p>{% t pages.wallets.wallets-hardware-subtitle %}</p>
+			<div class="row">
+				{% for wallet in hardware-wallets %}
+				{% include wallet-tile.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+	<section class="section clearfix">
+		<div class="section__content">
+			<h3>{% t pages.wallets.wallets-paper-header %}</h3>
+			<p>{% t pages.wallets.wallets-paper-subtitle %}</p>
 
-      <div class="row">
-        {% for wallet in paper-wallets %}
-        {% include wallet-tile.html %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+			<div class="row">
+				{% for wallet in paper-wallets %}
+				{% include wallet-tile.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
 
 </div>
