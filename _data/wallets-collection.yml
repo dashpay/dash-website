@@ -404,8 +404,8 @@
   vendor_id: hash_engineering_solutions
   vendor_label: Hash Engineering Solutions
   control_type: full
-  validation_type: hosted
-  access_type: vendor
+  validation_type: spv
+  access_type: p2p
   product_id: dash_android_wallet
   product_label: Dash Wallet
   product_source_url: "https://github.com/HashEngineering/dash-wallet"
