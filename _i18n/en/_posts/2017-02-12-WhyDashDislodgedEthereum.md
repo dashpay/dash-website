@@ -26,3 +26,5 @@ According to Baby Giraffe, Dash is adding a tremendous number of talented indivi
 "It feels exactly like a well-funded fast-growing startup in which everyone knows we’re working on the world-altering technology. And we’re implementing it in a way that will have maximum impact on the world by making that technology relevant to everyday people. I’m simply honored to be here and my sense is that most everyone feels much the same way."
 
 He assured the crypto community and holders of Dash that the team is working incredibly hard to deliver a product that will redefine the cryptocurrency space. "We have all the resources we need to achieve our goals and a highly professional and driven team working toward a shared vision. With that combination, I don’t think our investors and users will be disappointed," the Director of Finance concluded.
+
+<https://cointelegraph.com/news/why-dash-dislodged-ethereum-classic-from-number-6-place-on-coinmarketcap>
