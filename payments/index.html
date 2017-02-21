@@ -1,0 +1,39 @@
+---
+layout: default
+title: pages.payments.title
+description: pages.payments.description
+---
+<!-- Update 201702090113_MST @chuckwilliams37 -->
+{% include hero/payments.html %}
+{% include modals/win-core.html %}
+
+{% assign payment-wallets = site.data.payment-processors| sort: "product_label" | where:"type","payment" %}
+
+{% include wallets_js_data.html %}
+
+{% for vendor-group in vendor-collection %}
+{% include modals/vendor-group-download-collection.html %}
+{% endfor %}
+
+<div class="page page--payments">
+
+	<section class="section clearfix">
+		<div class="section__content">
+			<h3>{% t pages.payments.payments-providers-header %}</h3>
+			<p>{% t pages.payments.payments-providers-subtitle %}</p>
+			<div class="row payments">
+				{% for wallet in payment-wallets %}
+				{% include wallet-tile.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section clearfix">
+		<div class="section__content" style="background-color: #fff7af; width: 97%; margin: auto; padding: 10px 15px;">
+			<p >
+			DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services.
+			</p>
+		</div>
+	</section>
+</div>
