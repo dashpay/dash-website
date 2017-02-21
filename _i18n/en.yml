@@ -32,31 +32,31 @@ pages:
     install-text:
     install-btn: Learn More
 
-    how-heading: Manual Installation
-    how-text: >
-      There are a few cases when manually installing a WordPress Plugin is appropriate.
+    how-heading: Installation
+    how-text: |
+        1. Download Dash-Woocommerce-Plugin.zip from <a href="https://github.com/snogcel/dash-woocommerce-plugin/blob/master/dist/dash-woocommerce-plugin.zip.">https://github.com/snogcel/dash-woocommerce-plugin/blob/master/dist/dash-woocommerce-plugin.zip.</a>
 
-      If you wish to control the placement and process of installing a WordPress Plugin.
+        2. From the WordPress Admin interface, click plugins then click "Add New".
 
-      If your server does not permit automatic installation of a WordPress Plugin.
+        3. At the top of the screen find the "Upload Plugin" button and choose the zip file download previously.
 
-      The WordPress Plugin is not in the WordPress Plugins Directory.
+        4. Click the "Activate Plugin" button, once the plugin has been activated you'll find it included in the listing of Installed Plugins.
 
-      Installation of a WordPress Plugin manually requires FTP familiarity and the awareness that you may put your site at risk if you install a WordPress Plugin incompatible with the current version or from an unreliable source.
+        5. From "Installed Plugins", locate "Dashpay - WooCommerce Gateway" and click on Settings.
 
-      Backup your site completely before proceeding.
+        6. Select "DASH Checkout" from the list of available payment methods.
 
+        7. Check the "Enable this payment gateway" checkbox.
 
+        8. Configure the "Payment Service API" and "Insight API" option to point to your server.
 
-      Download your WordPress Plugin to your desktop.
-      If downloaded as a zip archive, extract the Plugin folder to your desktop.
-      Read through the "readme" file thoroughly to ensure you follow the installation instructions.
-      With your FTP program, upload the Plugin folder to the wp-content/plugins folder in your WordPress directory online.
+    how-text-more-link: Click here
+    how-text-more-link-text:  to learn how to configure your Payment Gateway Server
     how-text-plugin:  Go to the Plugin screen and find the newly uploaded Plugin in the list.
       Click Activate to activate it.
       Check the Details readme file for customization and further instructions.
-    how-text-link: Get Plugin
-    how-install-link: Install Plugin
+    how-text-plugin-link: Get Plugin
+    how-install-btn: Install Plugin
 
   graphics:
     title: Dash Official Website | Dash Crypto Currency
@@ -274,11 +274,11 @@ pages:
     modal-win-core-source-code-key: Source Code
     modal-win-core-source-code-value: .&#40link/ closed source&#41
     modal-core-users-text: General Users
-    modal-core-users-value: 0.12.1.0
+    modal-core-users-value: 0.12.1.1
     modal-core-masternode-text: Masternode Operators
-    modal-core-masternode-value: 0.12.1.0
+    modal-core-masternode-value: 0.12.1.1
     modal-core-pool-text: Pool Operators
-    modal-core-pool-value: 0.12.1.0
+    modal-core-pool-value: 0.12.1.1
 
 
   contact:
