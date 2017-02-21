@@ -44,7 +44,13 @@ description: pages.woocommerce.description
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">CREATE PROPOSAL</h4>
-								<p>Budget Proposal Generator</p>
+								<p>
+									Budget
+									<br>
+									Proposal
+									<br>
+									Generator
+								</p>
 							</div>
 						</a>
 					</article>
@@ -55,7 +61,11 @@ description: pages.woocommerce.description
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">DASHCENTRAL</h4>
-								<p>Budget Monitoring / Create Proposal / Monitoring MN</p>
+								<p>
+									Budget Monitoring
+									<br>Create Proposal
+									<br> Monitoring MN
+								</p>
 							</div>
 						</a>
 					</article>
@@ -66,7 +76,11 @@ description: pages.woocommerce.description
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">MONITORING</h4>
-								<p>Budget/ Voting Monitoring</p>
+								<p>
+									Budget
+									<br>
+									Voting Monitoring
+								</p>
 							</div>
 						</a>
 					</article>
@@ -77,7 +91,7 @@ description: pages.woocommerce.description
 							</div>
 							<div class="ctabox__text">
 								<h4 class="ctabox__title">VOTING STATUS</h4>
-								<p>masternode_payments_stats.html</p>
+								<p></p>
 							</div>
 						</a>
 					</article>
@@ -87,45 +101,129 @@ description: pages.woocommerce.description
 	</section>
 	<section class="">
 		<div class="content">
-			<h2 class="section__title">{% tmd pages.budget.voting-header %}</h2>
+			<h2 class="section__title">{% t pages.budget.voting-header %}</h2>
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>{% tmd pages.budget.voting-automatic %}</h2>
-
-					<p>{% tmd pages.budget.voting-automatic-text %}</p>
-					<a href="/network" class="btn-blue">{% tmd pages.budget.voting-guide-btn %}</a>
-					<a href="/network" class="btn-blue">{% tmd pages.budget.voting-manual-btn %}</a>
-					<a href="/network" class="btn-blue">{% tmd pages.budget.voting-central-btn %}</a>
+					<h2>{% t pages.budget.voting-automatic %}</h2>
+					<p>{% t pages.budget.voting-automatic-text %}</p>
+					<a href="/network" class="btn-blue">{% t pages.budget.voting-guide-btn %}</a>
+					<a href="/network" class="btn-blue">{% t pages.budget.voting-manual-btn %}</a>
+					<a href="/network" class="btn-blue">{% t pages.budget.voting-central-btn %}</a>
 				</div>
 				<div class="col-sm-6">
-					<h2>{% tmd pages.budget.voting-tool %}</h2>
+					<h2>{% tmd pages.budget.voting-tools %}</h2>
 					<p>{% tmd pages.budget.voting-tools-text %}</p>
-					<a href="">{% tmd pages.budget.decentralized-governance-link %}</a>
-					<a href="">{% tmd pages.budget.masternode-budget-link %}</a>
-					<a href="">{% tmd pages.budget.using-link %}</a>
-					<a href="">{% tmd pages.budget.dgb-link %}</a>
-					<a href="">{% tmd pages.budget.budget-finalization-link %}</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section class="">
-		<div class="content">
-			<div class="row">
-				<div class="col-sm-6">
-					<h2>{% t pages.woocommerce.install-heading %}</h2>
-					<p>{% tmd pages.woocommerce.install-text %}</p>
-					<p>{% tmd pages.woocommerce.how-text-plugin %}</p>
-					<a href="https://wordpress.org/plugins/" class="btn-blue" target="_blank">{% t pages.woocommerce.how-text-plugin-link %}</a>
-
-				</div>
-				<div class="col-sm-6">
-					<img src="/assets/img/evolution/merchants.png">
+					<a href="">{% t pages.budget.decentralized-governance-link %}</a>
+					<a href="">{% t pages.budget.masternode-budget-link %}</a>
+					<a href="">{% t pages.budget.using-link %}</a>
+					<a href="">{% t pages.budget.dgb-link %}</a>
+					<a href="">{% t pages.budget.budget-finalization-link %}</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<section class="section section--currency" id="section-blockchain">
+		<h2 class="section__title">{% t pages.budget.exchange-heading %}</h2>
+		<table id="blocks">
+			<thead>
+				<tr>
+					<th>Height</th>
+					<th>Block Time</th>
+					<th>Transactions</th>
+					<th>Value Out</th>
+					<th>Difficulty</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+	</section>
 </div>
-index.html
+<script type="text/javascript">
+	window.onload = function () {
+		$( document ).ready(function(){
+
+			// Get the exchange data
+			$.ajax({
+				url: "{{ site.api }}/exchange/",
+				error: function(jqXHR, textStatus, errorThrown) {
+					console.log(jqXHR);
+					console.log(textStatus);
+					console.log('errorThrown:');
+				}
+			})
+			.done(function(response){
+				var exchanges = response;
+
+				exchanges.map(function(exchange){
+					if(exchange){
+						console.log('exchange',exchange);
+						var name 	= exchange.exchange,
+							url 	= exchange.url
+							volume 	= "$" + formatCurrency(exchange.volume,0),
+							price 	= "$" + formatCurrency(exchange.price),
+							change 	= formatNumber(exchange.percent_change);
+
+						$("#exchanges>tbody").append('<tr><td data-header="Exchange"><a target="_blank" href="' + url + '">' + name + '</a></td><td data-header="Volume (24h)">' + volume + '</td><td data-header="Price">' + price + '</td><td data-header="Volume (%)">' + change + '%</td></tr>');
+					}
+				});
+			});
+
+			// Get the current number of masternodes.
+			$.ajax({
+				url: "{{ site.api }}/masternodes/stats/"
+			})
+			.done(function(response){
+				console.log('masternode stats', response.stats);
+				var masternodes_count	= formatNumber(response.stats['count']),
+					masternodes_max 	= formatNumber(response.stats['max']);
+
+				$("#masternodes_count").text(masternodes_count);
+				$("#masternodes_max").text(masternodes_max);
+			});
+
+			// Get the budget proposals
+			$.ajax({
+				url: "{{ site.api }}/budgets/"
+			})
+			.done(function(response){
+				var proposals = response.proposals;
+
+				proposals.map(function(proposal){
+					var	title 			= proposal.title ? proposal.title : proposal.name,
+						url				= proposal.dw_url,
+						owner 			= proposal.owner_username,
+						votes_yes 		= proposal.yes,
+						votes_no 		= proposal.no,
+						required_votes 	= proposal.remaining_yes_votes_until_funding,
+						amount_monthly 	= formatCurrency(proposal.monthly_amount)
+						will_be_funded	= proposal.will_be_funded ? "yes" : "no";
+
+					$("#budgets>tbody").append('<tr><td data-header="Title"><a href="' + url + '" target="_blank">' + title + '</a></td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
+
+				});
+			});
+
+			// Get the blockchain info
+			$.ajax({
+				url: "{{ site.api }}/chain/latestBlocks/"
+			})
+			.done(function(response){
+				var blocks = response.blocks;
+
+				blocks.map(function(block){
+					var height 		= block.height,
+						age 		= moment.unix(block.time).format("LLL"),
+						txs 		= block.txlength,
+						out 		= block.cbvalue,
+						difficulty 	= block.difficulty;
+
+					$("#blocks>tbody").append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
+				});
+			});
+
+		});
+	}
+</script>
