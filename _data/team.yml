@@ -281,7 +281,7 @@
 - name: Mr.V
   title: Evolution Developer
   description:
-  image:
+  image: Vitalik.png
   email:
   keybase:
   twitter:
@@ -292,6 +292,14 @@
   image: prtfw.png
   email: mns_catdogmice@yahoo.ca
   keybase: https://keybase.io/longgamma_act
+  twitter:
+
+- name: Matt Meek
+  title: Business Development
+  description: Matt (AKA itscrazybro) is a entrepreneur with a flare for business, marketing and sales. He co-founded an advertising agency that now services over 200 local businesses in his area. He has multiple years experience in sales, business development and product management.
+  image: itscrazybro.png
+  email: matt@dash.org
+  keybase: https://keybase.io/itscrazybro
   twitter:
 
 - name: Perry Woodin
