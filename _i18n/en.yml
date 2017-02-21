@@ -32,31 +32,31 @@ pages:
     install-text:
     install-btn: Learn More
 
-    how-heading: Installation
-    how-text: |
-        1. Download Dash-Woocommerce-Plugin.zip from <a href="https://github.com/snogcel/dash-woocommerce-plugin/blob/master/dist/dash-woocommerce-plugin.zip.">https://github.com/snogcel/dash-woocommerce-plugin/blob/master/dist/dash-woocommerce-plugin.zip.</a>
+    how-heading: Manual Installation
+    how-text: >
+      There are a few cases when manually installing a WordPress Plugin is appropriate.
 
-        2. From the WordPress Admin interface, click plugins then click "Add New".
+      If you wish to control the placement and process of installing a WordPress Plugin.
 
-        3. At the top of the screen find the "Upload Plugin" button and choose the zip file download previously.
+      If your server does not permit automatic installation of a WordPress Plugin.
 
-        4. Click the "Activate Plugin" button, once the plugin has been activated you'll find it included in the listing of Installed Plugins.
+      The WordPress Plugin is not in the WordPress Plugins Directory.
 
-        5. From "Installed Plugins", locate "Dashpay - WooCommerce Gateway" and click on Settings.
+      Installation of a WordPress Plugin manually requires FTP familiarity and the awareness that you may put your site at risk if you install a WordPress Plugin incompatible with the current version or from an unreliable source.
 
-        6. Select "DASH Checkout" from the list of available payment methods.
+      Backup your site completely before proceeding.
 
-        7. Check the "Enable this payment gateway" checkbox.
 
-        8. Configure the "Payment Service API" and "Insight API" option to point to your server.
 
-    how-text-more-link: Click here
-    how-text-more-link-text:  to learn how to configure your Payment Gateway Server
+      Download your WordPress Plugin to your desktop.
+      If downloaded as a zip archive, extract the Plugin folder to your desktop.
+      Read through the "readme" file thoroughly to ensure you follow the installation instructions.
+      With your FTP program, upload the Plugin folder to the wp-content/plugins folder in your WordPress directory online.
     how-text-plugin:  Go to the Plugin screen and find the newly uploaded Plugin in the list.
       Click Activate to activate it.
       Check the Details readme file for customization and further instructions.
-    how-text-plugin-link: Get Plugin
-    how-install-btn: Install Plugin
+    how-text-link: Get Plugin
+    how-install-link: Install Plugin
 
   graphics:
     title: Dash Official Website | Dash Crypto Currency
