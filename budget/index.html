@@ -1,0 +1,131 @@
+---
+layout: default
+title: pages.woocommerce.title
+description: pages.woocommerce.description
+---
+
+
+{% include hero/budget.html %}
+{% include base.html %}
+
+
+<div class="page page--home">
+
+	<!--
+		WHAT IS PLUGIN?
+	-->
+	<section class="section">
+		<div class="section__content">
+			<div class="section__lead">{% tmd pages.budget.description-text-hero %}</div>
+			<br>
+			<p>{% tmd pages.budget.description %}</p>
+		</div>
+	</section>
+
+	<!--
+		DASH FEATURES
+		PRIVATE | INSTANT | SECURE
+	-->
+
+
+	<section id="" class="section section--cta">
+		<div class="section__content"> <!--section__content -->
+			<div>
+				<h2>{% t pages.community.discussion-heading %}<a class="permalink" title="Permalink" id="discussion"></a></h2>
+
+				{% tmd pages.community.discussion-text %}
+			</div>
+			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
+				<div class="ctabox__inner">
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://www.dash.org/forum" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/community/dashforum_logo.png" class="ctabox__image" >
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">CREATE PROPOSAL</h4>
+								<p>Budget Proposal Generator</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://www.reddit.com/r/dashpay/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/community/reddit_logo.png" class="ctabox__image" >
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">DASHCENTRAL</h4>
+								<p>Budget Monitoring / Create Proposal / Monitoring MN</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://bitcointalk.org/index.php?topic=421615.0" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/community/bitcointalk_logo.png" class="ctabox__image" >
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">MONITORING</h4>
+								<p>Budget/ Voting Monitoring</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://forum.bitcoin.com/dash/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/community/bitcoindotcom_logo.png" class="ctabox__image" >
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">VOTING STATUS</h4>
+								<p>masternode_payments_stats.html</p>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="">
+		<div class="content">
+			<h2 class="section__title">{% tmd pages.budget.voting-header %}</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>{% tmd pages.budget.voting-automatic %}</h2>
+
+					<p>{% tmd pages.budget.voting-automatic-text %}</p>
+					<a href="/network" class="btn-blue">{% tmd pages.budget.voting-guide-btn %}</a>
+					<a href="/network" class="btn-blue">{% tmd pages.budget.voting-manual-btn %}</a>
+					<a href="/network" class="btn-blue">{% tmd pages.budget.voting-central-btn %}</a>
+				</div>
+				<div class="col-sm-6">
+					<h2>{% tmd pages.budget.voting-tool %}</h2>
+					<p>{% tmd pages.budget.voting-tools-text %}</p>
+					<a href="">{% tmd pages.budget.decentralized-governance-link %}</a>
+					<a href="">{% tmd pages.budget.masternode-budget-link %}</a>
+					<a href="">{% tmd pages.budget.using-link %}</a>
+					<a href="">{% tmd pages.budget.dgb-link %}</a>
+					<a href="">{% tmd pages.budget.budget-finalization-link %}</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="">
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>{% t pages.woocommerce.install-heading %}</h2>
+					<p>{% tmd pages.woocommerce.install-text %}</p>
+					<p>{% tmd pages.woocommerce.how-text-plugin %}</p>
+					<a href="https://wordpress.org/plugins/" class="btn-blue" target="_blank">{% t pages.woocommerce.how-text-plugin-link %}</a>
+
+				</div>
+				<div class="col-sm-6">
+					<img src="/assets/img/evolution/merchants.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+index.html

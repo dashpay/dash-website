@@ -2,6 +2,60 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  budget:
+    title: Dash Official Website | Dash Crypto Currency
+    description: Dash is Digital Cash
+
+    hero-heading: Budget System
+    hero-text: >
+      Decentralized Governance by Blockchain, or DGBB, is Dash's attempt to solve two important problems in cryptocurrency: governance and funding.
+
+    hero-how-to-btn: How to start
+    hero-guide-btn: Guides
+    hero-pools-btn: Pools
+
+    description-text-hero: >
+      Governance in a decentralized project is difficult,
+      because by definition there are no central authorities to make decisions for the project.
+      In Dash, such decisions are made by the network, that is, by the owners of masternodes. The DGBB system allows masternodes
+      to vote for or against proposals, which can then be implemented (or not) by Dash's developers. A key example is early in 2016,
+      when Dash's Core Team submitted a proposal to the network asking whether the blocksize should be increased to 2 MB. Within 24 hours,
+      consensus had been reached to approve this change. Compare this to Bitcoin, where debate on the blocksize has been raging for nearly three years.
+
+    description: >
+      The DGBB also provides a means for Dash to fund its own development. While other projects have to depend on donations or premined endowments,
+      Dash uses 10% of the block reward to fund its own development. Every time a block is mined, 45% of the reward goes to the miner, 45% goes to a
+      masternode, and the remaining 10% is not created until the end of the month. During the month, anybody can make a budget proposal to the network.
+      If that proposal is approved by at least 10% of the masternode network, then at the end of the month a series of "superblocks" will be created.
+      At that time, the block rewards that were not paid out (10% of each block) will be used to fund approved proposals. The network thus funds itself
+      by reserving 10% of the block reward for budget projects.
+
+    governance-heading: Goverment Tools
+
+    voting-header: How to Voting
+    voting-automatic: Automated Voting
+    voting-automatic-text: >
+      One of the greatest challenges of building a crypto currency platform is ensuring you create a decentralized system of governance to manage,
+      fund, maintain and expand the project. This key element is absent in every currency to date, the natural response is to create a not-for-profit
+      foundation that is tasked with maintaining the core protocol and promoting the coin but is not really connected to the coin holders in any meaningful way.
+      This approach has a few issues that have been made evident from the experience of older crypto currency platforms.
+    voting-guide-btn: Guide - Amanda B.
+    voting-manual-btn: Manual Voting (in QT Wallet)
+    voting-central-btn: DashCentral
+
+    voting-tools: Governance Tools
+    voting-tools-text: >
+      The system would work as a decentralized voting mechanism setup in the software, where budgets for specific projects are proposed,
+      then the masternodes as a whole vote on them. Each project, if it passes, is added to the total budget and paid directly from the blockchain
+      to the person doing the work. With this, we could hire core developers and pay them directly after approval of the work in a decentralized fashion.
+    decentralized-governance-link: Self-sustainable Decentralized Governance
+    masternode-budget-link: Masternode Budget API
+    using-link: >
+      Using Decentralized Governance: Proposals, Voting, and Budgets
+    dgb-link: DGBB Document templates
+    budget-finalization-link: Budget Finalization Procedure
+
+
   woocommerce:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash

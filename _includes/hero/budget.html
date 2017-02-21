@@ -1,0 +1,26 @@
+<div class="hero" id="hero">
+	<div class="hero__background">
+		{% srcset hero/community.jpg ppi:1,2 class="hero__background-image" %}
+		{% srcset_source width:1920 %}
+		{% srcset_source width:960 %}
+		{% endsrcset %}
+	</div>
+
+	<!-- Navigation -->
+	{% include nav-desktop.html %}
+
+	<!-- Hero content -->
+	<div class="hero__content">
+		<h1 class="hero__title">{% t pages.budget.hero-heading %}</h1>
+		<p class="hero__lead">{% t pages.budget.hero-text %}</p>
+
+		<div class="hero__buttons">
+			<a href="#" class="btn-white-solid">{% t pages.budget.hero-how-to-btn %}</a>
+			<a href="#" class="btn-white-solid">{% t pages.budget.hero-guide-btn %}</a>
+			<a href="#" class="btn-white-solid">{% t pages.budget.hero-pools-btn %}</a>
+		</div>
+	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe"></div>
+</div>
