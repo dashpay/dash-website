@@ -245,12 +245,12 @@ pages:
 
   payments:
     title: Dash Payment Processors
-    hero-heading: Send Payments in DASH
-    hero-text: To be added...something something about benefits and ease of paying dash
+    hero-heading: Dash Payment Processing
+    hero-text: Quickly and easily integrate Dash as a payment method
     payments-desc-header: Payment Processors
-    payments-desc-subtitle: To be added...
+    payments-desc-subtitle: 
     payments-providers-header: Payment Processors
-    payments-providers-subtitle: To be added... 
+    payments-providers-subtitle: 
 
     modal-header-vendor-label-descriptor: Wallet for Dash
     modal-download-action-button-label: Download
