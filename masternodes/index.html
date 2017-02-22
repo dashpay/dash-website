@@ -5,7 +5,7 @@ description: pages.budget.description
 ---
 
 
-{% include hero/budget.html %}
+{% include hero/masternodes.html %}
 {% include base.html %}
 
 
@@ -13,7 +13,7 @@ description: pages.budget.description
 
 	<section class="section">
 		<div class="section__content">
-			<div class="section__lead">{% tmd pages.marsternode.marsternode-text %}</div>
+			<div class="section__lead">{% tmd pages.masternodes.marsternode-text %}</div>
 		</div>
 	</section>
 
@@ -21,12 +21,12 @@ description: pages.budget.description
 		<div class="section__content">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>{% t pages.marsternode.what-heading %}</h2>
-					<p>{% t pages.marsternode.what-text %}</p>
+					<h2>{% t pages.masternodes.what-heading %}</h2>
+					<p>{% t pages.masternodes.what-text %}</p>
 				</div>
 				<div class="col-sm-6">
-					<h2>{% t pages.marsternode.earn-heading %}</h2>
-					<p>{% t pages.marsternode.earn-text %}</p>
+					<h2>{% t pages.masternodes.earn-heading %}</h2>
+					<p>{% t pages.masternodes.earn-text %}</p>
 					<table id="exchanges">
 						<thead>
 							<tr>
@@ -47,26 +47,26 @@ description: pages.budget.description
 
 	<section class="section">
 		<div class="section__content">
-			<div class="row">
+			<div class="row text-center">
 				<div class="col-sm-3">
-					<img src="" alt="">
+					<img src="/assets/img/masternodes/pay.svg" height="100" alt="Instant">
 					<h2>InstantSend</h2>
-					<p>{% t pages.marsternode.instantiend-text %}</p>
+					<p>{% t pages.masternodes.instantiend-text %}</p>
 				</div>
 				<div class="col-sm-3">
-					<img src="" alt="">
+					<img src="/assets/img/masternodes/private.svg" height="100" alt="Private">
 					<h2>PrivateSend</h2>
-					<p>{% t pages.marsternode.private-send-text %}</p>
+					<p>{% t pages.masternodes.private-send-text %}</p>
 				</div>
 				<div class="col-sm-3">
-					<img src="" alt="">
+					<img src="/assets/img/masternodes/masternode.svg" height="100" alt="Secure">
 					<h2>Decentralised <br>Governance</h2>
-					<p>{% t pages.marsternode.governance-text %}</p>
+					<p>{% t pages.masternodes.governance-text %}</p>
 				</div>
 				<div class="col-sm-3">
-					<img src="" alt="">
+					<img src="/assets/img/masternodes/evol.svg" height="100" alt="Secure">
 					<h2>Dash Evolution</h2>
-					<p>{% t pages.marsternode.evolution-text %}</p>
+					<p>{% t pages.masternodes.evolution-text %}</p>
 				</div>
 			</div>
 		</div>
@@ -74,14 +74,14 @@ description: pages.budget.description
 
 	<section class="section">
 		<div class="section__content">
-			<div class="section__lead">{% tmd pages.marsternode.host-heading %}</div>
+			<h2>{% t pages.masternodes.host-heading %}</h2>
 			<div class="row">
 				<div class="col-sm-6">
-					{% tmd pages.marsternode.host-text-right %}
+					{% tmd pages.masternodes.host-text-right %}
 				</div>
 				<div class="col-sm-6">
-					{% tmd pages.marsternode.host-text-left %}
-					<a href="#" class="btn-blue">{% t pages.marsternode.host-btn %}</a>
+					<div class="bottom-space">{% tmd pages.masternodes.host-text-left %}</div>
+					<a href="#" class="btn-blue">{% t pages.masternodes.host-btn %}</a>
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,7 @@ description: pages.budget.description
 	<section class="section">
 		<div class="section__content">
 			<div class="section__lead">
-				{% t pages.marsternode.host-table-heading %}
+				{% t pages.masternodes.host-table-heading %}
 				<table id="blocks">
 					<thead>
 						<tr>
@@ -111,11 +111,11 @@ description: pages.budget.description
 
 	<section class="section">
 		<div class="section__content">
-			<div class="section__lead">P2P</div>
+			<h2>P2P</h2>
 			<div class="row">
 				<div class="col-sm-6">
-					{% tmd pages.marsternode.p2p-text %}
-					<a href="#" class="btn-blue">{% t pages.marsternode.p2p-btn %}</a>
+					<div class="bottom-space">{% tmd pages.masternodes.p2p-text %}</div>
+					<a href="#" class="btn-blue">{% t pages.masternodes.p2p-btn %}</a>
 				</div>
 				<div class="col-sm-6">
 					<img src="" alt="">

@@ -8,10 +8,11 @@ pages:
 
     hero-heading: Masternodes
     hero-text: Masternodes are computers that run a dash wallet and make decisions, such as locking transactions with InstantSend, coordinate mixing of coins, and voting on budget funding.
-    what-btn: Buy with fiat currency
-    how-btn: Buy with cryptocurrency
-    network-btn: Full Exchanges Listing
-    p2p-btn:
+    hero-what-btn: Buy with fiat currency
+    hero-how-btn: Buy with cryptocurrency
+    hero-network-btn: Full Exchanges Listing
+    hero-p2p-btn: P2P
+
     marsternode-text: Masternodes are required to have 1000 Dash collateral, a dedicated IP address, and be able to run 24 hours a day without a more than a 1 hr connection loss. Masternodes get paid 45% of the block reward on every block, which is distributed to masternodes one at a time. Typically, around 2 dash is paid to each masternode every 7 days.
 
     what-heading: WHAT IS MASTERNODE?
@@ -46,6 +47,7 @@ pages:
       If you can’t be bothered with setting up and maintaining your own and don’t mind paying a little extra, you can go with paid masternode hosters which will greatly simplify the process. A few good ones can be found here.
 
     host-btn: Start Masternode
+
     host-table-heading: MasterNodes Network
 
     p2p-text: |
@@ -54,6 +56,7 @@ pages:
 
       Text about peer2peer Thanks to incentivization, Dash’s network has grown to 4,100 masternodes since launch in 2014, meaning Dash’s peer-to-peer network is one of the largest in the world.
       More nodes means more secure services, and more capacity for end-users to access Digital Cash from anywhere in the world, 24/7.
+
     p2p-btn: Network Stats
 
   buy:
