@@ -30,6 +30,8 @@ you're in a hurry or lost or you just need to Make It Work©
   text-align: left;
 }
 
+
+
 $wallet-tile-min-height: 20em;
 $wallet-tile-max-width: 25em;
 $wallet-tile-logo-container-height: 5.5em;
@@ -46,6 +48,9 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
   margin: $wallet-tile-spacing auto;
   border: 1px solid $color-gray;
   min-height: $wallet-tile-min-height;
+  .payments &{
+            min-height: 12em;
+        }
   max-width: $wallet-tile-max-width;
   overflow: hidden;
   -o-transition: .25s;
@@ -78,6 +83,9 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
       overflow: hidden;
       img {
         max-height: 80px;
+        .payments &{
+          max-height: 60px;
+        }
       }
     }
     & .caption {
@@ -460,7 +468,6 @@ a.blog_link {
     padding-top: 55px;
     margin-bottom: 55px;
 }
-
 .ctabox__image {
     background-color: #fff;
 }
@@ -470,4 +477,14 @@ a.blog_link {
 .graphic-exmaple-brand{
     font-family: $font-family-brand;
     font-weight: $font-weight-bold;
+}
+
+.section__title{
+    font-weight: 300;
+    font-size: 3.35294rem;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 40px;
 }
