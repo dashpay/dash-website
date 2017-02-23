@@ -76,11 +76,12 @@ pages:
     how-btc-text: The system would work as a decentralized voting mechanism setup ipay them directly after approval of the work in a decentralized fashion.
     how-btc-btn: Show Video
 
-  budget:
+  governance:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash
 
-    hero-heading: Budget System
+    hero-heading: Decentralized Governance System
+
     hero-text: >
       Decentralized Governance by Blockchain, or DGBB, is Dash's attempt to solve two important problems in cryptocurrency: governance and funding.
 
@@ -104,9 +105,9 @@ pages:
       At that time, the block rewards that were not paid out (10% of each block) will be used to fund approved proposals. The network thus funds itself
       by reserving 10% of the block reward for budget projects.
 
-    governance-heading: Goverment Tools
+    governance-meaning: What is Governance and what does it mean for Dash
 
-    voting-header: How to Voting
+    voting-header: How to Vote
     voting-automatic: Automated Voting
     voting-automatic-text: >
       One of the greatest challenges of building a crypto currency platform is ensuring you create a decentralized system of governance to manage,
@@ -122,14 +123,13 @@ pages:
       The system would work as a decentralized voting mechanism setup in the software, where budgets for specific projects are proposed,
       then the masternodes as a whole vote on them. Each project, if it passes, is added to the total budget and paid directly from the blockchain
       to the person doing the work. With this, we could hire core developers and pay them directly after approval of the work in a decentralized fashion.
-    decentralized-governance-link: Self-sustainable Decentralized Governance
-    masternode-budget-link: Masternode Budget API
-    using-link: >
-      Using Decentralized Governance: Proposals, Voting, and Budgets
-    dgb-link: DGBB Document templates
-    budget-finalization-link: Budget Finalization Procedure
+    generator-link: Budget Proposal Generator
+    dashcentral-link: DashCentral
+    votetracker-link: VoteTracker
+    budget-monitoring-link: Budget Monitoring
+    proposal-status-link: Proposal Status
 
-    exchange-heading: Full Exchange Listing
+    proposal-service: Proposal Automated Service
 
   woocommerce:
     title: Dash Official Website | Dash Crypto Currency
