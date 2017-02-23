@@ -10,7 +10,15 @@ $m: 'section';
 		padding: 0 20px;
 		margin: 0 auto;
 	}
-
+	&__title{
+	    font-weight: 300;
+	    font-size: 3.35294rem;
+	    line-height: 1.2;
+	    letter-spacing: -0.015em;
+	    margin-bottom: 10px;
+	    text-align: center;
+	    margin-bottom: 40px;
+	}
 	&--intro-lead {
 		text-align: center;
 		.#{$m} {

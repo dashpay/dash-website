@@ -471,12 +471,19 @@ a.blog_link {
     font-weight: $font-weight-bold;
 }
 
-.section__title{
-    font-weight: 300;
-    font-size: 3.35294rem;
-    line-height: 1.2;
-    letter-spacing: -0.015em;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-bottom: 40px;
+.mailboxes-bg{
+    background-image: url(../../assets/img/hero/mailboxes.jpg);
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    &:after {
+        content: '';
+       background-image: $gradient-default-overlay-blue;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
 }
