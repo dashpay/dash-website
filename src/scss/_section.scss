@@ -11,13 +11,10 @@ $m: 'section';
 		margin: 0 auto;
 	}
 	&__title{
-	    font-weight: 300;
-	    font-size: 3.35294rem;
-	    line-height: 1.2;
-	    letter-spacing: -0.015em;
-	    margin-bottom: 10px;
-	    text-align: center;
-	    margin-bottom: 40px;
+		@include font-title-xlarge();
+		margin-bottom: 10px;
+		text-align: center;
+		margin-bottom: 40px;
 	}
 	&--intro-lead {
 		text-align: center;
@@ -119,7 +116,7 @@ $m: 'section';
 				@include mq($to: 600px) { // optical
 					& > * {
 						width: 100%;
-    					text-align: center;
+						text-align: center;
 					}
 				}
 			}
