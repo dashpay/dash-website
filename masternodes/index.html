@@ -21,11 +21,11 @@ description: pages.budget.description
 		<div class="section__content">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>{% t pages.masternodes.what-heading %}</h2>
-					<p>{% t pages.masternodes.what-text %}</p>
+					<h2 class="bottom-space">{% t pages.masternodes.what-heading %}</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/4GRrLiTCq5M" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="col-sm-6">
-					<h2>{% t pages.masternodes.earn-heading %}</h2>
+					<h2 class="bottom-space">{% t pages.masternodes.earn-heading %}</h2>
 					<p>{% t pages.masternodes.earn-text %}</p>
 					<table id="exchanges">
 						<thead>
@@ -45,43 +45,19 @@ description: pages.budget.description
 		</div>
 	</section>
 
-	<section class="section">
-		<div class="section__content">
-			<div class="row text-center">
-				<div class="col-sm-3">
-					<img src="/assets/img/masternodes/pay.svg" height="100" alt="Instant">
-					<h2>InstantSend</h2>
-					<p>{% t pages.masternodes.instantiend-text %}</p>
-				</div>
-				<div class="col-sm-3">
-					<img src="/assets/img/masternodes/private.svg" height="100" alt="Private">
-					<h2>PrivateSend</h2>
-					<p>{% t pages.masternodes.private-send-text %}</p>
-				</div>
-				<div class="col-sm-3">
-					<img src="/assets/img/masternodes/masternode.svg" height="100" alt="Secure">
-					<h2>Decentralised <br>Governance</h2>
-					<p>{% t pages.masternodes.governance-text %}</p>
-				</div>
-				<div class="col-sm-3">
-					<img src="/assets/img/masternodes/evol.svg" height="100" alt="Secure">
-					<h2>Dash Evolution</h2>
-					<p>{% t pages.masternodes.evolution-text %}</p>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<section class="section">
 		<div class="section__content">
-			<h2>{% t pages.masternodes.host-heading %}</h2>
 			<div class="row">
 				<div class="col-sm-6">
-					{% tmd pages.masternodes.host-text-right %}
+					<h2 class="bottom-space">{% t pages.masternodes.host-heading %}</h2>
+					<div class="bottom-space">{% tmd pages.masternodes.host-text %}</div>
+					<a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=33947686" class="btn-blue" target="_blank">{% t pages.masternodes.host-btn %}</a>
 				</div>
 				<div class="col-sm-6">
-					<div class="bottom-space">{% tmd pages.masternodes.host-text-left %}</div>
-					<a href="#" class="btn-blue">{% t pages.masternodes.host-btn %}</a>
+					<h2 class="bottom-space">{% t pages.masternodes.hosting-services %}</h2>
+					<div class="bottom-space">{% tmd pages.masternodes.hosting-services-text %}</div>
+					<a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1867885" class="btn-blue" target="_blank">{% t pages.masternodes.hosting-services-btn %}</a>
 				</div>
 			</div>
 		</div>
@@ -111,11 +87,11 @@ description: pages.budget.description
 
 	<section class="">
 		<div class="section__content">
-			<h2  class="bottom-space">P2P</h2>
+			<h2 class="bottom-space">P2P</h2>
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="bottom-space">{% tmd pages.masternodes.p2p-text %}</div>
-					<a href="#" class="btn-blue">{% t pages.masternodes.p2p-btn %}</a>
+					<a href="http://178.254.23.111/~pub/Dash/Dash_Info.html" class="btn-blue"  target="_blank">{% t pages.masternodes.p2p-btn %}</a>
 				</div>
 				<div class="col-sm-6">
 					<img src="/assets/img/masternodes/p2p.png" alt="">

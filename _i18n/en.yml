@@ -8,20 +8,16 @@ pages:
 
     hero-heading: Masternodes
     hero-text: Masternodes are computers that run a dash wallet and make decisions, such as locking transactions with InstantSend, coordinate mixing of coins, and voting on budget funding.
-    hero-what-btn: Buy with fiat currency
-    hero-how-btn: Buy with cryptocurrency
-    hero-network-btn: Full Exchanges Listing
-    hero-p2p-btn: P2P
+    hero-what-btn: What is a Masternode
+    hero-how-btn: How to Set up a Masternode
+    hero-network-btn: Masternode Network
+    hero-masternode-mining-btn: Masternode vs Mining
 
     marsternode-text: Masternodes are required to have 1000 Dash collateral, a dedicated IP address, and be able to run 24 hours a day without a more than a 1 hr connection loss. Masternodes get paid 45% of the block reward on every block, which is distributed to masternodes one at a time. Typically, around 2 dash is paid to each masternode every 7 days.
 
     what-heading: WHAT IS MASTERNODE?
-    what-text: |
-      In Evolution, you will be able to connect directly with merchants to make purchases or even setup auto debits to pay for subscription services. Every merchant that integrates Dash will be searchable on the blockchain. You’ll be able to rate purchases so the community can decide which vendors are providing quality products and services.”chain and you can rate purchases so the community can decide who’s providing a good service or not.
 
-      Masternodes are also given voting rights on proposals. Each masternode has 1 vote and this vote can be used on budget proposals or important decisions that affect Dash. For a complete list of current proposals please click here.
-
-    earn-heading: EARN A MASTERNODE?
+    earn-heading: Masternode Income
     earn-text: |
       Masternodes cost money and effort to host so they are paid a share of the block reward to incentivize them. With current masternode numbers and rewards masternodes earn approximately a 11% return on 1000 Dash for the year of 2016. This reward falls off in subsequent years but as the value of Dash is rising and the supply of Dash goes down, masternodes should still be sufficiently incentivized.
 
@@ -34,21 +30,22 @@ pages:
     evolution-text: a decentralized payment processor (think a decentralized Paypal).
 
     host-heading: HOST A MASTERNODE
-    host-text-right: |
+    host-text: |
       1000 Dash: Arguably the hardest part. Dash can be obtained from exchanges such as Poloniex, Bittrex and Shapeshift‘s service is also an excellent way. For the full list of places to obtain Dash click here.
 
       A server or a VPS installed with Linux: For the purposes of this guide we will be used Ubuntu 14.04 LTS. We recommend cheap VPSes such as from Vultr and DigitalOcean though any decent provider will do. Generally a low specced one will do. I use the 5 USD ones from Vultr and they work fine.
 
       A dedicated IP address: These usually come with the VPS/server.
 
-    host-text-left: |
       A little time: When I first got into masternodes, there were only a few guides around and did not cover all the scenarios. It took days for me to figure out the best ways to do everything. However, the process now takes a few minutes. Here are a few guides that I hope will make the process a lot easier.
 
       If you can’t be bothered with setting up and maintaining your own and don’t mind paying a little extra, you can go with paid masternode hosters which will greatly simplify the process. A few good ones can be found here.
 
     host-btn: Start Masternode
 
-    host-table-heading: MasterNodes Network
+    hosting-services: Masternode Hosting Services
+    hosting-services-text:
+    hosting-services-btn: Masternode Hosting Services
 
     p2p-text: |
       Text about peer2peer Thanks to incentivization, Dash’s network has grown to 4,100 masternodes since launch in 2014, meaning Dash’s peer-to-peer network is one of the largest in the world.
@@ -79,11 +76,12 @@ pages:
     how-btc-text: The system would work as a decentralized voting mechanism setup ipay them directly after approval of the work in a decentralized fashion.
     how-btc-btn: Show Video
 
-  budget:
+  governance:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash
 
-    hero-heading: Budget System
+    hero-heading: Decentralized Governance System
+
     hero-text: >
       Decentralized Governance by Blockchain, or DGBB, is Dash's attempt to solve two important problems in cryptocurrency: governance and funding.
 
@@ -107,9 +105,9 @@ pages:
       At that time, the block rewards that were not paid out (10% of each block) will be used to fund approved proposals. The network thus funds itself
       by reserving 10% of the block reward for budget projects.
 
-    governance-heading: Goverment Tools
+    governance-meaning: What is Governance and what does it mean for Dash
 
-    voting-header: How to Voting
+    voting-header: How to Vote
     voting-automatic: Automated Voting
     voting-automatic-text: >
       One of the greatest challenges of building a crypto currency platform is ensuring you create a decentralized system of governance to manage,
@@ -125,14 +123,13 @@ pages:
       The system would work as a decentralized voting mechanism setup in the software, where budgets for specific projects are proposed,
       then the masternodes as a whole vote on them. Each project, if it passes, is added to the total budget and paid directly from the blockchain
       to the person doing the work. With this, we could hire core developers and pay them directly after approval of the work in a decentralized fashion.
-    decentralized-governance-link: Self-sustainable Decentralized Governance
-    masternode-budget-link: Masternode Budget API
-    using-link: >
-      Using Decentralized Governance: Proposals, Voting, and Budgets
-    dgb-link: DGBB Document templates
-    budget-finalization-link: Budget Finalization Procedure
+    generator-link: Budget Proposal Generator
+    dashcentral-link: DashCentral
+    votetracker-link: VoteTracker
+    budget-monitoring-link: Budget Monitoring
+    proposal-status-link: Proposal Status
 
-    exchange-heading: Full Exchange Listing
+    proposal-service: Proposal Automated Service
 
   woocommerce:
     title: Dash Official Website | Dash Crypto Currency

@@ -10,7 +10,12 @@ $m: 'section';
 		padding: 0 20px;
 		margin: 0 auto;
 	}
-
+	&__title{
+		@include font-title-xlarge();
+		margin-bottom: 10px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
 	&--intro-lead {
 		text-align: center;
 		.#{$m} {
@@ -111,7 +116,7 @@ $m: 'section';
 				@include mq($to: 600px) { // optical
 					& > * {
 						width: 100%;
-    					text-align: center;
+						text-align: center;
 					}
 				}
 			}

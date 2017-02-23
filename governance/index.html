@@ -1,0 +1,78 @@
+---
+layout: default
+title: pages.governance.title
+description: pages.governance.description
+---
+
+
+{% include hero/governance.html %}
+{% include base.html %}
+
+
+<div class="page page--home">
+
+	<!--
+		WHAT IS PLUGIN?
+	-->
+	<section class="section">
+		<div class="section__content">
+			<div class="section__lead">{% tmd pages.governance.description-text-hero %}</div>
+			<br>
+			<p>{% t pages.governance.description %}</p>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="section__content">
+			<h2 class="section__title">{% t pages.governance.governance-meaning %}</h2>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/jHsVU1LBuAY" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="">
+		<div class="content">
+			<h2 class="section__title">{% t pages.governance.voting-header %}</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>{% t pages.governance.voting-automatic %}</h2>
+					<p>{% t pages.governance.voting-automatic-text %}</p>
+					<a href="https://youtu.be/52TzOgq15h8" class="btn-blue" target="_blank">
+						{% t pages.governance.voting-guide-btn %}
+					</a>
+					<a href="https://dashpay.atlassian.net/wiki/x/DIBGB" class="btn-blue" target="_blank">
+						{% t pages.governance.voting-manual-btn %}
+					</a>
+					<a href="https://dashpay.atlassian.net/wiki/x/EIBGB" class="btn-blue" target="_blank">
+						{% t pages.governance.voting-central-btn %}
+					</a>
+				</div>
+				<div class="col-sm-6">
+					<h2>{% t pages.governance.voting-tools %}</h2>
+					<p>{% t pages.governance.voting-tools-text %}</p>
+					<a href="https://proposal.dash.org" class="btn-blue" target="_blank">{% t pages.governance.generator-link %}</a>
+					<a href="https://www.dashcentral.org/" class="btn-blue" target="_blank">{% t pages.governance.dashcentral-link %}</a>
+					<a href="http://dashvotetracker.com" class="btn-blue" target="_blank">{% t pages.governance.votetracker-link %}</a>
+					<a href="https://www.dashninja.pl/budgets.html" class="btn-blue" target="_blank">{% t pages.governance.budget-monitoring-link %}</a>
+					<a href="#" class="btn-blue" target="_blank">{% t pages.governance.proposal-status-link %}</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="content">
+			<div>
+				<h2 class="section__title">{% t pages.governance.proposal-service %}</h2>
+				<img src="/assets/img/update/Voting.png" alt="">
+			</div>
+			<div>
+				<a href="http://govobject-proposal.slayer.work/" target="_blank" class="btn-blue">{% t pages.update.proposal-btn %}</a>
+			</div>
+		</div>
+	</section>
+</div>
