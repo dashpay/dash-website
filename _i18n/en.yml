@@ -85,9 +85,8 @@ pages:
     hero-text: >
       Decentralized Governance by Blockchain, or DGBB, is Dash's attempt to solve two important problems in cryptocurrency: governance and funding.
 
-    hero-how-to-btn: How to start
-    hero-guide-btn: Guides
-    hero-pools-btn: Pools
+    hero-how-to-btn: What is DGBB
+    hero-tools-btn: Tools
 
     description-text-hero: >
       Governance in a decentralized project is difficult,
