@@ -1,6 +1,22 @@
 
 # For multiple paragraph content add two line breaks
 pages:
+  404-page:
+
+    hero-heading: >
+      404
+
+    hero-text: >
+      Page not Found
+
+    hero-forum-btn: Official Forums
+    hero-discussion-btn: Discussion
+    hero-social-btn: Social Apps
+    hero-news-btn: News &amp; Info
+    hero-development-btn: Development
+    hero-masternodes-btn: Masternodes
+    hero-video-btn: Video &amp; Audio
+
 
   mining:
     title: Dash Official Website | Dash Crypto Currency
