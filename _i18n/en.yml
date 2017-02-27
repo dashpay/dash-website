@@ -1,6 +1,22 @@
 
 # For multiple paragraph content add two line breaks
 pages:
+  404-page:
+
+    hero-heading: >
+      404
+
+    hero-text: >
+      Page not Found
+
+    hero-forum-btn: Official Forums
+    hero-discussion-btn: Discussion
+    hero-social-btn: Social Apps
+    hero-news-btn: News &amp; Info
+    hero-development-btn: Development
+    hero-masternodes-btn: Masternodes
+    hero-video-btn: Video &amp; Audio
+
 
   mining:
     title: Dash Official Website | Dash Crypto Currency
@@ -22,9 +38,7 @@ pages:
     pools-masternode-text: |
       Dash, like Bitcoin and most other cryptocurrencies, is based on a decentralized ledger of all transactions, known as a blockchain. This blockchain is secured through a consensus mechanism; in the case of both Dash and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners attempt to solve difficult problems with specialized computers, and when they solve the problem, they receive the right to add a new block to the blockchain. If all the other people running the software agree that the problem was solved correctly, the block is added to the blockchain and the miner is rewarded.
 
-
       Dash works a little differently from Bitcoin, however, because it has a two-tier network. The second tier is powered by masternodes (Full Nodes), which enable financial privacy (PrivateSend), instant transactions (InstantSend), and the decentralized governance and budget system. Because this second tier is so important, masternodes are also rewarded when miners discover new blocks. The breakdown is as follows: 45% of the block reward goes to the miner, 45% goes to masternodes, and 10% is reserved for the budget system (created by superblocks every month).
-
 
       The masternode system is referred to as Proof of Service (PoSe), since the masternodes provide crucial services to the network. In fact, the entire network is overseen by the masternodes, which have the power to reject improperly formed blocks from miners. If a miner tried to take the entire block reward for themselves or tried to run an old version of the Dash software, the masternode network would orphan that block, and it would not be added to the blockchain. In short, miners power the first tier, which is the basic sending and receiving of funds and prevention of doublespending. Masternodes power the second tier, which provide the added features that make Dash different from other cryptocurrencies. Masternodes do not mine, and mining computers cannot serve as masternodes. Additionally, each masternode is “secured” by 1000 DASH. Those DASH remain under the sole control of their owner at all times, and can still be freely spent. The funds are not locked in any way. However, if the funds are moved or spent, the associated masternode will go offline and stop receiving rewards.
 
@@ -34,11 +48,20 @@ pages:
       A server or a VPS installed with Linux: For the purposes of this guide we will be used Ubuntu 14.04 LTS.
       We recommend cheap VPSes such as from Vultr and DigitalOcean though any decent provider will do.
       Generally a low specced one will do. I use the 5 USD ones from Vultr and they work fine.
+    asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
+    asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
+    asic-ibelink-miner: ASIC iBeLink DM384M X11
+    asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
+    asic-baikal-miner: ASIC Baikal A900 X11
+
     cpu-gpu-heading: Guides (CPU / GPU)
     cpu-gpu-text: >
       This is a fairly simple procedure and examples will be given in order to achieve the fastest possible hash rate for your cpu, but remember that more optimized miners can exist, so I advise you to keep an eye out on mining sites such as these in order to keep up with the latest releases.
 
+    cpu-mining-btn: CPU Mining
+    sg-miner-btn: SGminer / graphics cards
     pools-stat-heading: Pool Statistics
+    amd-mining-btn: AMD GPU on Windows
 
 
 

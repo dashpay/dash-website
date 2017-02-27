@@ -11,15 +11,77 @@ description: pages.mining.description
 
 <div class="page page--home">
 
-	<section>
+	<section class="section">
 		<div class="section__content">
 			<h2 class="section__title">{% t pages.mining.pools-heading %}</h2>
+			<ul class="member-list member-list--merchants">
+			    <li class="member" data-mh="merchant" style="height: 219px;">
+			        <div class="member__avatar">
+			            <div class="member__image-wrapper">
+			                <a href="http://www.cryptodechange.com" target="_blank" class="member__link">
+			                    <img class="member__image" src="/assets/img/mining/poollogo.jpg" alt="Crypto de Change">
+			                </a>
+			            </div>
+			        </div>
+			        <div class="member__name" data-mh="merchant-name" style="height: 35px;">dash.suprnova.cc</div>
+			    </li>
+			    <li class="member" data-mh="merchant" style="height: 219px;">
+			        <div class="member__avatar">
+			            <div class="member__image-wrapper">
+			                <a href="" target="_blank" class="member__link">
+			                    <img class="member__image" src="/assets/img/mining/poollogo.jpg" alt="PremiumGiftCards">
+			                </a>
+			            </div>
+			        </div>
+			        <div class="member__name" data-mh="merchant-name" style="height: 35px;">suchpool.pw</div>
+			    </li>
+			    <li class="member" data-mh="merchant" style="height: 219px;">
+			        <div class="member__avatar">
+			            <div class="member__image-wrapper">
+			                <a href="https://giftoff.com" target="_blank" class="member__link">
+			                    <img class="member__image" src="/assets/img/mining/poollogo.jpg" alt="Gift Off">
+			                </a>
+			            </div>
+			        </div>
+			        <div class="member__name" data-mh="merchant-name" style="height: 35px;">Coinotron.com</div>
+			    </li>
+			    <li class="member" data-mh="merchant" style="height: 219px;">
+			        <div class="member__avatar">
+			            <div class="member__image-wrapper">
+			                <a href="http://cryfter.com" target="_blank" class="member__link">
+			                    <img class="member__image" src="/assets/img/mining/poollogo.jpg" alt="Cryfter">
+			                </a>
+			            </div>
+			        </div>
+			        <div class="member__name" data-mh="merchant-name" style="height: 35px;">ltcrabbit.com</div>
+			    </li>
+			    <li class="member" data-mh="merchant" style="height: 219px;">
+			        <div class="member__avatar">
+			            <div class="member__image-wrapper">
+			                <a href="http://cryfter.com" target="_blank" class="member__link">
+			                    <img class="member__image" src="/assets/img/mining/poollogo.jpg" alt="Cryfter">
+			                </a>
+			            </div>
+			        </div>
+			        <div class="member__name" data-mh="merchant-name" style="height: 35px;">coinmine.pl</div>
+			    </li>
+			    <li class="member" data-mh="merchant" style="height: 219px;">
+			        <div class="member__avatar">
+			            <div class="member__image-wrapper">
+			                <a href="http://cryfter.com" target="_blank" class="member__link">
+			                    <img class="member__image" src="/assets/img/mining/poollogo.jpg" alt="Cryfter">
+			                </a>
+			            </div>
+			        </div>
+			        <div class="member__name" data-mh="merchant-name" style="height: 35px;">cybtc.info</div>
+			    </li>
+			</ul>
 
 			<p class="section__lead">{% t pages.mining.pools-text %}</p>
 		</div>
 	</section>
 
-	<section >
+	<section  class="section">
 		<div class="section__content">
 			<h2 class="section__title">{% t pages.mining.pools-masternode-heading %}</h2>
 			{% tmd pages.mining.pools-masternode-text %}
@@ -33,26 +95,69 @@ description: pages.mining.description
 			<div class="row">
 				<div class="col-sm-6">
 					<h2>{% t pages.mining.asic-heading %}</h2>
-					{% tmd pages.mining.asic-text %}
+					<div class="bottom-space">{% tmd pages.mining.asic-text %}</div>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-pinidea-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-pinidea-usb-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-ibelink-miner %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-baikal-mini-miner %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-baikal-miner %}</a>
 				</div>
 				<div class="col-sm-6">
 					<h2>{% t pages.mining.cpu-gpu-heading %}</h2>
-					{% tmd pages.mining.cpu-gpu-text %}
+					<div class="bottom-space">{% tmd pages.mining.cpu-gpu-text %}</div>
+					<a href="#" class="btn-blue">{% t pages.mining.cpu-mining-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.sg-miner-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.pools-stat-heading %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.amd-mining-btn %}</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="">
+	<section class="section">
 		<div class="section__content">
 			<h2 class="bottom-space">{% t pages.mining.pools-stat-heading %}</h2>
-			<div class="row  bottom-space">
-				<div class="col-sm-6">
-				</div>
-				<div class="col-sm-6">
-				</div>
-			</div>
+			<table id="blocks">
+				<thead>
+					<tr>
+						<th>Height</th>
+						<th>Block Time</th>
+						<th>Transactions</th>
+						<th>Value Out</th>
+						<th>Difficulty</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
 		</div>
 	</section>
 
 </div>
+
+<script type="text/javascript">
+	window.onload = function () {
+		$( document ).ready(function(){
+
+			// Get the blockchain info
+			$.ajax({
+				url: "{{ site.api }}/chain/latestBlocks/"
+			})
+			.done(function(response){
+				var blocks = response.blocks;
+
+				blocks.map(function(block){
+					var height 		= block.height,
+						age 		= moment.unix(block.time).format("LLL"),
+						txs 		= block.txlength,
+						out 		= block.cbvalue,
+						difficulty 	= block.difficulty;
+
+					$("#blocks>tbody").append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
+				});
+			});
+
+		});
+	}
+</script>
