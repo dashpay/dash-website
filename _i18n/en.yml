@@ -475,6 +475,39 @@ pages:
     wallets-security-header: Security
     wallets-security-subtitle: Please secure your wallets by protecting them with strong, difficult-to-guess passwords and by backing them up in a secure place. Always choose to encrypt your wallet and any backups, because if your funds are lost or stolen, there is no way to recover them. If using a hardware (HD) wallet such as a paper wallet or keepass, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. For help on securing passwords, visit
     modal-platform: Platform
+    modal-header-vendor-label-descriptor: Wallet for Dash
+    modal-download-action-button-label: Download
+    modal-source-code-view: View
+    modal-source-code-label: Source Code
+    modal-source-closed-label: Proprietary
+    modal-website-label: Website
+    modal-control-label: Control
+    modal-control-full: This wallet provides full control of your Dash, and you can verify the source code and binaries yourself.
+    modal-control-semi: This wallet provides full control of your Dash, but you have to trust that your download doesn't contain malicious code
+    modal-validation-label: Validation
+    modal-validation-full: Full verification without needing to trust if payments were sent or received. This is the most secure wallet but uses the most diskspace.
+    modal-validation-spv: Simplified verification meaning you can validate if payments were sent or received with minimal trust.
+    modal-validation-hosted: You need to trust the vendor's server to know if payments were sent or received.
+
+    modal-access-label: Access
+    modal-access-p2p: Provides direct access to the p2p network.  This is the most censorship free and decentralized access.
+    modal-access-multi: Your access to the Dash p2p network is through a single intermediary gateway, but you can choose the gateway you want to use.
+    modal-access-vendor: Your access to the Dash p2p network is via proxy using only the vendor's servers.
+
+    modal-core-minimum-reqs: Minimum required versions
+    modal-core-header: Download Dash Core
+    modal-electrum-header: Download Dash Electrum
+    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-security-key: Security
+    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-source-code-key: Source Code
+    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-core-users-text: General Users
+    modal-core-users-value: 0.12.1.2
+    modal-core-masternode-text: Masternode Operators
+    modal-core-masternode-value: 0.12.1.2
+    modal-core-pool-text: Pool Operators
+    modal-core-pool-value: 0.12.1.2
 
   payments:
     title: Dash Payment Processors
@@ -491,8 +524,6 @@ pages:
     modal-source-code-label: Source Code
     modal-source-closed-label: Proprietary
     modal-website-label: Website
-
-
     modal-control-label: Control
     modal-control-full: This wallet provides full control of your Dash, and you can verify the source code and binaries yourself.
     modal-control-semi: This wallet provides full control of your Dash, but you have to trust that your download doesn't contain malicious code
@@ -516,11 +547,11 @@ pages:
     modal-win-core-source-code-key: Source Code
     modal-win-core-source-code-value: .&#40link/ closed source&#41
     modal-core-users-text: General Users
-    modal-core-users-value: 0.12.1.1
+    modal-core-users-value: 0.12.1.2
     modal-core-masternode-text: Masternode Operators
-    modal-core-masternode-value: 0.12.1.1
+    modal-core-masternode-value: 0.12.1.2
     modal-core-pool-text: Pool Operators
-    modal-core-pool-value: 0.12.1.1
+    modal-core-pool-value: 0.12.1.2
 
 
   contact:
