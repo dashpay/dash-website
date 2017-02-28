@@ -49,8 +49,8 @@ $wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
   border: 1px solid $color-gray;
   min-height: $wallet-tile-min-height;
   .payments &{
-            min-height: 12em;
-        }
+    min-height: 12em;
+  }
   max-width: $wallet-tile-max-width;
   overflow: hidden;
   -o-transition: .25s;
@@ -494,4 +494,8 @@ a.blog_link {
         left: 0;
         z-index: -1;
     }
+}
+.warning-bg{
+    background-color: #fff7af;
+    padding: 10px 15px;
 }
