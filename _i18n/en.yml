@@ -167,19 +167,19 @@ pages:
 
     hero-heading: How to buy Dash
     hero-text: Easy guides how to buy Dash on online exchanges
-    buy-fiat-btn: Buy with fiat currency
-    buy-crypto-btn: Buy with cryptocurrency
-    full-list: Full Exchanges Listing
 
-    how-heading: How to Buy and Sell Dash
+    exchanges-btn: Buy with fiat currency
+    brokers-btn: Buy with cryptocurrency
+    otc-btn: OTC
+    local-btn: Local Markets
 
-    how-fiat: How to Fiat
-    how-fiat-text: One of the greatest challenges of building a crypto currency platform is ensuring you crforms.
-    how-fiat-btn: Show Video
+    exchanges-heading: Exchanges
+    brokers-heading: Brokers
 
-    how-btc: How to BTC
-    how-btc-text: The system would work as a decentralized voting mechanism setup ipay them directly after approval of the work in a decentralized fashion.
-    how-btc-btn: Show Video
+    otc-heading: Over the counter
+    dashous-text: How to Use
+    woc-text: How to use Wall of Coins
+    local-heading: Local Markets
 
   governance:
     title: Dash Official Website | Dash Crypto Currency
