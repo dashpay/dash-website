@@ -2,196 +2,196 @@
 - name: alcurEX
   trading_pairs: BTC, MRC
   fees: N/A
-  image:
+  image: alcurex_logo.png
   url: https://alcurex.org/
 
 - name: ALFAcashier
   trading_pairs: BTC, LTC, ChinaUnionPay CNY, BTC-E USD, MoneyPolo USD, Yandex Money RUB, Visa/Mastercard USD, Paypal USD
   fees: N/A
-  image:
+  image: alfacashier_logo.png
   url: https://www.alfacashier.com
 
 - name: AllCoin
   trading_pairs: BTC
   fees: Trading 0.15%; Withdrawal 0.01 DASH
-  image:
+  image: allcoin_logo.png
   url: https://www.allcoin.com/
 
 - name: AllCrypt
   trading_pairs: BTC, LTC, DOGE
   fees: >
     0.195%; Priority & Stop Orders: +.25%; Market Order: +.2%; Withdrawal: Flat coin-based fee (unknown)
-  image:
+  image: allcrypt_logo.png
   url: https://www.allcrypt.com/market
 
 - name: AskCoin
   trading_pairs: BTC
   fees: 0.14% BTC
-  image:
+  image: askcoin_logo.png
   url: https://askcoin.net/
 
 - name: Banx.io
   trading_pairs: BTC
   fees: 0.25%
-  image:
+  image: banxio_logo.png
   url: https://www.banx.io/
 
 - name: Bitcoin Indonesia
   trading_pairs: BTC
   fees: 0%
-  image:
+  image: bitcoincoid_logo.png
   url: https://www.bitcoin.co.id/
 
 - name: Bittrex
   trading_pairs: BTC
   fees: 0.25%
-  image:
+  image: bittrex_logo.png
   url: https://bittrex.com/
 
 
 - name: Bleutrade
   trading_pairs: BTC, LTC, DOGE, USD
   fees: Trading 0.25%; Withdrawal 0.03 DASH
-  image:
+  image: bleutrade_logo.png
   url: https://bleutrade.com/
 
 - name: BTC-e
   trading_pairs: BTC
   fees: 0.2%
-  image:
+  image: btc-e_logo.png
   url: https://btc-e.com/
 
 - name: BTC-Market
   trading_pairs: BTC
   fees: N/A
-  image:
+  image: btcmarket_logo.png
   url: https://btc-market.org/
 
 - name: Bter
   trading_pairs: BTC, USD, CNY
   fees: Trading 0.2% (BTC, CNY); Withdrawal 0.02 DASH
-  image:
+  image: bter_logo.png
   url: https://bter.com/
 
 - name: C-Cex
   trading_pairs:  BTC, LTC, DOGE, NXT, USD
   fees: Trading 0.2%
-  image:
+  image: ccedk_logo.png
   url: https://c-cex.com/
 
 - name: CCEDK (Crypto Coins Exchange Denmark)
   trading_pairs: BTC, LTC, DOGE, BTS, RDD, USD, EUR, RUB, DKK, CNY
   fees: Trading 0.2%; Deposit/Withdrawal Varies
-  image:
+  image: c-cex_logo.png
   url: https://www.ccedk.com/
 
 - name: CEX.IO
   trading_pairs: BTC, LTC, USD, EUR
   fees: Trading 0.2%
-  image:
+  image: cex-io_logo.png
   url: https://cex.io/
 
 - name: Coinbroker
   trading_pairs: BTC
   fees: Trading 0.1%; Withdrawal 0.005 DASH
-  image:
+  image: coinbroker_logo.png
   url: https://coinbroker.io/
 
 - name: Coinomat
   trading_pairs: OKPay USD, Perfect Money USD, Visa/Mastercard USD, Coinomat USD/EU card, USD, EUR, BTC, LTC, BitcoinDark, Peercoin, NXT, DOGE, CoinoUSD, BitUSD, CoinoEUR, BitEUR
   fees: N/A
-  image:
+  image: coinomat_logo.png
   url: https://coinomat.com/
 
 - name: Coinsquare
   trading_pairs: BTC
   fees: Trading 0.5% (Single), 1% (Double); Maker 0.1%; Taker 0.2%
-  image:
+  image: coinsquare_logo.png
   url: https://coinsquare.io/
 
 - name: Dashcurex
   trading_pairs: BTC, USD, PLN
   fees: Trading 0.15 – 0.5%; Deposit/Withdrawal Varies
-  image:
+  image: dashcurex_logo.png
   url: https://dashcurex.com/
 
 - name: Exmo
   trading_pairs: BTC
   fees: N/A
-  image:
+  image: exmo_logo.png
   url: https://exmo.com
 
 - name: 1Bse (First Bitcoin Stock Exchange)
   trading_pairs:  BTC, LTC, USD, EUR, CNY, HKD
   fees: Trading 0.15%; Withdrawal 0% (coin), 3% (bank transfer)
-  image:
+  image: 1bse_logo.png
   url: https://www.1bse.com/
 
 - name: HolyTransaction
   trading_pairs: N/A
   fees: N/A
-  image:
+  image: holytransaction_logo.png
   url: https://holytransaction.com/
 
 - name: Jubi
   trading_pairs: CNY
   fees: N/A
-  image:
+  image: jubi_logo.png
   url: http://www.jubi.com/
 
 
 - name: Laissez Faire
   trading_pairs: N/A
   fees: N/A
-  image:
+  image: laissezfaire_logo.png
   url: https://lzf.com/
 
 - name: LiteBit.eu
   trading_pairs: BTC, LTC, DOGE, EUR
   fees: N/A
-  image:
+  image: litebit-eu_logo.png
   url: https://www.litebit.eu/en/
 
 - name: Livecoin
   trading_pairs: BTC, USD, RUR
   fees: Withdrawal 0.001 DASH
-  image:
+  image: livecoin_logo.png
   url: https://www.livecoin.net/
 
 - name: MasterXchange
   trading_pairs: BTC
   fees: Trading 0%; Withdrawal 0.15 DASH
-  image:
+  image: masterxchange_logo.png
   url: https://www.masterxchange.com/index.php
 
 - name: Poloniex
   trading_pairs: BTC, XMR, USDT
   fees: Trading 0.2%
-  image:
+  image: poloniex_logo.png
   url: https://poloniex.com/
 
 
 - name: ShapeShift
   trading_pairs: TC, LTC, DOGE, ARCH, BITUSD, BTS, BLK, BTCD, CLAM, XCP, DGB, ETH, FTC, FLO, GEMZ, HYPER, IFC, IOC, IXC, MAID, MSC, MINT, MONA, NMC, NBT, NEOS, NXT, NVC, PPC, TRON, POT, QRK, RDD, SDC, SHAPESHIFTCD, SWARM, START, USD₮, UNO, VTC, VRC, XMR, XRP
   fees: Trading ~10% markup; Miner fee 0.003 DASH
-  image:
+  image: shapeshift_logo.png
   url: https://www.shapeshift.io/
 
 - name: SouthXchange
   trading_pairs: BTC
   fees: Trading 0.2% (Received); Withdrawal 0.001 DASH
-  image:
+  image: southxchange_logo.png
   url: https://www.southxchange.com/
 
 - name: useCryptos
   trading_pairs: BTC, EUR
   fees: N/A
-  image:
+  image: usecryptos_logo.png
   url: https://usecryptos.com/
 
 
 - name: YoBit
   trading_pairs: BTC
   fees: N/A
-  image:
+  image: yobit_logo.png
   url: https://yobit.net
