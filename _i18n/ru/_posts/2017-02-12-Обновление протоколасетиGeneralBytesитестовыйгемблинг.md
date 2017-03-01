@@ -1,7 +1,7 @@
 ---
 author: tungfa
 layout: post
-image: "2017-02-12-ОбновлениепротоколасетиGeneralBytesитестовыйгемблинг.png"
+image: "2017-02-12-ОбновлениепротоколасетиGeneralBytesитестовыйгмблинг.png"
 title: "Обновление протокола сети, General Bytes и тестовый гемблинг"
 ---
 <!DOCTYPE html>
