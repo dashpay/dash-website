@@ -1,14 +1,24 @@
 
 # For multiple paragraph content add two line breaks
 pages:
-  404-page:
 
+  exchanges:
+    title: Exchanges
+    description: Buy Dash at these exchanges and brokers
+
+    hero-heading: Buy Dash
+    hero-text: |
+      This lists includes all known exchanges that trade Dash (in alphabetical order), including those with low trading volume. <a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>See Market Statistics</a>  for more information.
+    hero-btn: Integrate Dash
+    hero-getlisted-btn: Get Listed
+
+    disclaimer-text: >
+      DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services.
+
+  404-page:
     hero-heading: >
       404
-
-    hero-text: >
-      Page not Found
-
+    hero-text: Page not Found
     hero-forum-btn: Official Forums
     hero-discussion-btn: Discussion
     hero-social-btn: Social Apps
@@ -16,7 +26,6 @@ pages:
     hero-development-btn: Development
     hero-masternodes-btn: Masternodes
     hero-video-btn: Video &amp; Audio
-
 
   mining:
     title: Dash Official Website | Dash Crypto Currency
