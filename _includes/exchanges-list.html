@@ -1,0 +1,22 @@
+<li class="member" data-mh="merchant">
+
+	<div class="member__avatar">
+		{% if exchange.image %}
+		<div class="member__image-wrapper">
+			<a href="{{ exchange.url }}" target="_blank" class="member__link">
+				<img class="member__image" src="/assets/img/merchants/{{ exchange.image }}" alt="{{ merchant.name }}">
+			</a>
+		</div>
+		{% else %}
+		<div class="member__image-wrapper">
+			<a href="{{ exchange.url }}" target="_blank" class="member__link">
+				<img class="member__image" src="/assets/img/merchant_generic_logo.png" alt="{{ merchant.name }}">
+			</a>
+		</div>
+		{% endif %}
+	</div>
+
+	<div class="member__name">{{ exchange.name }}</div>
+	<p> <span class="member__accent">DASH Trading Pairs:</span> {{ exchange.trading_pairs }}</p>
+	<p> <span class="member__accent">Fees:</span> {{ exchange.fees }}</p>
+</li>

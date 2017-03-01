@@ -1,0 +1,26 @@
+---
+layout: default
+title: pages.exchanges.title
+description: pages.exchanges.description
+---
+
+{% include hero/exchanges.html %}
+
+<div class="page page--team">
+
+	<section class="section section--intro-lead section--merchants">
+		<div class="section__content content">
+			<ul class="member-list member-list--merchants">
+				{% for exchange in site.data.exchanges %}
+				{% include exchanges-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="section__content">
+			<p class="warning-bg">{% t pages.exchanges.disclaimer-text %}</p>
+		</div>
+	</section>
+</div>
