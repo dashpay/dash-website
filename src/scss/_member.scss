@@ -39,7 +39,10 @@ $m: 'member';
 	&__detail {
 		text-align: left;
 	}
-
+	&__accent{
+		font-weight: $font-weight-medium;
+		color: $color-gray-dark;
+	}
 	&-list {
 		font-size: 0;
 		margin: 0 pxToRem(-20px);
