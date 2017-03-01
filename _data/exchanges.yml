@@ -14,7 +14,7 @@
 - name: AllCoin
   trading_pairs: BTC
   fees: Trading 0.15%; Withdrawal 0.01 DASH
-  image: allcoin_logo
+  image: allcoin_logo.png
   url: https://www.allcoin.com/
 
 - name: AllCrypt
