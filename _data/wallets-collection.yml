@@ -479,9 +479,6 @@
   control_type: semi
   validation_type: hosted
   access_type: p2p
-  control_type: semi
-  validation_type: hosted
-  access_type: vendor
   product_id: exodus
   product_label: Exodus Wallet
   links:
@@ -498,7 +495,7 @@
   vendor_label: Exodus
   control_type: semi
   validation_type: hosted
-  access_type: vendor
+  access_type: p2p
   product_id: exodus
   product_label: Exodus Wallet
   links:
@@ -515,7 +512,7 @@
   vendor_label: Exodus
   control_type: semi
   validation_type: hosted
-  access_type: vendor
+  access_type: p2p
   product_id: exodus
   product_label: Exodus Wallet
   links:
