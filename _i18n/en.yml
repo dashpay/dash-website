@@ -482,7 +482,7 @@ pages:
     wallets-paper-header: Paper
     wallets-paper-subtitle: Paper wallets are a form of cold wallet and essentially a bearer instrument.
     wallets-security-header: Security
-    wallets-security-subtitle: Please secure your wallets by protecting them with strong, difficult-to-guess passwords and by backing them up in a secure place. Always choose to encrypt your wallet and any backups, because if your funds are lost or stolen, there is no way to recover them. If using a hardware (HD) wallet such as a paper wallet or keepass, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. For help on securing passwords, visit
+    wallets-security-subtitle: Please secure your wallets by protecting them with strong passwords. Also, backup your wallets frequently and keep several copies in different places to minimize the chance of loss. If you use a wallet that generates a “seed” (a long series of random words) such as a Trezor or the Electrum wallet, be sure to write down this seed and store multiple copies in a safe place. That seed allows you to restore your entire wallet in the event of loss. For help creating strong passwords, visit
     modal-platform: Platform
     modal-header-vendor-label-descriptor: Wallet for Dash
     modal-download-action-button-label: Download
