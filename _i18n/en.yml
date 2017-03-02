@@ -475,6 +475,9 @@ pages:
     hero-text: Your wallet is the software you use to send, receive and store Dash. It’s simple to use and you can choose to send payments anonymously from your wallet using PrivateSend
     wallets-desktop-header: Desktop
     wallets-desktop-subtitle: Dash Desktop Wallets are available with different features and security.
+    wallets-desktop-latest: >
+      Latest: 25th Feb 2017
+    wallets-desktop-current-version: v0.12.1.2
     wallets-mobile-header: Mobile
     wallets-mobile-subtitle: Dash Mobile Wallets are available with different features and security, run from your Mobile (Phone, Tablet,..) device
     wallets-hardware-header: Hardware

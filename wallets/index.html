@@ -40,7 +40,9 @@ description: pages.wallets.description
 	<section class="section">
 		<div class="section__content">
 			<h3 id="wallets">{% t pages.wallets.wallets-desktop-header %}</h3>
-			<p>{% t pages.wallets.wallets-desktop-subtitle %}</p>
+			<p>
+				{% t pages.wallets.wallets-desktop-subtitle %} &nbsp;{% t pages.wallets.wallets-desktop-latest %}&nbsp;&nbsp;{% t pages.wallets.wallets-desktop-current-version %}
+			</p>
 			<ul id="wallet-os-tabs" class="nav2 nav-tabs">
 				{% for os-sequence in desktop-os-order-list %}
 				{% for wallet-group in desktop-os-collection %}
