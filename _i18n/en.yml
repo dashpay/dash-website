@@ -41,7 +41,7 @@ pages:
 
     pools-heading: Mining Pools
     pools-text: |
-      DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services. If you’d like to be added to this list please reach out to coingun@masternode.io
+      DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services. If you’d like to be added to this list please reach out to <a href='mailto:coingun@masternode.io'>coingun@masternode.io</a>
 
     pools-masternode-heading: Mining vs. Masternode
     pools-masternode-text: |
