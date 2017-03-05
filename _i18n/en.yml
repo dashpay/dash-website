@@ -6,7 +6,7 @@ pages:
     title: Exchanges
     description: Buy Dash at these exchanges and brokers
 
-    hero-heading: Buy Dash
+    hero-heading: Exchange listing
     hero-text: |
       This lists includes all known exchanges that trade Dash (in alphabetical order), including those with low trading volume. <a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>See Market Statistics</a>  for more information.
     hero-btn: Integrate Dash
@@ -43,14 +43,9 @@ pages:
     pools-text: |
       DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services. If you’d like to be added to this list please reach out to <a href='mailto:coingun@masternode.io'>coingun@masternode.io</a>
 
-    pools-masternode-heading: Mining vs. Masternode
+    pools-masternode-btn: Mining vs. Masternode
     pools-masternode-text: |
       Dash, like Bitcoin and most other cryptocurrencies, is based on a decentralized ledger of all transactions, known as a blockchain. This blockchain is secured through a consensus mechanism; in the case of both Dash and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners attempt to solve difficult problems with specialized computers, and when they solve the problem, they receive the right to add a new block to the blockchain. If all the other people running the software agree that the problem was solved correctly, the block is added to the blockchain and the miner is rewarded.
-
-      Dash works a little differently from Bitcoin, however, because it has a two-tier network. The second tier is powered by masternodes (Full Nodes), which enable financial privacy (PrivateSend), instant transactions (InstantSend), and the decentralized governance and budget system. Because this second tier is so important, masternodes are also rewarded when miners discover new blocks. The breakdown is as follows: 45% of the block reward goes to the miner, 45% goes to masternodes, and 10% is reserved for the budget system (created by superblocks every month).
-
-      The masternode system is referred to as Proof of Service (PoSe), since the masternodes provide crucial services to the network. In fact, the entire network is overseen by the masternodes, which have the power to reject improperly formed blocks from miners. If a miner tried to take the entire block reward for themselves or tried to run an old version of the Dash software, the masternode network would orphan that block, and it would not be added to the blockchain. In short, miners power the first tier, which is the basic sending and receiving of funds and prevention of doublespending. Masternodes power the second tier, which provide the added features that make Dash different from other cryptocurrencies. Masternodes do not mine, and mining computers cannot serve as masternodes. Additionally, each masternode is “secured” by 1000 DASH. Those DASH remain under the sole control of their owner at all times, and can still be freely spent. The funds are not locked in any way. However, if the funds are moved or spent, the associated masternode will go offline and stop receiving rewards.
-
     how-start-heading: How to start Mining
     asic-heading: ASIC Miner Hardware
     asic-text: >
