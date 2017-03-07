@@ -93,21 +93,16 @@ pages:
     governance-meaning: What is Governance and what does it mean for Dash
 
     voting-header: How to Vote
-    voting-automatic: Automated Voting
+    voting-automatic: How to Vote
     voting-automatic-text: >
-      One of the greatest challenges of building a crypto currency platform is ensuring you create a decentralized system of governance to manage,
-      fund, maintain and expand the project. This key element is absent in every currency to date, the natural response is to create a not-for-profit
-      foundation that is tasked with maintaining the core protocol and promoting the coin but is not really connected to the coin holders in any meaningful way.
-      This approach has a few issues that have been made evident from the experience of older crypto currency platforms.
+      There are several ways that masternodes can vote on proposals. See the links below for instructions on each method.
     voting-guide-btn: Guide - Amanda B.
     voting-manual-btn: Manual Voting (in QT Wallet)
     voting-central-btn: DashCentral
 
     voting-tools: Governance Tools
     voting-tools-text: >
-      The system would work as a decentralized voting mechanism setup in the software, where budgets for specific projects are proposed,
-      then the masternodes as a whole vote on them. Each project, if it passes, is added to the total budget and paid directly from the blockchain
-      to the person doing the work. With this, we could hire core developers and pay them directly after approval of the work in a decentralized fashion.
+      The Dash community has created several different tools to monitor the budget process and assist with voting. The Dash Core Team has released a proposal generator to help in submitting proposals to the network.
     generator-link: Budget Proposal Generator
     dashcentral-link: DashCentral
     votetracker-link: VoteTracker
