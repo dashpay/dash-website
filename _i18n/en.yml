@@ -33,7 +33,7 @@ pages:
 
     hero-heading: Mining
 
-    hero-text: Masternodes are computers that run a dash wallet and make decisions, such as locking transactions with InstantSend, coordinate mixing of coins, and voting on budget funding.
+    hero-text: Dash, like most other cryptocurrencies, is based on a decentralized ledger of all transactions, known as a blockchain. This blockchain is secured through a consensus mechanism; in the case of both Dash, the consensus mechanism is Proof of Work (PoW). Miners attempt to solve difficult problems with specialized computers, and when they solve the problem, they receive the right to add a new block to the blockchain. If all the other people running the software agree that the problem was solved correctly, the block is added to the blockchain and the miner is rewarded.
 
     hero-how-to-btn: How to start
     hero-pools-btn: Tools
