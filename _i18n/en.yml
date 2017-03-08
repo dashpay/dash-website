@@ -153,7 +153,11 @@ pages:
     host-btn: Start Masternode
 
     hosting-services: Masternode Hosting Services
-    hosting-services-text:
+    hosting-services-text: |
+      There are many Trustless Hosting services availabel. These services only provide the VPS Backend setups, Wallets and coins are still held by you (Trustless).
+
+      Pooled Services provide Masternode accessibility to users with less than 1k Dash (many users share 1 Masternode)
+
     hosting-services-btn: Masternode Hosting Services
 
     p2p-text: |
