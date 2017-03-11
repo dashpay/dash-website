@@ -502,3 +502,23 @@ a.blog_link {
 .youtube-small{
 	min-height: 315px;
 }
+.b-mining-section {
+  background-image: url(../../assets/img/mining/masternodes.jpeg);
+  color: white;
+  padding: 40px 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  &:after {
+    content: '';
+    background-image: -webkit-linear-gradient(315deg, rgba(40,61,129,0.7) 0%, rgba(28,117,188,0.8) 100%);
+    background-image: linear-gradient(-225deg, rgba(40,61,129,0.7) 0%, rgba(28,117,188,0.8) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
