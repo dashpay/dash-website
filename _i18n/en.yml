@@ -657,10 +657,14 @@ pages:
     hero-platform-not-detected: "We're sorry, but your platform could not be automatically detected. Please select \"All Wallets\" to find a compatible version."
     hero-download-btn: Download
     hero-all-wallets-btn: All Wallets
-    hero-guide-btn: Setup Guide
-    hero-buy-btn: Buy Dash
-    hero-spend-btn: Spend Dash
-    hero-trade-btn: Trade Dash
+
+    guide-btn: Setup Guide
+    buy-btn: Buy Dash
+    spend-btn: Spend Dash
+    trade-btn: Trade Dash
+
+    integrate-btn: Integrate Dash
+    full-list-btn: Full Exchanges List
 
     claim-heading: Buy, Sell, Exchange Dash
     claim-subline: Dash can be acquired, held and exchanged in many ways.
