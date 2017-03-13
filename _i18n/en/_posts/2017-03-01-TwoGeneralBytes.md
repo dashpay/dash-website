@@ -16,3 +16,5 @@ This ATM is one of two General Bytes machines to implement the recent software u
 A second CryptoDiggers DASH ATM also came online today in the OC Danubia Shopping marketplace in Bratislava, located on Panonska cesta 16 Street, according to [CoinAtmRadar](https://coinatmradar.com/bitcoin_atm/1379/bitcoin-atm-general-bytes-bratislava-oc-danubia-shopping/)
 
 Including today's installations by the CryptoDiggers team, there are now three DASH-supporting ATMs in the world; the Cash2BTC ATM, located at the Bitcoin Center in NYC, also supports DASH, but it requires SMS verification and has 10% fees. 
+
+<http://www.razor-forex.com/2017/02/first-general-bytes-dash-atm-goes.html>
