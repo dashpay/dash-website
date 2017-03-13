@@ -1,4 +1,4 @@
-<div class="hero hero--light" id="hero">
+<div class="hero" id="hero">
 	<div class="hero__background">
 		{% capture heroimage %}hero/{% t pages.get-dash.hero-image %}{% endcapture %}
 		{% srcset hero/get-dash-n.jpg ppi:1,2 class="hero__background-image" %}
@@ -8,7 +8,7 @@
 	</div>
 
 	<!-- Navigation -->
-	{% include nav-desktop.html logo-color='black' %}
+	{% include nav-desktop.html %}
 
 
 	<!-- Hero content -->
@@ -27,5 +27,5 @@
 	</div>
 
 	<!-- Hero stripe -->
-	<div class="hero__stripe hero__stripe--grey-blue"></div>
+	<div class="hero__stripe"></div>
 </div>
