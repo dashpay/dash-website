@@ -30,7 +30,7 @@ Masternode count:
 
 ## Masternode Availability
 
-Included below are two graphics that help illustrate visually what happened on the network. The graphic on the left shows the enabled Masternode counts during the attack. The number of nodes online before the attack (4030) and it’s low (3550) during the attack. The graphic on the right shows the number of connections that were being seen during the attack. Normally a node will see connection peers in the range of 8 - 25 peers per node. During the peak of the attack almost all connection slots were occupied even if node was configured to accept much more connections.
+Included below are two graphics that help illustrate visually what happened on the network. The graphic on the left shows the enabled Masternode counts during the attack. The number of nodes online before the attack (4030) and it’s low (3550) during the attack. The graphic on the right shows the number of connections that were being seen during the attack. Normally a node will see connection peers in the range of 8 - 25 peers per node. During the peak of the attack almost all connection slots were occupied, even if the node was configured to accept many more connections.
 
 ![DDoS Data](/assets/img/blog/incident-charts.png)
 
