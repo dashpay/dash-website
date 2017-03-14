@@ -7,125 +7,7 @@ description: pages.get-dash.description
 {% include hero/get-dash.html %}
 {% include wallets_js_data.html %}
 
-<div class="page page--get-dash">
-
-	<section class="">
-		<div class="content">
-
-			<h2 class="bottom-space">{% t pages.buy.exchanges-heading %}</h2>
-
-			<div class="row bottom-space">
-				<ul class="member-list member-list--merchants">
-					<li class="member" data-mh="merchant" style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="#" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/test.jpg" alt="test">
-								</a>
-							</div>
-						</div>
-						<div class="member__name" data-mh="merchant-name" style="height: 35px;">test</div>
-					</li>
-					<li class="member" data-mh="merchant" style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="https://poloniex.com/" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/poloniex-logo.jpg" alt="poloniex">
-								</a>
-							</div>
-						</div>
-						<div class="member__name" data-mh="merchant-name" style="height: 35px;">poloniex</div>
-					</li>
-					<li class="member" data-mh="merchant" style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="https://btc-e.com/" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/btce-logo.jpg" alt="Btc-e">
-								</a>
-							</div>
-						</div>
-						<div class="member__name" data-mh="merchant-name" style="height: 35px;">btc-e</div>
-					</li>
-					<li class="member" data-mh="merchant" style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="https://www.bitfinex.com/" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/bitfinex-logo.jpg" alt="bifinex">
-								</a>
-							</div>
-						</div>
-						<div class="member__name" data-mh="merchant-name" style="height: 35px;">Bifinex</div>
-					</li>
-				</ul>
-			</div>
-
-			<h2  class="bottom-space">{% t pages.buy.brokers-heading %}</h2>
-
-			<div class="row bottom-space">
-
-				<ul class="member-list member-list--merchants">
-					<li class="member"  style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="https://coinapult.com/" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/coinapult-logo.jpg" alt="Coinapult">
-								</a>
-							</div>
-						</div>
-						<div class="member__name" style="height: 35px;">Coinapult</div>
-					</li>
-					<li class="member" style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="https://changelly.com" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/changelly-logo.jpg" alt="Changelly">
-								</a>
-							</div>
-						</div>
-						<div class="member__name"  style="height: 35px;">Changelly</div>
-					</li>
-					<li class="member"  style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="https://shapeshift.io/" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/shapeshift-logo.jpg" alt="Shapeshift">
-								</a>
-							</div>
-						</div>
-						<div class="member__name" style="height: 35px;">Shapeshift</div>
-					</li>
-					<li class="member"  style="height: 219px;">
-						<div class="member__avatar">
-							<div class="member__image-wrapper">
-								<a href="#" target="_blank" class="member__link">
-									<img class="member__image" src="/assets/img/get-dash/test.jpg" alt="test">
-								</a>
-							</div>
-						</div>
-						<div class="member__name" style="height: 35px;">test</div>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="setcion">
-		<div class="section__content">
-			<h2  class="bottom-space">{% t pages.buy.otc-heading %}</h2>
-
-			<div class="row bottom-space">
-				<div class="col-sm-6">
-					<iframe class="youtube-small" width="560" height="315" src="https://www.youtube.com/embed/bE7pxHtAiNo" frameborder="0" allowfullscreen></iframe>
-					<p class="text-center">{% t pages.buy.dashous-text %}</p>
-				</div>
-				<div class="col-sm-6">
-					<iframe class="youtube-small" width="560" height="315" src="https://www.youtube.com/embed/Ab7zYYrJLN8" frameborder="0" allowfullscreen></iframe>
-					<p class="text-center">{% t pages.buy.woc-text %}</p>
-				</div>
-			</div>
-		</div>
-	</section>
+<div class="page page--home">
 
 	<section class="section section--claim">
 		<div class="section__content content">
@@ -135,7 +17,183 @@ description: pages.get-dash.description
 				</svg>
 			</div>
 			<h2 class="section__title">{% t pages.get-dash.claim-heading %}</h2>
-			<p class="section__lead">{% t pages.get-dash.claim-subline %}</p>
+			<p class="section__lead bottom-space">{% t pages.get-dash.claim-subline %}</p>
+			<div class="hero__buttons">
+				<a href="#getdash-wallet-setup" class="btn-white-solid">{% t pages.get-dash.guide-btn %}</a>
+				<a href="#getdash-buy" class="btn-white-solid">{% t pages.get-dash.buy-btn %}</a>
+				<a href="#getdash-shop" class="btn-white-solid">{% t pages.get-dash.spend-btn %}</a>
+				<a href="#getdash-trade" class="btn-white-solid">{% t pages.get-dash.trade-btn %}</a>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="content">
+
+			<h2 class="bottom-space section__title">{% t pages.buy.exchanges-heading %}</h2>
+
+			<div class="ctabox ctabox--gray-light-bg" data-js-ctabox>
+				<div class="ctabox__inner">
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://shakepay.co" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/merchants/shakepay_logo.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">POLONIEX</h4>
+								<p class="ctabox__description">Exchange market</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://www.livingroomofsatoshi.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/merchants/livingroomofsatoshi_logo.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">BTC-E</h4>
+							<p class="ctabox__description">Exchange market</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://www.claws-mail.org/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/merchants/ClawsMail.jpg" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">BIFINEX</h4>
+							<p class="ctabox__description">Dash-Visa Debit Card</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/merchants/node40.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">COINAPULT</h4>
+								<p class="ctabox__description">Pay bills in Australia</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://shapeshift.io" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/merchants/shapeshift_logo.png" class="ctabox__image">
+							</div>
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">ShapeShift</h4>
+								<p class="ctabox__description">Exchange Dash for Bitcoin</p>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+
+			<div class="text-center">
+				<a href="{{ base }}/woocommerce/" class="btn-blue">{% t pages.get-dash.integrate-btn %}</a>
+				<a href="{{ base }}/exchanges/"  class="btn-blue">{% t pages.get-dash.full-list-btn %}</a>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="content">
+
+			<h2  class="bottom-space section__title">{% t pages.buy.brokers-heading %}</h2>
+
+			<div class="row bottom-space">
+				<ul class="member-list member-list--merchants">
+					<li class="member"  style="height: 219px;">
+						<div class="member__avatar">
+							<div class="member__image-wrapper">
+								<a href="https://coinapult.com/" target="_blank" class="member__link">
+									<img class="member__image" src="/assets/img/get-dash/coinapult.png" alt="Coinapult">
+								</a>
+							</div>
+						</div>
+						<div class="member__name" style="height: 35px;">Coinapult</div>
+					</li>
+					<li class="member" style="height: 219px;">
+						<div class="member__avatar">
+							<div class="member__image-wrapper">
+								<a href="https://changelly.com" target="_blank" class="member__link">
+									<img class="member__image" src="/assets/img/get-dash/changelly.png" alt="Changelly">
+								</a>
+							</div>
+						</div>
+						<div class="member__name"  style="height: 35px;">Changelly</div>
+					</li>
+					<li class="member"  style="height: 219px;">
+						<div class="member__avatar">
+							<div class="member__image-wrapper">
+								<a href="https://shapeshift.io/" target="_blank" class="member__link">
+									<img class="member__image" src="/assets/img/get-dash/shapeshift.png" alt="Shapeshift">
+								</a>
+							</div>
+						</div>
+						<div class="member__name" style="height: 35px;">Shapeshift</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+	<section class="home-latest-news">
+		<div class="content">
+			<h2  class="section__title">{% t pages.get-dash.otc-heading %}</h2>
+			<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<div class="news-post">
+						<a href="/2017/03/12/woscryptoshow.html">
+							<div class="news-image">
+								<img src="/assets/img/blog/2017-03-12-woscryptoshow.png">
+							</div>
+							<div class="news-body news-body--short">
+								<h3 class="news-title">Wall of Coins on The Crypto Show</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="news-post">
+						<a href="/2017/03/12/dd1.html">
+							<div class="news-image">
+								<img src="/assets/img/blog/2017-03-12-dd1.png">
+							</div>
+							<div class="news-body news-body--short">
+								<h3 class="news-title">The first DD Spotlight! </h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="news-post">
+						<a href="/2017/03/11/SEC.html">
+							<div class="news-image">
+								<img src="/assets/img/blog/2017-03-11-SEC.jpg">
+							</div>
+							<div class="news-body news-body--short">
+								<h3 class="news-title">The biggest threat</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="news-post">
+						<a href="/2017/03/10/priceexplained.html">
+							<div class="news-image">
+								<img src="/assets/img/blog/2017-03-10-priceexplained.jpg">
+							</div>
+							<div class="news-body news-body--short">
+								<h3 class="news-title">Dash Price Rise, Explained</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 

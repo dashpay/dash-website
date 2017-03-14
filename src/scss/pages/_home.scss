@@ -229,6 +229,12 @@ $homeSectionPaddingTop: 80px;
 			background: linear-gradient(to top, white 50%, rgba(white, 0));
 			pointer-events: none;
 		}
+		&--short{
+			height: 80px;
+			&:after {
+				background: none;
+			}
+		}
 		h3 {
 			font-size: 18px;
 			color: $color-blue;
