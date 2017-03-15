@@ -115,6 +115,12 @@
   image: coinsquare_logo.png
   url: https://coinsquare.io/
 
+- name: Dashous
+  trading_pairs:
+  fees:
+  image: Dashous.png
+  url: https://dashous.com
+
 - name: Dashcurex
   trading_pairs: BTC, USD, PLN
   fees: Trading 0.15 – 0.5%; Deposit/Withdrawal Varies
