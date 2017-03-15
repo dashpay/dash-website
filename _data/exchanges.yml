@@ -42,6 +42,12 @@
   image: bitcoincoid_logo.png
   url: https://www.bitcoin.co.id/
 
+- name: Bitfinex
+  trading_pairs:
+  fees:
+  image: bitfinex_logo.png
+  url: https://www.bitfinex.com
+
 - name: Bittrex
   trading_pairs: BTC
   fees: 0.25%
