@@ -71,7 +71,7 @@ pages:
     licence-link-text: Creative Commons Attribution-ShareAlike 4.0 International License.
     licence-link: "https://creativecommons.org/licenses/by-sa/4.0/"
 
-    logos-header: Logos & Icons
+    logos-header: "Logos &amp; Icons"
     merchants-header: Botão Comerciantes
     dontaion-header: Botão Doação
     community-header: Comunidade
@@ -288,7 +288,7 @@ pages:
     form-pretext: Para suporte técnico ou solução de problemas com carteiras, mineração ou outras questões gerais, visite o DashTalk ou um dos muitos outros recursos da comunidade.
     form-pretext-2: Para outras perguntas, use este link.
         # form-pretext-2: Para outras perguntas, use este formulário.
-    social-heading: Forums & Social Media
+    social-heading: "Forums &amp; Social Media"
     mail-list-heading: Lista de discussão
     mail-list-text: Tem dificuldade em manter-se atualizado? Junte-se à nossa lista de Email.
     social-text-heading: VISITE O FORUM DASH
@@ -403,7 +403,7 @@ pages:
     shop-join-btn: Torne-se Comerciante
 
     visa-heading: Comprar em lojas Visa
-    visa-text: Cartão de débito Dash-Visa sem taxas de transação no exterior e "tap & pay" móvel
+    visa-text: 'Cartão de débito Dash-Visa sem taxas de transação no exterior e "tap &amp; pay" móvel'
     visa-btn: Obter Shake
     visa-link: "https://shakepay.co/#/"
 
@@ -427,7 +427,7 @@ pages:
     email-heading: Provedores Email
     vpn-heading: Provedores VPN
     hosting-heading: Hosting e VPS
-    design-heading: Web & Graphic Design
+    design-heading: "Web &amp; Graphic Design"
     gifts-heading: Cartões de Presente
     games-heading: Games
     casinos-heading: Online Casinos

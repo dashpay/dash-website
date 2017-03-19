@@ -290,7 +290,7 @@ pages:
     form-pretext: 请访问DashTalk 或其他社区资源获取技术支持，以便解决关于钱包、挖矿等方面的问题。
     form-pretext-2: 点击此链接进行其他查询
         # form-pretext-2: 使用此表单进行其他查询
-    social-heading: 论坛 & 社交媒体
+    social-heading: 论坛 &amp; 社交媒体
     mail-list-heading: 邮件列表
     mail-list-text: 无法及时跟进达世币新动向？加入我们的邮件列表吧！
     social-text-heading: 访问达世币论坛

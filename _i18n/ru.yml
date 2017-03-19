@@ -414,7 +414,7 @@ pages:
     shop-join-btn: Начните принимать к оплате Dash
 
     visa-heading: Оплата пластиковыми картами Visa
-    visa-text: Дебетовая карта Dash-Visa без комиссий при международных платежах и с поддержкой технологии "tap & pay"
+    visa-text: 'Дебетовая карта Dash-Visa без комиссий при международных платежах и с поддержкой технологии "tap &amp; pay"'
     visa-btn: Получить карту Shake
     visa-link: https://shakepay.co/#/
 
