@@ -268,11 +268,11 @@ pages:
     modal-core-minimum-reqs: Минимальная требуемая версия
     modal-core-header: Скачайте Dash Core
     modal-electrum-header: Скачайте Dash Electrum
-    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     modal-win-core-security-key: Безопасность
-    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
     modal-win-core-source-code-key: Исходный Код
-    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: Обычные Пользователи
     modal-core-users-value: 0.12.1.0
     modal-core-masternode-text: Операторы Мастернод

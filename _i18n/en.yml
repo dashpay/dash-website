@@ -505,11 +505,11 @@ pages:
     modal-core-minimum-reqs: Minimum required versions
     modal-core-header: Download Dash Core
     modal-electrum-header: Download Dash Electrum
-    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     modal-win-core-security-key: Security
-    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
     modal-win-core-source-code-key: Source Code
-    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: General Users
     modal-core-users-value: 0.12.1.3
     modal-core-masternode-text: Masternode Operators
@@ -549,11 +549,11 @@ pages:
     modal-core-minimum-reqs: Minimum required versions
     modal-core-header: Download Dash Core
     modal-electrum-header: Download Dash Electrum
-    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     modal-win-core-security-key: Security
-    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
     modal-win-core-source-code-key: Source Code
-    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: General Users
     modal-core-users-value: 0.12.1.3
     modal-core-masternode-text: Masternode Operators

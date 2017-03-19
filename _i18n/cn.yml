@@ -268,11 +268,11 @@ pages:
     modal-core-minimum-reqs: 要求最低的版本
     modal-core-header: 下载Dash Core
     modal-electrum-header: 下载达世币轻钱包
-    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     modal-win-core-security-key: 安全
-    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
     modal-win-core-source-code-key: 源代码
-    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: 普通用户
     modal-core-users-value: 0.12.1.0
     modal-core-masternode-text: 主节点运营者
