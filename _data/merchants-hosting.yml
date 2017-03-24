@@ -1,8 +1,4 @@
 
-- name: West County Media
-  url: www.WestCountyMedia.com
-  image: westcountymedia.jpg
-
 - name: QHoster
   url: http://www.qhoster.com
   image: qhoster.png

@@ -6,3 +6,7 @@
 - name: ISFX Media
   url: http://isfx.co.uk/
   image: isfx.jpg
+
+  - name: West County Media
+  url: www.WestCountyMedia.com
+  image: westcountymedia.jpg
