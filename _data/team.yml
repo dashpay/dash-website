@@ -96,7 +96,25 @@
   email: timothy@dash.org
   keybase: https://keybase.io/tgflynn
   twitter:
-  core-team: true
+  core-team:
+
+- name: Nathan Marley
+  title: Evolution Developer
+  description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
+  image: nathan.jpeg
+  email: nathan@dash.org
+  keybase: https://keybase.io/nmarley
+  twitter:
+  core-team:
+
+- name: Jon Kindel
+  title: Evolution Backend Lead
+  description: Jon (AKA \"snogcel\") has a degree in Information Systems with 3 years experience in project management and 10+ years in web development including HTML, PHP, CSS, NodeJS and JavaScript.
+  image: jon.png
+  email: jon@dash.org
+  keybase: https://keybase.io/snogcel
+  twitter:
+  core-team:
 
 - name: Crowning
   title: Core Development / Testing
@@ -121,24 +139,6 @@
   email: thelazier@gmail.com
   keybase: https://keybase.io/thelazier
   twitter:
-
-- name: Nathan Marley
-  title: Evolution Developer
-  description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
-  image: nathan.jpeg
-  email: nathan@dash.org
-  keybase: https://keybase.io/nmarley
-  twitter:
-  core-team: true
-
-- name: Jon Kindel
-  title: Evolution Backend Lead
-  description: Jon (AKA \"snogcel\") has a degree in Information Systems with 3 years experience in project management and 10+ years in web development including HTML, PHP, CSS, NodeJS and JavaScript.
-  image: jon.png
-  email: jon@dash.org
-  keybase: https://keybase.io/snogcel
-  twitter:
-  core-team: true
 
 - name: Cofresi
   title: Evolution Backend Developer
@@ -188,6 +188,30 @@
   keybase: https://keybase.io/tomaszludek
   twitter:
 
+- name: Chuck Williams
+  title: UI/UX Development
+  description: Codemonkey with a penchant for people.
+  image: chuckwilliams.jpg
+  email: chuckwilliams37@gmail.com
+  keybase: https://keybase.io/chuckwilliams
+  twitter:
+
+- name: Lee Wong
+  title: Evolution Developer
+  description:
+  image: LeeWong.jpg
+  email: leewong.dash@gmail.com
+  keybase:
+  twitter:
+
+- name: prtfw
+  title: FrontEnd Developer
+  description: prtfw is a reformed ex-VC and Financier turned coder,  Startup + FinTech Pro, usually hacking on AI/Machine-Learning projects, pilot, adventurer, polymath + nomad with mild ADHD
+  image: prtfw.png
+  email: mns_catdogmice@yahoo.ca
+  keybase: https://keybase.io/longgamma_act
+  twitter:
+
 - name: Akhavr
   title: Developer
   description:
@@ -195,15 +219,6 @@
   email: akhavr@gmail.com
   keybase:
   twitter:
-
-- name: Jeff Smith
-  title: Network Operations
-  description: Jeff (AKA “coingun”) has a computer science background with specialization in Network Operations and Distributed Dynamic Network Asset scaling. He comes to Dash with a decade of experience designing, developing, and deploying dynamically scaling web assets built around the LAMPS stack. He has a passion for security, cryptography, and hardware hacking.
-  image: coingun.png
-  email: jeff@dash.org
-  keybase: https://keybase.io/coingun
-  twitter:
-  core-team:
 
 - name: Mario Müller
   title: Security Specialist
@@ -220,6 +235,40 @@
   email: elberethz@dashninja.pl
   keybase: https://keybase.io/elbereth
   twitter:
+
+- name: Slawek
+  title: Testing and Deployment
+  description: Slawek (AKA \“splawik21\”) has a degree in management &amp; marketing. He brings 6 years of experience as a team leader in direct sales and another 5 years on leadership positions in automotive industry. IT hobbyist, Polish Dash sub-forum founder and crypto-currency enthusiast.
+  image: splawik21.png
+  email: splawik21@protonmail.com
+  keybase: https://keybase.io/splawik21
+  twitter:
+
+- name: Jeff Smith
+  title: Network Operations
+  description: Jeff (AKA “coingun”) has a computer science background with specialization in Network Operations and Distributed Dynamic Network Asset scaling. He comes to Dash with a decade of experience designing, developing, and deploying dynamically scaling web assets built around the LAMPS stack. He has a passion for security, cryptography, and hardware hacking.
+  image: coingun.png
+  email: jeff@dash.org
+  keybase: https://keybase.io/coingun
+  twitter:
+  core-team:
+
+- name: Matt Meek
+  title: Business Development
+  description: Matt (AKA itscrazybro) is a entrepreneur with a flare for business, marketing and sales. He co-founded an advertising agency that now services over 200 local businesses in his area. He has multiple years experience in sales, business development and product management.
+  image: itscrazybro.png
+  email: matt@dash.org
+  keybase: https://keybase.io/itscrazybro
+  twitter:
+
+- name: Balu
+  title: Project Manager
+  description: Balazs (AKA \"balu\") has an MSc. in Finance, and brings 7 years of experience working in mostly IT projects. He's a PSM-II certified Scrum Master who loves spending his time helping development teams increase their efficiency. He's an avid fan of fintech, self-improvement, and good food.
+  image: balu.png
+  email: balu@dash.org
+  keybase: https://keybase.io/balu
+  twitter:
+  core-team:
 
 - name: Alex-ru
   title: Dash Russia Coordinator
@@ -251,55 +300,6 @@
   image: david.jpg
   email: david@dashpay.io
   keybase: https://keybase.io/ddink7
-  twitter:
-
-- name: Balu
-  title: Project Manager
-  description: Balazs (AKA \"balu\") has an MSc. in Finance, and brings 7 years of experience working in mostly IT projects. He's a PSM-II certified Scrum Master who loves spending his time helping development teams increase their efficiency. He's an avid fan of fintech, self-improvement, and good food.
-  image: balu.png
-  email: balu@dash.org
-  keybase: https://keybase.io/balu
-  twitter:
-  core-team:
-
-- name: Slawek
-  title: Testing and Deployment
-  description: Slawek (AKA \“splawik21\”) has a degree in management &amp; marketing. He brings 6 years of experience as a team leader in direct sales and another 5 years on leadership positions in automotive industry. IT hobbyist, Polish Dash sub-forum founder and crypto-currency enthusiast.
-  image: splawik21.png
-  email: splawik21@protonmail.com
-  keybase: https://keybase.io/splawik21
-  twitter:
-
-- name: Chuck Williams
-  title: UI/UX Development
-  description: Codemonkey with a penchant for people.
-  image: chuckwilliams.jpg
-  email: chuckwilliams37@gmail.com
-  keybase: https://keybase.io/chuckwilliams
-  twitter:
-
-- name: Lee Wong
-  title: Evolution Developer
-  description:
-  image: LeeWong.jpg
-  email: leewong.dash@gmail.com
-  keybase:
-  twitter:
-
-- name: prtfw
-  title: FrontEnd Developer
-  description: prtfw is a reformed ex-VC and Financier turned coder,  Startup + FinTech Pro, usually hacking on AI/Machine-Learning projects, pilot, adventurer, polymath + nomad with mild ADHD
-  image: prtfw.png
-  email: mns_catdogmice@yahoo.ca
-  keybase: https://keybase.io/longgamma_act
-  twitter:
-
-- name: Matt Meek
-  title: Business Development
-  description: Matt (AKA itscrazybro) is a entrepreneur with a flare for business, marketing and sales. He co-founded an advertising agency that now services over 200 local businesses in his area. He has multiple years experience in sales, business development and product management.
-  image: itscrazybro.png
-  email: matt@dash.org
-  keybase: https://keybase.io/itscrazybro
   twitter:
 
 - name: Perry Woodin
