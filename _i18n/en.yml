@@ -954,6 +954,8 @@ nav:
   news: News &amp; Info
   tools-dev: Development Tools
   tools-masternodes: Masternode Tools
+  graphics: Graphics
+  legal: Legal
 
   project: Project
   help: Help &amp; Support
@@ -982,4 +984,4 @@ nav:
   tos: Terms of Use
   sitemap: Sitemap
   sitesource: Source code
-  graphics: Graphics
+
