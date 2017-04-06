@@ -129,6 +129,10 @@
   url: https://mywabo.com
   image: Wabo.png
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ccee525... new merchant
 - name: Buy with Dash
   title: Buy with Dash
   url: http://www.buywithdash.org
