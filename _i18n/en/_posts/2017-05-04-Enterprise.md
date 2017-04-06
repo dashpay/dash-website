@@ -4,7 +4,7 @@ layout: post
 image: "2017-05-04-Enterprise.png"
 title: "Does your Enterprise have a Digital Currency Strategy?"
 ---
-The recent SEC decision on the ETF for the Winklevoss Fund had several communities around the world abuzz and bought to light Bitcoins and “altcoins” .  Ever since its inception in 2008, Bitcoin the peer to peer digital currency has steadily grown into limelight. Importantly the underlying technology of Bitcoin, ie Blockchain has numerous spheres in the Business community excited of its potential to cause major disruption in the way we do business.
+The recent SEC decision on the ETF for the Winklevoss Fund had several communities around the world abuzz and bought to light Bitcoins and "altcoins" .  Ever since its inception in 2008, Bitcoin the peer to peer digital currency has steadily grown into limelight. Importantly the underlying technology of Bitcoin, ie Blockchain has numerous spheres in the Business community excited of its potential to cause major disruption in the way we do business.
 
 The digital revolution has also ushered a new growth in digital payments
 
