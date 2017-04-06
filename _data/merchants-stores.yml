@@ -124,6 +124,12 @@
   url: https://eastlineranch.com/
   image: Eastlineranch.jpg
 
+- name: My Wabo
+  title: Water Bottles
+  url: https://mywabo.com
+  image: Wabo.png
+
+
 - name: Buy with Dash
   title: Buy with Dash
   url: http://www.buywithdash.org
