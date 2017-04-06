@@ -64,6 +64,11 @@
   url: https://www.nelipott.com
   image: Nelipot.jpg
 
+- name: Parisa Jeoul
+  title: Jewelry Store
+  url: https://parisajeoul.com
+  image: Parisajeoul.jpg
+
 - name: Healthiverse
   title: Health
   url: http://healthiverse.net
@@ -113,6 +118,11 @@
   title: Ecigarettes
   url: http://www.ecigar.in
   image: Ecigarttes.jpg
+
+- name: EastLineRanch
+  title: Honey Products
+  url: https://eastlineranch.com/
+  image: Eastlineranch.jpg
 
 - name: Buy with Dash
   title: Buy with Dash
