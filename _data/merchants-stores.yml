@@ -39,11 +39,6 @@
   url: http://www.baybil.net
   image: baybil.jpg
 
-- name: Crypto Miner Shop
-  title: Mining Equipment
-  url: https://cryptominershop.com
-  image: CryptoMinerShop.jpg
-
 - name: BitLasers
   title: Lasers and Accessories
   url: http://bitlasers.com
@@ -98,6 +93,11 @@
   title: Law
   url: http://www.liborio.adv.br
   image: LiborioLawOffice.jpg
+
+- name: Stripped Clean
+  title: Maid Service
+  url: http://stripped-clean.com
+  image: StrippedClean.jpg
 
 - name: Talisman Apartments
   title: Housing
