@@ -31,7 +31,7 @@ DEVELOPMENT UPDATES
 - Alex Moran / kodaxx on Slack: <https://dashnation.slack.com/team/kodaxx>
 - DashPay POS post: <https://www.dash.org/forum/threads/dashpay-point-of-sale-project-updates.13108/#post-120921>
 - How to buy Dash on Bitfinex: <https://www.youtube.com/watch?v=vXIDOn7Jsgo>
-- Dashvotetracker and DashNinja both listing voting deadline as well as funding allocation: <http://dashvotetracker.com & https://www.dashninja.pl/governance.html>
+- Dashvotetracker and DashNinja both listing voting deadline as well as funding allocation: <http://dashvotetracker.com> &amp; <https://www.dashninja.pl/governance.html>
 
 PRICE MOVEMENT
 - Price & market cap: <http://coinmarketcap.com>
