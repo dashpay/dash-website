@@ -212,6 +212,11 @@
   image: usecryptos_logo.png
   url: https://usecryptos.com/
 
+- name: Whaleclub
+  trading_pairs: BTC
+  fees: N/A
+  image: Whaleclub_logo.png
+  url: https://whaleclub.co
 
 - name: YoBit
   trading_pairs: BTC
