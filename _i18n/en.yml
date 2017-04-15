@@ -770,7 +770,7 @@ pages:
     need-heading: Need some Dash?
     need-text: Signup on our forum we'll send you some Dash!
     need-btn: Sign up for Dash
-    need-link: https://www.dash.org/forum
+    need-link: /forum/
     need-input: Enter Your Email Address
 
   merchants:

@@ -410,7 +410,7 @@ pages:
     need-heading: Precisa de um Dash?
     need-text: Inscreva-se no nosso fórum nós lhe enviaremos alguns Dash!
     need-btn: Inscreva-se no Dash Forum
-    need-link: "https://www.dash.org/forum"
+    need-link: "https://www.dash.org/forum/"
     need-input: Insira o seu endereço de email
 
   merchants:
