@@ -531,7 +531,7 @@ pages:
     wallets-desktop-subtitle: Dash Desktop Wallets are available with different features and security.
     wallets-desktop-latest: >
       Latest: 25th Feb 2017
-    wallets-desktop-current-version: v0.12.1.4
+    wallets-desktop-current-version: v0.12.1.5
     wallets-mobile-header: Mobile
     wallets-mobile-subtitle: Dash Mobile Wallets are available with different features and security, run from your Mobile (Phone, Tablet,..) device
     wallets-hardware-header: Hardware
@@ -569,11 +569,11 @@ pages:
     modal-win-core-source-code-key: Source Code
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: General Users
-    modal-core-users-value: 0.12.1.4
+    modal-core-users-value: 0.12.1.5
     modal-core-masternode-text: Masternode Operators
-    modal-core-masternode-value: 0.12.1.4
+    modal-core-masternode-value: 0.12.1.5
     modal-core-pool-text: Pool Operators
-    modal-core-pool-value: 0.12.1.4
+    modal-core-pool-value: 0.12.1.5
 
   payments:
     title: Dash Payment Processors
@@ -613,11 +613,11 @@ pages:
     modal-win-core-source-code-key: Source Code
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: General Users
-    modal-core-users-value: 0.12.1.4
+    modal-core-users-value: 0.12.1.5
     modal-core-masternode-text: Masternode Operators
-    modal-core-masternode-value: 0.12.1.4
+    modal-core-masternode-value: 0.12.1.5
     modal-core-pool-text: Pool Operators
-    modal-core-pool-value: 0.12.1.4
+    modal-core-pool-value: 0.12.1.5
     disclaimer-text: >
       DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services.
 
