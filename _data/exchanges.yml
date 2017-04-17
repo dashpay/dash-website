@@ -91,6 +91,12 @@
   image: bter_logo.png
   url: https://bter.com/
 
+- name: Bx.in.th
+  trading_pairs:
+  fees:
+  image: bx_logo.png
+  url: https://bx.in.th
+
 - name: C-Cex
   trading_pairs:  BTC, LTC, DOGE, NXT, USD
   fees: Trading 0.2%
@@ -150,6 +156,12 @@
   fees: N/A
   image: holytransaction_logo.png
   url: https://holytransaction.com/
+
+- name: BitInka
+  trading_pairs: N/A
+  fees: N/A
+  image: inkapay_logo.png
+  url: https://www.inkapay.com/inka/home
 
 - name: Jubi
   trading_pairs: CNY
