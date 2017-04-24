@@ -8,9 +8,7 @@
   twitter:
   dashforum-link: /eduffield.104/
   dashforum: eduffield
-  team-title:
-    - Dash Core DAO Management
-    - Strategy Advisor
+  team-title: Dash Core DAO Management
 
 - name: Ryan Taylor
   title: CEO
@@ -23,19 +21,6 @@
   dashforum: babygiraffe
   team-title: Dash Core DAO Management
 
-- name: UdjinM6
-  title: Lead Developer
-  description: Brings a total of 12 years of programming experience writing in-house tools for IT companies, user support and quality assurance.
-  image: udjinm6.png
-  email: udjinm6@dash.org
-  keybase: https://keybase.io/udjinm6
-  twitter:
-  dashforum-link: /udjinm6.811/
-  dashforum: udjinm6
-  team-title:
-    - Dash Core DAO Management
-    - DashCore Developers
-
 - name: Andy Freer
   title: CTO
   description: Andy has 17 years experience as a developer and 12 years as a CTO in the E-commerce, Web, SaaS, ERP, P2P streaming, Supply Chain and Games spaces.
@@ -47,6 +32,17 @@
   dashforum: andydark
   team-title: Dash Core DAO Management
 
+- name: UdjinM6
+  title: Lead Developer
+  description: Brings a total of 12 years of programming experience writing in-house tools for IT companies, user support and quality assurance.
+  image: udjinm6.png
+  email: udjinm6@dash.org
+  keybase: https://keybase.io/udjinm6
+  twitter:
+  dashforum-link: /udjinm6.811/
+  dashforum: udjinm6
+  team-title: Dash Core DAO Management
+
 - name: Holger Schinzel
   title: Quality Assurance, Automation, Testing
   description: Holger (AKA “flare”) has a degree in applied computer science and brings 7 years of experience in IT quality management and testing.
@@ -56,9 +52,7 @@
   twitter:
   dashforum-link: /flare.783/
   dashforum: flare
-  team-title:
-    - Dash Core DAO Management
-    - QA
+  team-title: Dash Core DAO Management
 
 - name: MooCowMoo
   title: Development / Testing
@@ -69,9 +63,29 @@
   twitter:
   dashforum-link: /moocowmoo.1413/
   dashforum: moocowmoo
-  team-title:
-    - Dash Core DAO Management
-    - Infrastructure
+  team-title: Dash Core DAO Management
+
+- name: Daniel Diaz
+  title: Business Development
+  description: Daniel (AKA “Minotaur”) is an Electronics Engineer with an inclination for business. He is an entrepreneur with 10 years experience in sales and business development for SaaS software and electronic security equipment companies.
+  image: daniel_d.png
+  email: daniel@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /minotaur.247/
+  dashforum: minotaur
+  team-title: Dash Core DAO Management
+
+- name: Philipp Engelhorn
+  title: Press &amp; Multitool
+  description: Philipp (AKA \"tungfa\") is a freelance photographer who brings 20 years of press, magazine &amp; newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
+  image: philipp.png
+  email: press@dash.org
+  keybase: https://keybase.io/tungfa
+  twitter:
+  dashforum-link: /tungfa.269/
+  dashforum: tungfa
+  team-title: Dash Core DAO Management
 
 - name: Fernando Gutierrez
   title: Multitool
@@ -84,32 +98,6 @@
   dashforum: fernando
   team-title: Dash Core DAO Management
 
-- name: Philipp Engelhorn
-  title: Press &amp; Multitool
-  description: Philipp (AKA \"tungfa\") is a freelance photographer who brings 20 years of press, magazine &amp; newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
-  image: philipp.png
-  email: press@dash.org
-  keybase: https://keybase.io/tungfa
-  twitter:
-  dashforum-link: /tungfa.269/
-  dashforum: tungfa
-  team-title:
-    - Dash Core DAO Management
-    - Dash Web
-
-- name: Daniel Diaz
-  title: Business Development
-  description: Daniel (AKA “Minotaur”) is an Electronics Engineer with an inclination for business. He is an entrepreneur with 10 years experience in sales and business development for SaaS software and electronic security equipment companies.
-  image: daniel_d.png
-  email: daniel@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /minotaur.247/
-  dashforum: minotaur
-  team-title:
-    - Dash Core DAO Management
-    - Business Development
-
 - name: Robert Wiecko
   title: Project Manager
   description: Robert (AKA “__kot__”, “kot”) brings 14+ years of professional experience in the IT industry. He is certified Scrum Master, PM and ITIL professional, fascinated by digital currencies, global economics, music and healthy lifestyle.
@@ -119,9 +107,7 @@
   twitter:
   dashforum-link: /kot.3244/
   dashforum: kot
-  team-title:
-    - Dash Core DAO Management
-    - Project Managers
+  team-title: Dash Core DAO Management
 
 - name: Timothy Flynn
   title: Core Developer
@@ -154,9 +140,7 @@
   twitter:
   dashforum-link: /snogcel.1351/
   dashforum: snogcel
-  team-title:
-    - Dash DAPI
-    - Integrations
+  team-title: DashCore Developers
 
 - name: Crowning
   title: Core Development / Testing
@@ -178,6 +162,17 @@
   twitter:
   dashforum-link: /chaeplin.206/
   dashforum: chaeplin
+  team-title: DashCore Developers
+
+- name: Chuck Williams
+  title: UI/UX Development
+  description: Codemonkey with a penchant for people.
+  image: chuckwilliams.jpg
+  email: chuckwilliams37@gmail.com
+  keybase: https://keybase.io/chuckwilliams
+  twitter:
+  dashforum-link: ChuckWilliams
+  dashforum: ChuckWilliams
   team-title: DashCore Developers
 
 - name: TheLazieR
@@ -202,6 +197,28 @@
   dashforum: cofresi
   team-title: DashCore Developers
 
+- name: Quantum Explorer
+  title: iOS Developer
+  description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
+  image: anon.png
+  email: quantumexplorerdash@gmail.com
+  keybase: https://keybase.io/quantumexplorer
+  twitter:
+  dashforum-link: /quantumexplorer.2025/
+  dashforum: quantumexplorer
+  team-title: DashCore Developers
+
+- name: Tomasz Ludek
+  title: Android Developer
+  description: \"Tomasz\" is an experienced software craftsman, bringing 7 years of commercial experience with Android and excellent practical knowledge of Java. He is a passionate programmer with a proven ability to develop efficient, stable, and user-friendly software. In his spare time he likes to play tri-sport.
+  image: tomasz.png
+  email: tomasz@dash.org
+  keybase: https://keybase.io/tomaszludek
+  twitter:
+  dashforum-link: /tomasz-ludek.4173/
+  dashforum: tomasz-ludek
+  team-title: DashCore Developers
+
 - name: 0xfff
   title: Evolution Frontend Developer
   description: \"0xfff\" is a frontend-developer and designer. With a background in both Design and Computer Science he's able to deliver the whole process. From concept to design to implementation. He brings 5 years of experience doing work in an agency context and later as a freelancer.
@@ -222,20 +239,7 @@
   twitter:
   dashforum-link: /j0shua.4693/
   dashforum: j0shua
-  team-title:
-    - Dash Web
-
-- name: Chuck Williams
-  title: UI/UX Development
-  description: Codemonkey with a penchant for people.
-  image: chuckwilliams.jpg
-  email: chuckwilliams37@gmail.com
-  keybase: https://keybase.io/chuckwilliams
-  twitter:
-  dashforum-link: ChuckWilliams
-  dashforum: ChuckWilliams
-  team-title:
-    - UX
+  team-title: DashCore Developers
 
 - name: prtfw
   title: FrontEnd Developer
@@ -246,8 +250,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title:
-    - Integrations
+  team-title: DashCore Developers
 
 - name: Akhavr
   title: Developer
@@ -261,7 +264,7 @@
   team-title: DashCore Developers
 
 - name: Etherdesign
-  title:
+  title: Graphic Design / UX
   description:
   image:
   email:
@@ -269,7 +272,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title: UX
+  team-title: DashCore Developers
 
 - name: Lee Wong
   title: Evolution Developer
@@ -280,8 +283,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title:
-    - Dash Web
+  team-title: DashCore Developers
 
 - name: Jon Rudd
   title:
@@ -292,8 +294,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title:
-    - Dash Web
+  team-title: DashCore Developers
 
 - name: Pierre van Rooyen
   title:
@@ -304,9 +305,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title:
-    - Dash DAPI
-    - Integrations
+  team-title: DashCore Developers
 
 - name: Pascal
   title:
@@ -317,9 +316,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title:
-    - Dash DAPI
-    - Integrations
+  team-title: DashCore Developers
 
 - name: Madeleine Shang
   title:
@@ -330,8 +327,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title:
-    - Dash DAPI
+  team-title: DashCore Developers
 
 - name: Marthinus Engelbrecht
   title:
@@ -342,31 +338,7 @@
   twitter:
   dashforum-link:
   dashforum:
-  team-title:
-    - Dash DAPI
-    - Integrations
-
-- name: Quantum Explorer
-  title: iOS Developer
-  description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
-  image: anon.png
-  email: quantumexplorerdash@gmail.com
-  keybase: https://keybase.io/quantumexplorer
-  twitter:
-  dashforum-link: /quantumexplorer.2025/
-  dashforum: quantumexplorer
-  team-title: Mobile
-
-- name: Tomasz Ludek
-  title: Android Developer
-  description: \"Tomasz\" is an experienced software craftsman, bringing 7 years of commercial experience with Android and excellent practical knowledge of Java. He is a passionate programmer with a proven ability to develop efficient, stable, and user-friendly software. In his spare time he likes to play tri-sport.
-  image: tomasz.png
-  email: tomasz@dash.org
-  keybase: https://keybase.io/tomaszludek
-  twitter:
-  dashforum-link: /tomasz-ludek.4173/
-  dashforum: tomasz-ludek
-  team-title: Mobile
+  team-title: DashCore Developers
 
 - name: Alexandre Devilliers
   title: Testing and Deployment
@@ -399,8 +371,7 @@
   twitter:
   dashforum-link: /coingun.1715/
   dashforum: coingun
-  team-title:
-    - Infrastructure
+  team-title: Testing + Support
 
 - name: Matt Meek
   title: Business Development
@@ -411,7 +382,7 @@
   twitter:
   dashforum-link: /itscrazybro.322/
   dashforum: itscrazybro
-  team-title: Business Development
+  team-title: Testing + Support
 
 - name: Balu
   title: Project Manager
@@ -422,8 +393,7 @@
   twitter:
   dashforum-link: /balu.2312/
   dashforum: balu
-  team-title:
-    - Project Managers
+  team-title: Testing + Support
 
 - name: Alex-ru
   title: Dash Russia Coordinator
