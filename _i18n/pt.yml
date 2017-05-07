@@ -137,7 +137,7 @@ pages:
       Foi alcançado um consenso para aprovar esta mudança. Compare isso com o Bitcoin, onde o debate sobre o tamanho de blocos vem se intensificando há quase três anos.
 
     description: >
-     A DGBB também fornece um meio para a Dash financiar seu próprio desenvolvimento. Enquanto outros projetos têm de depender de doações.
+      A DGBB também fornece um meio para a Dash financiar seu próprio desenvolvimento. Enquanto outros projetos têm de depender de doações.
       Dash usa 10% da recompensa do bloco para financiar seu próprio desenvolvimento. Cada vez que um bloco é minerado, 45% da recompensa vai para o minerador, 45% vai para um
       Masternode, e o restante 10% não é criado até o final do mês. Durante o mês, qualquer pessoa pode fazer uma proposta de orçamento para a rede.
       Se essa proposta for aprovada em pelo menos 10% da rede masternode, então no final do mês será criada uma série de "superblocos".
