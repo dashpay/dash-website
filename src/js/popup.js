@@ -20,13 +20,13 @@
 			}
 
 			if (type) {
-				if (lang !== 'cn'){
+				if (lang !== 'cn') {
 					$this.magnificPopup({ type: type });
 				} else {
 					$this.magnificPopup({
-					 type: type,
-					 iframe: {
-						 patterns: {
+						type: type,
+						iframe: {
+							patterns: {
 								youku: {
 									index: 'http://v.youku.com/v_show/',
 									id: 'id_',
