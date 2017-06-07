@@ -1,0 +1,91 @@
+$m: 'video-post';
+
+.#{$m} {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 pxToRem(20px);
+	margin-bottom: pxToRem(40px);
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-wrap: break-word;
+
+	&__title {
+		@include font-title-large();
+		margin-bottom: pxToRem(10px);
+		a {
+			color: $color-blue;
+		}
+	}
+	&__date {
+		display: inline-block;
+		margin-bottom: pxToRem(10px);
+		color: transparentize($color-black, 0.5);
+	}
+
+	&__preview {
+		@include overflow-image-wrapper();
+		background: rgba($color-blue, 0.1);
+		margin-bottom: pxToRem(40px);
+
+		&--no-image {
+			// Hide images until we actually have htem
+			padding-bottom: 1px;
+		}
+	}
+	&__image {
+		@include overflow-image();
+	}
+	&__description{
+		color: $gray-base;
+		font-size: $font-size-base;
+		line-height: 1.3;
+	}
+	&--sidebar,
+	&--text-only {
+		.#{$m}__preview {
+			display: none;
+		}
+	}
+	&--sidebar {
+		.#{$m} {
+			&__title {
+				@include font-title-medium;
+			}
+		}
+	}
+}
+.school{
+	&__subheading {
+		margin-left: 80px;
+		color: $brand-primary;
+		font-weight: $headings-font-weight;
+	}
+	&__heading {
+		margin-left: 80px;
+		font-size: $font-size-h1;
+		color: $brand-primary;
+		font-weight: $headings-font-weight;
+	}
+	&__descr {
+		color: $gray-base;
+		font-size: $font-size-base;
+		line-height: 1.3;
+		margin-bottom: 20px;
+	}
+	&__ava {
+		margin-bottom: 15px;
+		margin-right: 40px;
+		width: 75px;
+		height: 75px;
+	}
+	&__author {
+		font-size: $font-size-base;
+		font-weight: $headings-font-weight;
+	}
+	&__team-heading {
+		margin-bottom: 15px;
+	}
+}
+
+
