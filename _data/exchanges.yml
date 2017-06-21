@@ -30,6 +30,12 @@
   image: askcoin_logo.png
   url: https://askcoin.net/
 
+- name: Altcointrader
+  trading_pairs: BTC
+  fees: 0.8% BTC
+  image: altcointrader_logo.png
+  url: https://www.altcointrader.co.za
+
 - name: Banx.io
   trading_pairs: BTC
   fees: 0.25%

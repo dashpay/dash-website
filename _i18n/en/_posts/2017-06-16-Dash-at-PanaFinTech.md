@@ -3,8 +3,8 @@ author: tungfa
 layout: post
 image: "danielpanama.jpg"
 title: "Dash at PanaFinTech"
-original-author: Daniel Diaz
-original-link: https://www.dash.org/forum/threads/daniel-diaz-dash-at-panafintech-15th-june.15379/
+original-author: "Daniel Diaz"
+original-link: "https://www.dash.org/forum/threads/daniel-diaz-dash-at-panafintech-15th-june.15379/"
 ---
 
 Daniel Diaz - Dash at PanaFinTech - 15th June
