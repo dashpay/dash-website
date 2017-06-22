@@ -2,7 +2,7 @@
 author: tungfa
 layout: post
 image: "WorldofMoney.png"
-title: "The World Of Money Is Changing & Some Cryptos Will Not Be Around: Amanda B. Johnson"
+title: "The World Of Money Is Changing &amp; Some Cryptos Will Not Be Around: Amanda B. Johnson"
 original-author: X22Report Spotlight
 original-link: https://www.youtube.com/watch?v=f9F8hP6YWuk&feature=youtu.be
 ---

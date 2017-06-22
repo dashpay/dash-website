@@ -23,7 +23,7 @@ Introducing the new team members:
 
 · Sergey Gladkov: 10 years experience developing cross-platform C++ applications ranging from Acronis products to cryptocurrencies such as Boolberry.
 
-· Ian Marshall: Lisp, C++, SQL, developer with 14 years experience ranging from AI applications to Bitcoin ride-sharing apps to programs analysis at Pratt & Whitney. Ian has extensive experience with Databases and will be working mainly in the DashDrive team lead by Nathan Marley
+· Ian Marshall: Lisp, C++, SQL, developer with 14 years experience ranging from AI applications to Bitcoin ride-sharing apps to programs analysis at Pratt &amp; Whitney. Ian has extensive experience with Databases and will be working mainly in the DashDrive team lead by Nathan Marley
 
 We have also completed recruitment and restructuring in the Evolution backend (DAPI) and frontend (Clients) teams and I will update on that separately and we’ll update the dash.org team page soon.
 

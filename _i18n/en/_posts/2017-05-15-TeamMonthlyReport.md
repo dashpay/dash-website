@@ -91,7 +91,7 @@ Dash Open House livestream ; ) https://www.twitch.tv/dashorg  + https://www.dash
 [MEDIA=youtube]0EG2km7GAmM[/MEDIA]
 New Russian Exchange ! http://www.financemagnates.com/cryptocurrency/exchange/russians-can-now-exchange-dash-rubles-moscow-via-marse/
 Top 6 Major Cryptocurrencies and the Differences Between Them https://themerkle.com/top-6-major-cryptocurrencies-and-the-differences-between-them/
-JOSH SEIGLER, DASH DEVELOPER & CRYPTO AFICIONADO http://www.futuretechpodcast.com/podcasts/josh-seigler-dash-developer-crypto-aficionado/?utm_content=social-jszwv&utm_medium=social&utm_source=SocialMedia&utm_campaign=SocialPilot
+JOSH SEIGLER, DASH DEVELOPER &amp; CRYPTO AFICIONADO http://www.futuretechpodcast.com/podcasts/josh-seigler-dash-developer-crypto-aficionado/?utm_content=social-jszwv&utm_medium=social&utm_source=SocialMedia&utm_campaign=SocialPilot
 Altcoin-Fiat Trading Rises, BitPanda Adds Dash-Euro Trading https://cointelegraph.com/news/altcoin-fiat-trading-rises-bitpanda-adds-dash-euro-trading
 „ALLES KANN GELD SEIN“ Charlie Shrem Feature in FORBES Germany (Dash mentioned) https://www.dash.org/forum/threads/alles-kann-geld-sein-charlie-shrem-feature-in-forbes-germany-dash-mentioned.14300/
 Kraken opens Dash (DASH) trading http://blog.kraken.com/post/159492923942/kraken-opens-dash-dash-trading

@@ -56,7 +56,7 @@ pages:
 
 
     visa-stores: Comprar em lojas Visa
-    visa-text: Cartão de débito Dash-Visa sem taxas de transação no exterior e "tap & pay" móvel
+    visa-text: Cartão de débito Dash-Visa sem taxas de transação no exterior e "tap &amp; pay" móvel
     visa-btn: Get Shake
 
   exchanges:

@@ -37,9 +37,9 @@ SHOW LINKS
 - Profile piece on Davis Dos Santos: <http://dashforcenews.com/meet-dash-mma-fighter-davis-dos-santos>
 - DashForce MVP contest: <https://www.dashforcenews.com/dash-force-mvp-contest-2-0/>
 - DashForce video contest: <https://www.dashforcenews.com/dash-force-news-video-contest/> 
-- DashForce meetup & presentation contest: <https://www.dashforcenews.com/dash-force-meetup-presentation-contest-update/>
+- DashForce meetup &amp; presentation contest: <https://www.dashforcenews.com/dash-force-meetup-presentation-contest-update/>
 
-GET SOCIAL & LEARN MORE
+GET SOCIAL &amp; LEARN MORE
 - Dash Slack / Forum / Reddit: <http://dashnation.com/chat>
 - DASH: Detailed Homepage: <http://dashdetailed.com>
 - DASH: Detailed Twitter: <http://twitter.com/dashdetailed>

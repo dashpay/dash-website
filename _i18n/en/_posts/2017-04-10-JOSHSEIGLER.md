@@ -2,7 +2,7 @@
 author: tungfa
 layout: post
 image: "2017-04-10-JOSHSEIGLER.png"
-title: "JOSH SEIGLER, DASH DEVELOPER & CRYPTO AFICIONADO"
+title: "JOSH SEIGLER, DASH DEVELOPER &amp; CRYPTO AFICIONADO"
 ---
 Josh Seigler, currently a developer working on Dash Evolution and Dash.org’s front end, gives his insights into what he calls “high quality money” and talks about upcoming developments in the Dash world.
 

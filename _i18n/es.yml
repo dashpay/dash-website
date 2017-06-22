@@ -56,7 +56,7 @@ pages:
 
 
     visa-stores: Compra en tiendas Visa
-    visa-text: Tarjeta de débito Dash-Visa sin comisiones locales por transacción y "tap & pay" en el móvil
+    visa-text: Tarjeta de débito Dash-Visa sin comisiones locales por transacción y "tap &amp; pay" en el móvil
     visa-btn: Obtén Shake
 
   exchanges:

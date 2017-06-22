@@ -56,7 +56,7 @@ pages:
 
 
     visa-stores: Shop at Visa stores
-    visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap & pay"
+    visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap &amp; pay"
     visa-btn: Get Shake
 
   exchanges:
