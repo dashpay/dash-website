@@ -263,7 +263,7 @@
   trading_pairs: BTC
   fees: N/A
   image: changelly_logo.png
-  url: https://wallofcoins.com/en/
+  url: https://changelly.com/
 
 - name: Bitsane
   trading_pairs: BTC, USD, EUR
