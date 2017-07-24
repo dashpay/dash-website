@@ -120,7 +120,7 @@
   team-title: DashCore Developers
 
 - name: Nathan Marley
-  title: Evolution Developer
+  title: Lead Evolution Developer
   description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
   image: nathan.jpeg
   email: nathan@dash.org
@@ -130,16 +130,6 @@
   dashforum: nmarley
   team-title: DashCore Developers
 
-- name: Jon Kindel
-  title: Evolution Backend Lead
-  description: Jon (AKA \"snogcel\") has a degree in Information Systems with 3 years experience in project management and 10+ years in web development including HTML, PHP, CSS, NodeJS and JavaScript.
-  image: jon.png
-  email: jon@dash.org
-  keybase: https://keybase.io/snogcel
-  twitter:
-  dashforum-link: /snogcel.1351/
-  dashforum: snogcel
-  team-title: DashCore Developers
 
 - name: Crowning
   title: Core Development / Testing
@@ -230,14 +220,25 @@
   team-title: DashCore Developers
 
 - name: Alex Werner
-  title: Evolution Backend Developer
+  title: Evolution Backend Lead
   description: Alex ("Obusco") has a degree in computing science and has been working for the last 8 years, as a self-taught web-freelancer (during his study), then tried his way for a good ol' IT service before quickly switching into the french start-up sphera as a full-stack developer.
   image: alex_werner.png
-  email: alex@werner.fr
+  email: alex.werner@dash.org
   keybase: https://keybase.io/awerner
-  twitter:
+  twitter:  https://twitter.com/obusco
   dashforum-link: /obusco.6751/
   dashforum: obusco
+  team-title: DashCore Developers
+
+- name: Luba S.
+  title: Project Manager
+  description:
+  image: rainbow_dash.jpg
+  email: luba@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /luba.14579/
+  dashforum: luba
   team-title: DashCore Developers
 
 - name: Joshua Seigler
@@ -251,16 +252,6 @@
   dashforum: j0shua
   team-title: DashCore Developers
 
-- name: prtfw
-  title: FrontEnd Developer
-  description: prtfw is a reformed ex-VC and Financier turned coder,  Startup + FinTech Pro, usually hacking on AI/Machine-Learning projects, pilot, adventurer, polymath + nomad with mild ADHD
-  image: prtfw.png
-  email: mns_catdogmice@yahoo.ca
-  keybase: https://keybase.io/longgamma_act
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
 
 - name: Akhavr
   title: Developer
@@ -288,7 +279,7 @@
   title: Evolution Developer
   description:
   image: LeeWong.jpg
-  email: leewong.dash@gmail.com
+  email: leewong@dash.org
   keybase:
   twitter:
   dashforum-link:
