@@ -2,3 +2,8 @@
 vendor/
 .git/
 Dockerfile
+.dockerignore
+.travis.yml
+cibuild.sh
+ciexclude.txt
+script/
