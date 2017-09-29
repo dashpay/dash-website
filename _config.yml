@@ -2,6 +2,7 @@ markdown: kramdown
 exclude:
   - README.md
   - rss.xml
+  - cibuild.sh
   - ciexclude.txt
   - _posts/README.md
   - assets/mockups/
