@@ -7,3 +7,4 @@ Dockerfile
 cibuild.sh
 ciexclude.txt
 script/
+dash.org-test-web.pem.enc
