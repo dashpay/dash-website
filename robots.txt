@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /forum/find-new/
+Disallow: /forum/account/
+Disallow: /forum/attachments/
+Disallow: /forum/goto/
+Disallow: /forum/login/
+Disallow: /forum/admin.php
+Disallow: /forum/testing/
+Disallow: /forum/members/
+
+Allow: /
