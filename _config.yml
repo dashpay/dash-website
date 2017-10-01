@@ -15,6 +15,7 @@ exclude:
   - Gemfile.lock
   - package.json
   - package-lock.json
+  - dash.org-test-web.pem.enc
 paginate: 12
 paginate_path: "/blog/page:num/"
 name: Dash
