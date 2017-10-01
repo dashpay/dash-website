@@ -17,6 +17,7 @@ before_deploy:
 addons:
   ssh_known_hosts:
     - www-test.dash.org
+    - admin.www.dash.org
 
 deploy:
   provider: script
@@ -24,3 +25,9 @@ deploy:
   script: DEPLOY_USER=$STAGE_DEPLOY_USER DEPLOY_HOST=$STAGE_DEPLOY_HOST DEPLOY_PATH=$STAGE_DEPLOY_PATH bash script/deploy-rsync.sh
   on:
     branch: master
+
+  provider: script
+  skip_cleanup: true
+  script: DEPLOY_USER=$PROD_DEPLOY_USER DEPLOY_HOST=$PROD_DEPLOY_HOST DEPLOY_PATH=$PROD_DEPLOY_PATH bash script/deploy-rsync.sh
+  on:
+    branch: release
