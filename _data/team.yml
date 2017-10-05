@@ -2,7 +2,7 @@
   title: CEO
   description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance &amp; Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
   image: ryan.png
-  email: ryan@dash.org
+  email:
   keybase: https://keybase.io/ryanptaylor
   twitter:
   dashforum-link: /babygiraffe.1654/
@@ -428,3 +428,80 @@
   dashforum-link:
   dashforum:
   team-title: DashCore Developers
+
+- name: gladcow
+  title: Core Developer
+  description:
+  image: jahr.png
+  email: sergey@dash.org
+  keybase: https://keybase.io/gladcow
+  twitter:
+  dashforum-link: /jahr.13007/
+  dashforum: jahr
+  team-title: DashCore Developers
+
+- name: Oleg Girko
+  title:
+  description:
+  image: oleg.png
+  email: ol@dash.org
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title: DashCore Developers
+
+- name: Darren Tapp
+  title: Research
+  description:
+  image: darren.jpg
+  email: darren@dash.org
+  keybase: https://keybase.io/darren_tapp
+  twitter:
+  dashforum-link: /darren.5875/
+  dashforum: darren
+  team-title: DashCore Developers
+
+- name: Kira Bronskaia
+  title: Quality Assurance, Automation, Testing
+  description:
+  image: kira.jpg
+  email: kira.bronskaya@dash.org
+  keybase: https://keybase.io/kapusha
+  twitter:
+  dashforum-link: /kira.17471/
+  dashforum: Kira
+  team-title: Testing + Support
+
+- name: Will Wray
+  title: Core C++ Dev
+  description:
+  image: anon.png
+  email: will@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /doodlefax.14057/
+  dashforum: doodlefax
+  team-title: DashCore Developers
+
+- name: Ian Marshall
+  title: Evolution DashDrive Developer
+  description:
+  image: meian.jpg
+  email: ian@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /imarshall.14947/
+  dashforum: imarshall
+  team-title: DashCore Developers
+
+- name: Janusz Piasecki
+  title: Project Manager
+  description:
+  image: janusz.jpg
+  email: janusz.piasecki@dash.org
+  keybase: https://keybase.io/balu
+  twitter:
+  dashforum-link: /janusz.17557/
+  dashforum: janusz
+  team-title: Testing + Support
