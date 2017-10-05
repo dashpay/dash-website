@@ -476,12 +476,23 @@
 - name: Will Wray
   title: Core C++ Dev
   description:
-  image: meian.jpg
+  image: anon.png
   email: will@dash.org
   keybase:
   twitter:
   dashforum-link: /doodlefax.14057/
   dashforum: doodlefax
+  team-title: DashCore Developers
+
+- name: Ian Marshall
+  title: Evolution DashDrive Developer
+  description:
+  image: meian.jpg
+  email: ian@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /imarshall.14947/
+  dashforum: imarshall
   team-title: DashCore Developers
 
 - name: Janusz Piasecki
