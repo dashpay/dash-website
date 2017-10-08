@@ -441,14 +441,14 @@
   team-title: DashCore Developers
 
 - name: Oleg Girko
-  title:
+  title: Dash Core Developer
   description:
   image: oleg.png
   email: ol@dash.org
   keybase:
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /ol.13002/
+  dashforum: ol
   team-title: DashCore Developers
 
 - name: Darren Tapp
@@ -476,7 +476,7 @@
 - name: Will Wray
   title: Core C++ Dev
   description:
-  image: anon.png
+  image: WillWray.jpg
   email: will@dash.org
   keybase:
   twitter:
@@ -495,12 +495,34 @@
   dashforum: imarshall
   team-title: DashCore Developers
 
+- name: Alexander Block
+  title: Core Developer
+  description:
+  image: codablocker.jpeg
+  email: alexander.block@dash.org
+  keybase: https://keybase.io/codablock
+  twitter:
+  dashforum-link: /codablock.12000/
+  dashforum: codablock
+  team-title: DashCore Developers
+
+- name: Ilya Savinov
+  title: Core Developer
+  description:
+  image:
+  email: ilya@dash.org
+  keybase: https://keybase.io/schnibble
+  twitter:
+  dashforum-link: /schnibble.13003/
+  dashforum: schnibble
+  team-title: DashCore Developers
+
 - name: Janusz Piasecki
   title: Project Manager
   description:
   image: janusz.jpg
   email: janusz.piasecki@dash.org
-  keybase: https://keybase.io/balu
+  keybase:
   twitter:
   dashforum-link: /janusz.17557/
   dashforum: janusz
