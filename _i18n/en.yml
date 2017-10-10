@@ -705,7 +705,7 @@ pages:
     feature-instant-heading: Instant
     feature-instant-text: Your time is valuable.  InstantSend payments confirm in less than a second.
     feature-secure-heading: Secure
-    feature-secure-text: Security you can count on.  Transactions are confirmed by 1,000 Gigahash of X11 ASIC computing power and over 4,100 servers hosted around the world.
+    feature-secure-text: Security you can count on.  Transactions are confirmed by 200 TerraHash of X11 ASIC computing power and over 4,500 servers hosted around the world.
 
     merchants-heading: Shop direct with Dash
     merchants-text: Instant and private purchases, direct from your Dash wallet
