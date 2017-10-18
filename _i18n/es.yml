@@ -644,7 +644,7 @@ pages:
     title: Sitio Web Oficial de Dash | Moneda Digital Privada
     description: Dash es Dinero Digital
     hero-heading: ¡Dash es Dinero Digital!
-    hero-text: El primer sistema de dinero digital totalmente decentralizado. <br /> Conozca el Dinero en Efectivo Digital.
+    hero-text: El primer sistema de dinero digital totalmente descentralizado. <br /> Conozca el Dinero en Efectivo Digital.
 
     video-heading: Dash es dinero en efectivo digital que puede gastar en línea
     video-text: Use Dash para hacer pagos instantáneos y privados en línea o en tiendas físicas, usando nuestra segura plataforma de código abierto, mantenida por miles de usuarios alrededor del mundo
@@ -683,7 +683,7 @@ pages:
     network-growth-btn: Estadísticas de la red
 
     evolution-heading: Evolución de la moneda digital
-    evolution-text: ¿Qué es lo siguiente? Estamos trabajando en un nuevo servicio decentralizado alojado en la red de Nodos Maestros que abrirá Dash a la web y al móvil, va a ser tan fácil de usar como PayPal pero de manera totalmente descentralizada. Manténgase al tanto...
+    evolution-text: ¿Qué es lo siguiente? Estamos trabajando en un nuevo servicio descentralizado alojado en la red de Nodos Maestros que abrirá Dash a la web y al móvil, va a ser tan fácil de usar como PayPal pero de manera totalmente descentralizada. Manténgase al tanto...
     evolution-btn: Conozca más
     evolution-link: https://dashpay.atlassian.net/wiki/x/ZYHPB
 
@@ -859,9 +859,10 @@ nav:
 
   currency: Moneda
   exchange: Mercados de Intercambio
-  governance: Governanza
+  governance: Gobernanza
   explorers: Exploradores de Bloques
   stats: Estadísticas de la Red
+  exchanges-list: Lista completa de Exchanges
 
   community: Comunidad
   discussion: Discusión
@@ -869,6 +870,7 @@ nav:
   news: Noticias &amp; Información
   tools-dev: Herramientas de desarrollo
   tools-masternodes: Herramientas de los Nodos Maestros
+  graphics: Gráficos
 
   project: Proyecto
   help: Ayuda
@@ -881,6 +883,7 @@ nav:
   wiki: Wiki
 
   search: Buscar
+  school: Escuela
 
   social: Redes Sociales
   blog: Blog
