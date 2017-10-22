@@ -11,17 +11,17 @@
 		<title>{{ site.name | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ site.url }}/{{ page.path | xml_escape }}" rel="self" type="application/rss+xml" />
 		{% for post in site.posts %}
 			<item>
-				<title type="html">{{ post.title | xml_escape }}</title>
+				<title type="html"><![CDATA[{{ post.title }}]]></title>
 				{% if post.author.name %}
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
 				{% endif %}
 				<description><![CDATA[{{ post.excerpt }}]]></description>
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<link>{{ site.url }}{{ post.url | xml_escape }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url | xml_escape }}</guid>
 				<content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
 			</item>
 		{% endfor %}
