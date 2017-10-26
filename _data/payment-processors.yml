@@ -24,19 +24,6 @@
       label: cointopay.com
       url: "https://cointopay.com/"
 
-- name: eDigiCash
-  description: 'Fees: Transaction 0.5%; Withdrawal Included with transaction fee'
-  logo_url: "https://www.dash.org/wp-content/uploads/2014/10/edigicash_logo.png"
-  type: payment
-  vendor_id: eDigiCash
-  vendor_label: eDigiCash
-  product_id: eDigiCash
-  product_label: eDigiCash
-  links:
-    -
-      label: edigicash.co
-      url: "https://www.edigicash.co/"
-      
 - name: GoUrl.io
   description: 'Fees: N/A'
   logo_url: "https://www.dash.org/wp-content/uploads/2015/05/gourlio_logo.png"
