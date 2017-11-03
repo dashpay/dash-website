@@ -53,17 +53,6 @@
   dashforum: moocowmoo
   team-title: Testing + Support
 
-- name: Daniel Diaz
-  title: Business Development
-  description: Daniel (AKA “Minotaur”) is an Electronics Engineer with an inclination for business. He is an entrepreneur with 10 years experience in sales and business development for SaaS software and electronic security equipment companies.
-  image: daniel_d.png
-  email: daniel@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /minotaur.247/
-  dashforum: minotaur
-  team-title: Dash Core DAO Management
-
 - name: Philipp Engelhorn
   title: Press &amp; Multitool
   description: Philipp (AKA \"tungfa\") is a freelance photographer who brings 20 years of press, magazine &amp; newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
@@ -537,4 +526,15 @@
   twitter:
   dashforum-link: /strophy.4735/
   dashforum: strophy
+  team-title: Testing + Support
+
+- name: Jan Heinrich Meyer
+  title: German Dash Representative
+  description:
+  image: essra.jpg
+  email: essra@dash.org
+  keybase: https://keybase.io/essra
+  twitter:
+  dashforum-link: /essra.17463/
+  dashforum: essra
   team-title: Testing + Support
