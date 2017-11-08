@@ -572,9 +572,9 @@ pages:
     modal-core-users-text: Usuarios Generales
     modal-core-users-value: 0.12.1.4
     modal-core-masternode-text: Operadores de Nodos Maestros
-    modal-core-masternode-value: 0.12.1.5
+    modal-core-masternode-value: 0.12.2.0
     modal-core-pool-text: Operadores de Pools
-    modal-core-pool-value: 0.12.1.5
+    modal-core-pool-value: 0.12.2.0
 
   payments:
     title: Procesadores de Pagos de Dash
