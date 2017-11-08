@@ -43,7 +43,7 @@
   team-title: Dash Core DAO Management
 
 - name: MooCowMoo
-  title: Development / Testing
+  title: Support / Testing
   description: Has two decades experience developing backend software and custom toolchains for automating development, testing, and deployment. He built the first automated masternode service masternode.me and is the author of dashman, a masternode management utility and dashvend, example point-of-sale software leveraging InstantX. He is self taught in computer science, cryptography, software engineering, and electrical engineering with primary focuses in Linux, Bash, Python, git, and vim.
   image: moo.png
   email: moo@dash.org
@@ -51,18 +51,7 @@
   twitter:
   dashforum-link: /moocowmoo.1413/
   dashforum: moocowmoo
-  team-title: DashCore Developers
-
-- name: Daniel Diaz
-  title: Business Development
-  description: Daniel (AKA “Minotaur”) is an Electronics Engineer with an inclination for business. He is an entrepreneur with 10 years experience in sales and business development for SaaS software and electronic security equipment companies.
-  image: daniel_d.png
-  email: daniel@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /minotaur.247/
-  dashforum: minotaur
-  team-title: Dash Core DAO Management
+  team-title: Testing + Support
 
 - name: Philipp Engelhorn
   title: Press &amp; Multitool
@@ -107,17 +96,6 @@
   dashforum-link: /eduffield.104/
   dashforum: eduffield
   team-title: Dash Core DAO Management
-
-- name: Timothy Flynn
-  title: Core Developer
-  description: With an educational background and early career experience in physics Tim transitioned to software engineering oriented roles beginning in the late 90's. He is a skilled C++ developer who has worked on a wide range of applications ranging from distributed control systems to neural networks for handwriting recognition.  His former employers include CERN, the CNRS (the French national research agency) and Lockheed-Martin.
-  image: timothy.png
-  email: timothy@dash.org
-  keybase: https://keybase.io/tgflynn
-  twitter:
-  dashforum-link: /tgf314.7156/
-  dashforum: tgf314
-  team-title: DashCore Developers
 
 - name: Nathan Marley
   title: Lead Evolution Developer
@@ -441,14 +419,14 @@
   team-title: DashCore Developers
 
 - name: Oleg Girko
-  title:
+  title: Dash Core Developer
   description:
   image: oleg.png
   email: ol@dash.org
   keybase:
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /ol.13002/
+  dashforum: ol
   team-title: DashCore Developers
 
 - name: Darren Tapp
@@ -476,7 +454,7 @@
 - name: Will Wray
   title: Core C++ Dev
   description:
-  image: anon.png
+  image: WillWray.jpg
   email: will@dash.org
   keybase:
   twitter:
@@ -495,13 +473,68 @@
   dashforum: imarshall
   team-title: DashCore Developers
 
+- name: Alexander Block
+  title: Core Developer
+  description:
+  image: codablocker.jpeg
+  email: alexander.block@dash.org
+  keybase: https://keybase.io/codablock
+  twitter:
+  dashforum-link: /codablock.12000/
+  dashforum: codablock
+  team-title: DashCore Developers
+
+- name: Ilya Savinov
+  title: Core Developer
+  description:
+  image:
+  email: ilya@dash.org
+  keybase: https://keybase.io/schnibble
+  twitter:
+  dashforum-link: /schnibble.13003/
+  dashforum: schnibble
+  team-title: DashCore Developers
+
 - name: Janusz Piasecki
   title: Project Manager
   description:
   image: janusz.jpg
   email: janusz.piasecki@dash.org
-  keybase: https://keybase.io/balu
+  keybase:
   twitter:
   dashforum-link: /janusz.17557/
   dashforum: janusz
+  team-title: Testing + Support
+
+- name: Ivan Borovkov
+  title: Network Operations
+  description:
+  image: ivanborovkov.jpg
+  email: ivan@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /v2nek.18326/
+  dashforum: v2nek
+  team-title: Testing + Support
+
+- name: Leon White
+  title: Documentation & Wiki
+  description:
+  image: LeonWhite.jpg
+  email: leon.white@dash.org
+  keybase: https://keybase.io/strophy
+  twitter:
+  dashforum-link: /strophy.4735/
+  dashforum: strophy
+  team-title: Testing + Support
+
+- name: Jan Heinrich Meyer
+  title: German Dash Representative
+  description:
+  image: essra.jpg
+  email: essra@dash.org
+  keybase: https://keybase.io/essra
+  twitter:
+  dashforum-link: /essra.17463/
+  dashforum: essra
   team-title: Testing + Support

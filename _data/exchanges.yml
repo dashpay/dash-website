@@ -361,3 +361,27 @@
   fees: N/A
   image: cointed.jpg
   url: https://www.cointed.com/en/
+
+- name: Cryptopia
+  trading_pairs: BTC
+  fees: N/A
+  image: cryptopia.jpg
+  url: https://www.cryptopia.co.nz
+
+- name: Binance
+  trading_pairs: BTC
+  fees: N/A
+  image: binance.jpg
+  url: https://www.binance.com/
+
+- name: Changenow
+  trading_pairs: BTC
+  fees: N/A
+  image: changenow.jpg
+  url: https://changenow.io
+
+- name: Anybits
+  trading_pairs: BTC
+  fees: N/A
+  image: anybits.jpg
+  url: https://anybits.com
