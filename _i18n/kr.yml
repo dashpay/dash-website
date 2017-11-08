@@ -512,7 +512,7 @@ pages:
     wallets-desktop-subtitle: Dash 데스크탑 지갑은 다양한 기능과 보안을 제공합니다.
     wallets-desktop-latest: >
       Latest: 2017년 4월 11일
-    wallets-desktop-current-version: v0.12.1.5
+    wallets-desktop-current-version: v0.12.2.0
     wallets-mobile-header: 모바일
     wallets-mobile-subtitle: Dash 모바일 지갑은 귀하의 모바일 기기(휴대폰, 태블릿...)에서 실행되는 다양한 기능과 보안을 제공합니다.
     wallets-hardware-header: 하드웨어
@@ -550,11 +550,11 @@ pages:
     modal-win-core-source-code-key: 소스 코드
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: 일반 사용자
-    modal-core-users-value: 0.12.1.5
+    modal-core-users-value: 0.12.2.0
     modal-core-masternode-text: 마스터노드 운영자
-    modal-core-masternode-value: 0.12.1.5
+    modal-core-masternode-value: 0.12.2.0
     modal-core-pool-text: 풀 운영자
-    modal-core-pool-value: 0.12.1.5
+    modal-core-pool-value: 0.12.2.0
 
   payments:
     title: Dash 결제 프로세서
@@ -594,11 +594,11 @@ pages:
     modal-win-core-source-code-key: 소스 코드
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: 일반 사용자
-    modal-core-users-value: 0.12.1.5
+    modal-core-users-value: 0.12.2.0
     modal-core-masternode-text: 마스터노드 운영자
-    modal-core-masternode-value: 0.12.1.5
+    modal-core-masternode-value: 0.12.2.0
     modal-core-pool-text: 풀 운영자
-    modal-core-pool-value: 0.12.1.5
+    modal-core-pool-value: 0.12.2.0
     disclaimer-text: >
       DISCLAIMER: 이 목록은 정보 제공의 목적으로만 제공됩니다. 여기에 나열된 서비스는 Dash 개발자가 평가하거나 보증하지 않으며 이 정보의 정확성에 대해 보장하지 않습니다. 제3자 서비스를 이용할 때는 분별력을 발휘하십시오.
 
