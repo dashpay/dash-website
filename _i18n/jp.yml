@@ -568,11 +568,11 @@ pages:
     modal-win-core-source-code-key: ソースコード
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: 一般ユーザー
-    modal-core-users-value: 0.12.1.0
+    modal-core-users-value: 0.12.2.1
     modal-core-masternode-text: マスターノード運営者
-    modal-core-masternode-value: 0.12.1.0
+    modal-core-masternode-value: 0.12.2.1
     modal-core-pool-text: マイニングプール運営者
-    modal-core-pool-value: 0.12.1.0
+    modal-core-pool-value: 0.12.2.1
 
 
   contact:

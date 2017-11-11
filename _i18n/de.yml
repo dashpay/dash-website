@@ -608,11 +608,11 @@ pages:
     modal-win-core-source-code-key: Quellcode
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: Normale Nutzer
-    modal-core-users-value: 0.12.2.0
+    modal-core-users-value: 0.12.2.1
     modal-core-masternode-text: Masternode Betreiber
-    modal-core-masternode-value: 0.12.2.0
+    modal-core-masternode-value: 0.12.2.1
     modal-core-pool-text: Mining Pool Betreiber
-    modal-core-pool-value: 0.12.2.0
+    modal-core-pool-value: 0.12.2.1
 
   payments:
     title: DASH Zahlungsabwickler
