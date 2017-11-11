@@ -531,8 +531,8 @@ pages:
     wallets-desktop-header: Escritorio
     wallets-desktop-subtitle: Los monederos Dash para el escritorio están disponibles con diferentes características y niveles de seguridad.
     wallets-desktop-latest: >
-      Más reciente: 7 Noviembre 2017
-    wallets-desktop-current-version: v0.12.2.0
+      Más reciente: 11 Noviembre 2017
+    wallets-desktop-current-version: v0.12.2.1
     wallets-mobile-header: Móvil
     wallets-mobile-subtitle: Los monederos para móviles de Dash están disponibles con diversas características y niveles de seguridad, funcionan desde su dispositivo móvil (teléfono celular, tableta) 
     wallets-hardware-header: Hardware
