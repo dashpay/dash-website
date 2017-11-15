@@ -20,63 +20,118 @@ In attachment 3, please find a [sentiment report ](https://dashpay.atlassian.n
 Coverage by Country (during last 4 months)
 
 United States of America: 6,554
+
 United Kingdom: 229
+
 Netherlands: 118
+
 Canada: 164
+
 India: 93
+
 Australia: 93
+
 Japan: 89
+
 Germany: 67
+
 China: 60
+
 Guam: 50
+
 Argentina: 35
+
 France: 30
+
 Poland: 30
+
 Russia: 29
+
 Singapore: 25
+
 Austria: 24
+
 Brazil: 24
+
 Nigeria: 20
+
 Malaysia: 20
+
 Italy: 19
+
 Ukraine:19
+
 Venezuela: 18
+
 Hungary: 17
+
 Vietnam: 16
+
 Switzerland: 13
+
 Turkey: 12
+
 South Africa: 11
+
 Mexico: 10
+
 Romania: 8
+
 Czech Republic: 7
+
 Bulgaria: 7
+
 Sweden: 5
+
 South Korea: 4
+
 Ireland: 4
+
 Pakistan: 4
+
 Colombia: 3
+
 Jordan: 3
+
 Italy: 19
+
 Taiwan: 8
+
 Peru: 2
+
 Bolivia: 2
+
 Egypt: 2
+
 Kazakhstan: 2
+
 Bangladesh: 2
+
 Portugal: 2
+
 Thailand: 1
+
 Panama: 1
+
 Finland: 1
+
 Greece: 1
+
 Azerbaijan: 1
+
 Uganda: 1
+
 Lebanon: 1
+
 Zambia: 1
+
 ----
 Europe total: 632
 
 To further assist with the project charter, I have answered the relevant criteria below.
+
 Strategy Requirements Met:
+
 [STRATEGY] - Developed a complete analysis on Dash’s overall messaging concluded with the improvements suggested implemented where agreed.
 Yes.
 
@@ -106,12 +161,19 @@ Overall I rate Wachsman PR services very high and recommend contract extension f
 Thank you
 
 List of attachments:
-1. Dash Media Placement List: <https://dashpay.atlassian.net/wiki/download/attachments/43778137/2017-11-03 - Attachment 1 - Dash Media Placement List.csv?api=v2
-2. Dash Graphical Report: https://dashpay.atlassian.net/wiki/download/attachments/43778137/2017-11-03 - Attachment 2 - Dash Graphical Report .pdf?api=v2
-3. Dash Sentiment Report: https://dashpay.atlassian.net/wiki/download/attachments/43778137/2017-11-03 - Attachment 3 - Dash Pos and Neg .pdf?api=v2
-4. Wachsman PR Q3 Project Charter: https://dashpay.atlassian.net/wiki/download/attachments/43778137/Wachsman%20PR%20Q3%202017%20Project%20Charter.pdf?api=v2> PR Q3 2017 Project Charter.pdf?api=v2
+
+1. Dash Media Placement List: 
+<https://dashpay.atlassian.net/wiki/download/attachments/43778137/2017-11-03 - Attachment 1 - Dash Media Placement List.csv?api=v2>
+
+2. Dash Graphical Report: <https://dashpay.atlassian.net/wiki/download/attachments/43778137/2017-11-03 - Attachment 2 - Dash Graphical Report.pdf?api=v2>
+
+3. Dash Sentiment Report: <https://dashpay.atlassian.net/wiki/download/attachments/43778137/2017-11-03 - Attachment 3 - Dash Pos and Neg .pdf?api=v2>
+
+4. Wachsman PR Q3 Project Charter: <https://dashpay.atlassian.net/wiki/download/attachments/43778137/Wachsman%20PR%20Q3%202017%20Project%20Charter.pdf?api=v2>
 
 
 Robert Wiecko
+
 Project Manager
+
 <robert@dash.org>

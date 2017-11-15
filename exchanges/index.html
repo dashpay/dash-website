@@ -5,13 +5,14 @@ description: pages.exchanges.description
 ---
 
 {% include hero/exchanges.html %}
+ {% assign sortedExchanges = site.data.exchanges | sort: 'name' %}
 
 <div class="page page--team">
 
 	<section class="section section--intro-lead section--merchants">
 		<div class="section__content content">
 			<ul class="member-list member-list--merchants">
-				{% for exchange in site.data.exchanges %}
+				{% for exchange in sortedExchanges  %}
 				{% include exchanges-list.html %}
 				{% endfor %}
 			</ul>
