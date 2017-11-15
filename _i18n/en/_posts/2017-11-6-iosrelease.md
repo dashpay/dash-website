@@ -10,6 +10,7 @@ original-link: https://itunes.apple.com/de/app/dash-wallet/id1206647026?l=en&mt=
 <https://itunes.apple.com/de/app/dash-wallet/id1206647026?l=en&mt=8>
 
 Description
+
 Dashwallet is the first iPhone wallet for Dash - Digital Cash - a better innovative alternative to bitcoin.
 
 Dash is a crypto currency that seeks out fix the flaws that other crypto currencies suffer from. It relies on a network of Masternodes to allow such things as anonymity, instant transaction, and direct funding mechanism to kickstart innovative ideas.
@@ -33,7 +34,9 @@ Dashwallet is open source and free. There are no extra transaction fees or costs
 
 ...More
 Dash Wallet Support
+
 What's New in Version 0.8.4
+
 Updated Bulgarian, Italian, Mandarin, Polish, Russian and Spanish Localizations.
 
 Fixed an issue where wiping the wallet was not working in 0.8.3

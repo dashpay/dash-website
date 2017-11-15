@@ -9,7 +9,12 @@ original-link: https://www.financemagnates.com/cryptocurrency/news/dashs-12-2-so
 
 Regular transactions on the Dash network now cost less than one cent.
 
-![](https://www.financemagnates.com/wp-content/uploads/2017/11/374483_10151635553089809_862401040_n.jpg?x14075) Rachel McIntosh | [News](https://www.financemagnates.com/cryptocurrency/news/) ([ CryptoCurrency ](https://www.financemagnates.com/cryptocurrency/)) | Thursday, 09/11/2017 | 10:26 GMT 
+![](https://www.financemagnates.com/wp-content/uploads/2017/11/374483_10151635553089809_862401040_n.jpg?x14075) 
+
+Rachel McIntosh |
+[News](https://www.financemagnates.com/cryptocurrency/news/) ([ CryptoCurrency ](https://www.financemagnates.com/cryptocurrency/)) | 
+Thursday, 09/11/2017 |
+10:26 GMT 
 
 ![Dash's 12.2 Software Upgrade Reduces Fees, Increases Speed](https://www.financemagnates.com/wp-content/uploads/2017/07/blockchain-planet.jpg?x14075)
 
@@ -29,7 +34,7 @@ Additionally, Taylor believes that the popularity of [Bitcoin could ultimately 
 Suggested articles
 ------------------
 
-Serenity Financial Offering Unrivaled Level of Customer Protection[Go to article >>](https://www.financemagnates.com/thought-leadership/serenity-financial-offering-unrivaled-level-customer-protection/)
+Serenity Financial Offering Unrivaled Level of Customer Protection [Go to article >>](https://www.financemagnates.com/thought-leadership/serenity-financial-offering-unrivaled-level-customer-protection/)
 
 Dash's network was created with many of the lessons learned from Bitcoin's network in mind. Dash was built to be easily integrated into online stores, apps, and dapps as a means-of-payment. Dash currently has over a hundred 'merchant partners', including crypto-based debit cards, VPN providers, web and graphic design services, and online stores.
 

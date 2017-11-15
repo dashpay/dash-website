@@ -547,4 +547,9 @@ a.blog_link {
     vertical-align: super;
     font-size: smaller;
   }
+  .postcontent {
+    a {
+      word-wrap: break-word;
+    }
+  }
 }
