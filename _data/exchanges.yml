@@ -1,5 +1,5 @@
 
-- name: alcurEX
+- name: AlcurEX
   trading_pairs: BTC, MRC
   fees: N/A
   image: alcurex_logo.png
@@ -229,7 +229,7 @@
   image: southxchange_logo.png
   url: https://www.southxchange.com/
 
-- name: useCryptos
+- name: UseCryptos
   trading_pairs: BTC, EUR
   fees: N/A
   image: usecryptos_logo.png
@@ -319,7 +319,6 @@
   image: bitcoinindia.jpg
   url: https://bitcoin-india.org
 
-
 - name: Hitbtc
   trading_pairs: BTC
   fees: N/A
@@ -385,3 +384,9 @@
   fees: N/A
   image: anybits.jpg
   url: https://anybits.com
+
+- name: Cryptochangex
+  trading_pairs: BTC
+  fees: N/A
+  image: cryptochange.jpg
+  url: https://cryptochangex.com
