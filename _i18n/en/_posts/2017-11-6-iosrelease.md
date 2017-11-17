@@ -33,6 +33,7 @@ Features:
 Dashwallet is open source and free. There are no extra transaction fees or costs. Send any amount of money to anyone in the world instantly. This is how money should be.
 
 ...More
+
 Dash Wallet Support
 
 What's New in Version 0.8.4
