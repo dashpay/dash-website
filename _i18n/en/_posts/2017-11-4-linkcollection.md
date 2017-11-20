@@ -140,7 +140,7 @@ Notable Core Team proposals:
 Dash Whitepapers
 ----------------
 
-1.  [Original Dash Whitepaper](https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf)
+1.  [Original Dash Whitepaper](https://github.com/dashpay/dash/wiki/Whitepaper)
 2.  [Dash Evolution](https://www.dash.org/binaries/evo/DashPaper-v13-v1.pdf)
 3.  [DashPay Decentralized Wallet](https://www.dash.org/binaries/evo/DashPayDecentralizedWallet-v1.pdf)
 4.  [Decentralized API Whitepaper](https://www.dash.org/binaries/evo/DAPIDecentralizedApplicationProgrammingInterface-v1.pdf)

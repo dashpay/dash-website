@@ -28,6 +28,6 @@ This is a major milestone for DASH and if all factors are considered, we predict
 
 DASH difficulty rises above 40 million
 
-In fact, with this sudden rise in hashing power we are seeing an exponential rise in the **difficulty**levels too. This may not be a good sign for miners, but those people invested in DASH should soon expect to see some exponential growth in the value of their DASH holdings.
+In fact, with this sudden rise in hashing power we are seeing an exponential rise in the **difficulty** levels too. This may not be a good sign for miners, but those people invested in DASH should soon expect to see some exponential growth in the value of their DASH holdings.
 
 To the Moon!!
