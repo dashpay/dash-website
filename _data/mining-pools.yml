@@ -1,0 +1,68 @@
+- name: Aikapool
+  url: https://aikapool.com/dash/
+  image: aikapool.jpg
+
+- name: Dash.suprnova.cc
+  url: https://dash.suprnova.cc
+  image: suprnova.jpg
+
+- name: Suchpool.pw
+  url: https://www.suchpool.pw/
+  image: such.jpg
+
+- name: Coinotron.com
+  url: http://coinotron.com/
+  image: coinotron.jpg
+
+- name: Ltcrabbit.com
+  url: http://ltcrabbit.com/
+  image: rabbit.jpg
+
+- name: Coinmine.pl
+  url: https://www2.coinmine.pl/dash
+  image: coinmain.jpg
+
+- name: Cybtc.info
+  url: http://dash.cybtc.info/
+  image: cybtc.jpg
+
+- name: Poolmining
+  url: https://poolmining.org/pool/dash
+  image: poolmining.jpg
+
+- name: ViaBTC
+  url: https://pool.viabtc.com/pool/dash/state/
+  image: viaBTC.jpg
+
+- name: Avalon-life
+  url: http://partner.avalon-life.com/
+  image: avalonlife.jpg
+
+- name: Cryptopool
+  url: http://cryptopool.io/
+  image: cryptopool.jpg
+
+- name: Genesismining
+  url: https://www.genesis-mining.com
+  image: genesismining.jpg
+
+- name: Ipominer
+  url: https://www.ipominer.com/
+  image: ipominer.jpg
+
+- name: Nicehash
+  url: https://www.nicehash.com
+  image: nicehash.jpg
+
+- name: P2pool-dash
+  url: https://github.com/dashpay/p2pool-dash
+  image: p2pool.jpg
+
+- name: Zpool
+  url: http://zpool.ca/
+  image: zpool.jpg
+
+- name: Mining Pool Hub
+  url: https://dash.miningpoolhub.com/
+  image: hub.png
+
