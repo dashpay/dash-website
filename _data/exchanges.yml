@@ -402,3 +402,9 @@
   fees: N/A
   image: magneticexchange_logo.png
   url: https://magneticexchange.com
+
+- name: Epay
+  trading_pairs: BTC
+  fees: N/A
+  image: epay.jpg
+  url: https://www.epay.com 
