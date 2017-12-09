@@ -3,7 +3,7 @@ author: tungfa
 layout: post
 image: "petahashNov7.jpg"
 title: "DASH Breaks Petahash Barrier"
-original-author: P2POOLMINING 
+original-author: P2POOLMINING
 original-link: https://www.p2poolmining.us/dash-breaks-petahash-barrier/
 ---
 

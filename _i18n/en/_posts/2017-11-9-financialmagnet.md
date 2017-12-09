@@ -3,7 +3,7 @@ author: tungfa
 layout: post
 image: "blockchain-planet.jpg"
 title: "Dash’s 12.2 Software Upgrade Reduces Fees, Increases Speed"
-original-author: Rachel McIntosh 
+original-author: Rachel McIntosh
 original-link: https://www.financemagnates.com/cryptocurrency/news/dashs-12-2-software-upgrade-reduces-fees-increases-speed/
 ---
 

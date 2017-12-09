@@ -3,7 +3,7 @@ author: tungfa
 layout: post
 image: "cheaperthanbitcoinNov9.png"
 title: "Dash transactions now 215 times cheaper than Bitcoin"
-original-author: Ian Allison 
+original-author: Ian Allison
 original-link: http://www.ibtimes.co.uk/dash-transactions-now-215-times-cheaper-bitcoin-1646464
 ---
 
