@@ -408,3 +408,10 @@
   fees: N/A
   image: epay.jpg
   url: https://www.epay.com 
+
+- name: Uphold
+  trading_pairs: BTC
+  fees: N/A
+  image: uphold.jpg
+  url: https://uphold.com/
+
