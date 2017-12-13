@@ -1,6 +1,14 @@
 
 # For multiple paragraph content add two line breaks
 pages:
+  merch: 
+    title: Dash merchandise
+    description: Buy our merchandise from our partner
+    hero-heading: Our merchandise
+    hero-text: |
+      HODL is now the official merchandise partner of Dash. Visit them here <a href='https://alwayshodl.com/' target='_blank'>www.alwayshodl.com</a>
+    disclaimer-text: |
+      <a href='https://alwayshodl.com/' target='_blank'>alwayshodl.com</a> is an independent merchandise outlet, Dash.org has no responsibility for orders, delivery in time and such
 
   school:
     title:  Dash School
@@ -1023,6 +1031,7 @@ nav:
   tools-masternodes: Masternode Tools
   graphics: Graphics
   legal: Legal
+  merchandise: Merchandise
 
   project: Project
   help: Help &amp; Support
