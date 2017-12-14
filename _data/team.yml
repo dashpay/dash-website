@@ -396,17 +396,6 @@
   dashforum:
   team-title: Testing + Support
 
-- name: Kelly Kopp-Schuetz
-  title: Human Resources Director
-  description:
-  image: kelly.jpg
-  email: kelly@dash.org
-  keybase: 
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
-
 - name: gladcow
   title: Core Developer
   description:
@@ -548,4 +537,26 @@
   twitter:
   dashforum-link: /kamuela.18261/
   dashforum: kamuela
+  team-title: DashCore Developers
+
+- name: Kelly Kopp-Schuetz
+  title: Human Resources Director
+  description:
+  image: kelly.jpg
+  email: kelly@dash.org
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title: DashCore Developers
+
+- name: Bradley Zastrow
+  title: Business Development
+  description:
+  image: Bradley_Zastrow.jpg
+  email: bradley.zastrow@dash.org
+  keybase: https://keybase.io/bradleyzastrow
+  twitter:
+  dashforum-link: /bradley-zastrow.20550/
+  dashforum: Bradley Zastrow
   team-title: DashCore Developers
