@@ -531,8 +531,7 @@ pages:
     wallets-desktop-header: Escritorio
     wallets-desktop-subtitle: Los monederos Dash para el escritorio están disponibles con diferentes características y niveles de seguridad.
     wallets-desktop-latest: >
-      Más reciente: 11 Noviembre 2017
-    wallets-desktop-current-version: v0.12.2.1
+      Más reciente: 19 Diciembre 2017
     wallets-mobile-header: Móvil
     wallets-mobile-subtitle: Los monederos para móviles de Dash están disponibles con diversas características y niveles de seguridad, funcionan desde su dispositivo móvil (teléfono celular, tableta) 
     wallets-hardware-header: Hardware
@@ -570,11 +569,8 @@ pages:
     modal-win-core-source-code-key: Código Fuente
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: Usuarios Generales
-    modal-core-users-value: 0.12.2.1
     modal-core-masternode-text: Operadores de Nodos Maestros
-    modal-core-masternode-value: 0.12.2.1
     modal-core-pool-text: Operadores de Pools
-    modal-core-pool-value: 0.12.2.1
 
   payments:
     title: Procesadores de Pagos de Dash
@@ -614,11 +610,8 @@ pages:
     modal-win-core-source-code-key: Código Fuente
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: Usuarios Generales
-    modal-core-users-value: 0.12.2.1
     modal-core-masternode-text: Operadores de Nodos Maestros
-    modal-core-masternode-value: 0.12.2.1
     modal-core-pool-text: Operadores de Pools
-    modal-core-pool-value: 0.12.2.1
     disclaimer-text: >
       ACLARACIÓN: Esta lista se provee con fines informativos únicamente. Los servicios aquí enlistados no han sido evaluados o aprobados por los desarrolladores de Dash y no ofrecemos ninguna garantía sobre la certeza de esta información. Por favor ejerza criterio y discresión al utilizar servicios de terceros..
 
