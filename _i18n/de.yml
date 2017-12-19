@@ -569,9 +569,6 @@ pages:
     hero-text: Deine Wallet ist die Software die du ben&ouml;tigst um DASH zu senden, zu empfangen und zu lagern. Um mit DASH anonyme Zahlungen vorzunehmen verwende einfach Private Send. 
     wallets-desktop-header: Desktop
     wallets-desktop-subtitle: DASH Desktop Wallets sind mit verschiedenen Features und Sicherheitsmechanismen ausgestattet 
-    wallets-desktop-latest: >
-      Latest: 11th Nov 2017
-    wallets-desktop-current-version: v0.12.2.1
     wallets-mobile-header: Mobile
     wallets-mobile-subtitle: DASH Mobile Wallets sind mit verschiedenen Features und Sicherheitsmechanismen f&uuml;r dein Mobiles Endger&auml;t (Handy, Tablet,..) ausgestattet.
     wallets-hardware-header: Hardware
@@ -608,11 +605,8 @@ pages:
     modal-win-core-source-code-key: Quellcode
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: Normale Nutzer
-    modal-core-users-value: 0.12.2.1
     modal-core-masternode-text: Masternode Betreiber
-    modal-core-masternode-value: 0.12.2.1
     modal-core-pool-text: Mining Pool Betreiber
-    modal-core-pool-value: 0.12.2.1
 
   payments:
     title: DASH Zahlungsabwickler

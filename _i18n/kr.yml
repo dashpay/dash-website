@@ -510,9 +510,6 @@ pages:
     hero-text: 귀하의 지갑은 Dash를 송금, 수령 및 저장하는 데 사용하는 소프트웨어입니다. 이것은 사용하기 쉽고 PrivateSend를 사용하여 지갑에서 익명 결제를 선택할 수 있습니다.
     wallets-desktop-header: 데스크탑
     wallets-desktop-subtitle: Dash 데스크탑 지갑은 다양한 기능과 보안을 제공합니다.
-    wallets-desktop-latest: >
-      Latest: 2017년 4월 11일
-    wallets-desktop-current-version: v0.12.2.1
     wallets-mobile-header: 모바일
     wallets-mobile-subtitle: Dash 모바일 지갑은 귀하의 모바일 기기(휴대폰, 태블릿...)에서 실행되는 다양한 기능과 보안을 제공합니다.
     wallets-hardware-header: 하드웨어
@@ -550,11 +547,8 @@ pages:
     modal-win-core-source-code-key: 소스 코드
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: 일반 사용자
-    modal-core-users-value: 0.12.2.1
     modal-core-masternode-text: 마스터노드 운영자
-    modal-core-masternode-value: 0.12.2.1
     modal-core-pool-text: 풀 운영자
-    modal-core-pool-value: 0.12.2.1
 
   payments:
     title: Dash 결제 프로세서
