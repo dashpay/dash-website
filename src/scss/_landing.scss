@@ -1,0 +1,363 @@
+.header{
+	&__top-row{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 60px;
+		margin-left: 47px;
+		@media (max-width: $screen-sm-min) {
+			display: block;
+			margin-left: 0;
+			margin-top: 0px;
+		}
+	}
+	&__logo-box{
+		display: inline-block;
+		text-align: left;
+		padding: 20px;
+		font-weight: $font-weight-bold;
+		font-family: $font-family-body;
+	}
+	&__top-sources{
+		display: inline-flex;
+		text-transform: uppercase;
+		line-height: 1.2;
+		text-align: center;
+		padding: 20px;
+		@media (max-width: $screen-sm-min) {
+			display: block;
+		}
+	}
+	&__top-sources-item{
+		margin-right: 40px;
+		a {
+			font-size: 17px;
+			font-family: $font-family-body;
+			font-weight: $font-weight-regular;
+			color: #fff;
+		}
+		@media (max-width: $screen-sm-min) {
+			margin-bottom: 10px;
+		}
+	}
+	&__social{
+		display: inline-flex;
+		font-size: 17px;
+		font-family: $font-family-body;
+		font-weight: $font-weight-regular;
+		color: #fff;
+		line-height: 1.2;
+		text-align: right;
+		padding: 20px;
+		margin-right: 100px;
+		@media (max-width: $screen-sm-min) {
+			display: block;
+			margin-right: 0;
+			text-align: center;
+		}
+	}
+	&__social-item{
+		margin-right: 10px;
+		@media (max-width: $screen-sm-min) {
+			display: inline-block;
+		}
+	}
+	&__social-icon{
+		width: 20px;
+		height: 20px;
+		display: block;
+		fill:#fff;
+		transition: .4s ease-out;
+		&:hover{
+			fill: rgba(255, 255, 255, 0.431);
+		}
+	}
+	&__brand-link{
+		font-size: 35px;
+		font-family: $font-family-body;
+		color: #fff;
+		line-height: 1.2;
+		text-align: left;
+		@media (max-width: $screen-sm-min) {
+			font-size: 25px;
+		}
+	}
+	&__box-intro{
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		display: table;
+		height: 100vh;
+		width: 100%;
+		background-image: url('../../assets/img/copay/copay-header-bg.jpg');
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		@media (max-width: $screen-sm-min) {
+			background-position: 0;
+		}
+	}
+	&__content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+		margin: auto;
+	}
+	&__lead-text{
+		font-size: 22pt;
+		font-family: $font-family-body;
+		font-weight: $font-weight-regular;
+		color:  #fff;
+		line-height: 1.808;
+		text-align: center;
+		@media (max-width: $screen-sm-min) {
+			font-size: 20px;
+			line-height: 1.1;
+		}
+	}
+	&__heading{
+		font-size: 101pt;
+		font-family: $font-family-body;
+		font-weight: 500;
+		color:  #479dde;
+		line-height: 1.1;
+		text-align: center;
+		@media (max-width: $screen-sm-min) {
+			font-size: 62px;
+			line-height: 1.2;
+			font-weight: $font-weight-bold;
+		}
+	}
+	&__main-text{
+		color:  #fff;
+		text-align: center;
+		font-size: 22pt;
+		font-family: $font-family-body;
+		font-weight: $font-weight-regular;
+		line-height: 1.1;
+		@media (max-width: $screen-sm-min) {
+			font-size: 13px;
+			line-height: 1.1;
+		}
+	}
+	&__description{
+		font-size: 14px;
+		font-family: $font-family-body;
+		font-weight: $font-weight-regular;
+		color: rgba(255, 255, 255, 0.431);
+		line-height: 1.2;
+		text-align: center;
+		padding: 10px;
+	}
+	&__store-btn{
+		display: inline-block;
+		margin-right: 10px;
+		height: 60px;
+	}
+	&__btn-group{
+		margin-top: 47px;
+		margin-bottom: 47px;
+	}
+	&__to-down{
+		position: absolute;
+		bottom: 1.55rem;
+		display: inline-block;
+		color: #fff;
+		line-height: 1;
+		font-size: 14px;
+		transform: translateX(-50%);
+		left:50%;
+		padding-left: 60px;
+		padding-right: 60px;
+		@media (max-width: $screen-sm-min) {
+			display: none;
+		}
+		&:after{
+			display: block;
+			position: absolute;
+			content: '';
+			width: 32rem;
+			border-bottom: 1px dashed #b2b0ae;
+			left: 100%;
+			top: 50%;
+		}
+		&:before{
+			display: block;
+			position: absolute;
+			content: '';
+			width: 32rem;
+			border-bottom: 1px dashed #b2b0ae;
+			right: 100%;
+			top: 50%;
+		}
+	}
+}
+.landing {
+	.to-down__chevron{
+		position:relative;
+		display:inline-block;
+		height: 25px;
+		width: 26px;
+		fill: #ddc872;
+		position: relative;
+		top: 7px;
+	}
+
+	.section-title {
+		font-size: 43px;
+		color: #1c75bc;
+		line-height: 1;
+		font-weight: 500;
+	}
+	.count-item.download {
+		border: 1px solid rgba(189, 189, 189, .20);
+		padding: 20px;
+		&:hover {
+			border: 1px solid #ccc;
+			padding: 20px;
+		}
+	}
+	.numscroller {
+		font-size: 45px;
+		color: #000;
+	}
+	.count-name-intro {
+		font-size: 20px;
+		color: #000;
+		letter-spacing: 2px;
+	}
+	.download-name-button {
+		margin-top: 30px;
+		text-align: center;
+		background-color: rgba(39, 46, 173, 1.00);
+		padding: 5px 0px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		color: rgba(255, 255, 255, 1.00);
+		top: 35px;
+		font-size: 15px;
+		font-weight: 800;
+		z-index: 200;
+		display: block;
+		width: 137px;
+		margin: 20px auto 20px;
+		transition: .4s ease-out;
+	}
+	.module-subtitle {
+		color: #000;
+		text-align: center;
+		font-size: 22px;
+		margin-bottom: 50px;
+		line-height: 1.1;
+	}
+	.module-descr{
+		color: #000;
+		text-align: center;
+		font-size: 14px;
+		margin-bottom: 50px;
+		line-height: 1.1;
+	}
+	.section-lead{
+		color: #000000;
+		font-size: 62px;
+	}
+	.section-title-lead{
+		line-height: 1;
+		margin: 0;
+		font-size: 48px;
+		color: #000;
+		font-size: 61px;
+		font-weight: 500;
+		margin-bottom: 60px;
+	}
+	.section-text-lead{
+		color: #1c75bc;
+		font-size: 14px;
+		margin-top: 70px;
+		margin-bottom: 72px;
+		font-weight: 500;
+	}
+	.features-list{
+		&__item{
+			display: flex;
+			align-items: center;
+			text-align: left;
+			margin-bottom: 35px;
+		}
+		&__content{
+			margin-left: 30px;
+		}
+		&__heading{
+			color:#000000;
+			font-size: 37px;
+			line-height: 1;
+		}
+		&__description {
+			font-size: 15px;
+			color: #757575;
+		}
+	}
+	.bordered-row {
+		border-top: 1px solid #dadada;
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.content-row{
+		padding-top: 44px;
+		&__heading{
+			font-size: 37px;
+			line-height: 1.2;
+			color: #1c75bc;
+		}
+	}
+	.stats{
+		&__number{
+			font-size: 37px;
+			line-height: 1.2;
+			font-weight: 500;
+		}
+		&__number-lead{
+			color: #1c75bc;
+		}
+		&__descr{
+			color: #757575;
+			font-size: 15px;
+		}
+		&__content{
+			margin-bottom: 70px;
+		}
+	}
+	.get-started{
+		overflow: visible;
+		padding: 80px 0 110px;
+		position: relative;
+		text-align: center;
+		width: 100%;
+		background-image: url('../../assets/img/copay/get-wallet-bg.jpg');
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		color: #fff;
+		img {
+			max-width: 100%;
+			vertical-align: top;
+		}
+		@media (max-width: $screen-sm-min) {
+			background-position: 0;
+			padding: 0;
+		}
+		&__heading{
+			color: #fff;
+			font-size: 89pt;
+			line-height: 1.1;
+		}
+		&__sub-header{
+			margin-bottom: 65px;
+			font-size: 28pt;
+		}
+	}
+	.plain-laptop-img{
+		transform: translateY(-35%);
+	}
+}
