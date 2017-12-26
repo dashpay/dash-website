@@ -1,22 +1,9 @@
 
-- name: AlcurEX
-  trading_pairs: BTC, MRC
-  fees: N/A
-  image: alcurex_logo.png
-  url: https://alcurex.org/
-
 - name: ALFAcashier
   trading_pairs: BTC, LTC, ChinaUnionPay CNY, BTC-E USD, MoneyPolo USD, Yandex Money RUB, Visa/Mastercard USD, Paypal USD
   fees: N/A
   image: alfacashier_logo.png
   url: https://www.alfacashier.com
-
-- name: AllCrypt
-  trading_pairs: BTC, LTC, DOGE
-  fees: >
-    0.195%; Priority &amp; Stop Orders: +.25%; Market Order: +.2%; Withdrawal: Flat coin-based fee (unknown)
-  image: allcrypt_logo.png
-  url: https://www.allcrypt.com/market
 
 - name: Anycoin Direct
   trading_pairs:
@@ -24,23 +11,11 @@
   image: anycoin_logo.png
   url: https://anycoindirect.eu
 
-- name: AskCoin
-  trading_pairs: BTC
-  fees: 0.14% BTC
-  image: askcoin_logo.png
-  url: https://askcoin.net/
-
 - name: Altcointrader
   trading_pairs: BTC
   fees: 0.8% BTC
   image: altcointrader_logo.png
   url: https://www.altcointrader.co.za
-
-- name: Banx.io
-  trading_pairs: BTC
-  fees: 0.25%
-  image: banxio_logo.png
-  url: https://www.banx.io/
 
 - name: Bitcoin Indonesia
   trading_pairs: BTC
@@ -84,12 +59,6 @@
   image: btc38_logo.png
   url: http://www.btc38.com
 
-- name: BTC-Market
-  trading_pairs: BTC
-  fees: N/A
-  image: btcmarket_logo.png
-  url: https://btc-market.org/
-
 - name: Bter
   trading_pairs: BTC, USD, CNY
   fees: Trading 0.2% (BTC, CNY); Withdrawal 0.02 DASH
@@ -114,23 +83,11 @@
   image: Coinapult_logo.png
   url: https://coinapult.com
 
-- name: Coinbroker
-  trading_pairs: BTC
-  fees: Trading 0.1%; Withdrawal 0.005 DASH
-  image: coinbroker_logo.png
-  url: https://coinbroker.io/
-
 - name: Coincheck
   trading_pairs:
   fees:
   image: coincheck_logo.png
   url: https://coincheck.com
-
-- name: Coinomat
-  trading_pairs: OKPay USD, Perfect Money USD, Visa/Mastercard USD, Coinomat USD/EU card, USD, EUR, BTC, LTC, BitcoinDark, Peercoin, NXT, DOGE, CoinoUSD, BitUSD, CoinoEUR, BitEUR
-  fees: N/A
-  image: coinomat_logo.png
-  url: https://coinomat.com/
 
 - name: Coinsquare
   trading_pairs: BTC
@@ -155,12 +112,6 @@
   fees: N/A
   image: exmo_logo.png
   url: https://exmo.com
-
-- name: 1Bse (First Bitcoin Stock Exchange)
-  trading_pairs:  BTC, LTC, USD, EUR, CNY, HKD
-  fees: Trading 0.15%; Withdrawal 0% (coin), 3% (bank transfer)
-  image: 1bse_logo.png
-  url: https://www.1bse.com/
 
 - name: HolyTransaction
   trading_pairs: BTC, LTC, ZEC, DCR, PPC, DOGE, BLK, GRC, GAME, FAIR
@@ -197,12 +148,6 @@
   fees: Withdrawal 0.001 DASH
   image: livecoin_logo.png
   url: https://www.livecoin.net/
-
-- name: MasterXchange
-  trading_pairs: BTC
-  fees: Trading 0%; Withdrawal 0.15 DASH
-  image: masterxchange_logo.png
-  url: https://www.masterxchange.com/index.php
 
 - name: Megachange
   trading_pairs:
