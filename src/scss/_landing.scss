@@ -209,6 +209,9 @@
 		color: #1c75bc;
 		line-height: 1;
 		font-weight: 500;
+		@media (max-width: $screen-sm-min) {
+			font-size: 33px;
+		}
 	}
 	.count-item.download {
 		border: 1px solid rgba(189, 189, 189, .20);
@@ -265,11 +268,14 @@
 	.section-title-lead{
 		line-height: 1;
 		margin: 0;
-		font-size: 48px;
 		color: #000;
 		font-size: 61px;
 		font-weight: 500;
 		margin-bottom: 60px;
+		@media (max-width: $screen-sm-min) {
+			font-size: 43px;
+			word-wrap: break-word;
+		}
 	}
 	.section-text-lead{
 		color: #1c75bc;
@@ -345,12 +351,15 @@
 		}
 		@media (max-width: $screen-sm-min) {
 			background-position: 0;
-			padding: 0;
+			padding: 0 0 50px;
 		}
 		&__heading{
 			color: #fff;
-			font-size: 89pt;
+			font-size: 89px;
 			line-height: 1.1;
+			@media (max-width: $screen-sm-min) {
+				font-size: 76px;
+			}
 		}
 		&__sub-header{
 			margin-bottom: 65px;
