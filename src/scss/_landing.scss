@@ -37,6 +37,7 @@
 		}
 		@media (max-width: $screen-sm-min) {
 			margin-bottom: 10px;
+			margin-right: 0;
 		}
 	}
 	&__social{
@@ -53,12 +54,15 @@
 			display: block;
 			margin-right: 0;
 			text-align: center;
+			padding-left: 0;
+			padding-right: 0;
 		}
 	}
 	&__social-item{
 		margin-right: 10px;
 		@media (max-width: $screen-sm-min) {
 			display: inline-block;
+			margin-right: 0;
 		}
 	}
 	&__social-icon{
@@ -154,6 +158,11 @@
 		display: inline-block;
 		margin-right: 10px;
 		height: 60px;
+		@media (max-width: $screen-sm-min) {
+			margin-right: 0;
+			display: block;
+			margin-bottom: 10px;
+		}
 	}
 	&__btn-group{
 		margin-top: 47px;
