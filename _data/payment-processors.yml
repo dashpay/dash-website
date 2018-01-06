@@ -1,6 +1,6 @@
 - name: CoinPayments
   description: 'Fees: Transaction 0.50%; Withdrawal Network transaction fee (TX)'
-  logo_url: "https://www.dash.org/wp-content/uploads/2014/09/coinpayments_logo.png"
+  logo_url: "/assets/img/payments/coinpayments_logo.png"
   type: payment
   vendor_id: ledger
   vendor_label: CoinPayments
@@ -13,7 +13,7 @@
 
 - name:  Cointopay
   description: 'Fees: Transaction 0.25% + 0.0005 DASH; Withdrawal 0.01 DASH'
-  logo_url: "https://www.dash.org/wp-content/uploads/2014/09/cointopay_logo.png"
+  logo_url: "/assets/img/payments/cointopay_logo.png"
   type: payment
   vendor_id: Cointopay
   vendor_label: Cointopay
@@ -26,7 +26,7 @@
 
 - name: GoUrl.io
   description: 'Fees: N/A'
-  logo_url: "https://www.dash.org/wp-content/uploads/2015/05/gourlio_logo.png"
+  logo_url: "/assets/img/payments/gourlio_logo.png"
   type: payment
   vendor_id: GoUrl.io
   vendor_label: GoUrl.io

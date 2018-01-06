@@ -997,7 +997,7 @@ pages:
     qa: QA
     pm: Project Managers
     business: Business Development
-    support: Testing + Support
+    support: Administration + Support
 
 nav:
   what-is-dash: What is Dash

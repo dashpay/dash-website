@@ -366,3 +366,8 @@
   image: spectrocoin.jpg
   url: https://spectrocoin.com
 
+- name: Bitnovo
+  trading_pairs: BTC
+  fees: N/A
+  image: bitnovo-logo.png
+  url: https://www.bitnovo.com
