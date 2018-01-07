@@ -18,3 +18,7 @@
 - name: Wirex
   url: https://wirexapp.com
   image: Wirex.jpg
+
+- name: Bitnovo
+  url: https://www.bitnovo.com
+  image: bitnovo-logo.png
