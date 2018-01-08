@@ -1,3 +1,39 @@
+- name: Zpool
+  url: http://zpool.ca/
+  image: zpool.jpg
+
+- name: ViaBTC
+  url: https://pool.viabtc.com/pool/dash/state/
+  image: viaBTC.jpg
+
+- name: Give me coins
+  url: http://give-me-coins.com/
+  image: givemecoins.jpg
+
+- name: Ipominer
+  url: https://www.ipominer.com/
+  image: ipominer.jpg
+
+- name: Mining Pool Hub
+  url: https://dash.miningpoolhub.com/
+  image: hub.png
+
+- name: Nicehash
+  url: https://www.nicehash.com
+  image: nicehash.jpg
+
+- name: P2pool-dash
+  url: https://github.com/dashpay/p2pool-dash
+  image: p2pool.jpg
+
+- name: Poolmining
+  url: https://poolmining.org/pool/dash
+  image: poolmining.jpg
+
+- name: Suchpool.pw
+  url: https://www.suchpool.pw/
+  image: such.jpg
+
 - name: Aikapool
   url: https://aikapool.com/dash/
   image: aikapool.jpg
@@ -6,17 +42,10 @@
   url: https://dash.suprnova.cc
   image: suprnova.jpg
 
-- name: Suchpool.pw
-  url: https://www.suchpool.pw/
-  image: such.jpg
 
 - name: Coinotron.com
   url: http://coinotron.com/
   image: coinotron.jpg
-
-- name: Give me coins
-  url: http://give-me-coins.com/
-  image: givemecoins.jpg
 
 - name: Coinmine.pl
   url: https://www2.coinmine.pl/dash
@@ -25,14 +54,6 @@
 - name: Cybtc.info
   url: http://dash.cybtc.info/
   image: cybtc.jpg
-
-- name: Poolmining
-  url: https://poolmining.org/pool/dash
-  image: poolmining.jpg
-
-- name: ViaBTC
-  url: https://pool.viabtc.com/pool/dash/state/
-  image: viaBTC.jpg
 
 - name: Avalon-life
   url: http://partner.avalon-life.com/
@@ -45,26 +66,6 @@
 - name: Genesismining
   url: https://www.genesis-mining.com
   image: genesismining.jpg
-
-- name: Ipominer
-  url: https://www.ipominer.com/
-  image: ipominer.jpg
-
-- name: Nicehash
-  url: https://www.nicehash.com
-  image: nicehash.jpg
-
-- name: P2pool-dash
-  url: https://github.com/dashpay/p2pool-dash
-  image: p2pool.jpg
-
-- name: Zpool
-  url: http://zpool.ca/
-  image: zpool.jpg
-
-- name: Mining Pool Hub
-  url: https://dash.miningpoolhub.com/
-  image: hub.png
 
 - name: Antpool
   url: https://www.antpool.com
