@@ -51,8 +51,8 @@
 				break;
 			case /^ios/gi.test(_family):
 				_walletOs = 'ios';
-				_vendor = '';
-				_type = '';
+				_vendor = 'dash_core';
+				_type = 'mobile';
 				break;
 			case /(linux|centos|debian|fedora|freebsd|gentoo|haiku|kubuntu|openbsd|red hat|suse|ubuntu|cygwin)/gi.test(_family):
 				_walletOs = 'linux';
