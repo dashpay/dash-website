@@ -852,6 +852,8 @@ pages:
     stores-heading: Web Stores
     metals-heading: Precious Metals
     bills-heading: Bill Payments
+    cards-disclaimer: >
+      Disclaimer: Please check your country of residency with Card Providers due to limited distribution
 
   participate:
     title: Join the Dash Network
