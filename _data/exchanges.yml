@@ -377,3 +377,15 @@
   fees: N/A
   image: bitcoinVN-logo.png
   url: https://bitcoin.vn
+
+- name: Coinome
+  trading_pairs: BTC
+  fees: N/A
+  image: coinome.jpg
+  url: https://www.coinome.com/exchanges
+
+- name: Huobi
+  trading_pairs: BTC
+  fees: N/A
+  image: huobi.jpg
+  url: https://www.huobi.pro
