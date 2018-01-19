@@ -372,7 +372,7 @@
   image: bitnovo-logo.png
   url: https://www.bitnovo.com
 
-- name: BitcoinVN
+- name: Bitcoin.VN
   trading_pairs: BTC
   fees: N/A
   image: bitcoinVN-logo.png
