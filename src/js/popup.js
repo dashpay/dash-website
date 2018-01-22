@@ -30,7 +30,7 @@
 								youku: {
 									index: 'https://v.youku.com/v_show/',
 									id: 'id_',
-									src: 'http://player.youku.com/embed/%id%'
+									src: 'https://player.youku.com/embed/%id%'
 								}
 							}
 						}
