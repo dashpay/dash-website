@@ -196,7 +196,7 @@
   links:
     -
       label: Normal
-      url: privately_accepted_here_light_normal.png
+      url: privately_accepted_here_light_mono_normal.png
     -
       label: Hi-Res
       url: privately_accepted_here_light_mono_highres.png
@@ -284,7 +284,7 @@
   links:
     -
       label: Normal
-      url: accepted_here_beveled_normal.png
+      url: paywithdashbutton-06.png
     -
       label: Hi-Res
       url: paywithdashbutton_HR_-06.png

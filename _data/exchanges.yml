@@ -294,12 +294,6 @@
   image: qryptos.jpg
   url: https://www.qryptos.com
 
-- name: CEX.IO
-  trading_pairs: BTC
-  fees: N/A
-  image: cex.jpg
-  url: https://cex.io
-
 - name: Cointed
   trading_pairs: BTC
   fees: N/A
@@ -371,3 +365,33 @@
   fees: N/A
   image: bitnovo-logo.png
   url: https://www.bitnovo.com
+
+- name: Bitcoin.VN
+  trading_pairs: BTC
+  fees: N/A
+  image: bitcoinVN-logo.png
+  url: https://bitcoin.vn
+
+- name: Coinome
+  trading_pairs: BTC
+  fees: N/A
+  image: coinome.jpg
+  url: https://www.coinome.com/exchanges
+
+- name: Huobi
+  trading_pairs: BTC
+  fees: N/A
+  image: huobi.jpg
+  url: https://www.huobi.pro
+
+- name: Coin2001
+  trading_pairs: BTC
+  fees: N/A
+  image: coin2001.jpg
+  url: https://www.coin2001.com/
+
+- name: Einstein
+  trading_pairs: BTC
+  fees: N/A
+  image: einstein-black.jpg
+  url: https://einstein.exchange/
