@@ -402,3 +402,8 @@
   image: mercury.jpg
   url: https://www.mercury.cash
 
+- name: Godex
+  trading_pairs: BTC
+  fees: N/A
+  image: godex.jpg
+  url: https://godex.io
