@@ -27,7 +27,7 @@
   image: p2pool.jpg
 
 - name: COINFOUNDRY
-  url: https://poolmining.org/pool/dash
+  url: https://coinfoundry.org/pool/dash
   image: poolmining.jpg
 
 - name: Suchpool.pw

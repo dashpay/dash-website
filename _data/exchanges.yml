@@ -395,3 +395,15 @@
   fees: N/A
   image: einstein-black.jpg
   url: https://einstein.exchange/
+
+- name: Mercury
+  trading_pairs: BTC
+  fees: N/A
+  image: mercury.jpg
+  url: https://www.mercury.cash
+
+- name: Godex
+  trading_pairs: BTC
+  fees: N/A
+  image: godex.jpg
+  url: https://godex.io
