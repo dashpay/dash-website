@@ -18,3 +18,7 @@
 - name: SeedStuff
   url: http://www.seedstuff.ca
   image: SeedStuff.jpg
+
+- name: Ppc protect
+  url: https://ppcprotect.com/
+  image: ppcprotect.jpg

@@ -383,3 +383,27 @@
   fees: N/A
   image: huobi.jpg
   url: https://www.huobi.pro
+
+- name: Coin2001
+  trading_pairs: BTC
+  fees: N/A
+  image: coin2001.jpg
+  url: https://www.coin2001.com/
+
+- name: Einstein
+  trading_pairs: BTC
+  fees: N/A
+  image: einstein-black.jpg
+  url: https://einstein.exchange/
+
+- name: Mercury
+  trading_pairs: BTC
+  fees: N/A
+  image: mercury.jpg
+  url: https://www.mercury.cash
+
+- name: Godex
+  trading_pairs: BTC
+  fees: N/A
+  image: godex.jpg
+  url: https://godex.io
