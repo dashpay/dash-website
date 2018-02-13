@@ -1,0 +1,16 @@
+---
+---
+
+{% assign postsshowlimit = 200 %}
+
+[
+	{% for post in site.posts limit: postsshowlimit %}
+		{
+            "title"      : "{{ post.title | escape }}",
+            "url"        : "{{ post.url }}",
+            "image"      : "{{ post.image }}",
+            "date"       : "{{ post.date }}",
+            "shortdate"  : "{{ post.date | date : '%B %d, %Y' }}"
+		} {% if forloop.last %}{% else %},{% endif %}
+	{% endfor %}
+]
