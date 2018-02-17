@@ -413,3 +413,9 @@
   fees: N/A
   image: abucoins.jpg
   url: http://abucoins.com
+
+- name: Qcashpay
+  trading_pairs: BTC
+  fees: N/A
+  image: qcashlogo.jpg
+  url: https://qcashpay.com
