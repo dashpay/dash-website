@@ -531,7 +531,7 @@
     • In app fiat exchange
     • Spending limits
     • and more...
-  logo_url: /assets/img/edge.png
+  logo_url: "/assets/img/wallets/edge.png"
   os: android
   type: mobile
   vendor_id: edge
@@ -569,7 +569,7 @@
     • In app fiat exchange
     • Spending limits
     • and more...
-  logo_url: /assets/img/edge.png
+  logo_url: "/assets/img/wallets/edge.png"
   os: ios
   type: mobile
   vendor_id: edge
