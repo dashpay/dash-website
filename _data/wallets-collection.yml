@@ -639,6 +639,7 @@
     -
       label: Exodus Downloads
       url: "https://www.exodus.io/releases/"
+
 - name: Dash Core Paper Wallet
   description: Paper wallets are a form of cold wallet and essentially a bearer instrument – whoever holds them has access to both the Dash private key and therefore the address.
   logo_url: /assets/img/dash_circle_normal.png
@@ -697,3 +698,90 @@
     -
       label: Usage Instructions
       url: "https://dashpay.atlassian.net/wiki/display/DOC/Using+Trezor+with+Dash"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: osx
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: spv
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download DMG
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.3.2/electrum-dash-2.9.3.2-macosx.dmg"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: linux
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download TGZ
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.3.2/Electrum-DASH-2.9.3.2.tar.gz"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: win64
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download Installer
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.3.2/electrum-dash-2.9.3.2-setup.exe"
+
+- name: MyDashWallet
+  description: |
+    MyDashWallet is a web interface to the Dash blockchain, inspired by MyEtherWallet and created by DeltaEngine.net. It is explicitly not an online wallet, meaning you maintain control over your private keys at all times. Unlike many other light wallets, MyDashWallet also supports advanced Dash features such as InstantSend and PrivateSend. The project is non-profit, open source and free to use. You can load a wallet and transact in a variety of wallet formats:
+    
+    Keystore wallet (file-based)
+    
+    Ledger hardware wallet
+    
+    Trezor hardware wallet
+    
+    Private key
+    
+    BIP39/44 HD recovery phrase (coming soon)
+    
+    BIP32 HD recovery phrase (coming soon)
+
+    Multiplatform / Web Browser
+  logo_url: /assets/img/dash_circle_normal.png
+  os: web
+  type: web
+  vendor_id: delta_engine
+  vendor_label: delta_engine
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: delta_engine
+  product_label: Delta Engine
+  product_source_url: "https://github.com/DeltaEngine/MyDashWallet"
+  links:
+    -
+     label: Web link
+     url: "https://mydashwallet.org"
