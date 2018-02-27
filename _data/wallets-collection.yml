@@ -417,9 +417,9 @@
 - name: Dash Core iOS
   description: |
     <p>
-    Official Dash Core 
+    Official Dash Core
     </p>
-    Dashwallet is the first and only iPhone wallet which connects directly to the dash network. This means that there are no servers to get hacked or go down - your funds are always safe. Even if your phone is lost, damaged or stolen, you can easily recover your funds using your personal recovery phrase. 
+    Dashwallet is the first and only iPhone wallet which connects directly to the dash network. This means that there are no servers to get hacked or go down - your funds are always safe. Even if your phone is lost, damaged or stolen, you can easily recover your funds using your personal recovery phrase.
   logo_url: "/assets/img/wallets/dash-ios.jpeg"
   os: ios
   type: mobile
@@ -515,6 +515,79 @@
     -
       label: AppStore
       url: "https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8"
+
+- name: Edge Wallet
+  description: |
+    Super-user friendly multi-asset wallet (Dash, Bitcoin, Ethereum, and more) from the folks that brought you the Airbitz Bitcoin Wallet.
+     FEATURES
+    • Log in with username and password
+    • Pin or fingerprint access.
+    • "Edge Secure" 2-factor authentication
+    • Segwit enabled for BTC and LTC
+    • In app exchange of assets (Shapeshift)
+    • Open source!
+     COMING FEATURES
+    • Transaction history reports
+    • In app fiat exchange
+    • Spending limits
+    • and more...
+  logo_url: /assets/img/edge.png
+  os: android
+  type: mobile
+  vendor_id: edge
+  vendor_label: Edge (Airbitz)
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: edge_wallet
+  product_label: Edge Wallet
+  product_source_label: Github
+  product_source_url: "https://github.com/airbitz/"
+  links:
+    -
+      label: Edge
+      url: "https://edgesecure.co/"
+    -
+      label: Google Play Download
+      url: "https://play.google.com/store/apps/details?id=co.edgesecure.app"
+    -
+      label: Download APK
+      url: "https://edgesecure.co/app"
+
+- name: Edge Wallet
+  description: |
+    Super-user friendly multi-asset wallet (Dash, Bitcoin, Ethereum, and more) from the folks that brought you the Airbitz Bitcoin Wallet.
+     FEATURES
+    • Log in with username and password
+    • Pin or fingerprint access.
+    • "Edge Secure" 2-factor authentication
+    • Segwit enabled for BTC and LTC
+    • In app exchange of assets (Shapeshift)
+    • Open source!
+     COMING FEATURES
+    • Transaction history reports
+    • In app fiat exchange
+    • Spending limits
+    • and more...
+  logo_url: /assets/img/edge.png
+  os: ios
+  type: mobile
+  vendor_id: edge
+  vendor_label: Edge (Airbitz)
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: edge_wallet
+  product_label: Edge Wallet
+  product_source_label: Github
+  product_source_url: "https://github.com/airbitz/"
+  links:
+    -
+      label: Edge
+      url: "https://edgesecure.co/"
+    -
+      label: Apple iTunes Download
+      url: "https://itunes.apple.com/us/app/edge-bitcoin-wallet/id1344400091?mt=8"
 
 - name: Exodus
   description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
