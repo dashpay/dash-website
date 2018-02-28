@@ -268,3 +268,28 @@
   title: Chicagos BEER HALL
   url: https://www.dasradler.com/
   image: dasradler.png
+
+- name: Man Cave Cargo
+  title: T Shirts
+  url: https://mancavecargo.com/
+  image: mancave.jpg
+
+- name: Check Coin
+  title: Online store
+  url: https://check-coin.com/
+  image: CheckCoin.jpg
+
+- name: Max5dollars
+  title: Online store
+  url: https://www.max5dollars.com/shop/
+  image: max5dollar.jpg
+
+- name: Vaporizers Direct
+  title: Vaporizer Store
+  url: https://vaporizersdirect.com.au
+  image: vaporizerAU.jpg
+
+- name: Insight Media
+  title: Dedicated music
+  url: https://www.insight-media.co/
+  image: insight.jpg

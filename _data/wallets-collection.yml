@@ -417,9 +417,9 @@
 - name: Dash Core iOS
   description: |
     <p>
-    Official Dash Core 
+    Official Dash Core
     </p>
-    Dashwallet is the first and only iPhone wallet which connects directly to the dash network. This means that there are no servers to get hacked or go down - your funds are always safe. Even if your phone is lost, damaged or stolen, you can easily recover your funds using your personal recovery phrase. 
+    Dashwallet is the first and only iPhone wallet which connects directly to the dash network. This means that there are no servers to get hacked or go down - your funds are always safe. Even if your phone is lost, damaged or stolen, you can easily recover your funds using your personal recovery phrase.
   logo_url: "/assets/img/wallets/dash-ios.jpeg"
   os: ios
   type: mobile
@@ -516,6 +516,79 @@
       label: AppStore
       url: "https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8"
 
+- name: Edge Wallet
+  description: |
+    Super-user friendly multi-asset wallet (Dash, Bitcoin, Ethereum, and more) from the folks that brought you the Airbitz Bitcoin Wallet.
+     FEATURES
+    • Log in with username and password
+    • Pin or fingerprint access.
+    • "Edge Secure" 2-factor authentication
+    • Segwit enabled for BTC and LTC
+    • In app exchange of assets (Shapeshift)
+    • Open source!
+     COMING FEATURES
+    • Transaction history reports
+    • In app fiat exchange
+    • Spending limits
+    • and more...
+  logo_url: "/assets/img/wallets/edge.png"
+  os: android
+  type: mobile
+  vendor_id: edge
+  vendor_label: Edge (Airbitz)
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: edge_wallet
+  product_label: Edge Wallet
+  product_source_label: Github
+  product_source_url: "https://github.com/airbitz/"
+  links:
+    -
+      label: Edge
+      url: "https://edgesecure.co/"
+    -
+      label: Google Play Download
+      url: "https://play.google.com/store/apps/details?id=co.edgesecure.app"
+    -
+      label: Download APK
+      url: "https://edgesecure.co/app"
+
+- name: Edge Wallet
+  description: |
+    Super-user friendly multi-asset wallet (Dash, Bitcoin, Ethereum, and more) from the folks that brought you the Airbitz Bitcoin Wallet.
+     FEATURES
+    • Log in with username and password
+    • Pin or fingerprint access.
+    • "Edge Secure" 2-factor authentication
+    • Segwit enabled for BTC and LTC
+    • In app exchange of assets (Shapeshift)
+    • Open source!
+     COMING FEATURES
+    • Transaction history reports
+    • In app fiat exchange
+    • Spending limits
+    • and more...
+  logo_url: "/assets/img/wallets/edge.png"
+  os: ios
+  type: mobile
+  vendor_id: edge
+  vendor_label: Edge (Airbitz)
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: edge_wallet
+  product_label: Edge Wallet
+  product_source_label: Github
+  product_source_url: "https://github.com/airbitz/"
+  links:
+    -
+      label: Edge
+      url: "https://edgesecure.co/"
+    -
+      label: Apple iTunes Download
+      url: "https://itunes.apple.com/us/app/edge-bitcoin-wallet/id1344400091?mt=8"
+
 - name: Exodus
   description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
   logo_url: "/assets/img/wallets/exodus.png"
@@ -566,6 +639,7 @@
     -
       label: Exodus Downloads
       url: "https://www.exodus.io/releases/"
+
 - name: Dash Core Paper Wallet
   description: Paper wallets are a form of cold wallet and essentially a bearer instrument – whoever holds them has access to both the Dash private key and therefore the address.
   logo_url: /assets/img/dash_circle_normal.png
@@ -624,3 +698,90 @@
     -
       label: Usage Instructions
       url: "https://dashpay.atlassian.net/wiki/display/DOC/Using+Trezor+with+Dash"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: osx
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: spv
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download DMG
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.3.2/electrum-dash-2.9.3.2-macosx.dmg"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: linux
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download TGZ
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.3.2/Electrum-DASH-2.9.3.2.tar.gz"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: win64
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download Installer
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.3.2/electrum-dash-2.9.3.2-setup.exe"
+
+- name: MyDashWallet
+  description: |
+    MyDashWallet is a web interface to the Dash blockchain, inspired by MyEtherWallet and created by DeltaEngine.net. It is explicitly not an online wallet, meaning you maintain control over your private keys at all times. Unlike many other light wallets, MyDashWallet also supports advanced Dash features such as InstantSend and PrivateSend. The project is non-profit, open source and free to use. You can load a wallet and transact in a variety of wallet formats:
+    
+    Keystore wallet (file-based)
+    
+    Ledger hardware wallet
+    
+    Trezor hardware wallet
+    
+    Private key
+    
+    BIP39/44 HD recovery phrase (coming soon)
+    
+    BIP32 HD recovery phrase (coming soon)
+
+    Multiplatform / Web Browser
+  logo_url: /assets/img/dash_circle_normal.png
+  os: web
+  type: web
+  vendor_id: delta_engine
+  vendor_label: delta_engine
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: delta_engine
+  product_label: Delta Engine
+  product_source_url: "https://github.com/DeltaEngine/MyDashWallet"
+  links:
+    -
+     label: Web link
+     url: "https://mydashwallet.org"
