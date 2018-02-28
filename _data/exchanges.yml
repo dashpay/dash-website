@@ -425,3 +425,16 @@
   fees: N/A
   image: cryptomonster.jpg
   url: https://www.cryptomonster.co.uk/buy/dash
+
+- name: Acx
+  trading_pairs: BTC
+  fees: N/A
+  image: acx.jpg
+  url: https://acx.io
+
+- name: Evonax
+  trading_pairs: BTC
+  fees: N/A
+  image: Evonax.jpg
+  url: https://www.evonax.com/
+
