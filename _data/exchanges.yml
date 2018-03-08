@@ -438,3 +438,14 @@
   image: Evonax.jpg
   url: https://www.evonax.com/
 
+- name: CoinSwitch
+  trading_pairs: BTC
+  fees: N/A
+  image: CoinSwitch.jpg
+  url: http://CoinSwitch.co
+
+- name: Simplefx
+  trading_pairs: BTC
+  fees: N/A
+  image: simpleFX.jpg
+  url: https://simplefx.com/dashboard/
