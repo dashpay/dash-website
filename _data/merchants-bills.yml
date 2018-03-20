@@ -1,3 +1,11 @@
 - name: Living Room of Satoshi
   url: https://www.livingroomofsatoshi.com/?sc=dash
   image: livingroomofsatoshi_logo.png
+
+- name: Piiko
+  url: https://www.piiko.co/
+  image: piko.jpg
+
+- name: Bitrefill
+  url: https://en.bitrefill.com/
+  image: bitrefill-logo.jpg
