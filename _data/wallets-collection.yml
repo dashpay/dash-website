@@ -335,8 +335,8 @@
   product_source_url: "https://github.com/HashEngineering/dash-wallet"
   links:
     -
-      label: Google Play Download
-      url: "https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet"
+      label: Github Download
+      url: "https://github.com/HashEngineering/dash-wallet/releases/download/v5.17.5/dash-wallet-5.17.5.apk"
 
 - name: Dash Core iOS
   description: |
