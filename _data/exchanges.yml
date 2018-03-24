@@ -468,3 +468,9 @@
   image: crex24.jpg
   url: https://crex24.com/exchange/DASH-BTC
 
+- name: Bitit
+  trading_pairs: BTC
+  fees: N/A
+  image: bitit.jpg
+  url: https://bitit.io
+
