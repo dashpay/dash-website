@@ -384,7 +384,7 @@
   team-title: Administration + Support
 
 - name: Ivan Borovkov
-  title: Network Operations
+  title: Infrastructure Engineer
   description:
   image: ivanborovkov.jpg
   email: ivan@dash.org
@@ -395,7 +395,7 @@
   team-title: Administration + Support
 
 - name: Jeff Smith
-  title: Network Operations
+  title: Infrastructure Engineer
   description: Jeff (AKA “coingun”) has a computer science background with specialization in Network Operations and Distributed Dynamic Network Asset scaling. He comes to Dash with a decade of experience designing, developing, and deploying dynamically scaling web assets built around the LAMPS stack. He has a passion for security, cryptography, and hardware hacking.
   image: coingun.png
   email: jeff@dash.org
