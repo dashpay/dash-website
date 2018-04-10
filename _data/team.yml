@@ -460,17 +460,6 @@
   dashforum: janusz
   team-title: Administration + Support
 
-- name: Matt Meek
-  title: Business Development
-  description: Matt (AKA itscrazybro) is a entrepreneur with a flare for business, marketing and sales. He co-founded an advertising agency that now services over 200 local businesses in his area. He has multiple years experience in sales, business development and product management.
-  image: itscrazybro.png
-  email: matt@dash.org
-  keybase: https://keybase.io/itscrazybro
-  twitter:
-  dashforum-link: /itscrazybro.322/
-  dashforum: itscrazybro
-  team-title: Administration + Support
-
 - name: David Dinkins
   title: Writer / Editor
   description: David Dinkins (AKA \"ddink7\") works in retail management, and has his master's degree in history. He has been part of the Dash project since a few months after its inception. His role is primarily writing and editing. David is also currently working on his MBA.
