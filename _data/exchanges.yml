@@ -474,3 +474,9 @@
   image: bitit.jpg
   url: https://bitit.io
 
+- name: Flyp
+  trading_pairs: BTC
+  fees: N/A
+  image: flypme.png
+  url: https://flyp.me
+
