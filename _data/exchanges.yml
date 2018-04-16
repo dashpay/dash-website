@@ -480,3 +480,26 @@
   image: flypme.png
   url: https://flyp.me
 
+- name: Coinroom
+  trading_pairs: BTC
+  fees: N/A
+  image: coinroom.png
+  url: https://coinroom.com
+
+- name: Coinfield
+  trading_pairs: BTC
+  fees: N/A
+  image: coinfield.png
+  url:  https://www.coinfield.com
+
+- name: Lykke
+  trading_pairs: BTC
+  fees: N/A
+  image: lykke.png
+  url: https://www.lykke.com
+
+- name: Chaoex
+  trading_pairs: BTC
+  fees: N/A
+  image: chaoex.png
+  url: https://www.chaoex.com/home
