@@ -503,3 +503,22 @@
   fees: N/A
   image: chaoex.png
   url: https://www.chaoex.com/home
+
+- name: Lbank
+  trading_pairs: BTC
+  fees: N/A
+  image: lbank.png
+  url: https://www.lbank.info
+
+- name: Moneypolo
+  trading_pairs: BTC
+  fees: N/A
+  image: moneypolo.png
+  url: https://moneypolo.com/int-en/
+
+- name: Bitexbook
+  trading_pairs: BTC
+  fees: N/A
+  image: bitexbook.png
+  url: https://bitexbook.com
+
