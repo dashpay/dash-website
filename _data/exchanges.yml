@@ -346,7 +346,7 @@
   trading_pairs: BTC
   fees: N/A
   image: epay.jpg
-  url: https://www.epay.com 
+  url: https://www.epay.com
 
 - name: Uphold
   trading_pairs: BTC
@@ -522,3 +522,8 @@
   image: bitexbook.png
   url: https://bitexbook.com
 
+- name: Omnitrade
+  trading_pairs: BTC
+  fees: N/A
+  image: omnitrade.jpg
+  url: https://www.omnitrade.io/
