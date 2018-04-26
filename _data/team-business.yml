@@ -7,28 +7,29 @@
   twitter:
   dashforum-link: /bradley-zastrow.20550/
   dashforum: Bradley Zastrow
-  team-title: Business Development
+  team-title:
+    - Business Development
 
 - name: Omar Hamwi
   title:
   description:
-  image: anon.png
-  email:
+  image: OmarHamwi.png
+  email: Omar.Hamwi@dash.org
   keybase:
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /omar-hamwi.23520/
+  dashforum: omar-hamwi
   team-title:
     - Business Development
 
 - name: Jon Kindel
-  title:
+  title: Integrations Engineer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: JonKindel.jpg
+  email: jon@dash.org
+  keybase: https://keybase.io/snogcel
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /snogcel.1351/
+  dashforum: snogcel
   team-title:
     - Business Development

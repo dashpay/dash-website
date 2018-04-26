@@ -13,7 +13,7 @@
 - name: Alexander Hirsch
   title:
   description:
-  image: anon.png
+  image: AlexanderHirsch.jpg
   email:
   keybase:
   twitter:
@@ -145,12 +145,12 @@
 - name: Olga Gnezdyonova
   title: Quality Assurance, Automation, Testing
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: OlgaGnezdyonova.jpg
+  email: olga.gnezdyonova@dash.org
+  keybase: https://keybase.io/profiler
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /profiler.26134/
+  dashforum: profiler
   team-title:
     - Operations
 
@@ -189,3 +189,16 @@
   dashforum: moocowmoo
   team-title:
     - Operations
+
+- name: Pablo Lema
+  title: Head of Service Desk
+  description:
+  image: PableLema.jpg
+  email: Pablo@Dash.org
+  keybase: https://keybase.io/fible1
+  twitter:
+  dashforum-link: /fible1.666/
+  dashforum: fible1
+  team-title:
+    - Operations
+
