@@ -4,7 +4,7 @@
 We are using Jekyll to generate the static html files.
 https://jekyllrb.com
 
-### Requirements (mac)
+### Requirements (macOS)
 * Ruby: `brew install ruby` (v2.3.3 works, v2.4.0 *does not*)
 * Ruby Gems: https://rubygems.org/pages/download
 * NodeJS: https://nodejs.org/en/ (Ideally >=4.5.0)
@@ -42,7 +42,7 @@ Production builds should be handled by CI.
 
  `npm run htmlproof` will run ImageCheck, ScriptCheck, and LinkCheck on the built "_site" folder "*.html" files. Travis CI will not deploy unless this command finishes successfully!
 
-Mac
+macOS
 xcode-select --install
 gem install nokogiri
 
