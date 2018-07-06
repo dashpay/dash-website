@@ -10,3 +10,15 @@
   team-title:
     - Management
     - Human Resources
+
+- name: Robert VadeBonCoeur
+  title: Head of Global Talent
+  description:
+  image: RobertVadeBonCoeur.jpg
+  email: robert.vadeboncoeur@dash.org
+  keybase: https://keybase.io/robertvbc
+  twitter:
+  dashforum-link: /robertvbc.28395/
+  dashforum: RobertVBC
+  team-title:
+    - Human Resources

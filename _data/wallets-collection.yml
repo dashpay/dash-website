@@ -398,8 +398,6 @@
       Convert between altcoins instantly from within the app, through our strategic partner ShapeShift.
     • One-time Backup
       Hierarchical Deterministic Wallet (BIP44) enables you to keep everything accessible and secure with just one super-passphrase which you only have to back-up once and for all.
-    • Open Source &amp; Transparent
-      No hidden code, no malicious modules, no exploits, no small letters. Our code is publicly available and publicly reviewed.
   logo_url: "/assets/img/wallets/coinomi-logo-medium.png"
   os: android
   type: mobile
@@ -654,17 +652,17 @@
 - name: MyDashWallet
   description: |
     MyDashWallet is a web interface to the Dash blockchain, inspired by MyEtherWallet and created by DeltaEngine.net. It is explicitly not an online wallet, meaning you maintain control over your private keys at all times. Unlike many other light wallets, MyDashWallet also supports advanced Dash features such as InstantSend and PrivateSend. The project is non-profit, open source and free to use. You can load a wallet and transact in a variety of wallet formats:
-    
+
     Keystore wallet (file-based)
-    
+
     Ledger hardware wallet
-    
+
     Trezor hardware wallet
-    
+
     Private key
-    
+
     BIP39/44 HD recovery phrase (coming soon)
-    
+
     BIP32 HD recovery phrase (coming soon)
 
     Multiplatform / Web Browser
