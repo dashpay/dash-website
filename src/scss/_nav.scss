@@ -27,6 +27,9 @@ $nav-height: 90px;
 		&--languages {
 			.nav__link {
 				padding-right: 0;
+				&:hover{
+					text-decoration: underline;
+				}
 			}
 			& > .nav__link {
 				padding: 0 25px;
@@ -35,7 +38,8 @@ $nav-height: 90px;
 				background: rgba(0, 0, 0, 0.35);
 				padding-right: 1em;
 				padding-left: 1em;
-				padding-top: 1em;
+				padding-top: 0.6em;
+				padding-bottom: 0.6em;
 				box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.57);
 				border-radius: 4px;
 				right: -25px;
@@ -74,7 +78,7 @@ $nav-height: 90px;
 	}
 
 	&__subitem {
-		line-height: 40px;
+		line-height: 30px;
 		white-space: nowrap;
 	}
 
