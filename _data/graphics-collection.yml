@@ -107,253 +107,6 @@
       label: Full
       url: icons/dash_coin_icons/coin_dashLogo.png
 
-
-
-
-- type: icons
-  img-link: /icons/dash_icons/wallet/dash_wallet_icon_withLogo.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.jpg
-
-- type: icons
-  img-link: /icons/dash_icons/wallet/dash_wallet_noText_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/wallet/dash_wallet_noText_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/wallet/dash_wallet_noText.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/wallet/dash_wallet_noText.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/wallet/dash_wallet_noText.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/wallet/dash_wallet_noText.jpg
-
-- type: icons
-  img-link: /icons/dash_icons/wallet/dash_wallet_enclosed.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/wallet/dash_wallet_enclosed_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/wallet/dash_wallet_enclosed.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/wallet/dash_wallet_enclosed.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/wallet/dash_wallet_enclosed.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/wallet/dash_wallet_enclosed.jpg
-
-
-- type: icons
-  img-link: /icons/dash_icons/masternode/dash_masterNode_icon_withLogo_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.jpg
-
-- type: icons
-  img-link: /icons/dash_icons/masternode/dash_masterNode_noText_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/masternode/dash_masterNode_noText_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/masternode/dash_masterNode_noText.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/masternode/dash_masterNode_noText.svg
-    -
-      label: Full pdf
-      url: icons/dash_icons/masternode/dash_masterNode_noText.pdf
-    -
-      label: Full jpg
-      url: icons/dash_icons/masternode/dash_masterNode_noText.jpg
-
-
-- type: icons
-  img-link: /icons/dash_icons/masternode/dash_masterNode_icon_enclosed_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.jpg
-
-- type: icons
-  img-link: /icons/dash_icons/instantSend/dash_instantSend_icon_withLogo_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.jpg
-
-- type: icons
-  img-link: /icons/dash_icons/instantSend/dash_instantSend_noText_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/instantSend/dash_instantSend_noText_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/instantSend/dash_instantSend_noText.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/instantSend/dash_instantSend_noText.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/instantSend/dash_instantSend_noText.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/instantSend/dash_instantSend_noText.jpg
-
-
-- type: icons
-  img-link: /icons/dash_icons/instantSend/dash_instantSend_enclosed_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/instantSend/dash_instantSend_enclosed_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.jpg
-
-
-- type: icons
-  img-link: /icons/dash_icons/privateSend/dash_privateSend_icon_withLogo_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.jpg
-
-- type: icons
-  img-link: /icons/dash_icons/privateSend/dash_privateSend_noText_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/privateSend/dash_privateSend_noText_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/privateSend/dash_privateSend_noText.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/privateSend/dash_privateSend_noText.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/privateSend/dash_privateSend_noText.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/privateSend/dash_privateSend_noText.jpg
-
-- type: icons
-  img-link: /icons/dash_icons/privateSend/dash_privateSend_enclosed_s.png
-  format:
-  links:
-    -
-      label: Small
-      url: icons/dash_icons/privateSend/dash_privateSend_enclosed_s.png
-    -
-      label: Full PNG
-      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.png
-    -
-      label: Full SVG
-      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.svg
-    -
-      label: Full PDF
-      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.pdf
-    -
-      label: Full JPG
-      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.jpg
-
 - type: logos
   img-link: /rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
   format: RGB for screens
@@ -469,3 +222,63 @@
     -
       label: Full PDF
       url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.pdf
+
+- type: logos
+  img-link: /logos/dash_accept/en/logo_accept.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_accept/en/logo_accept.png
+    -
+      label: Full JPG
+      url: /logos/dash_accept/en/logo_accept.jpg
+    -
+      label: Full AI
+      url: /logos/dash_accept/en/logo_accept.ai
+    -
+      label: Full SVG
+      url: /logos/dash_accept/en/logo_accept.svg
+
+- type: logos
+  img-link: /logos/dash_donation/en/logo_donation.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_donation/en/logo_donation.png
+    -
+      label: Full JPG
+      url: /logos/dash_donation/en/logo_donation.jpg
+    -
+      label: Full AI
+      url: /logos/dash_donation/en/logo_donation.ai
+    -
+      label: Full SVG
+      url: /logos/dash_donation/en/logo_donation.svg
+
+- type: logos
+  img-link: /logos/dash_accept/es/logo_accept.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_accept/es/logo_accept.png
+    -
+      label: Full EPS
+      url: /logos/dash_accept/es/logo_accept.eps
+
+- type: logos
+  img-link: /logos/dash_accept/es/logo_accept_border.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_accept/es/logo_accept_border.png
+    -
+      label: Full EPS
+      url: /logos/dash_accept/es/logo_accept_border.eps
