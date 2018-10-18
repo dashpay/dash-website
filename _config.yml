@@ -39,7 +39,6 @@ exclude_from_localizations: ["assets","dist","style-guide"]
 gems:
   - jekyll-paginate-v2
   - jekyll-feed
-  - jekyll-multiple-languages-plugin
   - jekyll-srcset-tag
 
 collections:
