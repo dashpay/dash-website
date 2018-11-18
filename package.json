@@ -55,7 +55,8 @@
     "postcss-cli": "2.5.0",
     "precommit-hook": "^3.0.0",
     "uglify-js": "^2.7.3",
-    "watch": "0.19.2"
+    "watch": "0.19.2",
+    "merge": ">=1.2.1"
   },
   "dependencies": {
     "no-scroll": "^2.0.0",
