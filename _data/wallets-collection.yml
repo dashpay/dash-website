@@ -582,7 +582,7 @@
 
 - name: KeepKey Hardware Wallet
   description: KeepKey is a hardware wallet that secures Dash (and other cryptocurrencies). Your assets are protected from hackers and thieves. KeepKey works with the wallet software on your computer by taking over the management of private key generation, private key storage, and transaction signing.
-  logo_url: "https://avatars3.githubusercontent.com/u/73358?v=3&s=400"
+  logo_url: "https://avatars3.githubusercontent.com/u/8077335?v=3&s=400"
   type: hardware
   vendor_id: keepkey
   vendor_label: KeepKey
